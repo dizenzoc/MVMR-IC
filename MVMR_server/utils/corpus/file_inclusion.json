@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-42234",
+        "description" : "There is a file inclusion vulnerability in the template management module in UCMS 1.6"
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-42029",
+        "description" : "Chamilo 1.11.16 is affected by an authenticated local file inclusion vulnerability which allows authenticated users with access to 'big file uploads' to copy/move files from anywhere in the file system into the web directory."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-41571",
+        "description" : "An issue was discovered in EyesOfNetwork (EON) through 5.3.11. Local file inclusion can occur."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-41547",
+        "description" : "Mobile Security Framework (MobSF) v0.9.2 and below was discovered to contain a local file inclusion (LFI) vulnerability in the StaticAnalyzer/views.py script. This vulnerability allows attackers to read arbitrary files via a crafted HTTP request."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-41343",
+        "description" : "registerFont in FontMetrics.php in Dompdf before 2.0.1 allows remote file inclusion because a URI validation failure does not halt font registration, as demonstrated by a @font-face rule."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-34121",
+        "description" : "Cuppa CMS v1.0 was discovered to contain a local file inclusion (LFI) vulnerability via the component /templates/default/html/windows/right.php."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-29448",
+        "description" : "Authenticated (admin or higher user role) Local File Inclusion (LFI) vulnerability in Wow-Company's Herd Effects plugin <= 5.2 at WordPress."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-29447",
+        "description" : "Authenticated (administrator or higher user role) Local File Inclusion (LFI) vulnerability in Wow-Company's Hover Effects plugin <= 2.1 at WordPress."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-29446",
+        "description" : "Authenticated (administrator or higher role) Local File Inclusion (LFI) vulnerability in Wow-Company's Counter Box plugin <= 1.1.1 at WordPress."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-29445",
+        "description" : "Authenticated (administrator or higher role) Local File Inclusion (LFI) vulnerability in Wow-Company's Popup Box plugin <= 2.1.2 at WordPress."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-29014",
+        "description" : "A local file inclusion vulnerability in Razer Sila Gaming Router v2.0.441_api-2.0.418 allows attackers to read arbitrary files."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-28997",
+        "description" : "CSZCMS v1.3.0 allows attackers to execute a Server-Side Request Forgery (SSRF) which can be leveraged to leak sensitive data via a local file inclusion at /admin/filemanager/connector/."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-28741",
+        "description" : "aEnrich a+HRD 5.x Learning Management Key Performance Indicator System has a local file inclusion (LFI) vulnerability that occurs due to missing input validation in v5.x"
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-28521",
+        "description" : "ZCMS v20170206 was discovered to contain a file inclusion vulnerability via index.php?m=home&c=home&a=sp_set_config."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-27257",
+        "description" : "A PHP Local File Inclusion vulneraility in the default Redbasic theme for Hubzilla before version 7.2 allows remote attackers to include arbitrary php files via the schema parameter."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-27256",
+        "description" : "A PHP Local File inclusion vulnerability in the Redbasic theme for Hubzilla before version 7.2 allows remote attackers to include arbitrary php files via the schema parameter."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-27243",
+        "description" : "An issue was discovered in MISP before 2.4.156. app/View/Users/terms.ctp allows Local File Inclusion via the custom terms file setting."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-26646",
+        "description" : "Online Banking System Protect v1.0 was discovered to contain a local file inclusion (LFI) vulnerability via the pages parameter."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-25486",
+        "description" : "CuppaCMS v1.0 was discovered to contain a local file inclusion via the url parameter in /alerts/alertConfigField.php."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-25485",
+        "description" : "CuppaCMS v1.0 was discovered to contain a local file inclusion via the url parameter in /alerts/alertLightbox.php."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-23377",
+        "description" : "Archeevo below 5.0 is affected by local file inclusion through file=~/web.config to allow an attacker to retrieve local files."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-22847",
+        "description" : "Formpipe Lasernet before 9.13.3 allows file inclusion in Client Web Services (either by an authenticated attacker, or in a configuration that does not require authentication)."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-22793",
+        "description" : "Cybonet - PineApp Mail Relay Local File Inclusion. Attacker can send a request to : /manage/mailpolicymtm/log/eml_viewer/email.content.body.php?filesystem_path=ENCDODED PATH and by doing that, the attacker can read Local Files inside the server."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-22246",
+        "description" : "A PHP Local File Inclusion (LFI) vulnerability in the J-Web component of Juniper Networks Junos OS may allow a low-privileged authenticated attacker to execute an untrusted PHP file. By chaining this vulnerability with other unspecified vulnerabilities, and by circumventing existing attack requirements, successful exploitation could lead to a complete system compromise. This issue affects Juniper Networks Junos OS: all versions prior to 19.1R3-S9; 19.2 versions prior to 19.2R3-S6; 19.3 versions prior to 19.3R3-S6; 19.4 versions prior to 19.4R2-S7, 19.4R3-S8; 20.1 versions prior to 20.1R3-S5; 20.2 versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S5; 20.4 versions prior to 20.4R3-S4; 21.1 versions prior to 21.1R3-S2; 21.2 versions prior to 21.2R3-S1; 21.3 versions prior to 21.3R2-S2, 21.3R3; 21.4 versions prior to 21.4R1-S2, 21.4R2-S1, 21.4R3; 22.1 versions prior to 22.1R1-S1, 22.1R2."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2021-45898",
+        "description" : "SuiteCRM before 7.12.3 and 8.x before 8.0.2 allows local file inclusion."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2021-43693",
+        "description" : "vesta 0.9.8-24 is affected by a file inclusion vulnerability in file web/add/user/index.php."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2021-41569",
+        "description" : "SAS/Intrnet 9.4 build 1520 and earlier allows Local File Inclusion. The samples library (included by default) in the appstart.sas file, allows end-users of the application to access the sample.webcsf1.sas program, which contains user-controlled macro variables that are passed to the DS2CSF macro. Users can escape the context of the configured user-controllable variable and append additional functions native to the macro but not included as variables within the library. This includes a function that retrieves files from the host OS."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2021-41277",
+        "description" : "Metabase is an open source data analytics platform. In affected versions a security issue has been discovered with the custom GeoJSON map (`admin->settings->maps->custom maps->add a map`) support and potential local file inclusion (including environment variables). URLs were not validated prior to being loaded. This issue is fixed in a new maintenance release (0.40.5 and 1.40.5), and any subsequent release after that. If youâ€™re unable to upgrade immediately, you can mitigate this by including rules in your reverse proxy or load balancer or WAF to provide a validation filter before the application."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2021-40095",
+        "description" : "An issue was discovered in SquaredUp for SCOM 5.2.1.6654. The Download Log feature in System / Maintenance was susceptible to a local file inclusion vulnerability (when processing remote input in the log files downloaded by an authenticated administrator user), leading to the ability to read arbitrary files on the server filesystems."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2021-39433",
+        "description" : "A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive v1.83 and below when sending a specific payload as the file parameter to download/index.php. This allows the attacker to read arbitrary files from the server with the permissions of the configured web-user."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2021-37348",
+        "description" : "Nagios XI before version 5.8.5 is vulnerable to local file inclusion through improper limitation of a pathname in index.php"
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2021-36123",
+        "description" : "An issue was discovered in Echo ShareCare 8.15.5. The TextReader feature in General/TextReader/TextReader.cfm is susceptible to a local file inclusion vulnerability when processing remote input in the textFile parameter from an authenticated user, leading to the ability to read arbitrary files on the server filesystems as well any files accessible via Universal Naming Convention (UNC) paths."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2021-33408",
+        "description" : "Local File Inclusion vulnerability in Ab Initio Control>Center before 4.0.2.6 allows remote attackers to retrieve arbitrary files. Fixed in v4.0.2.6 and v4.0.3.1."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2021-32100",
+        "description" : "A remote file inclusion vulnerability exists in Artica Pandora FMS 742, exploitable by the lowest privileged user."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2021-31783",
+        "description" : "show_default.php in the LocalFilesEditor extension before 11.4.0.1 for Piwigo allows Local File Inclusion because the file parameter is not validated with a proper regular-expression check."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2021-31599",
+        "description" : "An issue was discovered in Hitachi Vantara Pentaho through 9.1 and Pentaho Business Intelligence Server through 7.x. A reports (.prpt) file allows the inclusion of BeanShell scripts to ease the production of complex reports. An authenticated user can run arbitrary code."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2021-30173",
+        "description" : "Local File Inclusion vulnerability of the omni-directional communication system allows remote authenticated attacker inject absolute path into Url parameter and access arbitrary file."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2021-30121",
+        "description" : "Semi-authenticated local file inclusion The contents of arbitrary files can be returned by the webserver Example request: `https://x.x.x.x/KLC/js/Kaseya.SB.JS/js.aspx?path=C:\\Kaseya\\WebPages\\dl.asp` A valid sessionId is required but can be easily obtained via CVE-2021-30118"
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2021-29113",
+        "description" : "A remote file inclusion vulnerability in the ArcGIS Server help documentation may allow a remote, unauthenticated attacker to inject attacker supplied html into a page."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2021-25447",
+        "description" : "Improper access control vulnerability in SmartThings prior to version 1.7.67.25 allows untrusted applications to cause local file inclusion in webview."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2021-25438",
+        "description" : "Improper access control vulnerability in Samsung Members prior to versions 2.4.85.11 in Android O(8.1) and below, and 3.9.10.11 in Android P(9.0) and above allows untrusted applications to cause local file inclusion in webview."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2021-24472",
+        "description" : "The OnAir2 WordPress theme before 3.9.9.2 and QT KenthaRadio WordPress plugin before 2.0.2 have exposed proxy functionality to unauthenticated users, sending requests to this proxy functionality will have the web server fetch and display the content from any URI, this would allow for SSRF (Server Side Request Forgery) and RFI (Remote File Inclusion) vulnerabilities on the website."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2021-21878",
+        "description" : "A local file inclusion vulnerability exists in the Web Manager Applications and FsBrowse functionality of Lantronix PremierWave 2050 8.9.0.0R4. A specially-crafted series of HTTP requests can lead to local file inclusion. An attacker can make a series of authenticated HTTP requests to trigger this vulnerability."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2020-35566",
+        "description" : "An issue was discovered in MB connect line mymbCONNECT24, mbCONNECT24 and Helmholz myREX24 and myREX24.virtual in all versions through v2.11.2. An attacker can read arbitrary JSON files via Local File Inclusion."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2020-35340",
+        "description" : "A local file inclusion vulnerability in ExpertPDF 9.5.0 through 14.1.0 allows attackers to read the file contents from files that the running ExpertPDF process has access to read."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2020-27191",
+        "description" : "LionWiki before 3.2.12 allows an unauthenticated user to read files as the web server user via crafted string in the index.php f1 variable, aka Local File Inclusion. NOTE: This vulnerability only affects products that are no longer supported by the maintainer."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2020-22474",
+        "description" : "In webERP 4.15, the ManualContents.php file allows users to specify the \"Language\" parameter, which can lead to local file inclusion."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2020-21786",
+        "description" : "In IBOS 4.5.4 Open, Arbitrary File Inclusion causes getshell via /system/modules/dashboard/controllers/CronController.php."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2020-13175",
+        "description" : "The Management Interface of the Teradici Cloud Access Connector and Cloud Access Connector Legacy for releases prior to April 20, 2020 (v15 and earlier for Cloud Access Connector) contains a local file inclusion vulnerability which allows an unauthenticated remote attacker to leak LDAP credentials via a specially crafted HTTP request."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2020-12743",
+        "description" : "An issue was discovered in Gazie 7.32. A successful installation does not remove or block (or in any other way prevent use of) its own file /setup/install/setup.php, meaning that anyone can request it without authentication. This file allows arbitrary PHP file inclusion via a hidden_req POST parameter."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2020-11642",
+        "description" : "The local file inclusion vulnerability present in B&R SiteManager versions <9.2.620236042 allows authenticated users to impact availability of SiteManager instances."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2020-11641",
+        "description" : "A local file inclusion vulnerability in B&R SiteManager versions <9.2.620236042 allows authenticated users to read sensitive files from SiteManager instances."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2020-11439",
+        "description" : "LibreHealth EMR v2.0.0 is affected by a Local File Inclusion issue allowing arbitrary PHP to be included and executed within the EMR application."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2019-19745",
+        "description" : "Contao 4.0 through 4.8.5 allows PHP local file inclusion. A back end user with access to the form generator can upload arbitrary files and execute them on the server."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2019-17400",
+        "description" : "The unoconv package before 0.9 mishandles untrusted pathnames, leading to SSRF and local file inclusion."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2019-15322",
+        "description" : "The shortcode-factory plugin before 2.8 for WordPress has Local File Inclusion."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2019-4263",
+        "description" : "IBM Content Navigator 3.0CD is vulnerable to local file inclusion, allowing an attacker to access a configuration file in the ICN server. IBM X-Force ID: 160015."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2018-1000504",
+        "description" : "Redirection version 2.7.3 contains a ACE via file inclusion vulnerability in Pass-through mode that can result in allows admins to execute any PHP file in the filesystem. This attack appear to be exploitable via Attacker must be have access to an admin account on the target site. This vulnerability appears to have been fixed in 2.8."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2018-1000502",
+        "description" : "MyBB Group MyBB contains a File Inclusion vulnerability in Admin panel (Tools and Maintenance -> Task Manager -> Add New Task) that can result in Allows Local File Inclusion on modern PHP versions and Remote File Inclusion on ancient PHP versions. This attack appear to be exploitable via Must have access to admin panel. This vulnerability appears to have been fixed in 1.8.15."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2018-20985",
+        "description" : "The wp-payeezy-pay plugin before 2.98 for WordPress has local file inclusion in pay.php, donate.php, donate-rec, and pay-rec."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2018-20973",
+        "description" : "The companion-auto-update plugin before 3.2.1 for WordPress has local file inclusion."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2018-19784",
+        "description" : "The str_rot_pass function in vendor/atholn1600/php-proxy/src/helpers.php in PHP-Proxy 5.1.0 uses weak cryptography, which makes it easier for attackers to calculate the authorization data needed for local file inclusion."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2018-19410",
+        "description" : "PRTG Network Monitor before 18.2.40.1683 allows remote unauthenticated attackers to create users with read-write privileges (including administrator). A remote unauthenticated user can craft an HTTP request and override attributes of the 'include' directive in /public/login.htm and perform a Local File Inclusion attack, by including /api/addusers and executing it. By providing the 'id' and 'users' parameters, an unauthenticated attacker can create a user with read-write privileges (including administrator)."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2018-15486",
+        "description" : "An issue was discovered on KONE Group Controller (KGC) devices before 4.6.5. Unauthenticated Local File Inclusion and File modification is possible through the open HTTP interface by modifying the name parameter of the file endpoint, aka KONE-02."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2018-14886",
+        "description" : "The module-description renderer in Odoo Community 11.0 and earlier and Odoo Enterprise 11.0 and earlier does not disable RST's local file inclusion, which allows privileged authenticated users to read local files via a crafted module description."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2018-12712",
+        "description" : "An issue was discovered in Joomla! 2.5.0 through 3.8.8 before 3.8.9. The autoload code checks classnames to be valid, using the \"class_exists\" function in PHP. In PHP 5.3, this function validates invalid names as valid, which can result in a Local File Inclusion."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2018-11222",
+        "description" : "Local File Inclusion (LFI) in Artica Pandora FMS through version 7.23 allows an attacker to call any php file via the /pandora_console/ajax.php ajax endpoint."
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2018-10260",
+        "description" : "A Local File Inclusion vulnerability was found in HRSALE The Ultimate HRM v1.0.2, exploitable by a low privileged user."
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2018-10220",
+        "description" : "** DISPUTED ** Glastopf 3.1.3-dev has SSRF, as demonstrated by the abc.php a parameter. NOTE: the vendor indicates that this is intentional behavior because the product is a web application honeypot, and modules/handlers/emulators/rfi.py supports Remote File Inclusion emulation."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2018-8711",
+        "description" : "A local file inclusion issue was discovered in the WooCommerce Products Filter (aka WOOF) plugin before 2.2.0 for WordPress, as demonstrated by the shortcode parameter in a woof_redraw_woof action. The vulnerability is due to the lack of args/input validation on render_html before allowing it to be called by extract(), a PHP built-in function. Because of this, the supplied args/input can be used to overwrite the $pagepath variable, which then could lead to a local file inclusion attack."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2017-1000454",
+        "description" : "CMS Made Simple 2.1.6, 2.2, 2.2.1 are vulnerable to Smarty Template Injection in some core components, resulting in local file read before 2.2, and local file inclusion since 2.2.1"
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2017-1000192",
+        "description" : "Cygnux sysPass version 2.1.7 and older is vulnerable to a Local File Inclusion in the functionality of javascript files inclusion. The attacker can read the configuration files that contain the login and password from the database, private encryption key, as well as other sensitive information."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2017-14509",
+        "description" : "An issue was discovered in SugarCRM before 7.7.2.3, 7.8.x before 7.8.2.2, and 7.9.x before 7.9.2.0 (and Sugar Community Edition 6.5.26). A remote file inclusion has been identified in the Connectors module allowing authenticated users to include remotely accessible system files via a module=CallRest&url= query string. Proper input validation has been added to mitigate this issue."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2017-9376",
+        "description" : "ManageEngine ServiceDesk Plus before 9314 contains a local file inclusion vulnerability in the defModule parameter in DefaultConfigDef.do and AssetDefaultConfigDef.do."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2017-6774",
+        "description" : "A vulnerability in Cisco ASR 5000 Series Aggregated Services Routers running the Cisco StarOS operating system could allow an authenticated, remote attacker to overwrite or modify sensitive system files. The vulnerability is due to the inclusion of sensitive system files within specific FTP subdirectories. An attacker could exploit this vulnerability by overwriting sensitive configuration files through FTP. An exploit could allow the attacker to overwrite configuration files on an affected system. Cisco Bug IDs: CSCvd47739. Known Affected Releases: 21.0.v0.65839."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2017-0370",
+        "description" : "Mediawiki before 1.28.1 / 1.27.2 / 1.23.16 contains a flaw were Spam blacklist is ineffective on encoded URLs inside file inclusion syntax's link parameter."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2016-10991",
+        "description" : "The imdb-widget plugin before 1.0.9 for WordPress has Local File Inclusion."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2016-10956",
+        "description" : "The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2016-10399",
+        "description" : "Sendio versions before 8.2.1 were affected by a Local File Inclusion vulnerability that allowed an unauthenticated, remote attacker to read potentially sensitive system files via a specially crafted URL."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2016-10085",
+        "description" : "admin/languages.php in Piwigo through 2.8.3 allows remote authenticated administrators to conduct File Inclusion attacks via the tab parameter."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2016-10084",
+        "description" : "admin/batch_manager.php in Piwigo through 2.8.3 allows remote authenticated administrators to conduct File Inclusion attacks via the $page['tab'] variable (aka the mode parameter)."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2016-9483",
+        "description" : "The PHP form code generated by PHP FormMail Generator deserializes untrusted input as part of the phpfmg_filman_download() function. A remote unauthenticated attacker may be able to use this vulnerability to inject PHP code, or along with CVE-2016-9484 to perform local file inclusion attacks and obtain files from the server."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2015-9415",
+        "description" : "The bj-lazy-load plugin before 1.0 for WordPress has Remote File Inclusion."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2015-7968",
+        "description" : "nwbc_ext2int in SAP NetWeaver Application Server before Security Note 2183189 allows XXE attacks for local file inclusion via the sap/bc/ui2/nwbc/nwbc_ext2int/ URI."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2015-6461",
+        "description" : "Remote file inclusion allows an attacker to craft a specific URL referencing the Schneider Electric Modicon BMXNOC0401, BMXNOE0100, BMXNOE0110, BMXNOE0110H, BMXNOR0200H, BMXP342020, BMXP342020H, BMXP342030, BMXP3420302, BMXP3420302H, or BMXP342030H PLC web server, which, when launched, will result in the browser redirecting to a remote file via a Java script loaded with the web page."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2014-10384",
+        "description" : "The memphis-documents-library plugin before 3.0 for WordPress has Local File Inclusion."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2014-10383",
+        "description" : "The memphis-documents-library plugin before 3.0 for WordPress has Remote File Inclusion."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2014-5362",
+        "description" : "The admin interface in Landesk Management Suite 9.6 and earlier allows remote attackers to conduct remote file inclusion attacks involving ASPX pages from third-party sites via the d parameter to (1) ldms/sm_actionfrm.asp or (2) remote/frm_coremainfrm.aspx; or the (3) top parameter to remote/frm_splitfrm.aspx."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2013-7483",
+        "description" : "The slidedeck2 plugin before 2.3.5 for WordPress has file inclusion."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2013-4857",
+        "description" : "D-Link DIR-865L has PHP File Inclusion in the router xml file."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2013-4021",
+        "description" : "IBM Maximo Asset Management 6.2 through 6.2.8, 7.1 before 7.1.1.12, and 7.5 before 7.5.0.5 allows remote authenticated users to conduct unspecified file-inclusion attacks via unknown vectors."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2013-2227",
+        "description" : "GLPI 0.83.7 has Local File Inclusion in common.tabs.php."
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2012-5699",
+        "description" : "BabyGekko before 1.2.4 allows PHP file inclusion."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2012-1496",
+        "description" : "Local file inclusion in WebCalendar before 1.2.5."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2011-3611",
+        "description" : "A File Inclusion vulnerability exists in act parameter to admin.php in UseBB before 1.0.12."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2010-4239",
+        "description" : "Tiki Wiki CMS Groupware 5.2 has Local File Inclusion"
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2009-1960",
+        "description" : "inc/init.php in DokuWiki 2009-02-14, rc2009-02-06, and rc2009-01-30, when register_globals is enabled, allows remote attackers to include and execute arbitrary local files via the config_cascade[main][default][] parameter to doku.php. NOTE: PHP remote file inclusion is also possible in PHP 5 using ftp:// URLs."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2008-6543",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in ComScripts TEAM Quick Classifieds 1.0 via the DOCUMENT_ROOT parameter to (1) index.php3, (2) locate.php3, (3) search_results.php3, (4) classifieds/index.php3, and (5) classifieds/view.php3; (6) index.php3, (7) manager.php3, (8) pass.php3, (9) remember.php3 (10) sign-up.php3, (11) update.php3, (12) userSet.php3, and (13) verify.php3 in controlcenter/; (14) alterCats.php3, (15) alterFeatured.php3, (16) alterHomepage.php3, (17) alterNews.php3, (18) alterTheme.php3, (19) color_help.php3, (20) createdb.php3, (21) createFeatured.php3, (22) createHomepage.php3, (23) createL.php3, (24) createM.php3, (25) createNews.php3, (26) createP.php3, (27) createS.php3, (28) createT.php3, (29) index.php3, (30) mailadmin.php3, and (31) setUp.php3 in controlpannel/; (32) include/sendit.php3 and (33) include/sendit2.php3; and possibly (34) include/adminHead.inc, (35) include/usersHead.inc, and (36) style/default.scheme.inc."
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2008-5186",
+        "description" : "** DISPUTED ** The set_language_path function in geshi.php in Generic Syntax Highlighter (GeSHi) before 1.0.8.1 might allow remote attackers to conduct file inclusion attacks via crafted inputs that influence the default language path ($path variable). NOTE: this issue has been disputed by a vendor, stating that only a static value is used, so this is not a vulnerability in GeSHi. Separate CVE identifiers would be created for web applications that integrate GeSHi in a way that allows control of the default language path."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2007-6539",
+        "description" : "PHP local file inclusion vulnerability in index.php in IDevspot iSupport 1.8 allows remote attackers to include local files via the include_file parameter."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2007-5258",
+        "description" : "PHP remote file inclusion vulnerability in log.php in phpFreeLog alpha 0.2.0 allows remote attackers to include and execute arbitrary files via unspecified vectors. NOTE: the original disclosure is likely erroneous."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2007-3779",
+        "description" : "PHP local file inclusion vulnerability in gpg_pop_init.php in the G/PGP (GPG) Plugin before 20070707 for Squirrelmail allows remote attackers to include and execute arbitrary local files, related to the MOD parameter."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2007-3221",
+        "description" : "PHP remote file inclusion vulnerability in admin/spaw/spaw_control.class.php in the XT-Conteudo module for XOOPS allows remote attackers to execute arbitrary PHP code via a URL in the spaw_root parameter. NOTE: this issue is probably a duplicate of CVE-2006-4656."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2007-3220",
+        "description" : "PHP remote file inclusion vulnerability in admin/editor2/spaw_control.class.php in the Cjay Content 3 module for XOOPS allows remote attackers to execute arbitrary PHP code via a URL in the spaw_root parameter. NOTE: this may be a duplicate of CVE-2006-4656."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2007-3217",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Prototype of an PHP application 0.1 allow remote attackers to execute arbitrary PHP code via a URL in the path_inc parameter to (1) index.php in gestion/; (2) identification.php, (3) disconnect.php, (4) loginliste.php, (5) loginmodif.php, (6) index.php, and (7) ident.inc.php in ident/; (8) menuadministration.php and (9) menuprincipal.php in menu/; (10) param.inc.php in param/; (11) index.php in plugins/phpgacl/; and (12) index.php and (13) common.inc.php."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2007-3194",
+        "description" : "** DISPUTED ** Multiple PHP remote file inclusion vulnerabilities in myBloggie 2.1.5 allow remote attackers to execute arbitrary PHP code via a URL in the bloggie_root_path parameter to (1) config.php; (2) db.php, (3) template.php, (4) functions.php, and (5) classes.php in includes/; (6) viewmode.php; and (7) blog_body.php. NOTE: another researcher disputes the vulnerability because the files are protected against direct requests, contain no relevant include statements, or do not exist."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2007-3160",
+        "description" : "PHP remote file inclusion vulnerability in admin/header.php in PHP Real Estate Classifieds Premium Plus allows remote attackers to execute arbitrary PHP code via a URL in the loc parameter."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2007-3141",
+        "description" : "PHP remote file inclusion vulnerability in core/editor.php in phpWebThings 1.5.2 allows remote attackers to execute arbitrary PHP code via a URL in the editor_insert_top parameter. NOTE: the editor_insert_bottom vector is already covered by CVE-2006-6042."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2007-3136",
+        "description" : "PHP remote file inclusion vulnerability in inc/nuke_include.php in newsSync 1.5.0rc6 allows remote attackers to execute arbitrary PHP code via a URL in the newsSync_NUKE_PATH parameter."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2007-3130",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in the OpenWiki (formerly JD-Wiki) component (com_jd-wiki) 1.0.2, and possibly earlier, for Joomla! allow remote attackers to execute arbitrary PHP code via a URL in the mosConfig_absolute_path parameter to (1) dwpage.php or (2) wantedpages.php, different vectors than CVE-2006-4074. NOTE: the provenance of this information is unknown; the details are obtained solely from third party information."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2007-3118",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Kravchuk letter (K-letter) 1.0 allow remote attackers to execute arbitrary PHP code via a URL in the scdir parameter to (1) action.php, (2) subs.php, or (3) unsubs.php."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2007-3085",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in PBSite allow remote attackers to execute arbitrary PHP code via a URL in the (1) dbpath parameter to (a) useronline.php, (b) ucp.php, (c) setcookie.php, (d) sendpm.php, (e) search.php, (f) register.php, (g) profile.php, (h) post.php, (i) pmpshow.php, (j) pm.php, (k) ntopic.php, (l) nreply.php, (m) news.php, (n) memberslist.php, (o) logout.php, (p) login.php, (q) index.php, (r) help.php, (s) forum.php, (t) error.php, (u) editpost.php, (v) delpost.php, (w) delpm.php, (x) confirm.php, (y) board.php, (z) admin2.php, (aa) admin.php, or (bb) templates/pb/css/formstyles.php; or the (2) temppath parameter to (a) useronline.php, (c) setcookie.php, (e) search.php, (f) register.php, (h) post.php, (l) nreply.php, (m) news.php, (o) logout.php, (p) login.php, (q) index.php, (r) help.php, (s) forum.php, (t) error.php, (w) delpm.php, (x) confirm.php, or (y) board.php."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2007-3084",
+        "description" : "PHP remote file inclusion vulnerability in sampleblogger.php in Comdev Web Blogger 4.1 allows remote attackers to execute arbitrary PHP code via a URL in the path[docroot] parameter, a different vector than CVE-2006-5441."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2007-3081",
+        "description" : "PHP remote file inclusion vulnerability in sampleecommerce.php in Comdev eCommerce 4.1 allows remote attackers to execute arbitrary PHP code via a URL in the path[docroot] parameter."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2007-3066",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in php(Reactor) 1.2.7 and earlier allow remote attackers to execute arbitrary PHP code via a URL in the pathtohomedir parameter to (1) view.inc.php, (2) users.inc.php, (3) updatecms.inc.php, and (4) polls.inc.php in inc/; and other unspecified files, different vectors than CVE-2006-3983."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2007-3058",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Madirish Webmail 2.0 allow remote attackers to execute arbitrary PHP code via a URL in the GLOBALS[basedir] parameter to (1) calendar.php, (2) compose.php, and (3) index.php, different vectors than CVE-2007-2826. NOTE: the provenance of this information is unknown; the details are obtained solely from third party information."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2007-3057",
+        "description" : "PHP remote file inclusion vulnerability in include/wysiwyg/spaw_control.class.php in the icontent 4.5 module for XOOPS allows remote attackers to execute arbitrary PHP code via a URL in the spaw_root parameter. NOTE: this issue is probably a duplicate of CVE-2006-4656."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2007-2986",
+        "description" : "PHP remote file inclusion vulnerability in lib/live_status.lib.php in AdminBot MX 9.0.5 allows remote attackers to execute arbitrary PHP code via a URL in the ROOT parameter."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2007-2969",
+        "description" : "PHP remote file inclusion vulnerability in newsletter.php in WAnewsletter 2.1.3 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the waroot parameter."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2007-2947",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in OpenBASE Alpha 0.6 allow remote attackers to execute arbitrary PHP code via a URL in the root_prefix parameter to (1) index.php, (2) email_subscribe.php, (3) download.php, or (4) development.php."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2007-2943",
+        "description" : "PHP remote file inclusion vulnerability in class/class.php in Webavis 0.1.1 allows remote attackers to execute arbitrary PHP code via a URL in the root parameter."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2007-2941",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in the creator in vBulletin Google Yahoo Site Map (vBGSiteMap) 2.41 for vBulletin allow remote attackers to execute arbitrary PHP code via a URL in the base parameter to (1) vbgsitemap/vbgsitemap-config.php or (2) vbgsitemap/vbgsitemap-vbseo.php."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2007-2940",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in FlaP 1.0b (1.0 Beta) allow remote attackers to execute arbitrary PHP code via a URL in the pachtofile parameter to (1) skin/html/table.php or (2) login.php."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2007-2939",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Mazen's PHP Chat 3.0.0 allow remote attackers to execute arbitrary PHP code via a URL in the basepath parameter to (1) ITX.php, (2) IT_Error.php, or (3) IT.php in include/pear/."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2007-2937",
+        "description" : "PHP remote file inclusion vulnerability in admin/admin.php in TROforum 0.1 allows remote attackers to execute arbitrary PHP code via a URL in the site_url parameter."
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2007-2936",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Frequency Clock 0.1b (Beta 0.1) allow remote attackers to execute arbitrary PHP code via a URL in the securelib parameter to (1) conf.php or (2) cp2.php."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2007-2900",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Scallywag 2005-04-25 allow remote attackers to execute arbitrary PHP code via a URL in the path parameter to template.php in (1) skin/dark/, (2) skin/gold/, or (3) skin/original/."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2007-2891",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in FirmWorX 0.1.2 allow remote attackers to execute arbitrary PHP code via a URL in the (1) bank_data[root] parameter to modules/bank/includes/design/main.inc.php, or the (2) fm_data[root] parameter to (a) includes/config/master.inc.php or (b) includes/functions/master.inc.php."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2007-2861",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Simple Accessible XHTML Online News (SAXON) 4.6 allow remote attackers to execute arbitrary PHP code via a URL in the template parameter to (1) news.php, (2) preview.php, or (3) archive-display.php."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2007-2859",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in SimpGB 1.46.0 allow remote attackers to execute arbitrary PHP code via a URL in the path_simpgb parameter to (1) guestbook.php, (2) search.php, (3) mailer.php, (4) avatars.php, (5) ccode.php, (6) comments.php, (7) emoticons.php, (8) gbdownload.php, and possibly other PHP scripts."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2007-2857",
+        "description" : "PHP remote file inclusion vulnerability in sample/xls2mysql in ABC Excel Parser Pro 4.0 allows remote attackers to execute arbitrary PHP code via a URL in the parser_path parameter."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2007-2826",
+        "description" : "PHP remote file inclusion vulnerability in lib/addressbook.php in Madirish Webmail 2.0 allows remote attackers to execute arbitrary PHP code via a URL in the GLOBALS[basedir] parameter."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2007-2816",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in ol'bookmarks 0.7.4 allow remote attackers to execute arbitrary PHP code via a URL in the root parameter to (1) test1.php, (2) blackorange.php, (3) default.php, (4) frames1.php, (5) frames1_top.php, (7) test2.php, (8) test3.php, (9) test4.php, (10) test5.php, (11) test6.php, (12) frames1_left.php, and (13) frames1_center.php in themes/."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2007-2793",
+        "description" : "PHP remote file inclusion vulnerability in ImageImageMagick.php in Geeklog 2.x allows remote attackers to execute arbitrary PHP code via a URL in the glConf[path_system] parameter."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2007-2779",
+        "description" : "PHP remote file inclusion vulnerability in template_csv.php in Libstats 1.0.3 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the rInfo[content] parameter."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2007-2774",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in SunLight CMS 5.3 allow remote attackers to execute arbitrary PHP code via a URL in the root parameter to (1) _connect.php or (2) modules/startup.php."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2007-2762",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Build it Fast (bif3) 0.4.1 allow remote attackers to execute arbitrary PHP code via a URL in (1) the pear_dir parameter to Base/Application.php, or the (2) sys_dir parameter to (a) Footer.php, (b) widget.BifContainer.php, (c) widget.BifRoot.php, (d) widget.BifRoot2.php, (e) widget.BifRoot3.php, or (f) widget.BifWarning.php in Widgets/Base/."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2007-2751",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in PHPGlossar 0.8 allow remote attackers to execute arbitrary PHP code via a URL in the format_menue parameter to (1) admin/inc/change_action.php or (2) admin/inc/add.php."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2007-2743",
+        "description" : "PHP remote file inclusion vulnerability in custom_vars.php in GlossWord 1.8.1 allows remote attackers to execute arbitrary PHP code via a URL in the sys[path_addon] parameter."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2007-2736",
+        "description" : "PHP remote file inclusion vulnerability in index.php in Achievo 1.1.0 allows remote attackers to execute arbitrary PHP code via a URL in the config_atkroot parameter."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2007-2710",
+        "description" : "PHP remote file inclusion vulnerability in functions/prepend_adm.php in NagiosQL 2.00-P00 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the SETS[path][IT] parameter. NOTE: the provenance of this information is unknown; the details are obtained solely from third party information."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2007-2709",
+        "description" : "PHP remote file inclusion vulnerability in functions/prepend_adm.php in NagiosQL 2005 2.00 allows remote attackers to execute arbitrary PHP code via a URL in the SETS[path][physical] parameter."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2007-2708",
+        "description" : "PHP remote file inclusion vulnerability in newsadmin.php in Feindt Computerservice News (News-Script) 2.0 allows remote attackers to execute arbitrary PHP code via a URL in the action parameter."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2007-2707",
+        "description" : "PHP remote file inclusion vulnerability in linksnet_linkslog_rss.php in Linksnet Newsfeed 1.0 allows remote attackers to execute arbitrary PHP code via a URL in the dirpath_linksnet_newsfeed parameter."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2007-2706",
+        "description" : "PHP remote file inclusion vulnerability in maint/ftpmedia.php in Media Gallery 1.4.8a and earlier for Geeklog allows remote attackers to execute arbitrary PHP code via a URL in the _MG_CONF[path_html] parameter."
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2007-2679",
+        "description" : "PHP file inclusion vulnerability in index.php in Ivan Peevski gallery 0.3 in Simple PHP Scripts (sphp) allows remote attackers to execute arbitrary PHP code via a UNC share pathname or a local file pathname in the gallery parameter, which is accessed by the file_exists function. NOTE: the provenance of this information is unknown; the details are obtained solely from third party information."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2007-2677",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in phpChess Community Edition 2.0 allow remote attackers to execute arbitrary PHP code via a URL in (1) the config parameter to includes/language.php, or the Root_Path parameter to (2) layout_admin_cfg.php, (3) layout_cfg.php, or (4) layout_t_top.php in skins/phpchess/. NOTE: vector 1 has been disputed by CVE, since the code is defined within a function that is not called from within includes/language.php."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2007-2676",
+        "description" : "PHP remote file inclusion vulnerability in skins/header.php in Open Translation Engine (OTE) 0.7.8 allows remote attackers to execute arbitrary PHP code via a URL in the ote_home parameter."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2007-2665",
+        "description" : "PHP remote file inclusion vulnerability in block.php in PhpFirstPost 0.1 allows remote attackers to execute arbitrary PHP code via a URL in the Include parameter."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2007-2664",
+        "description" : "PHP remote file inclusion vulnerability in includes/common.php in Yaap 1.5 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the root_path parameter, possibly related to the __autoload function."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2007-2663",
+        "description" : "PHP remote file inclusion vulnerability in language/1/splash.lang.php in Beacon 0.2.0 allows remote attackers to execute arbitrary PHP code via a URL in the languagePath parameter."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2007-2660",
+        "description" : "** DISPUTED ** PHP remote file inclusion vulnerability in pcltrace.lib.php in the PclTar module in Vincent Blavet PhpConcept Library, as used in CJG EXPLORER PRO 3.3 and earlier and probably other products, allows remote attackers to execute arbitrary PHP code via a URL in the g_pcltar_lib_dir parameter. NOTE: CVE disputes this issue since there is no include statement in pcltrace.lib.php. NOTE: the pcltar.lib.php vector is already covered by CVE-2007-2199."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2007-2634",
+        "description" : "PHP remote file inclusion vulnerability in common/errormsg.php in aForum 1.32 and possibly earlier, when register_globals is enabled, allows remote attackers to execute arbitrary PHP code via a URL in the header parameter. NOTE: the provenance of this information is unknown; the details are obtained solely from third party information."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2007-2628",
+        "description" : "PHP remote file inclusion vulnerability in include/logout.php in Justin Koivisto SecurityAdmin for PHP (aka PHPSecurityAdmin, PSA) 4.0.2 allows remote attackers to execute arbitrary PHP code via a URL in the PSA_PATH parameter."
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2007-2620",
+        "description" : "PHP remote file inclusion vulnerability in inc/config.inc.php in Jakub Steiner (aka jimmac) original 0.11 allows remote attackers to execute arbitrary PHP code via a URL in the x[1] parameter."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2007-2615",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Crie seu PHPLojaFacil 0.1.5 allow remote attackers to execute arbitrary PHP code via a URL in the path_local parameter to (1) ftp.php, (2) libs/db.php, and (3) libs/ftp.php."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2007-2614",
+        "description" : "PHP remote file inclusion vulnerability in examples/widget8.php in phpHtmlLib 2.4.0 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the phphtmllib parameter."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2007-2611",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in CGX 20050314 allow remote attackers to execute arbitrary PHP code via a URL in the pathCGX parameter to (1) mtdialogo.php, (2) ltdialogo.php, (3) login.php, and (4) logingecon.php in inc/; and multiple unspecified files in frm/, sql/, and cns/."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2007-2609",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in gnuedu 1.3b2 allow remote attackers to execute arbitrary PHP code via a URL in the (a) ETCDIR parameter to (1) libs/lom.php; (2) lom_update.php, (3) check-lom.php, and (4) weigh_keywords.php in scripts/; the (b) LIBSDIR parameter to (5) logout.php, (6) help.php, (7) index.php, (8) login.php; and the ETCDIR parameter to (9) web/lom.php."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2007-2608",
+        "description" : "PHP remote file inclusion vulnerability in lib/smarty/SmartyFU.class.php in Miplex2 Alpha 1 allows remote attackers to execute arbitrary PHP code via a URL in the system[smarty][dir] parameter."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2007-2607",
+        "description" : "PHP remote file inclusion vulnerability in views/print/printbar.php in LaVague 0.3 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the views_path parameter."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2007-2597",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in telltarget CMS 1.3.3 allow remote attackers to execute arbitrary PHP code via a URL in the (1) ordnertiefe parameter to site_conf.php; or the (2) tt_docroot parameter to (a) class.csv.php, (b) produkte_nach_serie.php, or (c) ref_kd_rubrik.php in functionen/; (d) hg_referenz_jobgalerie.php, (e) surfer_anmeldung_NWL.php, (f) produkte_nach_serie_alle.php, (g) surfer_aendern.php, (h) ref_kd_rubrik.php, or (i) referenz.php in module/; or (j) 1/lay.php or (k) 3/lay.php in standard/."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2007-2596",
+        "description" : "PHP remote file inclusion vulnerability in common/func.php in aForum 1.32 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the CommonAbsDir parameter."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2007-2594",
+        "description" : "PHP remote file inclusion vulnerability in inc/articles.inc.php in phpMyPortal 3.0.0 RC3 allows remote attackers to execute arbitrary PHP code via a URL in the GLOBALS[CHEMINMODULES] parameter."
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2007-2575",
+        "description" : "PHP remote file inclusion vulnerability in watermark.php in the vm (aka Jean-Francois Laflamme) watermark 0.4.1 mod for Gallery allows remote attackers to execute arbitrary PHP code via a URL in the GALLERY_BASEDIR parameter."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2007-2573",
+        "description" : "PHP remote file inclusion vulnerability in plugin/HP_DEV/cms2.php in PHPtree 1.3 allows remote attackers to execute arbitrary PHP code via a URL in the s_dir parameter."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2007-2572",
+        "description" : "PHP remote file inclusion vulnerability in modules/noevents/templates/mfa_theme.php in NoAh (aka PHP Content Architect, phparch) 0.9 pre 1.2 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the tpls[1] parameter."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2007-2570",
+        "description" : "PHP remote file inclusion vulnerability in handlers/page/show.php in Wikivi5 allows remote attackers to execute arbitrary PHP code via a URL in the sous_rep parameter."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2007-2569",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Friendly 1.0d1 and earlier allow remote attackers to execute arbitrary PHP code via a URL in the friendly_path parameter to (1) core/data/yaml.inc.php, or _load.php in (2) core/data/, (3) core/display/, or (4) core/support/."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2007-2559",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in american cart 3.5 allow remote attackers to execute arbitrary PHP code via a URL in the abs_path parameter to (1) index.php, (2) checkout.php, and (3) libsecure.php."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2007-2558",
+        "description" : "** DISPUTED ** PHP remote file inclusion vulnerability in index.php in phpFullAnnu CMS (pfa CMS) 6.0 allows remote attackers to execute arbitrary PHP code via a URL in the repinc parameter. NOTE: CVE disputes this issue since $repinc is set to a constant value before use."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2007-2545",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Persism CMS 0.9.2 and earlier allow remote attackers to execute arbitrary PHP code via a URL in the system[path] parameter to (1) blocks/headerfile.php, (2) files/blocks/latest_files.php, (3) filters/headerfile.php, (4) forums/blocks/latest_posts.php, (5) groups/headerfile.php, (6) links/blocks/links.php, (7) menu/headerfile.php, (8) news/blocks/latest_news.php, (9) settings/headerfile.php, or (10) users/headerfile.php, in modules/."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2007-2544",
+        "description" : "PHP remote file inclusion vulnerability in templates/default/tpl_message.php in PHP TopTree BBS 2.0.1a and earlier allows remote attackers to execute arbitrary PHP code via a URL in the right_file parameter."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2007-2542",
+        "description" : "PHP remote file inclusion vulnerability in header.php in workbench survival guide 0.11 allows remote attackers to execute arbitrary PHP code via a URL in the path parameter."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2007-2541",
+        "description" : "PHP remote file inclusion vulnerability in includes/ajax_listado.php in Versado CMS 1.07 allows remote attackers to execute arbitrary PHP code via a URL in the urlModulo parameter."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2007-2540",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in PMECMS 1.0 and earlier allow remote attackers to execute arbitrary PHP code via a URL in the config[pathMod] parameter to index.php in (1) mod/image/, (2) mod/liens/, (3) mod/liste/, (4) mod/special/, or (5) mod/texte/."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2007-2531",
+        "description" : "PHP remote file inclusion vulnerability in berylium-classes.php in Berylium2 2003-08-18 allows remote attackers to execute arbitrary PHP code via a URL in the beryliumroot parameter."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2007-2530",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Tropicalm Crowell Resource 4.5.2 allow remote attackers to execute arbitrary PHP code via a URL in the RESPATH parameter to (1) dosearch.php or (2) printfriendly.php."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2007-2527",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in DynamicPAD before 1.03.31 allow remote attackers to execute arbitrary PHP code via a URL in the HomeDir parameter to (1) dp_logs.php or (2) index.php."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2007-2521",
+        "description" : "PHP remote file inclusion vulnerability in common.php in E-GADS! before 2.2.7 allows remote attackers to execute arbitrary PHP code via a URL in the locale parameter."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2007-2504",
+        "description" : "** DISPUTED ** PHP remote file inclusion vulnerability in user/turbulence.php in PHP Turbulence 0.0.1 alpha allows remote attackers to execute arbitrary PHP code via a URL in the GLOBALS[tcore] parameter. NOTE: this vulnerability is disputed by CVE and a reliable third party because a direct request to user/turbulence.php triggers a fatal error before inclusion."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2007-2503",
+        "description" : "** DISPUTED ** Directory traversal vulnerability in turbulence.php in PHP Turbulence 0.0.1 alpha allows remote attackers to include and execute arbitrary local files via a .. (dot dot) in the GLOBALS[tcore] parameter. NOTE: this vulnerability is disputed by CVE and a reliable third party because a direct request to user/turbulence.php triggers a fatal error before inclusion."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2007-2493",
+        "description" : "PHP remote file inclusion vulnerability in faq.php in the FAQ & RULES 2.0.0 and earlier module for mxBB allows remote attackers to execute arbitrary PHP code via a URL in the module_root_path parameter."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2007-2485",
+        "description" : "PHP remote file inclusion vulnerability in myflash-button.php in the myflash 1.00 and earlier plugin for WordPress allows remote attackers to execute arbitrary PHP code via a URL in the wpPATH parameter."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2007-2484",
+        "description" : "HP remote file inclusion vulnerability in js/wptable-button.php in the wp-Table 1.43 and earlier plugin for WordPress, when register_globals is enabled, allows remote attackers to execute arbitrary PHP code via a URL in the wpPATH parameter."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2007-2481",
+        "description" : "PHP remote file inclusion vulnerability in wordtube-button.php in the wordTube 1.43 and earlier plugin for WordPress, when register_globals is enabled, allows remote attackers to execute arbitrary PHP code via a URL in the wpPATH parameter."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2007-2477",
+        "description" : "** DISPUTED ** PHP remote file inclusion vulnerability in phpMyChat.php3 in phpMyChat 0.14.5 allows remote attackers to execute arbitrary PHP code via a URL in the {ChatPath} parameter. NOTE: this has been disputed by multiple third parties and CVE because $ChatPath is set to a constant value."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2007-2474",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in Turnkey Web Tools SunShop Shopping Cart 4.0 allow remote attackers to execute arbitrary PHP code via a URL in the abs_path parameter to (1) include/payment/payflow_pro.php, (2) global.php, or (3) libsecure.php, different vectors than CVE-2007-2070."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2007-2460",
+        "description" : "PHP remote file inclusion vulnerability in modules/admin/include/config.php in FireFly 1.1.01 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the DOCUMENT_ROOT parameter. NOTE: the provenance of this information is unknown; the details are obtained solely from third party information."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2007-2458",
+        "description" : "ultiple PHP remote file inclusion vulnerabilities in Pixaria Gallery before 1.4.3 allow remote attackers to execute arbitrary PHP code via a URL in the cfg[sys][base_path] parameter to psg.smarty.lib.php and certain include and library scripts, a different vector than CVE-2007-2457."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2007-2457",
+        "description" : "PHP remote file inclusion vulnerability in resources/includes/class.Smarty.php in Pixaria Gallery before 1.4.3 allows remote attackers to execute arbitrary PHP code via a URL in the cfg[sys][base_path] parameter."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2007-2456",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in FireFly 1.1.01 allow remote attackers to execute arbitrary PHP code via a URL in the doc_root parameter to (1) localize.php or (2) config.php in modules/admin/include/."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2007-2428",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in page.php in Ahhp-Portal allow remote attackers to execute arbitrary PHP code via a URL in the (1) fp or (2) sc parameter."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2007-2426",
+        "description" : "PHP remote file inclusion vulnerability in myfunctions/mygallerybrowser.php in the myGallery 1.4b4 and earlier plugin for WordPress allows remote attackers to execute arbitrary PHP code via a URL in the myPath parameter."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2007-2424",
+        "description" : "PHP remote file inclusion vulnerability in help/index.php in The Merchant (themerchant) 2.2 allows remote attackers to execute arbitrary PHP code via a URL in the show parameter."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2007-2422",
+        "description" : "** DISPUTED ** Multiple PHP remote file inclusion vulnerabilities in Modules Builder (modbuild) 4.1 for Comdev One Admin allow remote attackers to execute arbitrary PHP code via a URL in the path[docroot] parameter to (1) config-bak.php or (2) config.php. NOTE: CVE disputes this vulnerability because the unmodified scripts set the applicable variable to the empty string; reasonable modified copies would use a fixed pathname string."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2007-2411",
+        "description" : "** DISPUTED ** PHP remote file inclusion vulnerability in index.php in Sphider 1.2.x allows remote attackers to execute arbitrary PHP code via a URL in the include_dir parameter. NOTE: a third party disputes this vulnerability, stating that \"the application is not vulnerable to this issue.\""
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2007-2364",
+        "description" : "Multiple PHP remote file inclusion vulnerabilities in burnCMS 0.2 and earlier allow remote attackers to execute arbitrary PHP code via a URL in the root parameter to (1) mysql.class.php or (2) postgres.class.php in lib/db/; or (3) authuser.php, (4) misc.php, or (5) connect.php in lib/."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2007-2358",
+        "description" : "** DISPUTED ** Multiple PHP remote file inclusion vulnerabilities in b2evolution allow remote attackers to execute arbitrary PHP code via a URL in the (1) inc_path parameter to (a) a_noskin.php, (b) a_stub.php, (c) admin.php, (d) contact.php, (e) default.php, (f) index.php, and (g) multiblogs.php in blogs/; the (2) view_path and (3) control_path parameters to blogs/admin.php; and the (4) skins_path parameter to (h) blogs/contact.php and (i) blogs/multiblogs.php. NOTE: this issue is disputed by CVE, since the inc_path, view_path, control_path, and skins_path variables are all initialized in conf/_advanced.php before they are used."
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2007-2347",
+        "description" : "PHP remote file inclusion vulnerability in main/forum/komentar.php in OneClick CMS (aka Sisplet CMS) 05.10 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the site_path parameter."
+    }
+]

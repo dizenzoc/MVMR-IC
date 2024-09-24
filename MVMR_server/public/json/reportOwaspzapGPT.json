@@ -1,0 +1,51 @@
+{
+    "OWASPZAPReport": {
+        "$": {
+            "version": "2.10.0"
+        },
+        "site": [
+            {
+                "$": {
+                    "name": "example.com",
+                    "host": "192.168.1.1",
+                    "port": "80",
+                    "ssl": "false"
+                },
+                "alerts": [
+                    {
+                        "alertitem": [
+                            {
+                                "name": [
+                                    "Risk Level"
+                                ],
+                                "instances": [
+                                    {
+                                        "instance": [
+                                            {
+                                                "uri": [
+                                                    "http://example.com"
+                                                ],
+                                                "method": [
+                                                    "GET"
+                                                ],
+                                                "param": [
+                                                    "q"
+                                                ],
+                                                "attack": [
+                                                    "Sample attack"
+                                                ],
+                                                "evidence": [
+                                                    "Sample evidence"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

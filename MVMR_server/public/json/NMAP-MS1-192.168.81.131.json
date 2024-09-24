@@ -1,0 +1,1946 @@
+{
+    "nmaprun": {
+        "$": {
+            "scanner": "nmap",
+            "args": "nmap -Pn -p- -A --script=vuln -oX NMAP-MS1-192.168.81.131.xml 192.168.81.131",
+            "start": "1663066077",
+            "startstr": "Tue Sep 13 06:47:57 2022",
+            "version": "7.92",
+            "xmloutputversion": "1.05"
+        },
+        "scaninfo": [
+            {
+                "$": {
+                    "type": "syn",
+                    "protocol": "tcp",
+                    "numservices": "65535",
+                    "services": "1-65535"
+                }
+            }
+        ],
+        "verbose": [
+            {
+                "$": {
+                    "level": "0"
+                }
+            }
+        ],
+        "debugging": [
+            {
+                "$": {
+                    "level": "0"
+                }
+            }
+        ],
+        "hosthint": [
+            {
+                "status": [
+                    {
+                        "$": {
+                            "state": "up",
+                            "reason": "arp-response",
+                            "reason_ttl": "0"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "$": {
+                            "addr": "192.168.81.131",
+                            "addrtype": "ipv4"
+                        }
+                    },
+                    {
+                        "$": {
+                            "addr": "00:0C:29:3B:00:55",
+                            "addrtype": "mac",
+                            "vendor": "VMware"
+                        }
+                    }
+                ],
+                "hostnames": [
+                    "\n"
+                ]
+            }
+        ],
+        "host": [
+            {
+                "$": {
+                    "starttime": "1663066090",
+                    "endtime": "1663066433"
+                },
+                "status": [
+                    {
+                        "$": {
+                            "state": "up",
+                            "reason": "arp-response",
+                            "reason_ttl": "0"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "$": {
+                            "addr": "192.168.81.131",
+                            "addrtype": "ipv4"
+                        }
+                    },
+                    {
+                        "$": {
+                            "addr": "00:0C:29:3B:00:55",
+                            "addrtype": "mac",
+                            "vendor": "VMware"
+                        }
+                    }
+                ],
+                "hostnames": [
+                    "\n"
+                ],
+                "ports": [
+                    {
+                        "extraports": [
+                            {
+                                "$": {
+                                    "state": "closed",
+                                    "count": "65522"
+                                },
+                                "extrareasons": [
+                                    {
+                                        "$": {
+                                            "reason": "reset",
+                                            "count": "65522",
+                                            "proto": "tcp",
+                                            "ports": "1-20,24,26-52,54-79,81-138,140-444,446-3305,3307-3631,3633-5431,5433-8008,8010-8179,8181-65535"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "port": [
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "21"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "ftp",
+                                            "product": "ProFTPD",
+                                            "version": "1.3.1",
+                                            "ostype": "Unix",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:proftpd:proftpd:1.3.1"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "22"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "ssh",
+                                            "product": "OpenSSH",
+                                            "version": "4.7p1 Debian 8ubuntu1",
+                                            "extrainfo": "protocol 2.0",
+                                            "ostype": "Linux",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:openbsd:openssh:4.7p1",
+                                            "cpe:/o:linux:linux_kernel"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "23"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "telnet",
+                                            "product": "Linux telnetd",
+                                            "ostype": "Linux",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/o:linux:linux_kernel"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "25"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "smtp",
+                                            "product": "Postfix smtpd",
+                                            "hostname": " metasploitable.localdomain",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:postfix:postfix"
+                                        ]
+                                    }
+                                ],
+                                "script": [
+                                    {
+                                        "$": {
+                                            "id": "ssl-poodle",
+                                            "output": "\n  VULNERABLE:\n  SSL POODLE information leak\n    State: VULNERABLE\n    IDs:  BID:70574  CVE:CVE-2014-3566\n          The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other\n          products, uses nondeterministic CBC padding, which makes it easier\n          for man-in-the-middle attackers to obtain cleartext data via a\n          padding-oracle attack, aka the \"POODLE\" issue.\n    Disclosure date: 2014-10-14\n    Check results:\n      TLS_RSA_WITH_AES_128_CBC_SHA\n    References:\n      https://www.securityfocus.com/bid/70574\n      https://www.imperialviolet.org/2014/10/14/poodle.html\n      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566\n      https://www.openssl.org/~bodo/ssl-poodle.pdf\n"
+                                        },
+                                        "table": [
+                                            {
+                                                "$": {
+                                                    "key": "CVE-2014-3566"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "SSL POODLE information leak",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "VULNERABLE",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "2014-10-14",
+                                                        "$": {
+                                                            "key": "disclosure"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "ids"
+                                                        },
+                                                        "elem": [
+                                                            "BID:70574",
+                                                            "CVE:CVE-2014-3566"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "    The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other\n    products, uses nondeterministic CBC padding, which makes it easier\n    for man-in-the-middle attackers to obtain cleartext data via a\n    padding-oracle attack, aka the \"POODLE\" issue."
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "dates"
+                                                        },
+                                                        "table": [
+                                                            {
+                                                                "$": {
+                                                                    "key": "disclosure"
+                                                                },
+                                                                "elem": [
+                                                                    {
+                                                                        "_": "14",
+                                                                        "$": {
+                                                                            "key": "day"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "10",
+                                                                        "$": {
+                                                                            "key": "month"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "2014",
+                                                                        "$": {
+                                                                            "key": "year"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "check_results"
+                                                        },
+                                                        "elem": [
+                                                            "TLS_RSA_WITH_AES_128_CBC_SHA"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "https://www.securityfocus.com/bid/70574",
+                                                            "https://www.imperialviolet.org/2014/10/14/poodle.html",
+                                                            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566",
+                                                            "https://www.openssl.org/~bodo/ssl-poodle.pdf"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "ssl-dh-params",
+                                            "output": "\n  VULNERABLE:\n  Anonymous Diffie-Hellman Key Exchange MitM Vulnerability\n    State: VULNERABLE\n      Transport Layer Security (TLS) services that use anonymous\n      Diffie-Hellman key exchange only provide protection against passive\n      eavesdropping, and are vulnerable to active man-in-the-middle attacks\n      which could completely compromise the confidentiality and integrity\n      of any data exchanged over the resulting session.\n    Check results:\n      ANONYMOUS DH GROUP 1\n            Cipher Suite: TLS_DH_anon_EXPORT_WITH_RC4_40_MD5\n            Modulus Type: Safe prime\n            Modulus Source: Unknown/Custom-generated\n            Modulus Length: 512\n            Generator Length: 8\n            Public Key Length: 512\n    References:\n      https://www.ietf.org/rfc/rfc2246.txt\n  \n  Transport Layer Security (TLS) Protocol DHE_EXPORT Ciphers Downgrade MitM (Logjam)\n    State: VULNERABLE\n    IDs:  BID:74733  CVE:CVE-2015-4000\n      The Transport Layer Security (TLS) protocol contains a flaw that is\n      triggered when handling Diffie-Hellman key exchanges defined with\n      the DHE_EXPORT cipher. This may allow a man-in-the-middle attacker\n      to downgrade the security of a TLS session to 512-bit export-grade\n      cryptography, which is significantly weaker, allowing the attacker\n      to more easily break the encryption and monitor or tamper with\n      the encrypted stream.\n    Disclosure date: 2015-5-19\n    Check results:\n      EXPORT-GRADE DH GROUP 1\n            Cipher Suite: TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA\n            Modulus Type: Safe prime\n            Modulus Source: Unknown/Custom-generated\n            Modulus Length: 512\n            Generator Length: 8\n            Public Key Length: 512\n    References:\n      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4000\n      https://www.securityfocus.com/bid/74733\n      https://weakdh.org\n  \n  Diffie-Hellman Key Exchange Insufficient Group Strength\n    State: VULNERABLE\n      Transport Layer Security (TLS) services that use Diffie-Hellman groups\n      of insufficient strength, especially those using one of a few commonly\n      shared groups, may be susceptible to passive eavesdropping attacks.\n    Check results:\n      WEAK DH GROUP 1\n            Cipher Suite: TLS_DHE_RSA_WITH_DES_CBC_SHA\n            Modulus Type: Safe prime\n            Modulus Source: postfix builtin\n            Modulus Length: 1024\n            Generator Length: 8\n            Public Key Length: 1024\n    References:\n      https://weakdh.org\n"
+                                        },
+                                        "table": [
+                                            {
+                                                "$": {
+                                                    "key": "NMAP-31"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "Anonymous Diffie-Hellman Key Exchange MitM Vulnerability",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "VULNERABLE",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "Transport Layer Security (TLS) services that use anonymous\nDiffie-Hellman key exchange only provide protection against passive\neavesdropping, and are vulnerable to active man-in-the-middle attacks\nwhich could completely compromise the confidentiality and integrity\nof any data exchanged over the resulting session."
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "check_results"
+                                                        },
+                                                        "elem": [
+                                                            "ANONYMOUS DH GROUP 1\n      Cipher Suite: TLS_DH_anon_EXPORT_WITH_RC4_40_MD5\n      Modulus Type: Safe prime\n      Modulus Source: Unknown/Custom-generated\n      Modulus Length: 512\n      Generator Length: 8\n      Public Key Length: 512"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "https://www.ietf.org/rfc/rfc2246.txt"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "CVE-2015-4000"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "Transport Layer Security (TLS) Protocol DHE_EXPORT Ciphers Downgrade MitM (Logjam)",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "VULNERABLE",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "2015-5-19",
+                                                        "$": {
+                                                            "key": "disclosure"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "ids"
+                                                        },
+                                                        "elem": [
+                                                            "BID:74733",
+                                                            "CVE:CVE-2015-4000"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "The Transport Layer Security (TLS) protocol contains a flaw that is\ntriggered when handling Diffie-Hellman key exchanges defined with\nthe DHE_EXPORT cipher. This may allow a man-in-the-middle attacker\nto downgrade the security of a TLS session to 512-bit export-grade\ncryptography, which is significantly weaker, allowing the attacker\nto more easily break the encryption and monitor or tamper with\nthe encrypted stream."
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "dates"
+                                                        },
+                                                        "table": [
+                                                            {
+                                                                "$": {
+                                                                    "key": "disclosure"
+                                                                },
+                                                                "elem": [
+                                                                    {
+                                                                        "_": "19",
+                                                                        "$": {
+                                                                            "key": "day"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "5",
+                                                                        "$": {
+                                                                            "key": "month"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "2015",
+                                                                        "$": {
+                                                                            "key": "year"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "check_results"
+                                                        },
+                                                        "elem": [
+                                                            "EXPORT-GRADE DH GROUP 1\n      Cipher Suite: TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA\n      Modulus Type: Safe prime\n      Modulus Source: Unknown/Custom-generated\n      Modulus Length: 512\n      Generator Length: 8\n      Public Key Length: 512"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4000",
+                                                            "https://www.securityfocus.com/bid/74733",
+                                                            "https://weakdh.org"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "NMAP-32"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "Diffie-Hellman Key Exchange Insufficient Group Strength",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "VULNERABLE",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "Transport Layer Security (TLS) services that use Diffie-Hellman groups\nof insufficient strength, especially those using one of a few commonly\nshared groups, may be susceptible to passive eavesdropping attacks."
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "check_results"
+                                                        },
+                                                        "elem": [
+                                                            "WEAK DH GROUP 1\n      Cipher Suite: TLS_DHE_RSA_WITH_DES_CBC_SHA\n      Modulus Type: Safe prime\n      Modulus Source: postfix builtin\n      Modulus Length: 1024\n      Generator Length: 8\n      Public Key Length: 1024"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "https://weakdh.org"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "smtp-vuln-cve2010-4344",
+                                            "output": "\n  The SMTP server is not Exim: NOT VULNERABLE\n"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "sslv2-drown",
+                                            "output": "ERROR: Script execution failed (use -d to debug)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "53"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "domain",
+                                            "product": "ISC BIND",
+                                            "version": "9.4.2",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:isc:bind:9.4.2"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "80"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "http",
+                                            "product": "Apache httpd",
+                                            "version": "2.2.8",
+                                            "extrainfo": "(Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:apache:http_server:2.2.8"
+                                        ]
+                                    }
+                                ],
+                                "script": [
+                                    {
+                                        "$": {
+                                            "id": "http-csrf",
+                                            "output": "Couldn't find any CSRF vulnerabilities."
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-stored-xss",
+                                            "output": "Couldn't find any stored XSS vulnerabilities."
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-enum",
+                                            "output": "\n  /phpinfo.php: Possible information file\n  /icons/: Potentially interesting folder w/ directory listing\n"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-vuln-cve2011-3192",
+                                            "output": "\n  VULNERABLE:\n  Apache byterange filter DoS\n    State: VULNERABLE\n    IDs:  BID:49303  CVE:CVE-2011-3192\n      The Apache web server is vulnerable to a denial of service attack when numerous\n      overlapping byte ranges are requested.\n    Disclosure date: 2011-08-19\n    References:\n      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192\n      https://www.securityfocus.com/bid/49303\n      https://www.tenable.com/plugins/nessus/55976\n      https://seclists.org/fulldisclosure/2011/Aug/175\n"
+                                        },
+                                        "table": [
+                                            {
+                                                "$": {
+                                                    "key": "CVE-2011-3192"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "Apache byterange filter DoS",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "VULNERABLE",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "2011-08-19",
+                                                        "$": {
+                                                            "key": "disclosure"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "ids"
+                                                        },
+                                                        "elem": [
+                                                            "BID:49303",
+                                                            "CVE:CVE-2011-3192"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "The Apache web server is vulnerable to a denial of service attack when numerous\noverlapping byte ranges are requested."
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "dates"
+                                                        },
+                                                        "table": [
+                                                            {
+                                                                "$": {
+                                                                    "key": "disclosure"
+                                                                },
+                                                                "elem": [
+                                                                    {
+                                                                        "_": "19",
+                                                                        "$": {
+                                                                            "key": "day"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "08",
+                                                                        "$": {
+                                                                            "key": "month"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "2011",
+                                                                        "$": {
+                                                                            "key": "year"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192",
+                                                            "https://www.securityfocus.com/bid/49303",
+                                                            "https://www.tenable.com/plugins/nessus/55976",
+                                                            "https://seclists.org/fulldisclosure/2011/Aug/175"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-trace",
+                                            "output": "TRACE is enabled"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-dombased-xss",
+                                            "output": "Couldn't find any DOM based XSS."
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-server-header",
+                                            "output": "Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch"
+                                        },
+                                        "elem": [
+                                            "Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "139"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "netbios-ssn",
+                                            "product": "Samba smbd",
+                                            "version": "3.X - 4.X",
+                                            "extrainfo": "workgroup: WORKGROUP",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:samba:samba"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "445"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "netbios-ssn",
+                                            "product": "Samba smbd",
+                                            "version": "3.X - 4.X",
+                                            "extrainfo": "workgroup: WORKGROUP",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:samba:samba"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "3306"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "mysql",
+                                            "product": "MySQL",
+                                            "version": "5.0.51a-3ubuntu5",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:mysql:mysql:5.0.51a-3ubuntu5"
+                                        ]
+                                    }
+                                ],
+                                "script": [
+                                    {
+                                        "$": {
+                                            "id": "ssl-ccs-injection",
+                                            "output": "No reply from server (TIMEOUT)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "3632"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "distccd",
+                                            "product": "distccd",
+                                            "version": "v1",
+                                            "extrainfo": "(GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4)",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        }
+                                    }
+                                ],
+                                "script": [
+                                    {
+                                        "$": {
+                                            "id": "distcc-cve2004-2687",
+                                            "output": "\n  VULNERABLE:\n  distcc Daemon Command Execution\n    State: VULNERABLE (Exploitable)\n    IDs:  CVE:CVE-2004-2687\n    Risk factor: High  CVSSv2: 9.3 (HIGH) (AV:N/AC:M/Au:N/C:C/I:C/A:C)\n      Allows executing of arbitrary commands on systems running distccd 3.1 and\n      earlier. The vulnerability is the consequence of weak service configuration.\n      \n    Disclosure date: 2002-02-01\n    Extra information:\n      \n    uid=1(daemon) gid=1(daemon) groups=1(daemon)\n  \n    References:\n      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2687\n      https://nvd.nist.gov/vuln/detail/CVE-2004-2687\n      https://distcc.github.io/security.html\n"
+                                        },
+                                        "table": [
+                                            {
+                                                "$": {
+                                                    "key": "CVE-2004-2687"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "distcc Daemon Command Execution",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "VULNERABLE (Exploitable)",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "2002-02-01",
+                                                        "$": {
+                                                            "key": "disclosure"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "ids"
+                                                        },
+                                                        "elem": [
+                                                            "CVE:CVE-2004-2687"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "scores"
+                                                        },
+                                                        "elem": [
+                                                            {
+                                                                "_": "9.3 (HIGH) (AV:N/AC:M/Au:N/C:C/I:C/A:C)",
+                                                                "$": {
+                                                                    "key": "CVSSv2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "Allows executing of arbitrary commands on systems running distccd 3.1 and\nearlier. The vulnerability is the consequence of weak service configuration.\n"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "dates"
+                                                        },
+                                                        "table": [
+                                                            {
+                                                                "$": {
+                                                                    "key": "disclosure"
+                                                                },
+                                                                "elem": [
+                                                                    {
+                                                                        "_": "01",
+                                                                        "$": {
+                                                                            "key": "day"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "02",
+                                                                        "$": {
+                                                                            "key": "month"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "2002",
+                                                                        "$": {
+                                                                            "key": "year"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "exploit_results"
+                                                        }
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "extra_info"
+                                                        },
+                                                        "elem": [
+                                                            "\n  uid=1(daemon) gid=1(daemon) groups=1(daemon)\n"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2687",
+                                                            "https://nvd.nist.gov/vuln/detail/CVE-2004-2687",
+                                                            "https://distcc.github.io/security.html"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "5432"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "postgresql",
+                                            "product": "PostgreSQL DB",
+                                            "version": "8.3.0 - 8.3.7",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:postgresql:postgresql:8.3"
+                                        ]
+                                    }
+                                ],
+                                "script": [
+                                    {
+                                        "$": {
+                                            "id": "ssl-poodle",
+                                            "output": "\n  VULNERABLE:\n  SSL POODLE information leak\n    State: VULNERABLE\n    IDs:  BID:70574  CVE:CVE-2014-3566\n          The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other\n          products, uses nondeterministic CBC padding, which makes it easier\n          for man-in-the-middle attackers to obtain cleartext data via a\n          padding-oracle attack, aka the \"POODLE\" issue.\n    Disclosure date: 2014-10-14\n    Check results:\n      TLS_RSA_WITH_AES_128_CBC_SHA\n    References:\n      https://www.securityfocus.com/bid/70574\n      https://www.imperialviolet.org/2014/10/14/poodle.html\n      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566\n      https://www.openssl.org/~bodo/ssl-poodle.pdf\n"
+                                        },
+                                        "table": [
+                                            {
+                                                "$": {
+                                                    "key": "CVE-2014-3566"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "SSL POODLE information leak",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "VULNERABLE",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "2014-10-14",
+                                                        "$": {
+                                                            "key": "disclosure"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "ids"
+                                                        },
+                                                        "elem": [
+                                                            "BID:70574",
+                                                            "CVE:CVE-2014-3566"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "    The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other\n    products, uses nondeterministic CBC padding, which makes it easier\n    for man-in-the-middle attackers to obtain cleartext data via a\n    padding-oracle attack, aka the \"POODLE\" issue."
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "dates"
+                                                        },
+                                                        "table": [
+                                                            {
+                                                                "$": {
+                                                                    "key": "disclosure"
+                                                                },
+                                                                "elem": [
+                                                                    {
+                                                                        "_": "14",
+                                                                        "$": {
+                                                                            "key": "day"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "10",
+                                                                        "$": {
+                                                                            "key": "month"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "2014",
+                                                                        "$": {
+                                                                            "key": "year"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "check_results"
+                                                        },
+                                                        "elem": [
+                                                            "TLS_RSA_WITH_AES_128_CBC_SHA"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "https://www.securityfocus.com/bid/70574",
+                                                            "https://www.imperialviolet.org/2014/10/14/poodle.html",
+                                                            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566",
+                                                            "https://www.openssl.org/~bodo/ssl-poodle.pdf"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "ssl-ccs-injection",
+                                            "output": "\n  VULNERABLE:\n  SSL/TLS MITM vulnerability (CCS Injection)\n    State: VULNERABLE\n    Risk factor: High\n      OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h\n      does not properly restrict processing of ChangeCipherSpec messages,\n      which allows man-in-the-middle attackers to trigger use of a zero\n      length master key in certain OpenSSL-to-OpenSSL communications, and\n      consequently hijack sessions or obtain sensitive information, via\n      a crafted TLS handshake, aka the \"CCS Injection\" vulnerability.\n          \n    References:\n      http://www.cvedetails.com/cve/2014-0224\n      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0224\n      http://www.openssl.org/news/secadv_20140605.txt\n"
+                                        },
+                                        "table": [
+                                            {
+                                                "$": {
+                                                    "key": "NMAP-15"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "SSL/TLS MITM vulnerability (CCS Injection)",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "VULNERABLE",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h\ndoes not properly restrict processing of ChangeCipherSpec messages,\nwhich allows man-in-the-middle attackers to trigger use of a zero\nlength master key in certain OpenSSL-to-OpenSSL communications, and\nconsequently hijack sessions or obtain sensitive information, via\na crafted TLS handshake, aka the \"CCS Injection\" vulnerability.\n    "
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "http://www.cvedetails.com/cve/2014-0224",
+                                                            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0224",
+                                                            "http://www.openssl.org/news/secadv_20140605.txt"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "ssl-dh-params",
+                                            "output": "\n  VULNERABLE:\n  Diffie-Hellman Key Exchange Insufficient Group Strength\n    State: VULNERABLE\n      Transport Layer Security (TLS) services that use Diffie-Hellman groups\n      of insufficient strength, especially those using one of a few commonly\n      shared groups, may be susceptible to passive eavesdropping attacks.\n    Check results:\n      WEAK DH GROUP 1\n            Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA\n            Modulus Type: Safe prime\n            Modulus Source: Unknown/Custom-generated\n            Modulus Length: 1024\n            Generator Length: 8\n            Public Key Length: 1024\n    References:\n      https://weakdh.org\n"
+                                        },
+                                        "table": [
+                                            {
+                                                "$": {
+                                                    "key": "NMAP-29"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "Diffie-Hellman Key Exchange Insufficient Group Strength",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "VULNERABLE",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "Transport Layer Security (TLS) services that use Diffie-Hellman groups\nof insufficient strength, especially those using one of a few commonly\nshared groups, may be susceptible to passive eavesdropping attacks."
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "check_results"
+                                                        },
+                                                        "elem": [
+                                                            "WEAK DH GROUP 1\n      Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA\n      Modulus Type: Safe prime\n      Modulus Source: Unknown/Custom-generated\n      Modulus Length: 1024\n      Generator Length: 8\n      Public Key Length: 1024"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "https://weakdh.org"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "8009"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "ajp13",
+                                            "product": "Apache Jserv",
+                                            "extrainfo": "Protocol v1.3",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "protocol": "tcp",
+                                    "portid": "8180"
+                                },
+                                "state": [
+                                    {
+                                        "$": {
+                                            "state": "open",
+                                            "reason": "syn-ack",
+                                            "reason_ttl": "64"
+                                        }
+                                    }
+                                ],
+                                "service": [
+                                    {
+                                        "$": {
+                                            "name": "http",
+                                            "product": "Apache Tomcat/Coyote JSP engine",
+                                            "version": "1.1",
+                                            "method": "probed",
+                                            "conf": "10"
+                                        },
+                                        "cpe": [
+                                            "cpe:/a:apache:coyote_http_connector:1.1"
+                                        ]
+                                    }
+                                ],
+                                "script": [
+                                    {
+                                        "$": {
+                                            "id": "http-cookie-flags",
+                                            "output": "\n  /admin/: \n    JSESSIONID: \n      httponly flag not set\n  /admin/index.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/login.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/admin.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/account.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/admin_login.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/home.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/admin-login.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/adminLogin.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/controlpanel.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/cp.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/index.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/login.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/admin.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/home.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/controlpanel.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/admin-login.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/cp.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/account.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/admin_login.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/adminLogin.jsp: \n    JSESSIONID: \n      httponly flag not set\n  /admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/includes/FCKeditor/editor/filemanager/upload/test.html: \n    JSESSIONID: \n      httponly flag not set\n  /admin/jscript/upload.html: \n    JSESSIONID: \n      httponly flag not set"
+                                        },
+                                        "table": [
+                                            {
+                                                "$": {
+                                                    "key": "/admin/"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/index.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/login.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/admin.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/account.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/admin_login.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/home.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/admin-login.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/adminLogin.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/controlpanel.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/cp.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/index.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/login.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/admin.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/home.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/controlpanel.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/admin-login.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/cp.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/account.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/admin_login.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/adminLogin.jsp"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/includes/FCKeditor/editor/filemanager/upload/test.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "key": "/admin/jscript/upload.html"
+                                                },
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "JSESSIONID"
+                                                        },
+                                                        "elem": [
+                                                            "httponly flag not set"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-enum",
+                                            "output": "\n  /admin/: Possible admin folder\n  /admin/index.html: Possible admin folder\n  /admin/login.html: Possible admin folder\n  /admin/admin.html: Possible admin folder\n  /admin/account.html: Possible admin folder\n  /admin/admin_login.html: Possible admin folder\n  /admin/home.html: Possible admin folder\n  /admin/admin-login.html: Possible admin folder\n  /admin/adminLogin.html: Possible admin folder\n  /admin/controlpanel.html: Possible admin folder\n  /admin/cp.html: Possible admin folder\n  /admin/index.jsp: Possible admin folder\n  /admin/login.jsp: Possible admin folder\n  /admin/admin.jsp: Possible admin folder\n  /admin/home.jsp: Possible admin folder\n  /admin/controlpanel.jsp: Possible admin folder\n  /admin/admin-login.jsp: Possible admin folder\n  /admin/cp.jsp: Possible admin folder\n  /admin/account.jsp: Possible admin folder\n  /admin/admin_login.jsp: Possible admin folder\n  /admin/adminLogin.jsp: Possible admin folder\n  /manager/html/upload: Apache Tomcat (401 Unauthorized)\n  /manager/html: Apache Tomcat (401 Unauthorized)\n  /admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html: OpenCart/FCKeditor File upload\n  /admin/includes/FCKeditor/editor/filemanager/upload/test.html: ASP Simple Blog / FCKeditor File Upload\n  /admin/jscript/upload.html: Lizard Cart/Remote File upload\n  /webdav/: Potentially interesting folder\n"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-csrf",
+                                            "output": "\nSpidering limited to: maxdepth=3; maxpagecount=20; withinhost=192.168.81.131\n  Found the following possible CSRF vulnerabilities: \n    \n    Path: http://192.168.81.131:8180/admin/\n    Form id: username\n    Form action: j_security_check;jsessionid=054074575DC1D292A29038B66BB468E5\n"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-slowloris-check",
+                                            "output": "\n  VULNERABLE:\n  Slowloris DOS attack\n    State: LIKELY VULNERABLE\n    IDs:  CVE:CVE-2007-6750\n      Slowloris tries to keep many connections to the target web server open and hold\n      them open as long as possible.  It accomplishes this by opening connections to\n      the target web server and sending a partial request. By doing so, it starves\n      the http server's resources causing Denial Of Service.\n      \n    Disclosure date: 2009-09-17\n    References:\n      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750\n      http://ha.ckers.org/slowloris/\n"
+                                        },
+                                        "table": [
+                                            {
+                                                "$": {
+                                                    "key": "CVE-2007-6750"
+                                                },
+                                                "elem": [
+                                                    {
+                                                        "_": "Slowloris DOS attack",
+                                                        "$": {
+                                                            "key": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "LIKELY VULNERABLE",
+                                                        "$": {
+                                                            "key": "state"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_": "2009-09-17",
+                                                        "$": {
+                                                            "key": "disclosure"
+                                                        }
+                                                    }
+                                                ],
+                                                "table": [
+                                                    {
+                                                        "$": {
+                                                            "key": "ids"
+                                                        },
+                                                        "elem": [
+                                                            "CVE:CVE-2007-6750"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "description"
+                                                        },
+                                                        "elem": [
+                                                            "Slowloris tries to keep many connections to the target web server open and hold\nthem open as long as possible.  It accomplishes this by opening connections to\nthe target web server and sending a partial request. By doing so, it starves\nthe http server's resources causing Denial Of Service.\n"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "dates"
+                                                        },
+                                                        "table": [
+                                                            {
+                                                                "$": {
+                                                                    "key": "disclosure"
+                                                                },
+                                                                "elem": [
+                                                                    {
+                                                                        "_": "17",
+                                                                        "$": {
+                                                                            "key": "day"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "09",
+                                                                        "$": {
+                                                                            "key": "month"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_": "2009",
+                                                                        "$": {
+                                                                            "key": "year"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "exploit_results"
+                                                        }
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "key": "refs"
+                                                        },
+                                                        "elem": [
+                                                            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750",
+                                                            "http://ha.ckers.org/slowloris/"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-dombased-xss",
+                                            "output": "Couldn't find any DOM based XSS."
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-server-header",
+                                            "output": "Apache-Coyote/1.1"
+                                        },
+                                        "elem": [
+                                            "Apache-Coyote/1.1"
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "id": "http-stored-xss",
+                                            "output": "Couldn't find any stored XSS vulnerabilities."
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "os": [
+                    {
+                        "portused": [
+                            {
+                                "$": {
+                                    "state": "open",
+                                    "proto": "tcp",
+                                    "portid": "21"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "state": "closed",
+                                    "proto": "tcp",
+                                    "portid": "1"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "state": "closed",
+                                    "proto": "udp",
+                                    "portid": "34331"
+                                }
+                            }
+                        ],
+                        "osmatch": [
+                            {
+                                "$": {
+                                    "name": "Linux 2.6.9 - 2.6.33",
+                                    "accuracy": "100",
+                                    "line": "59346"
+                                },
+                                "osclass": [
+                                    {
+                                        "$": {
+                                            "type": "general purpose",
+                                            "vendor": "Linux",
+                                            "osfamily": "Linux",
+                                            "osgen": "2.6.X",
+                                            "accuracy": "100"
+                                        },
+                                        "cpe": [
+                                            "cpe:/o:linux:linux_kernel:2.6"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "uptime": [
+                    {
+                        "$": {
+                            "seconds": "2063",
+                            "lastboot": "Tue Sep 13 06:19:30 2022"
+                        }
+                    }
+                ],
+                "distance": [
+                    {
+                        "$": {
+                            "value": "1"
+                        }
+                    }
+                ],
+                "tcpsequence": [
+                    {
+                        "$": {
+                            "index": "193",
+                            "difficulty": "Good luck!",
+                            "values": "5E8EC8D8,5ED6CC56,5F17C22C,5F42C096,5F183D35,5F170423"
+                        }
+                    }
+                ],
+                "ipidsequence": [
+                    {
+                        "$": {
+                            "class": "All zeros",
+                            "values": "0,0,0,0,0,0"
+                        }
+                    }
+                ],
+                "tcptssequence": [
+                    {
+                        "$": {
+                            "class": "100HZ",
+                            "values": "2AA88,2AA92,2AA9C,2AAA6,2AAB1,2AABB"
+                        }
+                    }
+                ],
+                "hostscript": [
+                    {
+                        "script": [
+                            {
+                                "_": "false",
+                                "$": {
+                                    "id": "smb-vuln-ms10-061",
+                                    "output": "false"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "id": "smb-vuln-regsvc-dos",
+                                    "output": "ERROR: Script execution failed (use -d to debug)"
+                                }
+                            },
+                            {
+                                "_": "false",
+                                "$": {
+                                    "id": "smb-vuln-ms10-054",
+                                    "output": "false"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "trace": [
+                    {
+                        "hop": [
+                            {
+                                "$": {
+                                    "ttl": "1",
+                                    "ipaddr": "192.168.81.131",
+                                    "rtt": "1.48"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "times": [
+                    {
+                        "$": {
+                            "srtt": "1475",
+                            "rttvar": "380",
+                            "to": "100000"
+                        }
+                    }
+                ]
+            }
+        ],
+        "runstats": [
+            {
+                "finished": [
+                    {
+                        "$": {
+                            "time": "1663066433",
+                            "timestr": "Tue Sep 13 06:53:53 2022",
+                            "summary": "Nmap done at Tue Sep 13 06:53:53 2022; 1 IP address (1 host up) scanned in 356.86 seconds",
+                            "elapsed": "356.86",
+                            "exit": "success"
+                        }
+                    }
+                ],
+                "hosts": [
+                    {
+                        "$": {
+                            "up": "1",
+                            "down": "0",
+                            "total": "1"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

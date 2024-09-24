@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-42944",
+        "description" : "A malicious crafted dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-42940",
+        "description" : "A malicious crafted TGA file when consumed through DesignReview.exe application could lead to memory corruption vulnerability. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-42937",
+        "description" : "A malicious crafted .dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by write access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-41745",
+        "description" : "An Out-of-Bounds access vulnerability in Trend Micro Apex One could allow a local attacker to create a specially crafted message to cause memory corruption on a certain service process which could lead to local privilege escalation on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-41310",
+        "description" : "A malicious crafted .dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by write access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-41308",
+        "description" : "A maliciously crafted PKT file when consumed through SubassemblyComposer.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-38861",
+        "description" : "The MPlayer Project mplayer SVN-r38374-13.0.1 is vulnerable to memory corruption via function free_mp_image() of libmpcodecs/mp_image.c."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-38690",
+        "description" : "In camera driver, there is a possible memory corruption due to improper locking. This could lead to local denial of service in kernel."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-36448",
+        "description" : "An issue was discovered in Insyde InsydeH2O with kernel 5.0 through 5.5. There is an SMM memory corruption vulnerability in the Software SMI handler in the PnpSmm driver."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-35895",
+        "description" : "An issue was discovered in Insyde InsydeH2O with kernel 5.0 through 5.5. The FwBlockSericceSmm driver does not properly validate input parameters for a software SMI routine, leading to memory corruption of arbitrary addresses including SMRAM, and possible arbitrary code execution."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-35299",
+        "description" : "SAP SQL Anywhere - version 17.0, and SAP IQ - version 16.1, allows an attacker to leverage logical errors in memory management to cause a memory corruption, such as Stack-based buffer overflow."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-33896",
+        "description" : "A buffer underflow vulnerability exists in the way Hword of Hancom Office 2020 version 11.0.0.5357 parses XML-based office files. A specially-crafted malformed file can cause memory corruption by using memory before buffer start, which can lead to code execution. A victim would need to access a malicious file to trigger this vulnerability."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-33890",
+        "description" : "A maliciously crafted PCT or DWF file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-33883",
+        "description" : "A malicious crafted file consumed through Moldflow Synergy, Moldflow Adviser, Moldflow Communicator, and Advanced Material Exchange applications could lead to memory corruption vulnerability. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-33217",
+        "description" : "Memory corruption in Qualcomm IPC due to buffer copy without checking the size of input while starting communication with a compromised kernel. in Snapdragon Mobile"
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-33214",
+        "description" : "Memory corruption in display due to time-of-check time-of-use of metadata reserved size in Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables"
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-33210",
+        "description" : "Memory corruption in automotive multimedia due to use of out-of-range pointer offset while parsing command request packet with a very large type value. in Snapdragon Auto"
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-32908",
+        "description" : "A memory corruption issue was addressed with improved input validation. This issue is fixed in macOS Monterey 12.6, iOS 15.7 and iPadOS 15.7, iOS 16, macOS Big Sur 11.7. A user may be able to elevate privileges."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-32863",
+        "description" : "A memory corruption issue was addressed with improved state management. This issue is fixed in Safari 15.6, macOS Monterey 12.5. Processing maliciously crafted web content may lead to arbitrary code execution."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-32821",
+        "description" : "A memory corruption issue was addressed with improved validation. This issue is fixed in watchOS 8.7, tvOS 15.6, iOS 15.6 and iPadOS 15.6, macOS Monterey 12.5. An app may be able to execute arbitrary code with kernel privileges."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-32811",
+        "description" : "A memory corruption vulnerability was addressed with improved locking. This issue is fixed in macOS Monterey 12.5, macOS Big Sur 11.6.8, Security Update 2022-005 Catalina. An app may be able to execute arbitrary code with kernel privileges."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-32796",
+        "description" : "A memory corruption issue was addressed with improved state management. This issue is fixed in macOS Monterey 12.5. An app may be able to execute arbitrary code with kernel privileges."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-32441",
+        "description" : "A memory corruption in Hex Rays Ida Pro v6.6 allows attackers to cause a Denial of Service (DoS) via a crafted file. Related to Data from Faulting Address controls subsequent Write Address starting at msvcrt!memcpy+0x0000000000000056."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-3216",
+        "description" : "A vulnerability has been found in Nintendo Game Boy Color and classified as problematic. This vulnerability affects unknown code of the component Mobile Adapter GB. The manipulation leads to memory corruption. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-208606 is the identifier assigned to this vulnerability."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-31627",
+        "description" : "In PHP versions 8.1.x below 8.1.8, when fileinfo functions, such as finfo_buffer, due to incorrect patch applied to the third party code from libmagic, incorrect function may be used to free allocated memory, which may lead to heap corruption."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-30938",
+        "description" : "A vulnerability has been identified in EN100 Ethernet module DNP3 IP variant (All versions), EN100 Ethernet module IEC 104 variant (All versions), EN100 Ethernet module IEC 61850 variant (All versions < V4.40), EN100 Ethernet module Modbus TCP variant (All versions), EN100 Ethernet module PROFINET IO variant (All versions). Affected applications contains a memory corruption vulnerability while parsing specially crafted HTTP packets to /txtrace endpoint manupulating a specific argument. This could allow an attacker to crash the affected application leading to a denial of service condition"
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-29616",
+        "description" : "SAP Host Agent, SAP NetWeaver and ABAP Platform allow an attacker to leverage logical errors in memory management to cause a memory corruption."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-29503",
+        "description" : "A memory corruption vulnerability exists in the libpthread linuxthreads functionality of uClibC 0.9.33.2 and uClibC-ng 1.0.40. Thread allocation can lead to memory corruption. An attacker can create threads to trigger this vulnerability."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-29465",
+        "description" : "An out-of-bounds write vulnerability exists in the PSD Header processing memory allocation functionality of Accusoft ImageGear 20.0. A specially-crafted malformed file can lead to memory corruption. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-2938",
+        "description" : "A flaw was found in the Linux kernel's implementation of Pressure Stall Information. While the feature is disabled by default, it could allow an attacker to crash the system or have other memory-corruption side effects."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-28874",
+        "description" : "Multiple Denial-of-Service vulnerabilities was discovered in the F-Secure Atlant and in certain WithSecure products while scanning fuzzed PE32-bit files cause memory corruption and heap buffer overflow which eventually can crash the scanning engine. The exploit can be triggered remotely by an attacker."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-28806",
+        "description" : "An issue was discovered on certain Fujitsu LIEFBOOK devices (A3510, U9310, U7511/U7411/U7311, U9311, E5510/E5410, U7510/U7410/U7310, E459/E449) with BIOS versions before v1.09 (A3510), v2.17 (U9310), v2.30 (U7511/U7411/U7311), v2.33 (U9311), v2.23 (E5510), v2.19 (U7510/U7410), v2.13 (U7310), and v1.09 (E459/E449). The FjGabiFlashCoreAbstractionSmm driver registers a Software System Management Interrupt (SWSMI) handler that is not sufficiently validated to ensure that the CommBuffer (or any other communication buffer's nested contents) are not pointing to SMRAM contents. A potential attacker can therefore write fixed data to SMRAM, which could lead to data corruption inside this memory (e.g., change the SMI handler's code or modify SMRAM map structures to break input pointer validation for other SMI handlers). Thus, the attacker could elevate privileges from ring 0 to ring -2 and execute arbitrary code in SMM."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-28750",
+        "description" : "Zoom On-Premise Meeting Connector Zone Controller (ZC) before version 4.8.20220419.112 fails to properly parse STUN error codes, which can result in memory corruption and could allow a malicious actor to crash the application. In versions older than 4.8.12.20211115, this vulnerability could also be leveraged to execute arbitrary code."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-28711",
+        "description" : "A memory corruption vulnerability exists in the cgi.c unescape functionality of ArduPilot APWeb master branch 50b6b7ac - master branch 46177cb9. A specially-crafted HTTP request can lead to memory corruption. An attacker can send a network request to trigger this vulnerability."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-28665",
+        "description" : "A memory corruption vulnerability exists in the httpd unescape functionality of FreshTomato 2022.1. A specially-crafted HTTP request can lead to memory corruption. An attacker can send a network request to trigger this vulnerability.The `freshtomato-arm` has a vulnerable URL-decoding feature that can lead to memory corruption."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-2831",
+        "description" : "A flaw was found in Blender 3.3.0. An interger overflow in source/blender/blendthumb/src/blendthumb_extract.cc may lead to program crash or memory corruption."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-28044",
+        "description" : "Irzip v0.640 was discovered to contain a heap memory corruption via the component lrzip.c:initialise_control."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-27631",
+        "description" : "A memory corruption vulnerability exists in the httpd unescape functionality of DD-WRT Revision 32270 - Revision 48599. A specially-crafted HTTP request can lead to memory corruption. An attacker can send a network request to trigger this vulnerability."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-27527",
+        "description" : "A Memory Corruption vulnerability may lead to code execution through maliciously crafted DLL files. It was fixed in PDFTron earlier than 9.0.7 version in Autodesk Navisworks 2022, and 2020."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-27526",
+        "description" : "A malicious crafted TGA file when consumed through DesignReview.exe application could lead to memory corruption vulnerability. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-27525",
+        "description" : "A malicious crafted .dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by write access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-27242",
+        "description" : "A vulnerability has been identified in OpenV2G (V0.9.4). The OpenV2G EXI parsing feature is missing a length check when parsing X509 serial numbers. Thus, an attacker could introduce a buffer overflow that leads to memory corruption."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-26772",
+        "description" : "A memory corruption issue was addressed with improved state management. This issue is fixed in macOS Monterey 12.4. An application may be able to execute arbitrary code with kernel privileges."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-26769",
+        "description" : "A memory corruption issue was addressed with improved input validation. This issue is fixed in Security Update 2022-004 Catalina, macOS Monterey 12.4, macOS Big Sur 11.6.6. A malicious application may be able to execute arbitrary code with kernel privileges."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-26768",
+        "description" : "A memory corruption issue was addressed with improved state management. This issue is fixed in macOS Monterey 12.4, watchOS 8.6, tvOS 15.5, macOS Big Sur 11.6.6. An application may be able to execute arbitrary code with kernel privileges."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-26764",
+        "description" : "A memory corruption issue was addressed with improved validation. This issue is fixed in watchOS 8.6, tvOS 15.5, macOS Monterey 12.4, iOS 15.5 and iPadOS 15.5. An attacker that has already achieved kernel code execution may be able to bypass kernel memory mitigations."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-26761",
+        "description" : "A memory corruption issue was addressed with improved memory handling. This issue is fixed in Security Update 2022-004 Catalina, macOS Big Sur 11.6.6. An application may be able to execute arbitrary code with kernel privileges."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-26751",
+        "description" : "A memory corruption issue was addressed with improved input validation. This issue is fixed in iTunes 12.12.4 for Windows, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, macOS Big Sur 11.6.6, macOS Monterey 12.4. Processing a maliciously crafted image may lead to arbitrary code execution."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-26714",
+        "description" : "A memory corruption issue was addressed with improved validation. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. An application may be able to execute arbitrary code with kernel privileges."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-26700",
+        "description" : "A memory corruption issue was addressed with improved state management. This issue is fixed in tvOS 15.5, watchOS 8.6, iOS 15.5 and iPadOS 15.5, macOS Monterey 12.4, Safari 15.5. Processing maliciously crafted web content may lead to code execution."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-26376",
+        "description" : "A memory corruption vulnerability exists in the httpd unescape functionality of Asuswrt prior to 3.0.0.4.386_48706 and Asuswrt-Merlin New Gen prior to 386.7.. A specially-crafted HTTP request can lead to memory corruption. An attacker can send a network request to trigger this vulnerability."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-26361",
+        "description" : "IOMMU: RMRR (VT-d) and unity map (AMD-Vi) handling issues T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Certain PCI devices in a system might be assigned Reserved Memory Regions (specified via Reserved Memory Region Reporting, \"RMRR\") for Intel VT-d or Unity Mapping ranges for AMD-Vi. These are typically used for platform tasks such as legacy USB emulation. Since the precise purpose of these regions is unknown, once a device associated with such a region is active, the mappings of these regions need to remain continuouly accessible by the device. This requirement has been violated. Subsequent DMA or interrupts from the device may have unpredictable behaviour, ranging from IOMMU faults to memory corruption."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-25959",
+        "description" : "Omron CX-Position (versions 2.5.3 and prior) is vulnerable to memory corruption while processing a specific project file, which may allow an attacker to execute arbitrary code."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-25795",
+        "description" : "A Memory Corruption Vulnerability in Autodesk TrueView 2022 and 2021 may lead to remote code execution through maliciously crafted DWG files."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-25791",
+        "description" : "A Memory Corruption vulnerability for DWF and DWFX files in Autodesk AutoCAD 2022, 2021, 2020, 2019 and Autodesk Navisworks 2022 may lead to code execution through maliciously crafted DLL files."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-25750",
+        "description" : "Memory corruption in BTHOST due to double free while music playback and calls over bluetooth headset in Snapdragon Mobile"
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-25748",
+        "description" : "Memory corruption in WLAN due to integer overflow to buffer overflow while parsing GTK frames. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking"
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-25723",
+        "description" : "Memory corruption in multimedia due to use after free during callback registration failure in Snapdragon Mobile"
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-25720",
+        "description" : "Memory corruption in WLAN due to out of bound array access during connect/roaming in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-25708",
+        "description" : "Memory corruption in WLAN due to buffer copy without checking size of input while parsing keys in Snapdragon Connectivity, Snapdragon Mobile"
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-25696",
+        "description" : "Memory corruption in display due to time-of-check time-of-use race condition during map or unmap in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables"
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-25688",
+        "description" : "Memory corruption in video due to buffer overflow while parsing ps video clips in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-25687",
+        "description" : "memory corruption in video due to buffer overflow while parsing asf clips in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-25686",
+        "description" : "Memory corruption in video module due to buffer overflow while processing WAV file in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables"
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-25680",
+        "description" : "Memory corruption in multimedia due to buffer overflow while processing count variable from client in Snapdragon Auto"
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-25668",
+        "description" : "Memory corruption in video driver due to double free while parsing ASF clip in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-25666",
+        "description" : "Memory corruption due to use after free in service while trying to access maps by different threads in Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking"
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-25659",
+        "description" : "Memory corruption due to buffer overflow while parsing MKV clips with invalid bitmap size in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-25658",
+        "description" : "Memory corruption due to incorrect pointer arithmetic when attempting to change the endianness in video parser function in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-25656",
+        "description" : "Possible integer overflow and memory corruption due to improper validation of buffer size sent to write to console when computing the payload size in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables"
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-25258",
+        "description" : "An issue was discovered in drivers/usb/gadget/composite.c in the Linux kernel before 5.16.10. The USB Gadget subsystem lacks certain validation of interface OS descriptor requests (ones with a large array index and ones associated with NULL function pointer retrieval). Memory corruption might occur."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-24893",
+        "description" : "ESP-IDF is the official development framework for Espressif SoCs. In Espressif&#8217;s Bluetooth Mesh SDK (`ESP-BLE-MESH`), a memory corruption vulnerability can be triggered during provisioning, because there is no check for the `SegN` field of the Transaction Start PDU. This can result in memory corruption related attacks and potentially attacker gaining control of the entire system. Patch commits are available on the 4.1, 4.2, 4.3 and 4.4 branches and users are recommended to upgrade. The upgrade is applicable for all applications and users of `ESP-BLE-MESH` component from `ESP-IDF`. As it is implemented in the Bluetooth Mesh stack, there is no workaround for the user to fix the application layer without upgrading the underlying firmware."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-24795",
+        "description" : "yajl-ruby is a C binding to the YAJL JSON parsing and generation library. The 1.x branch and the 2.x branch of `yajl` contain an integer overflow which leads to subsequent heap memory corruption when dealing with large (~2GB) inputs. The reallocation logic at `yajl_buf.c#L64` may result in the `need` 32bit integer wrapping to 0 when `need` approaches a value of 0x80000000 (i.e. ~2GB of data), which results in a reallocation of buf->alloc into a small heap chunk. These integers are declared as `size_t` in the 2.x branch of `yajl`, which practically prevents the issue from triggering on 64bit platforms, however this does not preclude this issue triggering on 32bit builds on which `size_t` is a 32bit integer. Subsequent population of this under-allocated heap chunk is based on the original buffer size, leading to heap memory corruption. This vulnerability mostly impacts process availability. Maintainers believe exploitation for arbitrary code execution is unlikely. A patch is available and anticipated to be part of yajl-ruby version 1.4.2. As a workaround, avoid passing large inputs to YAJL."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-24724",
+        "description" : "cmark-gfm is GitHub's extended version of the C reference implementation of CommonMark. Prior to versions 0.29.0.gfm.3 and 0.28.3.gfm.21, an integer overflow in cmark-gfm's table row parsing `table.c:row_from_string` may lead to heap memory corruption when parsing tables who's marker rows contain more than UINT16_MAX columns. The impact of this heap corruption ranges from Information Leak to Arbitrary Code Execution depending on how and where `cmark-gfm` is used. If `cmark-gfm` is used for rendering remote user controlled markdown, this vulnerability may lead to Remote Code Execution (RCE) in applications employing affected versions of the `cmark-gfm` library. This vulnerability has been patched in the following cmark-gfm versions 0.29.0.gfm.3 and 0.28.3.gfm.21. A workaround is available. The vulnerability exists in the table markdown extensions of cmark-gfm. Disabling the table extension will prevent this vulnerability from being triggered."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-24661",
+        "description" : "A vulnerability has been identified in Simcenter STAR-CCM+ Viewer (All versions < V2022.1). The starview+.exe contains a memory corruption vulnerability while parsing specially crafted .SCE files. This could allow an attacker to execute code in the context of the current process."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-24070",
+        "description" : "Subversion's mod_dav_svn is vulnerable to memory corruption. While looking up path-based authorization rules, mod_dav_svn servers may attempt to use memory which has already been freed. Affected Subversion mod_dav_svn servers 1.10.0 through 1.14.1 (inclusive). Servers that do not use mod_dav_svn are not affected."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-24063",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Sante DICOM Viewer Pro 13.2.0.21165. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JP2 files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-15105."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-24031",
+        "description" : "An issue was discovered in NvmExpressDxe in Insyde InsydeH2O with kernel 5.1 through 5.5. An SMM memory corruption vulnerability allows an attacker to write fixed or predictable data to SMRAM. Exploiting this issue could lead to escalating privileges to SMM."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-23745",
+        "description" : "A potential memory corruption issue was found in Capsule Workspace Android app (running on GrapheneOS). This could result in application crashing but could not be used to gather any sensitive information."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-23459",
+        "description" : "Jsonxx or Json++ is a JSON parser, writer and reader written in C++. In affected versions of jsonxx use of the Value class may lead to memory corruption via a double free or via a use after free. The value class has a default assignment operator which may be used with pointer types which may point to alterable data where the pointer itself is not updated. This issue exists on the current commit of the jsonxx project. The project itself has been archived and updates are not expected. Users are advised to find a replacement."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-23095",
+        "description" : "Open Design Alliance Drawings SDK before 2022.12.1 mishandles the loading of JPG files. Unchecked input data from a crafted JPG file leads to memory corruption. An attacker can leverage this vulnerability to execute code in the context of the current process."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-23042",
+        "description" : "Linux PV device frontends vulnerable to attacks by backends T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Several Linux PV device frontends are using the grant table interfaces for removing access rights of the backends in ways being subject to race conditions, resulting in potential data leaks, data corruption by malicious backends, and denial of service triggered by malicious backends: blkfront, netfront, scsifront and the gntalloc driver are testing whether a grant reference is still in use. If this is not the case, they assume that a following removal of the granted access will always succeed, which is not true in case the backend has mapped the granted page between those two operations. As a result the backend can keep access to the memory page of the guest no matter how the page will be used after the frontend I/O has finished. The xenbus driver has a similar problem, as it doesn't check the success of removing the granted access of a shared ring buffer. blkfront: CVE-2022-23036 netfront: CVE-2022-23037 scsifront: CVE-2022-23038 gntalloc: CVE-2022-23039 xenbus: CVE-2022-23040 blkfront, netfront, scsifront, usbfront, dmabuf, xenbus, 9p, kbdfront, and pvcalls are using a functionality to delay freeing a grant reference until it is no longer in use, but the freeing of the related data page is not synchronized with dropping the granted access. As a result the backend can keep access to the memory page even after it has been freed and then re-used for a different purpose. CVE-2022-23041 netfront will fail a BUG_ON() assertion if it fails to revoke access in the rx path. This will result in a Denial of Service (DoS) situation of the guest which can be triggered by the backend. CVE-2022-23042"
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-2274",
+        "description" : "The OpenSSL 3.0.4 release introduced a serious bug in the RSA implementation for X86_64 CPUs supporting the AVX512IFMA instructions. This issue makes the RSA implementation with 2048 bit private keys incorrect on such machines and memory corruption will happen during the computation. As a consequence of the memory corruption an attacker may be able to trigger a remote code execution on the machine performing the computation. SSL/TLS servers or other servers using 2048 bit RSA private keys running on machines supporting AVX512IFMA instructions of the X86_64 architecture are affected by this issue."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-22672",
+        "description" : "A memory corruption issue was addressed with improved memory handling. This issue is fixed in iOS 15.4 and iPadOS 15.4, Security Update 2022-003 Catalina, macOS Monterey 12.3, macOS Big Sur 11.6.5. A malicious application may be able to execute arbitrary code with kernel privileges."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-22250",
+        "description" : "An Improper Control of a Resource Through its Lifetime vulnerability in Packet Forwarding Engine (PFE) of Juniper Networks Junos OS and Junos OS Evolved allows unauthenticated adjacent attacker to cause a Denial of Service (DoS). In an EVPN-MPLS scenario, if MAC is learned locally on an access interface but later a request to delete is received indicating that the MAC was learnt remotely, this can lead to memory corruption which can result in line card crash and reload. This issue affects: Juniper Networks Junos OS All versions 17.3R1 and later versions prior to 19.2R3-S5; 19.3 versions prior to 19.3R3-S5; 19.4 versions prior to 19.4R2-S6, 19.4R3-S8; 20.1 version 20.1R1 and later versions; 20.2 versions prior to 20.2R3-S4; 20.3 versions prior to 20.3R3-S3; 20.4 versions prior to 20.4R3-S3; 21.1 versions prior to 21.1R3-S1; 21.2 versions prior to 21.2R3; 21.3 versions prior to 21.3R2; 21.4 versions prior to 21.4R1-S1, 21.4R2. Juniper Networks Junos OS Evolved All versions prior to 20.4R3-S3-EVO; 21.1-EVO version 21.1R1-EVO and later versions; 21.2-EVO versions prior to 21.2R3-EVO; 21.3-EVO versions prior to 21.3R2-EVO; 21.4-EVO versions prior to 21.4R1-S1-EVO, 21.4R2-EVO. This issue does not affect Juniper Networks Junos OS versions prior to 17.3R1."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-22150",
+        "description" : "A memory corruption vulnerability exists in the JavaScript engine of Foxit Software&#8217;s PDF Reader, version 11.1.0.52543. A specially-crafted PDF document can trigger an exception which is improperly handled, leaving the engine in an invalid state, which can lead to memory corruption and arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. Exploitation is also possible if a user visits a specially-crafted, malicious site if the browser plugin extension is enabled."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-22137",
+        "description" : "A memory corruption vulnerability exists in the ioca_mys_rgb_allocate functionality of Accusoft ImageGear 19.10. A specially-crafted malformed file can lead to an arbitrary free. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-22106",
+        "description" : "Memory corruption in multimedia due to improper length check while copying the data in Snapdragon Auto"
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-22105",
+        "description" : "Memory corruption in bluetooth due to integer overflow while processing HFP-UNIT profile in Snapdragon Auto, Snapdragon Consumer IOT, Snapdragon Mobile, Snapdragon Voice & Music"
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-22104",
+        "description" : "Memory corruption in multimedia due to improper check on the messages received. in Snapdragon Auto"
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-22103",
+        "description" : "Memory corruption in multimedia driver due to double free while processing data from user in Snapdragon Auto"
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-22102",
+        "description" : "Memory corruption in multimedia due to incorrect type conversion while adding data in Snapdragon Auto"
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-22100",
+        "description" : "Memory corruption in multimedia due to improper check on received export descriptors in Snapdragon Auto"
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-22099",
+        "description" : "Memory corruption in multimedia due to improper validation of array index in Snapdragon Auto"
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-22098",
+        "description" : "Memory corruption in multimedia driver due to untrusted pointer dereference while reading data from socket in Snapdragon Auto"
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-22097",
+        "description" : "Memory corruption in graphic driver due to use after free while calling multiple threads application to driver. in Snapdragon Consumer IOT"
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-22096",
+        "description" : "Memory corruption in Bluetooth HOST due to stack-based buffer overflow when when extracting data using command length parameter in Snapdragon Connectivity, Snapdragon Mobile"
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-22095",
+        "description" : "Memory corruption in synx driver due to use-after-free condition in the synx driver due to accessing object handles without acquiring lock in Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile"
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-22094",
+        "description" : "memory corruption in Kernel due to race condition while getting mapping reference in Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile"
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-22093",
+        "description" : "Memory corruption or temporary denial of service due to improper handling of concurrent hypervisor operations to attach or detach IRQs from virtual interrupt sources in Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile"
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-22092",
+        "description" : "Memory corruption in kernel due to use after free issue in Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile"
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-22090",
+        "description" : "Memory corruption in audio due to use after free while managing buffers from internal cache in Snapdragon Compute, Snapdragon Connectivity, Snapdragon Mobile"
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-22089",
+        "description" : "Memory corruption in audio while playing record due to improper list handling in two threads in Snapdragon Connectivity, Snapdragon Mobile, Snapdragon Wearables"
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-22087",
+        "description" : "memory corruption in video due to buffer overflow while parsing mkv clip with no codechecker in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-22086",
+        "description" : "Memory corruption in video due to double free while parsing 3gp clip with invalid meta data atoms in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-22085",
+        "description" : "Memory corruption in video due to buffer overflow while reading the dts file in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-22084",
+        "description" : "Memory corruption when extracting qcp audio file due to lack of check on data length in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-22082",
+        "description" : "Memory corruption due to possible buffer overflow while parsing DSF header with corrupted channel count in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-22081",
+        "description" : "Memory corruption in audio module due to integer overflow in Snapdragon Auto, Snapdragon Connectivity, Snapdragon Mobile, Snapdragon Wearables"
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-22080",
+        "description" : "Improper validation of backend id in PCM routing process can lead to memory corruption in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music"
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-22070",
+        "description" : "Memory corruption in audio due to lack of check of invalid routing address into APR Routing table in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables"
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-21796",
+        "description" : "A memory corruption vulnerability exists in the netserver parse_command_list functionality of reolink RLC-410W v3.0.0.136_20121102. A specially-crafted HTTP request can lead to an out-of-bounds write. An attacker can send an HTTP request to trigger this vulnerability."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-21745",
+        "description" : "In WIFI Firmware, there is a possible memory corruption due to a use after free. This could lead to remote escalation of privilege, when devices are connecting to the attacker-controllable Wi-Fi hotspot, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS06468872; Issue ID: ALPS06468872."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-20306",
+        "description" : "In Camera Provider HAL, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-199680794"
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-20228",
+        "description" : "In various functions of C2DmaBufAllocator.cpp, there is a possible memory corruption due to a use after free. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-12 Android-12LAndroid ID: A-213850092"
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-20158",
+        "description" : "In bdi_put and bdi_unregister of backing-dev.c, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-182815710References: Upstream kernel"
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-20089",
+        "description" : "In aee driver, there is a possible memory corruption due to active debug code. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS06240397; Issue ID: ALPS06240397."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-20080",
+        "description" : "In SUB2AF, there is a possible memory corruption due to a race condition. This could lead to local escalation of privilege with System execution privileges needed. User interaction is no needed for exploitation. Patch ID: ALPS05881290; Issue ID: ALPS05881290."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-20078",
+        "description" : "In vow, there is a possible memory corruption due to a race condition. This could lead to local escalation of privilege with System execution privileges needed. User interaction is no needed for exploitation. Patch ID: ALPS05852819; Issue ID: ALPS05852819."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-20076",
+        "description" : "In ged, there is a possible memory corruption due to an incorrect error handling. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS05838808; Issue ID: ALPS05839556."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-20062",
+        "description" : "In mdp, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with System execution privileges needed. User interaction is no needed for exploitation. Patch ID: ALPS05836418; Issue ID: ALPS05836418."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-20057",
+        "description" : "In btif, there is a possible memory corruption due to incorrect error handling. This could lead to local escalation of privilege with System execution privileges needed. User interaction is needed for exploitation. Patch ID: ALPS06271186; Issue ID: ALPS06271186."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-20052",
+        "description" : "In mdp, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with System execution privileges needed. User interaction is needed for exploitation. Patch ID: ALPS05836642; Issue ID: ALPS05836642."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-20046",
+        "description" : "In Bluetooth, there is a possible memory corruption due to a logic error. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS06142410; Issue ID: ALPS06142410."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-20039",
+        "description" : "In ccu driver, there is a possible memory corruption due to an integer overflow. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS06183345; Issue ID: ALPS06183345."
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-20038",
+        "description" : "In ccu driver, there is a possible memory corruption due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS06183335; Issue ID: ALPS06183335."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-20032",
+        "description" : "In vow driver, there is a possible memory corruption due to a race condition. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS05852822; Issue ID: ALPS05852822."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-20031",
+        "description" : "In fb driver, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS05850708; Issue ID: ALPS05850708."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-20016",
+        "description" : "In vow driver, there is a possible memory corruption due to improper locking. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS05862986; Issue ID: ALPS05862986."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-20014",
+        "description" : "In vow driver, there is a possible memory corruption due to improper input validation. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS05857308; Issue ID: ALPS05857308."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-20013",
+        "description" : "In vow driver, there is a possible memory corruption due to a race condition. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS05837742; Issue ID: ALPS05837742"
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-20012",
+        "description" : "In mdp driver, there is a possible memory corruption due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS05836478; Issue ID: ALPS05836478."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-1976",
+        "description" : "A flaw was found in the Linux kernel&#8217;s implementation of IO-URING. This flaw allows an attacker with local executable permission to create a string of requests that can cause a use-after-free flaw within the kernel. This issue leads to memory corruption and possible privilege escalation."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-1543",
+        "description" : "Improper handling of Length parameter in GitHub repository erudika/scoold prior to 1.49.4. When the text size is large enough the service results in a momentary outage in a production environment. That can lead to memory corruption on the server."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-1489",
+        "description" : "Out of bounds memory access in UI Shelf in Google Chrome on Chrome OS, Lacros prior to 101.0.4951.41 allowed a remote attacker to potentially exploit heap corruption via specific user interactions."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-1350",
+        "description" : "A vulnerability classified as problematic was found in GhostPCL 9.55.0. This vulnerability affects the function chunk_free_object of the file gsmchunk.c. The manipulation with a malicious file leads to a memory corruption. The attack can be initiated remotely but requires user interaction. The exploit has been disclosed to the public as a POC and may be used. It is recommended to apply the patches to fix this issue."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-1116",
+        "description" : "Integer Overflow or Wraparound vulnerability in io_uring of Linux Kernel allows local attacker to cause memory corruption and escalate privileges to root. This issue affects: Linux Kernel versions prior to 5.4.189; version 5.4.24 and later versions."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-1036",
+        "description" : "Able to create an account with long password leads to memory corruption / Integer Overflow in GitHub repository microweber/microweber prior to 1.2.12."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-0982",
+        "description" : "The telnet_input_char function in opt/src/accel-pppd/cli/telnet.c suffers from a memory corruption vulnerability, whereby user input cmdline_len is copied into a fixed buffer b->buf without any bound checks. If the server connects with a malicious client, crafted client requests can remotely trigger this vulnerability."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-0809",
+        "description" : "Out of bounds memory access in WebXR in Google Chrome prior to 99.0.4844.51 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-0546",
+        "description" : "A missing bounds check in the image loader used in Blender 3.x and 2.93.8 leads to out-of-bounds heap access, allowing an attacker to cause denial of service, memory corruption or potentially code execution."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-0470",
+        "description" : "Out of bounds memory access in V8 in Google Chrome prior to 98.0.4758.80 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2021-46818",
+        "description" : "Adobe Media Encoder version 15.4 (and earlier) are affected by a memory corruption vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious M4A file."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2021-46598",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bentley MicroStation CONNECT 10.16.0.80. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JT files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-15392."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2021-46157",
+        "description" : "A vulnerability has been identified in Simcenter Femap V2020.2 (All versions), Simcenter Femap V2021.1 (All versions). Affected application contains a memory corruption vulnerability while parsing NEU files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-14757)"
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2021-46153",
+        "description" : "A vulnerability has been identified in Simcenter Femap V2020.2 (All versions), Simcenter Femap V2021.1 (All versions). Affected application contains a memory corruption vulnerability while parsing NEU files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-14645, ZDI-CAN-15305, ZDI-CAN-15589, ZDI-CAN-15599)"
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2021-45710",
+        "description" : "An issue was discovered in the tokio crate before 1.8.4, and 1.9.x through 1.13.x before 1.13.1, for Rust. In certain circumstances involving a closed oneshot channel, there is a data race and memory corruption."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2021-45704",
+        "description" : "An issue was discovered in the metrics-util crate before 0.7.0 for Rust. There is a data race and memory corruption because AtomicBucket<T> unconditionally implements the Send and Sync traits."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2021-45687",
+        "description" : "An issue was discovered in the raw-cpuid crate before 9.1.1 for Rust. If the serialize feature is used (which is not the the default), a Deserialize operation may lack sufficient validation, leading to memory corruption or a panic."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2021-45681",
+        "description" : "An issue was discovered in the derive-com-impl crate before 0.1.2 for Rust. An invalid reference (and memory corruption) can occur because AddRef might not be called before returning a pointer."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2021-45680",
+        "description" : "An issue was discovered in the vec-const crate before 2.0.0 for Rust. It tries to construct a Vec from a pointer to a const slice, leading to memory corruption."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2021-44440",
+        "description" : "A vulnerability has been identified in JT Utilities (All versions < V13.1.1.0), JTTK (All versions < V11.1.1.0). JTTK library in affected products is vulnerable to memory corruption condition while parsing specially crafted JT files. An attacker could leverage this vulnerability to execute code in the context of the current process. (ZDI-CAN-14912)"
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2021-44179",
+        "description" : "Adobe Dimension versions 3.4.3 (and earlier) is affected by a memory corruption vulnerability due to insecure handling of a malicious GIF file, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required to exploit this vulnerability."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2021-44018",
+        "description" : "A vulnerability has been identified in JT2Go (All versions < V13.2.0.7), Solid Edge SE2021 (All versions < SE2021MP9), Solid Edge SE2022 (All versions < SE2022MP1), Teamcenter Visualization V13.1 (All versions < V13.1.0.9), Teamcenter Visualization V13.2 (All versions < V13.2.0.7), Teamcenter Visualization V13.3 (All versions < V13.3.0.1). The plmxmlAdapterSE70.dll library is vulnerable to memory corruption condition while parsing specially crafted PAR files. An attacker could leverage this vulnerability to execute code in the context of the current process. (ZDI-CAN-15112)"
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2021-43790",
+        "description" : "Lucet is a native WebAssembly compiler and runtime. There is a bug in the main branch of `lucet-runtime` affecting all versions published to crates.io that allows a use-after-free in an Instance object that could result in memory corruption, data race, or other related issues. This bug was introduced early in the development of Lucet and is present in all releases. As a result of this bug, and dependent on the memory backing for the Instance objects, it is possible to trigger a use-after-free when the Instance is dropped. Users should upgrade to the main branch of the Lucet repository. Lucet no longer provides versioned releases on crates.io. There is no way to remediate this vulnerability without upgrading."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2021-43756",
+        "description" : "Adobe Media Encoder versions 22.0, 15.4.2 (and earlier) are affected by a memory corruption vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2021-43638",
+        "description" : "Amazon Amazon WorkSpaces agent is affected by Integer Overflow. IOCTL Handler 0x22001B in the Amazon WorkSpaces agent below v1.0.1.1537 allow local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) via specially crafted I/O Request Packet."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2021-43615",
+        "description" : "An issue was discovered in HddPassword in Insyde InsydeH2O with kernel 5.1 before 05.16.23, 5.2 before 05.26.23, 5.3 before 05.35.23, 5.4 before 05.43.22, and 5.5 before 05.51.22. An SMM memory corruption vulnerability allows an attacker to write fixed or predictable data to SMRAM. Exploiting this issue could lead to escalating privileges to SMM."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2021-43535",
+        "description" : "A use-after-free could have occured when an HTTP2 session object was released on a different thread, leading to memory corruption and a potentially exploitable crash. This vulnerability affects Firefox < 93, Thunderbird < 91.3, and Firefox ESR < 91.3."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2021-43534",
+        "description" : "Mozilla developers and community members reported memory safety bugs present in Firefox 93 and Firefox ESR 91.2. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 94, Thunderbird < 91.3, and Firefox ESR < 91.3."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2021-43522",
+        "description" : "An issue was discovered in Insyde InsydeH2O with kernel 5.1 through 2021-11-08, 5.2 through 2021-11-08, and 5.3 through 2021-11-08. A StorageSecurityCommandDxe SMM memory corruption vulnerability allows an attacker to write fixed or predictable data to SMRAM. Exploiting this issue could lead to escalating privileges to SMM."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2021-43215",
+        "description" : "iSNS Server Memory Corruption Vulnerability Can Lead to Remote Code Execution"
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2021-43057",
+        "description" : "An issue was discovered in the Linux kernel before 5.14.8. A use-after-free in selinux_ptrace_traceme (aka the SELinux handler for PTRACE_TRACEME) could be used by local attackers to cause memory corruption and escalate privileges, aka CID-a3727a8bac0a. This occurs because of an attempt to access the subjective credentials of another task."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2021-43029",
+        "description" : "Adobe Premiere Rush version 1.5.16 (and earlier) is affected by a memory corruption vulnerability due to insecure handling of a malicious M4A file, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required to exploit this vulnerability."
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2021-43015",
+        "description" : "Adobe InCopy version 16.4 (and earlier) is affected by a memory corruption vulnerability due to insecure handling of a malicious GIF file, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required in that the victim must open a specially crafted file to exploit this vulnerability."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2021-43006",
+        "description" : "AmZetta Amzetta zPortal DVM Tools is affected by Integer Overflow. IOCTL Handler 0x22001B in the Amzetta zPortal DVM Tools <= v3.3.148.148 allow local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) via specially crafted I/O Request Packet."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2021-42996",
+        "description" : "Donglify is affected by Integer Overflow. IOCTL Handler 0x22001B in the Donglify above 1.0.12309 below 1.7.14110 allow local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) via specially crafted I/O Request Packet."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2021-42993",
+        "description" : "FlexiHub For Windows is affected by Integer Overflow. IOCTL Handler 0x22001B in the FlexiHub For Windows above 2.0.4340 below 5.3.14268 allow local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) via specially crafted I/O Request Packet."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2021-42988",
+        "description" : "Eltima USB Network Gate is affected by Buffer Overflow. IOCTL Handler 0x22001B in the USB Network Gate above 7.0.1370 below 9.2.2420 allow local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) via specially crafted I/O Request Packet."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2021-42688",
+        "description" : "An Integer Overflow vulnerability exists in Accops HyWorks Windows Client prior to v 3.2.8.200. The IOCTL Handler 0x22005B in the Accops HyWorks Windows Client prior to v 3.2.8.200 allow local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) via specially crafted I/O Request Packet."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2021-42687",
+        "description" : "A Buffer Overflow vulnerability exists in Accops HyWorks Windows Client prior to v 3.2.8.200. The IOCTL Handler 0x22005B allows local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) via specially crafted I/O Request Packet."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2021-42683",
+        "description" : "A Buffer Overflow vulnerability exists in Accops HyWorks Windows Client prior to v 3.2.8.200. The IOCTL Handler 0x22001B allows local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) via specially crafted I/O Request Packet."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2021-42554",
+        "description" : "An issue was discovered in Insyde InsydeH2O with Kernel 5.0 before 05.08.42, Kernel 5.1 before 05.16.42, Kernel 5.2 before 05.26.42, Kernel 5.3 before 05.35.42, Kernel 5.4 before 05.42.51, and Kernel 5.5 before 05.50.51. An SMM memory corruption vulnerability in FvbServicesRuntimeDxe allows a possible attacker to write fixed or predictable data to SMRAM. Exploiting this issue could lead to escalating privileges to SMM."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2021-42341",
+        "description" : "checkpath in OpenRC before 0.44.7 uses the direct output of strlen() to allocate strings, which does not account for the '\\0' byte at the end of the string. This results in memory corruption. CVE-2021-42341 was introduced in git commit 63db2d99e730547339d1bdd28e8437999c380cae, which was introduced as part of OpenRC 0.44.0 development."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2021-41839",
+        "description" : "An issue was discovered in NvmExpressDxe in the kernel 5.0 through 5.5 in Insyde InsydeH2O. Because of an Untrusted Pointer Dereference that causes SMM memory corruption, an attacker may be able to write fixed or predictable data to SMRAM. Exploiting this issue could lead to escalating privileges to SMM."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2021-41253",
+        "description" : "Zydis is an x86/x86-64 disassembler library. Users of Zydis versions v3.2.0 and older that use the string functions provided in `zycore` in order to append untrusted user data to the formatter buffer within their custom formatter hooks can run into heap buffer overflows. Older versions of Zydis failed to properly initialize the string object within the formatter buffer, forgetting to initialize a few fields, leaving their value to chance. This could then in turn cause zycore functions like `ZyanStringAppend` to make incorrect calculations for the new target size, resulting in heap memory corruption. This does not affect the regular uncustomized Zydis formatter, because Zydis internally doesn't use the string functions in zycore that act upon these fields. However, because the zycore string functions are the intended way to work with the formatter buffer for users of the library that wish to extend the formatter, we still consider this to be a vulnerability in Zydis. This bug is patched starting in version 3.2.1. As a workaround, users may refrain from using zycore string functions in their formatter hooks until updating to a patched version."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2021-41121",
+        "description" : "Vyper is a Pythonic Smart Contract Language for the EVM. In affected versions when performing a function call inside a literal struct, there is a memory corruption issue that occurs because of an incorrect pointer to the the top of the stack. This issue has been resolved in version 0.3.0."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2021-40398",
+        "description" : "An out-of-bounds write vulnerability exists in the parse_raster_data functionality of Accusoft ImageGear 19.10. A specially-crafted malformed file can lead to memory corruption. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2021-40167",
+        "description" : "A malicious crafted dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2021-40163",
+        "description" : "A Memory Corruption vulnerability may lead to code execution through maliciously crafted DLL files through Autodesk Image Processing component."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2021-3999",
+        "description" : "A flaw was found in glibc. An off-by-one buffer overflow and underflow in getcwd() may lead to memory corruption when the size of the buffer is exactly 1. A local attacker who can control the input buffer and size passed to getcwd() in a setuid program could use this flaw to potentially execute arbitrary code and escalate their privileges on the system."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2021-39776",
+        "description" : "In NFC, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12LAndroid ID: A-192614125"
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2021-39735",
+        "description" : "In gasket_alloc_coherent_memory of gasket_page_table.c, there is a possible memory corruption due to a race condition. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-151455484References: N/A"
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2021-39721",
+        "description" : "In TBD of TBD, there is a possible out of bounds write due to memory corruption. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-195726151References: N/A"
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2021-39698",
+        "description" : "In aio_poll_complete_work of aio.c, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-185125206References: Upstream kernel"
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2021-38568",
+        "description" : "An issue was discovered in Foxit Reader and PhantomPDF before 10.1.4. It allows memory corruption during conversion of a PDF document to a different document format."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2021-38504",
+        "description" : "When interacting with an HTML input element's file picker dialog with webkitdirectory set, a use-after-free could have resulted, leading to memory corruption and a potentially exploitable crash. This vulnerability affects Firefox < 94, Thunderbird < 91.3, and Firefox ESR < 91.3."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2021-38493",
+        "description" : "Mozilla developers reported memory safety bugs present in Firefox 91 and Firefox ESR 78.13. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 78.14, Thunderbird < 78.14, and Firefox < 92."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2021-38436",
+        "description" : "FATEK Automation WinProladder versions 3.30 and prior lacks proper validation of user-supplied data when parsing project files, which could result in a memory-corruption condition. An attacker could leverage this vulnerability to execute arbitrary code in the context of the current process."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2021-37576",
+        "description" : "arch/powerpc/kvm/book3s_rtas.c in the Linux kernel through 5.13.5 on the powerpc platform allows KVM guest OS users to cause host OS memory corruption via rtas_args.nargs, aka CID-f62f3c20647e."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2021-37222",
+        "description" : "Parsers in the open source project RCDCAP before 1.0.5 allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via specially crafted packets."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2021-3695",
+        "description" : "A crafted 16-bit grayscale PNG image may lead to a out-of-bounds write in the heap area. An attacker may take advantage of that to cause heap data corruption or eventually arbitrary code execution and circumvent secure boot protections. This issue has a high complexity to be exploited as an attacker needs to perform some triage over the heap layout to achieve signifcant results, also the values written into the memory are repeated three times in a row making difficult to produce valid payloads. This flaw affects grub2 versions prior grub-2.12."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2021-36614",
+        "description" : "Mikrotik RouterOs before stable 6.48.2 suffers from a memory corruption vulnerability in the tr069-client process. An authenticated remote attacker can cause a Denial of Service (NULL pointer dereference)."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2021-36052",
+        "description" : "XMP Toolkit version 2020.1 (and earlier) is affected by a memory corruption vulnerability, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required to exploit this vulnerability."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2021-3569",
+        "description" : "A stack corruption bug was found in libtpms in versions before 0.7.2 and before 0.8.0 while decrypting data using RSA. This flaw could result in a SIGBUS (bad memory access) and termination of swtpm. The highest threat from this vulnerability is to system availability."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2021-3564",
+        "description" : "A flaw double-free memory corruption in the Linux kernel HCI device initialization subsystem was found in the way user attach malicious HCI TTY Bluetooth device. A local user could use this flaw to crash the system. This flaw affects all the Linux kernel versions starting from 3.13."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2021-3561",
+        "description" : "An Out of Bounds flaw was found fig2dev version 3.2.8a. A flawed bounds check in read_objects() could allow an attacker to provide a crafted malicious input causing the application to either crash or in some cases cause memory corruption. The highest threat from this vulnerability is to integrity as well as system availability."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2021-35394",
+        "description" : "Realtek Jungle SDK version v2.x up to v3.4.14B provides a diagnostic tool called 'MP Daemon' that is usually compiled as 'UDPServer' binary. The binary is affected by multiple memory corruption vulnerabilities and an arbitrary command injection vulnerability that can be exploited by remote unauthenticated attackers."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2021-35134",
+        "description" : "Due to insufficient validation of ELF headers, an Incorrect Calculation of Buffer Size can occur in Boot leading to memory corruption in Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile"
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2021-35130",
+        "description" : "Memory corruption in graphics support layer due to use after free condition in Snapdragon Auto, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables"
+    }
+]

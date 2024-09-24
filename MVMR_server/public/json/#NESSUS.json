@@ -1,0 +1,119 @@
+{
+    "NessusClientData_v2": {
+        "Policy": [
+            {
+                "policyName": [
+                    "Example Policy"
+                ],
+                "policyOwner": [
+                    "Admin"
+                ],
+                "policyComments": [
+                    "This is an example policy used for scanning."
+                ],
+                "family": [
+                    {
+                        "FamilyItem": [
+                            {
+                                "status": [
+                                    "enabled"
+                                ],
+                                "name": [
+                                    "General"
+                                ]
+                            },
+                            {
+                                "status": [
+                                    "disabled"
+                                ],
+                                "name": [
+                                    "Specific"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "preferences": [
+                    {
+                        "ServerPreferences": [
+                            {
+                                "preference": [
+                                    {
+                                        "name": [
+                                            "serverPreferencesName"
+                                        ],
+                                        "value": [
+                                            "serverPreferencesValue"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "PluginPreferences": [
+                            {
+                                "preference": [
+                                    {
+                                        "plugin_name": [
+                                            "pluginPreferencesName"
+                                        ],
+                                        "plugin_value": [
+                                            "pluginPreferencesValue"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Report": [
+            {
+                "name": [
+                    "Example Report"
+                ],
+                "description": [
+                    "Report generated on example.com"
+                ],
+                "ReportHost": [
+                    {
+                        "hostProperties": [
+                            {
+                                "tag": [
+                                    {
+                                        "_": "192.168.1.1",
+                                        "$": {
+                                            "name": "host-ip"
+                                        }
+                                    },
+                                    {
+                                        "_": "example.com",
+                                        "$": {
+                                            "name": "host-fqdn"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ReportItem": [
+                            {
+                                "pluginID": [
+                                    "12345"
+                                ],
+                                "pluginName": [
+                                    "Example Plugin"
+                                ],
+                                "severity": [
+                                    "High"
+                                ],
+                                "description": [
+                                    "This is an example vulnerability."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

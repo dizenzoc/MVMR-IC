@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<nmaprun>
+  <scaninfo type="connect" protocol="tcp" numservices="100"/>
+  <host>
+    <address addr="192.168.1.1" addrtype="ipv4"/>
+    <ports>
+      <port protocol="tcp" portid="22">
+        <state state="open"/>
+        <service name="ssh" method="table"/>
+      </port>
+      <port protocol="tcp" portid="80">
+        <state state="open"/>
+        <service name="http" method="table"/>
+      </port>
+    </ports>
+  </host>
+</nmaprun>

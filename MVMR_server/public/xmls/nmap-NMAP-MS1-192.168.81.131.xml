@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Tue Sep 13 06:47:57 2022 as: nmap -Pn -p- -A -&#45;script=vuln -oX NMAP-MS1-192.168.81.131.xml 192.168.81.131 -->
+<nmaprun scanner="nmap" args="nmap -Pn -p- -A -&#45;script=vuln -oX NMAP-MS1-192.168.81.131.xml 192.168.81.131" start="1663066077" startstr="Tue Sep 13 06:47:57 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.81.131" addrtype="ipv4"/>
+<address addr="00:0C:29:3B:00:55" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1663066090" endtime="1663066433"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.81.131" addrtype="ipv4"/>
+<address addr="00:0C:29:3B:00:55" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65522">
+<extrareasons reason="reset" count="65522" proto="tcp" ports="1-20,24,26-52,54-79,81-138,140-444,446-3305,3307-3631,3633-5431,5433-8008,8010-8179,8181-65535"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ftp" product="ProFTPD" version="1.3.1" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd:1.3.1</cpe></service></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="4.7p1 Debian 8ubuntu1" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:4.7p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="telnet" product="Linux telnetd" ostype="Linux" method="probed" conf="10"><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="smtp" product="Postfix smtpd" hostname=" metasploitable.localdomain" method="probed" conf="10"><cpe>cpe:/a:postfix:postfix</cpe></service><script id="ssl-poodle" output="&#xa;  VULNERABLE:&#xa;  SSL POODLE information leak&#xa;    State: VULNERABLE&#xa;    IDs:  BID:70574  CVE:CVE-2014-3566&#xa;          The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other&#xa;          products, uses nondeterministic CBC padding, which makes it easier&#xa;          for man-in-the-middle attackers to obtain cleartext data via a&#xa;          padding-oracle attack, aka the &quot;POODLE&quot; issue.&#xa;    Disclosure date: 2014-10-14&#xa;    Check results:&#xa;      TLS_RSA_WITH_AES_128_CBC_SHA&#xa;    References:&#xa;      https://www.securityfocus.com/bid/70574&#xa;      https://www.imperialviolet.org/2014/10/14/poodle.html&#xa;      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566&#xa;      https://www.openssl.org/~bodo/ssl-poodle.pdf&#xa;"><table key="CVE-2014-3566">
+<elem key="title">SSL POODLE information leak</elem>
+<elem key="state">VULNERABLE</elem>
+<table key="ids">
+<elem>BID:70574</elem>
+<elem>CVE:CVE-2014-3566</elem>
+</table>
+<table key="description">
+<elem>    The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other&#xa;    products, uses nondeterministic CBC padding, which makes it easier&#xa;    for man-in-the-middle attackers to obtain cleartext data via a&#xa;    padding-oracle attack, aka the &quot;POODLE&quot; issue.</elem>
+</table>
+<table key="dates">
+<table key="disclosure">
+<elem key="day">14</elem>
+<elem key="month">10</elem>
+<elem key="year">2014</elem>
+</table>
+</table>
+<elem key="disclosure">2014-10-14</elem>
+<table key="check_results">
+<elem>TLS_RSA_WITH_AES_128_CBC_SHA</elem>
+</table>
+<table key="refs">
+<elem>https://www.securityfocus.com/bid/70574</elem>
+<elem>https://www.imperialviolet.org/2014/10/14/poodle.html</elem>
+<elem>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566</elem>
+<elem>https://www.openssl.org/~bodo/ssl-poodle.pdf</elem>
+</table>
+</table>
+</script><script id="ssl-dh-params" output="&#xa;  VULNERABLE:&#xa;  Anonymous Diffie-Hellman Key Exchange MitM Vulnerability&#xa;    State: VULNERABLE&#xa;      Transport Layer Security (TLS) services that use anonymous&#xa;      Diffie-Hellman key exchange only provide protection against passive&#xa;      eavesdropping, and are vulnerable to active man-in-the-middle attacks&#xa;      which could completely compromise the confidentiality and integrity&#xa;      of any data exchanged over the resulting session.&#xa;    Check results:&#xa;      ANONYMOUS DH GROUP 1&#xa;            Cipher Suite: TLS_DH_anon_EXPORT_WITH_RC4_40_MD5&#xa;            Modulus Type: Safe prime&#xa;            Modulus Source: Unknown/Custom-generated&#xa;            Modulus Length: 512&#xa;            Generator Length: 8&#xa;            Public Key Length: 512&#xa;    References:&#xa;      https://www.ietf.org/rfc/rfc2246.txt&#xa;  &#xa;  Transport Layer Security (TLS) Protocol DHE_EXPORT Ciphers Downgrade MitM (Logjam)&#xa;    State: VULNERABLE&#xa;    IDs:  BID:74733  CVE:CVE-2015-4000&#xa;      The Transport Layer Security (TLS) protocol contains a flaw that is&#xa;      triggered when handling Diffie-Hellman key exchanges defined with&#xa;      the DHE_EXPORT cipher. This may allow a man-in-the-middle attacker&#xa;      to downgrade the security of a TLS session to 512-bit export-grade&#xa;      cryptography, which is significantly weaker, allowing the attacker&#xa;      to more easily break the encryption and monitor or tamper with&#xa;      the encrypted stream.&#xa;    Disclosure date: 2015-5-19&#xa;    Check results:&#xa;      EXPORT-GRADE DH GROUP 1&#xa;            Cipher Suite: TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA&#xa;            Modulus Type: Safe prime&#xa;            Modulus Source: Unknown/Custom-generated&#xa;            Modulus Length: 512&#xa;            Generator Length: 8&#xa;            Public Key Length: 512&#xa;    References:&#xa;      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4000&#xa;      https://www.securityfocus.com/bid/74733&#xa;      https://weakdh.org&#xa;  &#xa;  Diffie-Hellman Key Exchange Insufficient Group Strength&#xa;    State: VULNERABLE&#xa;      Transport Layer Security (TLS) services that use Diffie-Hellman groups&#xa;      of insufficient strength, especially those using one of a few commonly&#xa;      shared groups, may be susceptible to passive eavesdropping attacks.&#xa;    Check results:&#xa;      WEAK DH GROUP 1&#xa;            Cipher Suite: TLS_DHE_RSA_WITH_DES_CBC_SHA&#xa;            Modulus Type: Safe prime&#xa;            Modulus Source: postfix builtin&#xa;            Modulus Length: 1024&#xa;            Generator Length: 8&#xa;            Public Key Length: 1024&#xa;    References:&#xa;      https://weakdh.org&#xa;"><table key="NMAP-31">
+<elem key="title">Anonymous Diffie-Hellman Key Exchange MitM Vulnerability</elem>
+<elem key="state">VULNERABLE</elem>
+<table key="description">
+<elem>Transport Layer Security (TLS) services that use anonymous&#xa;Diffie-Hellman key exchange only provide protection against passive&#xa;eavesdropping, and are vulnerable to active man-in-the-middle attacks&#xa;which could completely compromise the confidentiality and integrity&#xa;of any data exchanged over the resulting session.</elem>
+</table>
+<table key="check_results">
+<elem>ANONYMOUS DH GROUP 1&#xa;      Cipher Suite: TLS_DH_anon_EXPORT_WITH_RC4_40_MD5&#xa;      Modulus Type: Safe prime&#xa;      Modulus Source: Unknown/Custom-generated&#xa;      Modulus Length: 512&#xa;      Generator Length: 8&#xa;      Public Key Length: 512</elem>
+</table>
+<table key="refs">
+<elem>https://www.ietf.org/rfc/rfc2246.txt</elem>
+</table>
+</table>
+<table key="CVE-2015-4000">
+<elem key="title">Transport Layer Security (TLS) Protocol DHE_EXPORT Ciphers Downgrade MitM (Logjam)</elem>
+<elem key="state">VULNERABLE</elem>
+<table key="ids">
+<elem>BID:74733</elem>
+<elem>CVE:CVE-2015-4000</elem>
+</table>
+<table key="description">
+<elem>The Transport Layer Security (TLS) protocol contains a flaw that is&#xa;triggered when handling Diffie-Hellman key exchanges defined with&#xa;the DHE_EXPORT cipher. This may allow a man-in-the-middle attacker&#xa;to downgrade the security of a TLS session to 512-bit export-grade&#xa;cryptography, which is significantly weaker, allowing the attacker&#xa;to more easily break the encryption and monitor or tamper with&#xa;the encrypted stream.</elem>
+</table>
+<table key="dates">
+<table key="disclosure">
+<elem key="day">19</elem>
+<elem key="month">5</elem>
+<elem key="year">2015</elem>
+</table>
+</table>
+<elem key="disclosure">2015-5-19</elem>
+<table key="check_results">
+<elem>EXPORT-GRADE DH GROUP 1&#xa;      Cipher Suite: TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA&#xa;      Modulus Type: Safe prime&#xa;      Modulus Source: Unknown/Custom-generated&#xa;      Modulus Length: 512&#xa;      Generator Length: 8&#xa;      Public Key Length: 512</elem>
+</table>
+<table key="refs">
+<elem>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4000</elem>
+<elem>https://www.securityfocus.com/bid/74733</elem>
+<elem>https://weakdh.org</elem>
+</table>
+</table>
+<table key="NMAP-32">
+<elem key="title">Diffie-Hellman Key Exchange Insufficient Group Strength</elem>
+<elem key="state">VULNERABLE</elem>
+<table key="description">
+<elem>Transport Layer Security (TLS) services that use Diffie-Hellman groups&#xa;of insufficient strength, especially those using one of a few commonly&#xa;shared groups, may be susceptible to passive eavesdropping attacks.</elem>
+</table>
+<table key="check_results">
+<elem>WEAK DH GROUP 1&#xa;      Cipher Suite: TLS_DHE_RSA_WITH_DES_CBC_SHA&#xa;      Modulus Type: Safe prime&#xa;      Modulus Source: postfix builtin&#xa;      Modulus Length: 1024&#xa;      Generator Length: 8&#xa;      Public Key Length: 1024</elem>
+</table>
+<table key="refs">
+<elem>https://weakdh.org</elem>
+</table>
+</table>
+</script><script id="smtp-vuln-cve2010-4344" output="&#xa;  The SMTP server is not Exim: NOT VULNERABLE&#xa;"/><script id="sslv2-drown" output="ERROR: Script execution failed (use -d to debug)"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" product="ISC BIND" version="9.4.2" method="probed" conf="10"><cpe>cpe:/a:isc:bind:9.4.2</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.2.8" extrainfo="(Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.8</cpe></service><script id="http-csrf" output="Couldn&apos;t find any CSRF vulnerabilities."/><script id="http-stored-xss" output="Couldn&apos;t find any stored XSS vulnerabilities."/><script id="http-enum" output="&#xa;  /phpinfo.php: Possible information file&#xa;  /icons/: Potentially interesting folder w/ directory listing&#xa;"/><script id="http-vuln-cve2011-3192" output="&#xa;  VULNERABLE:&#xa;  Apache byterange filter DoS&#xa;    State: VULNERABLE&#xa;    IDs:  BID:49303  CVE:CVE-2011-3192&#xa;      The Apache web server is vulnerable to a denial of service attack when numerous&#xa;      overlapping byte ranges are requested.&#xa;    Disclosure date: 2011-08-19&#xa;    References:&#xa;      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192&#xa;      https://www.securityfocus.com/bid/49303&#xa;      https://www.tenable.com/plugins/nessus/55976&#xa;      https://seclists.org/fulldisclosure/2011/Aug/175&#xa;"><table key="CVE-2011-3192">
+<elem key="title">Apache byterange filter DoS</elem>
+<elem key="state">VULNERABLE</elem>
+<table key="ids">
+<elem>BID:49303</elem>
+<elem>CVE:CVE-2011-3192</elem>
+</table>
+<table key="description">
+<elem>The Apache web server is vulnerable to a denial of service attack when numerous&#xa;overlapping byte ranges are requested.</elem>
+</table>
+<table key="dates">
+<table key="disclosure">
+<elem key="day">19</elem>
+<elem key="month">08</elem>
+<elem key="year">2011</elem>
+</table>
+</table>
+<elem key="disclosure">2011-08-19</elem>
+<table key="refs">
+<elem>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192</elem>
+<elem>https://www.securityfocus.com/bid/49303</elem>
+<elem>https://www.tenable.com/plugins/nessus/55976</elem>
+<elem>https://seclists.org/fulldisclosure/2011/Aug/175</elem>
+</table>
+</table>
+</script><script id="http-trace" output="TRACE is enabled"/><script id="http-dombased-xss" output="Couldn&apos;t find any DOM based XSS."/><script id="http-server-header" output="Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch"><elem>Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch</elem>
+</script></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.X - 4.X" extrainfo="workgroup: WORKGROUP" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.X - 4.X" extrainfo="workgroup: WORKGROUP" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mysql" product="MySQL" version="5.0.51a-3ubuntu5" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.0.51a-3ubuntu5</cpe></service><script id="ssl-ccs-injection" output="No reply from server (TIMEOUT)"/></port>
+<port protocol="tcp" portid="3632"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="distccd" product="distccd" version="v1" extrainfo="(GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4)" method="probed" conf="10"/><script id="distcc-cve2004-2687" output="&#xa;  VULNERABLE:&#xa;  distcc Daemon Command Execution&#xa;    State: VULNERABLE (Exploitable)&#xa;    IDs:  CVE:CVE-2004-2687&#xa;    Risk factor: High  CVSSv2: 9.3 (HIGH) (AV:N/AC:M/Au:N/C:C/I:C/A:C)&#xa;      Allows executing of arbitrary commands on systems running distccd 3.1 and&#xa;      earlier. The vulnerability is the consequence of weak service configuration.&#xa;      &#xa;    Disclosure date: 2002-02-01&#xa;    Extra information:&#xa;      &#xa;    uid=1(daemon) gid=1(daemon) groups=1(daemon)&#xa;  &#xa;    References:&#xa;      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2687&#xa;      https://nvd.nist.gov/vuln/detail/CVE-2004-2687&#xa;      https://distcc.github.io/security.html&#xa;"><table key="CVE-2004-2687">
+<elem key="title">distcc Daemon Command Execution</elem>
+<elem key="state">VULNERABLE (Exploitable)</elem>
+<table key="ids">
+<elem>CVE:CVE-2004-2687</elem>
+</table>
+<table key="scores">
+<elem key="CVSSv2">9.3 (HIGH) (AV:N/AC:M/Au:N/C:C/I:C/A:C)</elem>
+</table>
+<table key="description">
+<elem>Allows executing of arbitrary commands on systems running distccd 3.1 and&#xa;earlier. The vulnerability is the consequence of weak service configuration.&#xa;</elem>
+</table>
+<table key="dates">
+<table key="disclosure">
+<elem key="day">01</elem>
+<elem key="month">02</elem>
+<elem key="year">2002</elem>
+</table>
+</table>
+<elem key="disclosure">2002-02-01</elem>
+<table key="exploit_results">
+</table>
+<table key="extra_info">
+<elem>&#xa;  uid=1(daemon) gid=1(daemon) groups=1(daemon)&#xa;</elem>
+</table>
+<table key="refs">
+<elem>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2687</elem>
+<elem>https://nvd.nist.gov/vuln/detail/CVE-2004-2687</elem>
+<elem>https://distcc.github.io/security.html</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="postgresql" product="PostgreSQL DB" version="8.3.0 - 8.3.7" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql:8.3</cpe></service><script id="ssl-poodle" output="&#xa;  VULNERABLE:&#xa;  SSL POODLE information leak&#xa;    State: VULNERABLE&#xa;    IDs:  BID:70574  CVE:CVE-2014-3566&#xa;          The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other&#xa;          products, uses nondeterministic CBC padding, which makes it easier&#xa;          for man-in-the-middle attackers to obtain cleartext data via a&#xa;          padding-oracle attack, aka the &quot;POODLE&quot; issue.&#xa;    Disclosure date: 2014-10-14&#xa;    Check results:&#xa;      TLS_RSA_WITH_AES_128_CBC_SHA&#xa;    References:&#xa;      https://www.securityfocus.com/bid/70574&#xa;      https://www.imperialviolet.org/2014/10/14/poodle.html&#xa;      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566&#xa;      https://www.openssl.org/~bodo/ssl-poodle.pdf&#xa;"><table key="CVE-2014-3566">
+<elem key="title">SSL POODLE information leak</elem>
+<elem key="state">VULNERABLE</elem>
+<table key="ids">
+<elem>BID:70574</elem>
+<elem>CVE:CVE-2014-3566</elem>
+</table>
+<table key="description">
+<elem>    The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other&#xa;    products, uses nondeterministic CBC padding, which makes it easier&#xa;    for man-in-the-middle attackers to obtain cleartext data via a&#xa;    padding-oracle attack, aka the &quot;POODLE&quot; issue.</elem>
+</table>
+<table key="dates">
+<table key="disclosure">
+<elem key="day">14</elem>
+<elem key="month">10</elem>
+<elem key="year">2014</elem>
+</table>
+</table>
+<elem key="disclosure">2014-10-14</elem>
+<table key="check_results">
+<elem>TLS_RSA_WITH_AES_128_CBC_SHA</elem>
+</table>
+<table key="refs">
+<elem>https://www.securityfocus.com/bid/70574</elem>
+<elem>https://www.imperialviolet.org/2014/10/14/poodle.html</elem>
+<elem>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566</elem>
+<elem>https://www.openssl.org/~bodo/ssl-poodle.pdf</elem>
+</table>
+</table>
+</script><script id="ssl-ccs-injection" output="&#xa;  VULNERABLE:&#xa;  SSL/TLS MITM vulnerability (CCS Injection)&#xa;    State: VULNERABLE&#xa;    Risk factor: High&#xa;      OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h&#xa;      does not properly restrict processing of ChangeCipherSpec messages,&#xa;      which allows man-in-the-middle attackers to trigger use of a zero&#xa;      length master key in certain OpenSSL-to-OpenSSL communications, and&#xa;      consequently hijack sessions or obtain sensitive information, via&#xa;      a crafted TLS handshake, aka the &quot;CCS Injection&quot; vulnerability.&#xa;          &#xa;    References:&#xa;      http://www.cvedetails.com/cve/2014-0224&#xa;      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0224&#xa;      http://www.openssl.org/news/secadv_20140605.txt&#xa;"><table key="NMAP-15">
+<elem key="title">SSL/TLS MITM vulnerability (CCS Injection)</elem>
+<elem key="state">VULNERABLE</elem>
+<table key="description">
+<elem>OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h&#xa;does not properly restrict processing of ChangeCipherSpec messages,&#xa;which allows man-in-the-middle attackers to trigger use of a zero&#xa;length master key in certain OpenSSL-to-OpenSSL communications, and&#xa;consequently hijack sessions or obtain sensitive information, via&#xa;a crafted TLS handshake, aka the &quot;CCS Injection&quot; vulnerability.&#xa;    </elem>
+</table>
+<table key="refs">
+<elem>http://www.cvedetails.com/cve/2014-0224</elem>
+<elem>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0224</elem>
+<elem>http://www.openssl.org/news/secadv_20140605.txt</elem>
+</table>
+</table>
+</script><script id="ssl-dh-params" output="&#xa;  VULNERABLE:&#xa;  Diffie-Hellman Key Exchange Insufficient Group Strength&#xa;    State: VULNERABLE&#xa;      Transport Layer Security (TLS) services that use Diffie-Hellman groups&#xa;      of insufficient strength, especially those using one of a few commonly&#xa;      shared groups, may be susceptible to passive eavesdropping attacks.&#xa;    Check results:&#xa;      WEAK DH GROUP 1&#xa;            Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA&#xa;            Modulus Type: Safe prime&#xa;            Modulus Source: Unknown/Custom-generated&#xa;            Modulus Length: 1024&#xa;            Generator Length: 8&#xa;            Public Key Length: 1024&#xa;    References:&#xa;      https://weakdh.org&#xa;"><table key="NMAP-29">
+<elem key="title">Diffie-Hellman Key Exchange Insufficient Group Strength</elem>
+<elem key="state">VULNERABLE</elem>
+<table key="description">
+<elem>Transport Layer Security (TLS) services that use Diffie-Hellman groups&#xa;of insufficient strength, especially those using one of a few commonly&#xa;shared groups, may be susceptible to passive eavesdropping attacks.</elem>
+</table>
+<table key="check_results">
+<elem>WEAK DH GROUP 1&#xa;      Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA&#xa;      Modulus Type: Safe prime&#xa;      Modulus Source: Unknown/Custom-generated&#xa;      Modulus Length: 1024&#xa;      Generator Length: 8&#xa;      Public Key Length: 1024</elem>
+</table>
+<table key="refs">
+<elem>https://weakdh.org</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="8009"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ajp13" product="Apache Jserv" extrainfo="Protocol v1.3" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="8180"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache Tomcat/Coyote JSP engine" version="1.1" method="probed" conf="10"><cpe>cpe:/a:apache:coyote_http_connector:1.1</cpe></service><script id="http-cookie-flags" output="&#xa;  /admin/: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/index.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/login.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/admin.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/account.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/admin_login.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/home.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/admin-login.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/adminLogin.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/controlpanel.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/cp.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/index.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/login.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/admin.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/home.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/controlpanel.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/admin-login.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/cp.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/account.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/admin_login.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/adminLogin.jsp: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/includes/FCKeditor/editor/filemanager/upload/test.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set&#xa;  /admin/jscript/upload.html: &#xa;    JSESSIONID: &#xa;      httponly flag not set"><table key="/admin/">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/index.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/login.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/admin.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/account.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/admin_login.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/home.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/admin-login.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/adminLogin.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/controlpanel.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/cp.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/index.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/login.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/admin.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/home.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/controlpanel.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/admin-login.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/cp.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/account.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/admin_login.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/adminLogin.jsp">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/includes/FCKeditor/editor/filemanager/upload/test.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+<table key="/admin/jscript/upload.html">
+<table key="JSESSIONID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+</script><script id="http-enum" output="&#xa;  /admin/: Possible admin folder&#xa;  /admin/index.html: Possible admin folder&#xa;  /admin/login.html: Possible admin folder&#xa;  /admin/admin.html: Possible admin folder&#xa;  /admin/account.html: Possible admin folder&#xa;  /admin/admin_login.html: Possible admin folder&#xa;  /admin/home.html: Possible admin folder&#xa;  /admin/admin-login.html: Possible admin folder&#xa;  /admin/adminLogin.html: Possible admin folder&#xa;  /admin/controlpanel.html: Possible admin folder&#xa;  /admin/cp.html: Possible admin folder&#xa;  /admin/index.jsp: Possible admin folder&#xa;  /admin/login.jsp: Possible admin folder&#xa;  /admin/admin.jsp: Possible admin folder&#xa;  /admin/home.jsp: Possible admin folder&#xa;  /admin/controlpanel.jsp: Possible admin folder&#xa;  /admin/admin-login.jsp: Possible admin folder&#xa;  /admin/cp.jsp: Possible admin folder&#xa;  /admin/account.jsp: Possible admin folder&#xa;  /admin/admin_login.jsp: Possible admin folder&#xa;  /admin/adminLogin.jsp: Possible admin folder&#xa;  /manager/html/upload: Apache Tomcat (401 Unauthorized)&#xa;  /manager/html: Apache Tomcat (401 Unauthorized)&#xa;  /admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html: OpenCart/FCKeditor File upload&#xa;  /admin/includes/FCKeditor/editor/filemanager/upload/test.html: ASP Simple Blog / FCKeditor File Upload&#xa;  /admin/jscript/upload.html: Lizard Cart/Remote File upload&#xa;  /webdav/: Potentially interesting folder&#xa;"/><script id="http-csrf" output="&#xa;Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=192.168.81.131&#xa;  Found the following possible CSRF vulnerabilities: &#xa;    &#xa;    Path: http://192.168.81.131:8180/admin/&#xa;    Form id: username&#xa;    Form action: j_security_check;jsessionid=054074575DC1D292A29038B66BB468E5&#xa;"/><script id="http-slowloris-check" output="&#xa;  VULNERABLE:&#xa;  Slowloris DOS attack&#xa;    State: LIKELY VULNERABLE&#xa;    IDs:  CVE:CVE-2007-6750&#xa;      Slowloris tries to keep many connections to the target web server open and hold&#xa;      them open as long as possible.  It accomplishes this by opening connections to&#xa;      the target web server and sending a partial request. By doing so, it starves&#xa;      the http server&apos;s resources causing Denial Of Service.&#xa;      &#xa;    Disclosure date: 2009-09-17&#xa;    References:&#xa;      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750&#xa;      http://ha.ckers.org/slowloris/&#xa;"><table key="CVE-2007-6750">
+<elem key="title">Slowloris DOS attack</elem>
+<elem key="state">LIKELY VULNERABLE</elem>
+<table key="ids">
+<elem>CVE:CVE-2007-6750</elem>
+</table>
+<table key="description">
+<elem>Slowloris tries to keep many connections to the target web server open and hold&#xa;them open as long as possible.  It accomplishes this by opening connections to&#xa;the target web server and sending a partial request. By doing so, it starves&#xa;the http server&apos;s resources causing Denial Of Service.&#xa;</elem>
+</table>
+<table key="dates">
+<table key="disclosure">
+<elem key="day">17</elem>
+<elem key="month">09</elem>
+<elem key="year">2009</elem>
+</table>
+</table>
+<elem key="disclosure">2009-09-17</elem>
+<table key="exploit_results">
+</table>
+<table key="refs">
+<elem>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750</elem>
+<elem>http://ha.ckers.org/slowloris/</elem>
+</table>
+</table>
+</script><script id="http-dombased-xss" output="Couldn&apos;t find any DOM based XSS."/><script id="http-server-header" output="Apache-Coyote/1.1"><elem>Apache-Coyote/1.1</elem>
+</script><script id="http-stored-xss" output="Couldn&apos;t find any stored XSS vulnerabilities."/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="34331"/>
+<osmatch name="Linux 2.6.9 - 2.6.33" accuracy="100" line="59346">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2063" lastboot="Tue Sep 13 06:19:30 2022"/>
+<distance value="1"/>
+<tcpsequence index="193" difficulty="Good luck!" values="5E8EC8D8,5ED6CC56,5F17C22C,5F42C096,5F183D35,5F170423"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="100HZ" values="2AA88,2AA92,2AA9C,2AAA6,2AAB1,2AABB"/>
+<hostscript><script id="smb-vuln-ms10-061" output="false">false</script><script id="smb-vuln-regsvc-dos" output="ERROR: Script execution failed (use -d to debug)"/><script id="smb-vuln-ms10-054" output="false">false</script></hostscript><trace>
+<hop ttl="1" ipaddr="192.168.81.131" rtt="1.48"/>
+</trace>
+<times srtt="1475" rttvar="380" to="100000"/>
+</host>
+<runstats><finished time="1663066433" timestr="Tue Sep 13 06:53:53 2022" summary="Nmap done at Tue Sep 13 06:53:53 2022; 1 IP address (1 host up) scanned in 356.86 seconds" elapsed="356.86" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

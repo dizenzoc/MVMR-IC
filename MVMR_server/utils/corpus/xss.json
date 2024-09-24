@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-43425",
+        "description" : "Jenkins Custom Checkbox Parameter Plugin 1.4 and earlier does not escape the name and description of Custom Checkbox Parameter parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-43420",
+        "description" : "Jenkins Contrast Continuous Application Security Plugin 3.9 and earlier does not escape data returned from the Contrast service when generating a report, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control or modify Contrast service API responses."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-43409",
+        "description" : "Jenkins Pipeline: Supporting APIs Plugin 838.va_3a_087b_4055b and earlier does not sanitize or properly encode URLs of hyperlinks sending POST requests in build logs, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to create Pipelines."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-43185",
+        "description" : "A stored cross-site scripting (XSS) vulnerability in the Configuration/Holidays module of Rukovoditel v3.2.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Name parameter."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-43018",
+        "description" : "OpenCATS v0.9.6 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the email parameter in the Check Email function."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-43017",
+        "description" : "OpenCATS v0.9.6 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the indexFile component."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-43016",
+        "description" : "OpenCATS v0.9.6 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the callback component."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-42715",
+        "description" : "A reflected XSS vulnerability exists in REDCap before 12.04.18 in the Alerts & Notifications upload feature. A crafted CSV file will, when uploaded, trigger arbitrary JavaScript code execution."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-42466",
+        "description" : "Prior to 2.0.0-M9, it was possible for an end-user to set the value of an editable string property of a domain object to a value that would be rendered unchanged when the value was saved. In particular, the end-user could enter javascript or similar and this would be executed. As of this release, the inputted strings are properly escaped when rendered."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-42247",
+        "description" : "pfSense v2.5.2 was discovered to contain a cross-site scripting (XSS) vulnerability in the browser.php component. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into a file name."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-42236",
+        "description" : "A Stored XSS issue in Merchandise Online Store v.1.0 allows to injection of Arbitrary JavaScript in edit account form."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-42235",
+        "description" : "A Stored XSS issue in Student Clearance System v.1.0 allows the injection of arbitrary JavaScript in the Student registration form."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-42206",
+        "description" : "PHPGurukul Hospital Management System In PHP V 4.0 is vulnerable to Cross Site Scripting (XSS) via doctor/view-patient.php, admin/view-patient.php, and view-medhistory.php."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-42205",
+        "description" : "PHPGurukul Hospital Management System In PHP V 4.0 is vulnerable to Cross Site Scripting (XSS) via add-patient.php."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-42202",
+        "description" : "TP-Link TL-WR841N 8.0 4.17.16 Build 120201 Rel.54750n is vulnerable to Cross Site Scripting (XSS)."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-42200",
+        "description" : "Simple Exam Reviewer Management System v1.0 is vulnerable to Stored Cross Site Scripting (XSS) via the Exam List."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-42147",
+        "description" : "kkFileView 4.0 is vulnerable to Cross Site Scripting (XSS) via controller\\ Filecontroller.java."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-42117",
+        "description" : "A Cross-site scripting (XSS) vulnerability in the Frontend Taglib module in Liferay Portal 7.3.2 through 7.4.3.16, and Liferay DXP 7.3 before update 6, and 7.4 before update 17 allows remote attackers to inject arbitrary web script or HTML."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-42116",
+        "description" : "A Cross-site scripting (XSS) vulnerability in the Frontend Editor module's integration with CKEditor in Liferay Portal 7.3.2 through 7.4.3.14, and Liferay DXP 7.3 before update 6, and 7.4 before update 15 allows remote attackers to inject arbitrary web script or HTML via the (1) name, or (2) namespace parameter."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-42115",
+        "description" : "Cross-site scripting (XSS) vulnerability in the Object module's edit object details page in Liferay Portal 7.4.3.4 through 7.4.3.36 allows remote attackers to inject arbitrary web script or HTML via a crafted payload injected into the object field's `Label` text field."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-42114",
+        "description" : "A Cross-site scripting (XSS) vulnerability in the Role module's edit role assignees page in Liferay Portal 7.4.0 through 7.4.3.36, and Liferay DXP 7.4 before update 37 allows remote attackers to inject arbitrary web script or HTML."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-42113",
+        "description" : "A Cross-site scripting (XSS) vulnerability in Document Library module in Liferay Portal 7.4.3.30 through 7.4.3.36, and Liferay DXP 7.4 update 30 through update 36 allows remote attackers to inject arbitrary web script or HTML via the `redirect` parameter."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-42112",
+        "description" : "A Cross-site scripting (XSS) vulnerability in the Portal Search module's Sort widget in Liferay Portal 7.2.0 through 7.4.3.24, and Liferay DXP 7.2 before fix pack 19, 7.3 before update 5, and DXP 7.4 before update 25 allows remote attackers to inject arbitrary web script or HTML via a crafted payload."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-42071",
+        "description" : "Online Birth Certificate Management System version 1.0 suffers from a Cross Site Scripting (XSS) Vulnerability."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-42069",
+        "description" : "Online Birth Certificate Management System version 1.0 suffers from a persistent Cross Site Scripting (XSS) vulnerability."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-42066",
+        "description" : "Online Examination System version 1.0 suffers from a cross site scripting vulnerability via index.php."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-41638",
+        "description" : "Auth. Stored Cross-Site Scripting (XSS) in Pop-Up Chop Chop plugin <= 2.1.7 on WordPress."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-41472",
+        "description" : "74cmsSE v3.12.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the component /apiadmin/notice/add. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Title field."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-41442",
+        "description" : "PicUploader v2.6.3 was discovered to contain cross-site scripting (XSS) vulnerability via the setStorageParams function in SettingController.php."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-41431",
+        "description" : "xzs v3.8.0 was discovered to contain a cross-site scripting (XSS) vulnerability in the component /admin/question/edit. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Title text field."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-41392",
+        "description" : "A cross-site scripting (XSS) vulnerability in TotalJS commit 8c2c8909 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Website name text field under Main Settings."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-41376",
+        "description" : "Metro UI v4.4.0 to v4.5.0 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the Javascript function."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-41358",
+        "description" : "A stored cross-site scripting (XSS) vulnerability in Garage Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the categoriesName parameter in createCategories.php."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-41351",
+        "description" : "In Zimbra Collaboration Suite (ZCS) 8.8.15, at the URL /h/calendar, one can trigger XSS by adding JavaScript code to the view parameter and changing the value of the uncheck parameter to a string (instead of default value of 10)."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-41350",
+        "description" : "In Zimbra Collaboration Suite (ZCS) 8.8.15, /h/search?action=voicemail&action=listen accepts a phone parameter that is vulnerable to Reflected XSS. This allows executing arbitrary JavaScript on the victim's machine."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-41349",
+        "description" : "In Zimbra Collaboration Suite (ZCS) 8.8.15, the URL at /h/compose accepts an attachUrl parameter that is vulnerable to Reflected XSS. This allows executing arbitrary JavaScript on the victim's machine."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-41348",
+        "description" : "An issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur via the onerror attribute of an IMG element, leading to information disclosure."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-41319",
+        "description" : "A Reflected Cross-Site Scripting (XSS) vulnerability affects the Veritas Desktop Laptop Option (DLO) application login page (aka the DLOServer/restore/login.jsp URI). This affects versions before 9.8 (e.g., 9.1 through 9.7)."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-41240",
+        "description" : "Jenkins Walti Plugin 1.0.1 and earlier does not escape the information provided by the Walti API, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to provide malicious API responses from Walti."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-41239",
+        "description" : "Jenkins DotCi Plugin 2.40.00 and earlier does not escape the GitHub user name parameter provided to commit notifications when displaying them in a build cause, resulting in a stored cross-site scripting (XSS) vulnerability."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-41229",
+        "description" : "Jenkins NS-ND Integration Performance Publisher Plugin 4.8.0.134 and earlier does not escape configuration options of the Execute NetStorm/NetCloud Test build step, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-41225",
+        "description" : "Jenkins Anchore Container Image Scanner Plugin 1.0.24 and earlier does not escape content provided by the Anchore engine API, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control API responses by Anchore engine."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-41224",
+        "description" : "Jenkins 2.367 through 2.369 (both inclusive) does not escape tooltips of the l:helpIcon UI component used for some help icons on the Jenkins web UI, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control tooltips for this component."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-41206",
+        "description" : "SAP BusinessObjects Business Intelligence platform (Analysis for OLAP) - versions 420, 430, allows an authenticated attacker to send user-controlled inputs when OLAP connections are created and edited in the Central Management Console. On successful exploitation, there could be a limited impact on confidentiality and integrity of the application."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-41139",
+        "description" : "MITRE CALDERA 4.1.0 allows stored XSS via app.contact.gist (aka the gist contact configuration field), leading to execution of arbitrary commands on agents."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-40931",
+        "description" : "dutchcoders Transfer.sh 1.4.0 is vulnerable to Cross Site Scripting (XSS)."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-40879",
+        "description" : "kkFileView v4.1.0 is vulnerable to Cross Site Scripting (XSS) via the parameter 'errorMsg.'"
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-40778",
+        "description" : "A stored Cross-Site Scripting (XSS) vulnerability in OPSWAT MetaDefender ICAP Server before 4.13.0 allows attackers to execute arbitrary JavaScript or HTML because of the blocked page response."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-40748",
+        "description" : "IBM InfoSphere Information Server 11.7 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 236586."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-40714",
+        "description" : "An issue was discovered in NOKIA 1350OMS R14.2. Reflected XSS exists under different /oms1350/* endpoints."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-40631",
+        "description" : "A vulnerability has been identified in SCALANCE X200-4P IRT (All versions < V5.5.0), SCALANCE X201-3P IRT (All versions < V5.5.0), SCALANCE X201-3P IRT PRO (All versions < V5.5.0), SCALANCE X202-2IRT (All versions < V5.5.0), SCALANCE X202-2P IRT (All versions < V5.5.0), SCALANCE X202-2P IRT PRO (All versions < V5.5.0), SCALANCE X204-2 (All versions < V5.2.5), SCALANCE X204-2FM (All versions < V5.2.5), SCALANCE X204-2LD (All versions < V5.2.5), SCALANCE X204-2LD TS (All versions < V5.2.5), SCALANCE X204-2TS (All versions < V5.2.5), SCALANCE X204IRT (All versions < V5.5.0), SCALANCE X204IRT PRO (All versions < V5.5.0), SCALANCE X206-1 (All versions < V5.2.5), SCALANCE X206-1LD (All versions < V5.2.5), SCALANCE X208 (All versions < V5.2.5), SCALANCE X208PRO (All versions < V5.2.5), SCALANCE X212-2 (All versions < V5.2.5), SCALANCE X212-2LD (All versions < V5.2.5), SCALANCE X216 (All versions < V5.2.5), SCALANCE X224 (All versions < V5.2.5), SCALANCE XF201-3P IRT (All versions < V5.5.0), SCALANCE XF202-2P IRT (All versions < V5.5.0), SCALANCE XF204 (All versions < V5.2.5), SCALANCE XF204-2 (All versions < V5.2.5), SCALANCE XF204-2BA IRT (All versions < V5.5.0), SCALANCE XF204IRT (All versions < V5.5.0), SCALANCE XF206-1 (All versions < V5.2.5), SCALANCE XF208 (All versions < V5.2.5), SIPLUS NET SCALANCE X202-2P IRT (All versions < V5.5.0). There is a cross-site scripting vulnerability on the affected devices, that if used by a threat actor, it could result in session hijacking."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-40626",
+        "description" : "An unauthenticated user can create a link with reflected Javascript code inside the backurl parameter and send it to other authenticated users in order to create a fake account with predefined login, password and role in Zabbix Frontend."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-40606",
+        "description" : "MITRE CALDERA before 4.1.0 allows XSS in the Operations tab and/or Debrief plugin via a crafted operation name, a different vulnerability than CVE-2022-40605."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-40605",
+        "description" : "MITRE CALDERA before 4.1.0 allows XSS in the Operations tab and/or Debrief plugin via a crafted operation name, a different vulnerability than CVE-2022-40606."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-40440",
+        "description" : "mxGraph v4.2.2 was discovered to contain a cross-site scripting (XSS) vulnerability via the setTooltips() function."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-40408",
+        "description" : "FeehiCMS v2.1.1 was discovered to contain a cross-site scripting (XSS) vulnerability via a crafted payload injected into the Comment box under the Single Page module."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-40359",
+        "description" : "Cross site scripting (XSS) vulnerability in kfm through 1.4.7 via crafted GET request to /kfm/index.php."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-40358",
+        "description" : "An issue was discovered in AjaXplorer 4.2.3, allows attackers to cause cross site scripting vulnerabilities via a crafted svg file upload."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-40325",
+        "description" : "SysAid Help Desk before 22.1.65 allows XSS via the Asset Dashboard, aka FR# 67262."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-40324",
+        "description" : "SysAid Help Desk before 22.1.65 allows XSS via the Linked SRs field, aka FR# 67258."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-40323",
+        "description" : "SysAid Help Desk before 22.1.65 allows XSS in the Password Services module, aka FR# 67241."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-40317",
+        "description" : "OpenKM 6.3.11 allows stored XSS related to the javascript&colon; substring in an A element."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-40313",
+        "description" : "Recursive rendering of Mustache template helpers containing user input could, in some cases, result in an XSS risk or a page failing to load."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-40311",
+        "description" : "Auth. (admin+) Stored Cross-Site Scripting (XSS) in Fatcat Apps Analytics Cat plugin <= 1.0.9 on WordPress."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-40215",
+        "description" : "Multiple Authenticated Stored Cross-Site Scripting (XSS) vulnerabilities in Tabs plugin <= 3.7.1 at WordPress."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-40213",
+        "description" : "Multiple Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerabilities in GS Testimonial Slider plugin <= 1.9.6 at WordPress."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-40195",
+        "description" : "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in PCA Predict plugin <= 1.0.3 at WordPress."
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-40193",
+        "description" : "Unauthenticated Stored Cross-Site Scripting (XSS) vulnerability in Awesome Filterable Portfolio plugin <= 1.9.7 at WordPress."
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-40191",
+        "description" : "Authenticated (subscriber+) Stored Cross-Site Scripting (XSS) vulnerability in Ali Khallad's Contact Form By Mega Forms plugin <= 1.2.4 at WordPress."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-40088",
+        "description" : "Simple College Website v1.0 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the component /college_website/index.php?page=. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the page parameter."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-40047",
+        "description" : "Flatpress v1.2.1 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the page parameter at /flatpress/admin.php."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-40044",
+        "description" : "Centreon v20.10.18 was discovered to contain a cross-site scripting (XSS) vulnerability via the esc_name (Escalation Name) parameter at Configuration/Notifications/Escalations. This vulnerability allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-40029",
+        "description" : "SourceCodester Simple Task Managing System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the component newProjectValidation.php. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the shortName parameter."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-39988",
+        "description" : "A cross-site scripting (XSS) vulnerability in Centreon 22.04.0 allows attackers to execute arbitrary web script or HTML via a crafted payload injected into the Service>Templates service_alias parameter."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-39840",
+        "description" : "Cotonti Siena 0.9.20 allows admins to conduct stored XSS attacks via a direct message (DM)."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-39839",
+        "description" : "Cotonti Siena 0.9.20 allows admins to conduct stored XSS attacks via a forum post."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-39810",
+        "description" : "An issue was discovered in WSO2 Enterprise Integrator 6.4.0. A Reflected Cross-Site Scripting (XSS) vulnerability has been identified in the Management Console under /carbon/ndatasource/validateconnection/ajaxprocessor.jsp via the driver parameter. Session hijacking or similar attacks would not be possible."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-39809",
+        "description" : "An issue was discovered in WSO2 Enterprise Integrator 6.4.0. A Reflected Cross-Site Scripting (XSS) vulnerability has been identified in the Management Console under /carbon/mediation_secure_vault/properties/ajaxprocessor.jsp via the name parameter. Session hijacking or similar attacks would not be possible."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-39800",
+        "description" : "SAP BusinessObjects BI LaunchPad - versions 420, 430, is susceptible to script execution attack by an unauthenticated attacker due to improper sanitization of the user inputs while interacting on the network. On successful exploitation, an attacker can view or modify information causing a limited impact on confidentiality and integrity of the application."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-39799",
+        "description" : "An attacker with no prior authentication could craft and send malicious script to SAP GUI for HTML within Fiori Launchpad, resulting in reflected cross-site scripting attack. This could lead to stealing session information and impersonating the affected user."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-39301",
+        "description" : "sra-admin is a background rights management system that separates the front and back end. sra-admin version 1.1.1 has a storage cross-site scripting (XSS) vulnerability. After logging into the sra-admin background, an attacker can upload an html page containing xss attack code in \"Personal Center\" - \"Profile Picture Upload\" allowing theft of the user's personal information. This issue has been patched in 1.1.2. There are no known workarounds."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-39279",
+        "description" : "discourse-chat is a plugin for the Discourse message board which adds chat functionality. In versions prior to 0.9 some places render a chat channel's name and description in an unsafe way, allowing staff members to cause an cross site scripting (XSS) attack by inserting unsafe HTML into them. Version 0.9 has addressed this issue. Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-39270",
+        "description" : "DiscoTOC is a Discourse theme component that generates a table of contents for topics. Users that can create topics in TOC-enabled categories (and have sufficient trust level - configured in component's settings) are able to inject arbitrary HTML on that topic's page. The issue has been fixed on the `main` branch. Admins can update the theme component through the admin UI (Customize -> Themes -> Components -> DiscoTOC -> Check for Updates). Alternatively, admins can temporarily disable the DiscoTOC theme component."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-39220",
+        "description" : "SFTPGo is an SFTP server written in Go. Versions prior to 2.3.5 are subject to Cross-site scripting (XSS) vulnerabilities in the SFTPGo WebClient, allowing remote attackers to inject malicious code. This issue is patched in version 2.3.5. No known workarounds exist."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-39197",
+        "description" : "An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Strike through 4.7 that allowed a remote attacker to execute HTML on the Cobalt Strike teamserver. To exploit the vulnerability, one must first inspect a Cobalt Strike payload, and then modify the username field in the payload (or create a new payload with the extracted information and then modify that username field to be malformed)."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-39054",
+        "description" : "Cowell enterprise travel management system has insufficient filtering for special characters within web URL. An unauthenticated remote attacker can inject JavaScript and perform XSS (Reflected Cross-Site Scripting) attack."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-39053",
+        "description" : "Heimavista Rpage has insufficient filtering for platform web URL. An unauthenticated remote attacker can inject JavaScript and perform XSS (Reflected Cross-Site Scripting) attack."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-39049",
+        "description" : "An attacker who is logged into OTRS as an admin user may manipulate the URL to cause execution of JavaScript in the context of OTRS."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-39035",
+        "description" : "Smart eVision has insufficient filtering for special characters in the POST Data parameter in the specific function. An unauthenticated remote attacker can inject JavaScript to perform XSS (Stored Cross-Site Scripting) attack."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-38975",
+        "description" : "DOM-based cross-site scripting vulnerability in EC-CUBE 4 series (EC-CUBE 4.0.0 to 4.1.2) allows a remote attacker to inject an arbitrary script by having an administrative user of the product to visit a specially crafted page."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-38972",
+        "description" : "Cross-site scripting vulnerability in Movable Type plugin A-Form versions prior to 4.1.1 (for Movable Type 7 Series) and versions prior to 3.9.1 (for Movable Type 6 Series) allows a remote unauthenticated attacker to inject an arbitrary script."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-38902",
+        "description" : "A Cross-site scripting (XSS) vulnerability in the Blog module - add new topic functionality in Liferay Digital Experience Platform 7.3.10 SP3 allows remote attackers to inject arbitrary JS script or HTML into the name field of newly created topic."
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-38901",
+        "description" : "A Cross-site scripting (XSS) vulnerability in the Document and Media module - file upload functionality in Liferay Digital Experience Platform 7.3.10 SP3 allows remote attackers to inject arbitrary JS script or HTML into the description field of uploaded svg file."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-38845",
+        "description" : "Cross Site Scripting in Import feature in EspoCRM 7.1.8 allows remote users to run malicious JavaScript in victim s browser via sending crafted csv file containing malicious JavaScript to authenticated user. Any authenticated user importing the crafted CSV file may end up running the malicious JavaScripting in the browser."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-38814",
+        "description" : "A stored cross-site scripting (XSS) vulnerability in the auth_settings component of FiberHome AN5506-02-B vRP2521 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the sncfg_loid text field."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-38790",
+        "description" : "Weave GitOps Enterprise before 0.9.0-rc.5 has a cross-site scripting (XSS) bug allowing a malicious user to inject a javascript: link in the UI. When clicked by a victim user, the script will execute with the victim's permission. The exposure appears in Weave GitOps Enterprise UI via a GitopsCluster dashboard link. An annotation can be added to a GitopsCluster custom resource."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-38709",
+        "description" : "IBM Robotic Process Automation 21.0.1, 21.0.2, and 21.0.3 for Cloud Pak is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 234291."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-38703",
+        "description" : "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Max Foundry Button Plugin MaxButtons plugin <= 9.2 at WordPress"
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-38664",
+        "description" : "Jenkins Job Configuration History Plugin 1165.v8cc9fd1f4597 and earlier does not escape the job name on the System Configuration History page, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to configure job names."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-38639",
+        "description" : "A cross-site scripting (XSS) vulnerability in Markdown-Nice v1.8.22 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Community Posting field."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-38553",
+        "description" : "Academy Learning Management System before v5.9.1 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the Search parameter."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-38550",
+        "description" : "A stored cross-site scripting (XSS) vulnerability in the /weibo/list component of Jeesns v2.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-38527",
+        "description" : "UCMS v1.6.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the Import function under the Site Management page."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-38463",
+        "description" : "ServiceNow through San Diego Patch 4b and Patch 6 allows reflected XSS in the logout functionality."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-38460",
+        "description" : "Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in NOTICE BOARD plugin <= 1.1 at WordPress."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-38439",
+        "description" : "Adobe Experience Manager versions 6.5.13.0 (and earlier) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. If an attacker is able to convince a victim to visit a URL referencing a vulnerable page, malicious JavaScript content may be executed within the context of the victim's browser. Exploitation of this issue requires low-privilege access to AEM."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-38438",
+        "description" : "Adobe Experience Manager versions 6.5.13.0 (and earlier) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. If an attacker is able to convince a victim to visit a URL referencing a vulnerable page, malicious JavaScript content may be executed within the context of the victim's browser. Exploitation of this issue requires low-privilege access to AEM."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-38358",
+        "description" : "Improper neutralization of input during web page generation leaves the Eyes of Network web application vulnerable to cross-site scripting attacks at /module/admin_notifiers/rules.php and /module/report_event/indext.php via the parameters rule_notification, rule_name, and rule_name_old, and at /module/admin_user/add_modify_user.php via the parameters user_name and user_email."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-38339",
+        "description" : "Safe Software FME Server v2021.2.5, v2022.0.0.2 and below contains a cross-site scripting (XSS) vulnerability which allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the login page."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-38335",
+        "description" : "Vtiger CRM v7.4.0 was discovered to contain a stored cross-site scripting (XSS) vulnerability via the e-mail template modules."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-38295",
+        "description" : "Cuppa CMS v1.0 was discovered to contain a cross-site scripting vulnerability at /table_manager/view/cu_user_groups. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Name field under the Add New Group function."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-38291",
+        "description" : "SLiMS Senayan Library Management System v9.4.2 was discovered to contain a cross-site scripting (XSS) vulnerability via the Search function. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Search bar."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-38256",
+        "description" : "TastyIgniter v3.5.0 was discovered to contain a cross-site scripting (XSS) vulnerability which allows attackers to execute arbitrary web scripts or HTML via a crafted payload."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-38254",
+        "description" : "Nagios XI before v5.8.7 was discovered to contain a cross-site scripting (XSS) vulnerability via the ajax.php script in CCM 3.1.5."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-38251",
+        "description" : "Nagios XI v5.8.6 was discovered to contain a cross-site scripting (XSS) vulnerability via the System Performance Settings page under the Admin panel."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-38249",
+        "description" : "Nagios XI v5.8.6 was discovered to contain a cross-site scripting (XSS) vulnerability via the MTR component in version 1.0.4."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-38248",
+        "description" : "Nagios XI before v5.8.7 was discovered to contain multiple cross-site scripting (XSS) vulnerabilities at auditlog.php."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-38247",
+        "description" : "Nagios XI v5.8.6 was discovered to contain a cross-site scripting (XSS) vulnerability via the System Settings page under the Admin panel."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-38200",
+        "description" : "A cross site scripting vulnerability exists in some map service configurations of ArcGIS Server versions 10.8.1 and 10.7.1. Specifically crafted web requests can execute arbitrary JavaScript in the context of the victim's browser."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-38172",
+        "description" : "ServiceNow through San Diego Patch 3 allows XSS via the name field during creation of a new dashboard for the Performance Analytics dashboard."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-38162",
+        "description" : "Reflected cross-site scripting (XSS) vulnerabilities in WithSecure through 2022-08-10) exists within the F-Secure Policy Manager due to an unvalidated parameter in the endpoint, which allows remote attackers to provide a malicious input."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-38089",
+        "description" : "Stored cross-site scripting vulnerability in Exment ((PHP8) exceedone/exment v5.0.2 and earlier and exceedone/laravel-admin v3.0.0 and earlier, (PHP7) exceedone/exment v4.4.2 and earlier and exceedone/laravel-admin v2.2.2 and earlier) allows a remote authenticated attacker to inject an arbitrary script."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-38080",
+        "description" : "Reflected cross-site scripting vulnerability in Exment ((PHP8) exceedone/exment v5.0.2 and earlier and exceedone/laravel-admin v3.0.0 and earlier, (PHP7) exceedone/exment v4.4.2 and earlier and exceedone/laravel-admin v2.2.2 and earlier) allows a remote authenticated attacker to inject an arbitrary script."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-38073",
+        "description" : "Multiple Authenticated (custom specific plugin role) Persistent Cross-Site Scripting (XSS) vulnerability in Awesome Support plugin <= 6.0.7 at WordPress."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-38068",
+        "description" : "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Apasionados Export Post Info plugin <= 1.1.0 at WordPress."
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-37952",
+        "description" : "A reflected cross-site scripting (XSS) vulnerability exists in the iHistorian Data Display of WorkstationST (<v07.09.15) could allow an attacker to compromise a victim's browser. WorkstationST is only deployed in specific, controlled environments rendering attack complexity significantly higher than if the attack were conducted on the software in isolation. WorkstationST v07.09.15 can be found in ControlST v07.09.07 SP8 and greater."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-37796",
+        "description" : "In Simple Online Book Store System 1.0 in /admin_book.php the Title, Author, and Description parameters are vulnerable to Cross Site Scripting(XSS)."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-37775",
+        "description" : "Genesys PureConnect Interaction Web Tools Chat Service (up to at least 26- September- 2019) allows XSS within the Printable Chat History via the participant -> name JSON POST parameter."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-37731",
+        "description" : "ftcms 2.1 poster.PHP has a XSS vulnerability. The attacker inserts malicious JavaScript code into the web page, causing the user / administrator to trigger malicious code when accessing."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-37724",
+        "description" : "Project Wonder WebObjects 1.0 through 5.4.3 is vulnerable to Arbitrary HTTP Header injection and URL- or Header-based XSS reflection in all web-server adaptor interfaces."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-37679",
+        "description" : "Miniblog.Core v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability in the component /blog/edit. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Excerpt field."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-37461",
+        "description" : "Multiple cross-site scripting (XSS) vulnerabilities in Canon Medical Vitrea View 7.x before 7.7.6 allow remote attackers to inject arbitrary web script or HTML via (1) the input after the error subdirectory to the /vitrea-view/error/ subdirectory, or the (2) groupID, (3) offset, or (4) limit parameter to an Administrative Panel (Group and Users) page. There is a risk of an attacker retrieving patient information."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-37431",
+        "description" : "** DISPUTED ** A Reflected Cross-site scripting (XSS) issue was discovered in dotCMS Core through 22.06. This occurs in the admin portal when the configuration has XSS_PROTECTION_ENABLED=false. NOTE: the vendor disputes this because the current product behavior, in effect, has XSS_PROTECTION_ENABLED=true in all configurations."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-37412",
+        "description" : "Authenticated (admin+) Reflected Cross-Site Scripting (XSS) vulnerability in Galerio & Urda's Better Delete Revision plugin <= 1.6.1 at WordPress."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-37407",
+        "description" : "Multiple Authenticated Stored Cross-Site Scripting (XSS) vulnerabilities in WPChill Gallery PhotoBlocks plugin <= 1.2.6 at WordPress."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-37404",
+        "description" : "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Christian Salazar's add2fav plugin <= 1.0 at WordPress."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-37403",
+        "description" : "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Nikhil Vaghela's Add User Role plugin <= 0.0.1 at WordPress."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-37342",
+        "description" : "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability Add Shortcodes Actions And Filters plugin <= 2.0.9 at WordPress."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-37339",
+        "description" : "Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in Fullworks Meet My Team plugin <= 2.0.5 at WordPress."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-37338",
+        "description" : "Multiple Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerabilities in Blossom Recipe Maker plugin <= 1.0.7 at WordPress."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-37335",
+        "description" : "Authenticated (author+) Stored Cross-Site Scripting (XSS) vulnerability in WHA's Word Search Puzzles game plugin <= 2.0.1 at WordPress."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-37330",
+        "description" : "Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in WHA Crossword plugin <= 1.1.10 at WordPress."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2022-37328",
+        "description" : "Authenticated (author+) Stored Cross-Site Scripting (XSS) vulnerability in Themes Awesome History Timeline plugin <= 1.0.5 at WordPress."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2022-37254",
+        "description" : "DolphinPHP 1.5.1 is vulnerable to Cross Site Scripting (XSS) via Background - > System - > system function - > configuration management."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2022-37253",
+        "description" : "Persistent cross-site scripting (XSS) in Crime Reporting System 1.0 allows a remote attacker to introduce arbitary Javascript via manipulation of an unsanitized POST parameter"
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2022-37251",
+        "description" : "Craft CMS 4.2.0.1 is vulnerable to Cross Site Scripting (XSS) via Drafts."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2022-37250",
+        "description" : "Craft CMS 4.2.0.1 suffers from Stored Cross Site Scripting (XSS) in /admin/myaccount."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2022-37248",
+        "description" : "Craft CMS 4.2.0.1 is vulnerable to Cross Site Scripting (XSS) via src/helpers/Cp.php."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2022-37247",
+        "description" : "Craft CMS 4.2.0.1 is vulnerable to stored a cross-site scripting (XSS) via /admin/settings/fields page."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2022-37246",
+        "description" : "Craft CMS 4.2.0.1 is affected by Cross Site Scripting (XSS) in the file src/web/assets/cp/src/js/BaseElementSelectInput.js and in specific on the line label: elementInfo.label."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2022-37245",
+        "description" : "MDaemon Technologies SecurityGateway for Email Servers 8.5.2 is vulnerable to Cross Site Scripting (XSS) via the Blacklist endpoint."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2022-37244",
+        "description" : "MDaemon Technologies SecurityGateway for Email Servers 8.5.2 is vulnerable to IFRAME Injectionvia the currentRequest parameter. after login leads to inject malicious tag leads to IFRAME injection."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2022-37243",
+        "description" : "MDaemon Technologies SecurityGateway for Email Servers 8.5.2 is vulnerable to Cross Site Scripting (XSS) via the whitelist endpoint."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2022-37241",
+        "description" : "MDaemon Technologies SecurityGateway for Email Servers 8.5.2 is vulnerable to Cross Site Scripting (XSS) via the data_leak_list_ajax endpoint."
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2022-37239",
+        "description" : "MDaemon Technologies SecurityGateway for Email Servers 8.5.2 is vulnerable to Cross Site Scripting (XSS) via the rulles_list_ajax endpoint."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2022-37238",
+        "description" : "MDaemon Technologies SecurityGateway for Email Servers 8.5.2 is vulnerable to Cross Site Scripting (XSS) via the currentRequest parameter."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2022-37183",
+        "description" : "Piwigo 12.3.0 is vulnerable to Cross Site Scripting (XSS) via /search/1940/created-monthly-list."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2022-37161",
+        "description" : "Claroline 13.5.7 and prior is vulnerable to Cross Site Scripting (XSS) via SVG file upload."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2022-37160",
+        "description" : "Claroline 13.5.7 and prior allows an authenticated attacker to elevate privileges via the arbitrary creation of a privileged user. By combining the XSS vulnerability present in several upload forms and a javascript request to the present API, it is possible to trigger the creation of a user with administrative rights by opening an SVG file as an administrator user."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2022-37153",
+        "description" : "An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerability via the password parameter in /fw.login.php."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2022-37150",
+        "description" : "An issue was discovered in Online Diagnostic Lab Management System 1.0. There is a stored XSS vulnerability via firstname, address, middlename, lastname , gender, email, contact parameters."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2022-37139",
+        "description" : "Loan Management System version 1.0 suffers from a persistent cross site scripting vulnerability."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2022-37137",
+        "description" : "PayMoney 3.3 is vulnerable to Stored Cross-Site Scripting (XSS) during replying the ticket. The XSS can be obtain from injecting under \"Message\" field with \"description\" parameter with the specially crafted payload to gain Stored XSS. The XSS then will prompt after that or can be access from the view ticket function."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2022-37059",
+        "description" : "Cross Site Scripting (XSS) in Admin Panel of Subrion CMS 4.2.1 allows attacker to inject arbitrary code via Login Field"
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2022-37044",
+        "description" : "In Zimbra Collaboration Suite (ZCS) 8.8.15, the URL at /h/search?action accepts parameters called extra, title, and onload that are partially sanitised and lead to reflected XSS that allows executing arbitrary JavaScript on the victim's machine."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2022-37028",
+        "description" : "ISAMS 22.2.3.2 is prone to stored Cross-site Scripting (XSS) attack on the title field for groups, allowing an attacker to store a JavaScript payload that will be executed when another user uses the application."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2022-36965",
+        "description" : "Insufficient sanitization of inputs in QoE application input field could lead to stored and Dom based XSS attack. This issue is fixed and released in SolarWinds Platform (2022.3.0)."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2022-36952",
+        "description" : "In Veritas NetBackup OpsCenter, a hard-coded credential exists that could be used to exploit the underlying VxSS subsystem. This affects 8.x through 8.3.0.2, 9.x through 9.0.0.1, 9.1.x through 9.1.0.1, and 10."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2022-36948",
+        "description" : "In Veritas NetBackup OpsCenter, a DOM XSS attack can occur. This affects 8.x through 8.3.0.2, 9.x through 9.0.0.1, 9.1.x through 9.1.0.1, and 10."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2022-36922",
+        "description" : "Jenkins Lucene-Search Plugin 370.v62a5f618cd3a and earlier does not escape the search query parameter displayed on the 'search' result page, resulting in a reflected cross-site scripting (XSS) vulnerability."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2022-36905",
+        "description" : "Jenkins Maven Metadata Plugin for Jenkins CI server Plugin 2.2 and earlier does not perform URL validation for the Repository Base URL of List maven artifact versions parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2022-36902",
+        "description" : "Jenkins Dynamic Extended Choice Parameter Plugin 1.0.1 and earlier does not escape several fields of Moded Extended Choice parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2022-36880",
+        "description" : "The Read Mail module in Webmin 1.995 and Usermin through 1.850 allows XSS via a crafted HTML e-mail message."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2022-36859",
+        "description" : "Improper input validation vulnerability in SmartTagPlugin prior to version 1.2.21-6 allows privileged attackers to trigger a XSS on a victim&#39;s devices."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2022-36801",
+        "description" : "Affected versions of Atlassian Jira Server and Data Center allow anonymous remote attackers to inject arbitrary HTML or JavaScript via a Reflected Cross-Site Scripting (RXSS) vulnerability in the TeamManagement.jspa endpoint. The affected versions are before version 8.20.8."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2022-36791",
+        "description" : "Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in Awesome UG Torro Forms plugin <= 1.0.16 at WordPress."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2022-36778",
+        "description" : "insert HTML / js code inside input how to get to the vulnerable input : Workers &gt; worker nickname &gt; inject in this input the code."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2022-36748",
+        "description" : "PicUploader v2.6.3 was discovered to contain a cross-site scripting (XSS) vulnerability via the component /master/index.php."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2022-36747",
+        "description" : "Razor v0.8.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the function uploadchannel()."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2022-36746",
+        "description" : "LibreNMS v22.6.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the component oxidized-cfg-check.inc.php."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2022-36745",
+        "description" : "LibreNMS v22.6.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the component print-customoid.php."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2022-36668",
+        "description" : "Garage Management System 1.0 is vulnerable to Stored Cross Site Scripting (XSS) on several parameters. The vulnerabilities exist during creating or editing the parts under parameters. Using the XSS payload, the Stored XSS triggered and can be used for further attack vector."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2022-36657",
+        "description" : "Library Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the component /librarian/edit_book_details.php."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2022-36639",
+        "description" : "A stored cross-site scripting (XSS) vulnerability in /client.php of Garage Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2022-36637",
+        "description" : "Garage Management System v1.0 was discovered to contain a persistent cross-site scripting (XSS) vulnerability via the brand_name parameter at /brand.php."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2022-36600",
+        "description" : "BlogEngine v3.3.8.0 was discovered to contain a cross-site scripting (XSS) vulnerability in the component /blogengine/api/posts. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Description field."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2022-36583",
+        "description" : "DedeCMS V5.7.97 was discovered to contain multiple cross-site scripting (XSS) vulnerabilities at /dede/co_do.php via the dopost, rpok, and aid parameters."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2022-36573",
+        "description" : "A cross-site scripting (XSS) vulnerability in Pagekit CMS v1.0.18 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Markdown text box under /blog/post/edit."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2022-36548",
+        "description" : "Edoc-doctor-appointment-system v1.0.1 was discovered to contain a stored cross-site scripting (XSS) vulnerability at /patient/settings.php. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Name text field."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2022-36547",
+        "description" : "Edoc-doctor-appointment-system v1.0.1 was discovered to contain a reflected cross-site scripting (XSS) vulnerability at /patient/index.php. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Search field."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2022-36533",
+        "description" : "Super Flexible Software GmbH & Co. KG Syncovery 9 for Linux v9.47x and below was discovered to contain a cross-site scripting (XSS) vulnerability."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2022-36530",
+        "description" : "An issue was discovered in rageframe2 2.6.37. There is a XSS vulnerability in the user agent related parameters of the info.php page."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2022-36527",
+        "description" : "Jfinal CMS v5.1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the post title text field under the publish blog module."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2022-36405",
+        "description" : "Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in amCharts: Charts and Maps plugin <= 1.4 at WordPress."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2022-36390",
+        "description" : "Authenticated (subscriber+) Reflected Cross-Site Scripting (XSS) vulnerability in Totalsoft Event Calendar – Calendar plugin <= 1.4.6 at WordPress."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2022-36383",
+        "description" : "Multiple Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerabilities in WHA Word Search Puzzles game plugin <= 2.0.1 at WordPress."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2022-36378",
+        "description" : "Authenticated (author or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in PluginlySpeaking Floating Div plugin <= 3.0 at WordPress."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2022-36368",
+        "description" : "Multiple stored cross-site scripting vulnerabilities in the web user interface of IPFire versions prior to 2.27 allows a remote authenticated attacker with administrative privilege to inject an arbitrary script."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2022-36365",
+        "description" : "Multiple Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerabilities in WHA Crossword plugin <= 1.1.10 at WordPress."
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2022-36356",
+        "description" : "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Liam Gladdy / Thirty8 Digital Culture Object plugin <= 4.0.1 at WordPress."
+    }
+]

@@ -1,0 +1,1007 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-43035",
+        "description" : "An issue was discovered in Bento4 v1.6.0-639. There is a heap-buffer-overflow in AP4_Dec3Atom::AP4_Dec3Atom at Ap4Dec3Atom.cpp, leading to a Denial of Service (DoS), as demonstrated by mp42aac."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-43033",
+        "description" : "An issue was discovered in Bento4 1.6.0-639. There is a bad free in the component AP4_HdlrAtom::~AP4_HdlrAtom() which allows attackers to cause a Denial of Service (DoS) via a crafted input."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-42969",
+        "description" : "The py library through 1.11.0 for Python allows remote attackers to conduct a ReDoS (Regular expression Denial of Service) attack via a Subversion repository with crafted info data, because the InfoSvnCommand argument is mishandled."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-42300",
+        "description" : "An issue was discovered in Veritas NetBackup through 10.0.0.1 and related Veritas products. The NetBackup Primary server nbars process can be crashed resulting in a denial of service. (Note: the watchdog service will automatically restart the process.)"
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-42299",
+        "description" : "An issue was discovered in Veritas NetBackup through 10.0.0.1 and related Veritas products. The NetBackup Primary server is vulnerable to a denial of service attack through the DiscoveryService service."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-41715",
+        "description" : "Programs which compile regular expressions from untrusted sources may be vulnerable to memory exhaustion or denial of service. The parsed regexp representation is linear in the size of the input, but in some cases the constant factor can be as high as 40,000, making relatively small regexps consume much larger amounts of memory. After fix, each regexp being parsed is limited to a 256 MB memory footprint. Regular expressions whose representation would use more space than that are rejected. Normal use of regular expressions is unaffected."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-41665",
+        "description" : "A vulnerability has been identified in SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P850 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10), SICAM P855 (All versions < V3.10). Affected devices do not properly validate the parameter of a specific GET request. This could allow an authenticated attacker to set the device to a denial of service state or to control the program counter and, thus, execute arbitrary code on the device."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-41556",
+        "description" : "A resource leak in gw_backend.c in lighttpd 1.4.56 through 1.4.66 could lead to a denial of service (connection-slot exhaustion) after a large amount of anomalous TCP behavior by clients. It is related to RDHUP mishandling in certain HTTP"
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-41485",
+        "description" : "Tenda AC1200 US_AC6V2.0RTL_V15.03.06.51_multi_TDE01 was discovered to contain a buffer overflow in the 0x47ce00 function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted request."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-41484",
+        "description" : "Tenda AC1900 AP500(US)_V1_180320(Beta) was discovered to contain a buffer overflow in the 0x32384 function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted request."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-41483",
+        "description" : "Tenda AC1200 US_AC6V2.0RTL_V15.03.06.51_multi_TDE01 was discovered to contain a buffer overflow in the 0x4a12cc function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted request."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-41482",
+        "description" : "Tenda AC1200 US_AC6V2.0RTL_V15.03.06.51_multi_TDE01 was discovered to contain a buffer overflow in the 0x47c5dc function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted request."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-41481",
+        "description" : "Tenda AC1200 US_AC6V2.0RTL_V15.03.06.51_multi_TDE01 was discovered to contain a buffer overflow in the 0x47de1c function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted request."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-41480",
+        "description" : "Tenda AC1200 US_AC6V2.0RTL_V15.03.06.51_multi_TDE01 was discovered to contain a buffer overflow in the 0x475dc function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted request."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-41415",
+        "description" : "Acer Altos W2000h-W570h F4 R01.03.0018 was discovered to contain a stack overflow in the RevserveMem component. This vulnerability allows attackers to cause a Denial of Service (DoS) via injecting crafted shellcode into the NVRAM variable."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-41404",
+        "description" : "An issue in the fetch() method in the BasicProfile class of org.ini4j before v0.5.4 allows attackers to cause a Denial of Service (DoS) via unspecified vectors."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-41323",
+        "description" : "In Django 3.2 before 3.2.16, 4.0 before 4.0.8, and 4.1 before 4.1.2, internationalized URLs were subject to a potential denial of service attack via the locale parameter, which is treated as a regular expression."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-40923",
+        "description" : "A vulnerability in the LIEF::MachO::SegmentCommand::virtual_address function of LIEF v0.12.1 allows attackers to cause a denial of service (DOS) through a segmentation fault via a crafted MachO file."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-40922",
+        "description" : "A vulnerability in the LIEF::MachO::BinaryParser::init_and_parse function of LIEF v0.12.1 allows attackers to cause a denial of service (DOS) through a segmentation fault via a crafted MachO file."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-40890",
+        "description" : "A vulnerability in /src/amf/amf-context.c in Open5GS 2.4.10 and earlier leads to AMF denial of service."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-40885",
+        "description" : "Bento4 v1.6.0-639 has a memory allocation issue that can cause denial of service."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-40855",
+        "description" : "Tenda W20E router V15.11.0.6 contains a stack overflow in the function formSetPortMapping with post request 'goform/setPortMapping/'. This vulnerability allows attackers to cause a Denial of Service (DoS) or Remote Code Execution (RCE) via the portMappingServer, portMappingProtocol, portMappingWan, porMappingtInternal, and portMappingExternal parameters."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-40762",
+        "description" : "A Memory Allocation with Excessive Size Value vulnerablity in the TEE_Realloc function in Samsung mTower through 0.3.0 allows a trusted application to trigger a Denial of Service (DoS) by invoking the function TEE_Realloc with an excessive number for the parameter len."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-40761",
+        "description" : "The function tee_obj_free in Samsung mTower through 0.3.0 allows a trusted application to trigger a Denial of Service (DoS) by invoking the function TEE_AllocateOperation with a disturbed heap layout, related to utee_cryp_obj_alloc."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-40760",
+        "description" : "A Buffer Access with Incorrect Length Value vulnerablity in the TEE_MACUpdate function in Samsung mTower through 0.3.0 allows a trusted application to trigger a Denial of Service (DoS) by invoking the function TEE_MACUpdate with an excessive size value of chunkSize."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-40759",
+        "description" : "A NULL pointer dereference issue in the TEE_MACCompareFinal function in Samsung mTower through 0.3.0 allows a trusted application to trigger a Denial of Service (DoS) by invoking the function TEE_MACCompareFinal with a NULL pointer for the parameter operation."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-40758",
+        "description" : "A Buffer Access with Incorrect Length Value vulnerablity in the TEE_CipherUpdate function in Samsung mTower through 0.3.0 allows a trusted application to trigger a Denial of Service (DoS) by invoking the function TEE_CipherUpdate with an excessive size value of srcLen."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-40757",
+        "description" : "A Buffer Access with Incorrect Length Value vulnerablity in the TEE_MACComputeFinal function in Samsung mTower through 0.3.0 allows a trusted application to trigger a Denial of Service (DoS) by invoking the function TEE_MACComputeFinal with an excessive size value of messageLen."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-40755",
+        "description" : "JasPer 3.0.6 allows denial of service via a reachable assertion in the function inttobits in libjasper/base/jas_image.c."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-40476",
+        "description" : "A null pointer dereference issue was discovered in fs/io_uring.c in the Linux kernel before 5.15.62. A local user could use this flaw to crash the system or potentially cause a denial of service."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-40439",
+        "description" : "An memory leak issue was discovered in AP4_StdcFileByteStream::Create in mp42ts in Bento4 v1.6.0-639, allows attackers to cause a denial of service via a crafted file."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-40438",
+        "description" : "Buffer overflow vulnerability in function AP4_MemoryByteStream::WritePartial in mp42aac in Bento4 v1.6.0-639, allows attackers to cause a denial of service via a crafted file."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-40363",
+        "description" : "A buffer overflow in the component nfc_device_load_mifare_ul_data of Flipper Devices Inc., Flipper Zero before v0.65.2 allows attackers to cause a Denial of Service (DoS) via a crafted NFC file."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-40306",
+        "description" : "The login form /Login in ECi Printanista Hub (formerly FMAudit Printscout) through 2022-06-27 performs expensive RSA key-generation operations, which allows attackers to cause a denial of service (DoS) by requesting that form repeatedly."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-40280",
+        "description" : "An issue was discovered in Samsung TizenRT through 3.0_GBM (and 3.1_PRE). createDB in security/provisioning/src/provisioningdatabasemanager.c has a missing sqlite3_close after sqlite3_open_v2, leading to a denial of service."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-40279",
+        "description" : "An issue was discovered in Samsung TizenRT through 3.0_GBM (and 3.1_PRE). l2_packet_receive_timeout in wpa_supplicant/src/l2_packet/l2_packet_pcap.c has a missing check on the return value of pcap_dispatch, leading to a denial of service (malfunction)."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-40278",
+        "description" : "An issue was discovered in Samsung TizenRT through 3.0_GBM (and 3.1_PRE). createDB in security/provisioning/src/provisioningdatabasemanager.c has a missing sqlite3_free after sqlite3_exec, leading to a denial of service."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-40227",
+        "description" : "A vulnerability has been identified in SIMATIC HMI Comfort Panels (incl. SIPLUS variants) (All versions < V17 Update 4), SIMATIC HMI KTP Mobile Panels (All versions < V17 Update 4), SIMATIC HMI KTP1200 Basic (All versions < V17 Update 5), SIMATIC HMI KTP400 Basic (All versions < V17 Update 5), SIMATIC HMI KTP700 Basic (All versions < V17 Update 5), SIMATIC HMI KTP900 Basic (All versions < V17 Update 5), SIPLUS HMI KTP1200 BASIC (All versions < V17 Update 5), SIPLUS HMI KTP400 BASIC (All versions < V17 Update 5), SIPLUS HMI KTP700 BASIC (All versions < V17 Update 5), SIPLUS HMI KTP900 BASIC (All versions < V17 Update 5). Affected devices do not properly validate input sent to certain services over TCP. This could allow an unauthenticated remote attacker to cause a permanent denial of service condition (requiring a device reboot) by sending specially crafted TCP packets."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-40188",
+        "description" : "Knot Resolver before 5.5.3 allows remote attackers to cause a denial of service (CPU consumption) because of algorithmic complexity. During an attack, an authoritative server must return large NS sets or address sets."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-40181",
+        "description" : "A vulnerability has been identified in Desigo PXM30-1 (All versions < V02.20.126.11-41), Desigo PXM30.E (All versions < V02.20.126.11-41), Desigo PXM40-1 (All versions < V02.20.126.11-41), Desigo PXM40.E (All versions < V02.20.126.11-41), Desigo PXM50-1 (All versions < V02.20.126.11-41), Desigo PXM50.E (All versions < V02.20.126.11-41), PXG3.W100-1 (All versions < V02.20.126.11-37), PXG3.W100-2 (All versions < V02.20.126.11-41), PXG3.W200-1 (All versions < V02.20.126.11-37), PXG3.W200-2 (All versions < V02.20.126.11-41). The device embedded browser does not prevent interaction with alternative URI schemes when redirected to corresponding resources by web application code. By setting the homepage URI, the favorite URIs, or redirecting embedded browser users via JavaScript code to alternative scheme resources, a remote low privileged attacker can perform a range of attacks against the device, such as read arbitrary files on the filesystem, execute arbitrary JavaScript code in order to steal or manipulate the information on the screen, or trigger denial of service conditions."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-40161",
+        "description" : "Those using JXPath to interpret XPath may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-40160",
+        "description" : "Those using JXPath to interpret XPath may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-40159",
+        "description" : "Those using JXPath to interpret XPath may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-40158",
+        "description" : "Those using JXPath to interpret XPath may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-40157",
+        "description" : "Those using JXPath to interpret XPath may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-40156",
+        "description" : "Those using Xstream to seralize XML data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-40155",
+        "description" : "Those using Xstream to serialise XML data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack overflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-40154",
+        "description" : "Those using Xstream to serialise XML data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack overflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-40153",
+        "description" : "Those using Xstream to seralize XML data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-40152",
+        "description" : "Those using Xstream to seralize XML data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-40151",
+        "description" : "Those using Xstream to seralize XML data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-40150",
+        "description" : "Those using Jettison to parse untrusted XML or JSON data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by Out of memory. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-40149",
+        "description" : "Those using Jettison to parse untrusted XML or JSON data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-40133",
+        "description" : "A use-after-free(UAF) vulnerability was found in function 'vmw_execbuf_tie_context' in drivers/gpu/vmxgfx/vmxgfx_execbuf.c in Linux kernel's vmwgfx driver with device file '/dev/dri/renderD128 (or Dxxx)'. This flaw allows a local attacker with a user account on the system to gain privilege, causing a denial of service(DoS)."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-40107",
+        "description" : "Tenda i9 v1.0.0.8(3828) was discovered to contain a buffer overflow via the formexeCommand function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted string."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-39832",
+        "description" : "An issue was discovered in PSPP 1.6.2. There is a heap-based buffer overflow at the function read_string in utilities/pspp-dump-sav.c, which allows attackers to cause a denial of service (application crash) or possibly have unspecified other impact."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-39831",
+        "description" : "An issue was discovered in PSPP 1.6.2. There is a heap-based buffer overflow at the function read_bytes_internal in utilities/pspp-dump-sav.c, which allows attackers to cause a denial of service (application crash) or possibly have unspecified other impact. This issue is different from CVE-2018-20230."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-39830",
+        "description" : "sign_pFwInfo in Samsung mTower through 0.3.0 has a missing check on the return value of EC_KEY_set_public_key_affine_coordinates, leading to a denial of service."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-39828",
+        "description" : "sign_pFwInfo in Samsung mTower through 0.3.0 has a missing check on the return value of EC_KEY_set_private_key, leading to a denial of service."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-39409",
+        "description" : "Vulnerability in the Oracle Transportation Management product of Oracle Supply Chain (component: Business Process Automation). Supported versions that are affected are 6.4.3 and 6.5.1. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Transportation Management. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Transportation Management. CVSS 3.1 Base Score 2.7 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L)."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-39404",
+        "description" : "Vulnerability in the MySQL Installer product of Oracle MySQL (component: Installer: General). Supported versions that are affected are 1.6.3 and prior. Difficult to exploit vulnerability allows low privileged attacker with logon to the infrastructure where MySQL Installer executes to compromise MySQL Installer. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Installer accessible data as well as unauthorized read access to a subset of MySQL Installer accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Installer. CVSS 3.1 Base Score 4.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L)."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-39288",
+        "description" : "astify is a fast and low overhead web framework, for Node.js. Affected versions of fastify are subject to a denial of service via malicious use of the Content-Type header. An attacker can send an invalid Content-Type header that can cause the application to crash. This issue has been addressed in commit `fbb07e8d` and will be included in release version 4.8.1. Users are advised to upgrade. Users unable to upgrade may manually filter out http content with malicious Content-Type headers."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-39281",
+        "description" : "fat_free_crm is a an open source, Ruby on Rails customer relationship management platform (CRM). In versions prior to 0.20.1 an authenticated user can perform a remote Denial of Service attack against Fat Free CRM via bucket access. The vulnerability has been patched in commit `c85a254` and will be available in release `0.20.1`. Users are advised to upgrade or to manually apply patch `c85a254`. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-39280",
+        "description" : "dparse is a parser for Python dependency files. dparse in versions before 0.5.2 contain a regular expression that is vulnerable to a Regular Expression Denial of Service. All the users parsing index server URLs with dparse are impacted by this vulnerability. A patch has been applied in version `0.5.2`, all the users are advised to upgrade to `0.5.2` as soon as possible. Users unable to upgrade should avoid passing index server URLs in the source file to be parsed."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-39271",
+        "description" : "Traefik (pronounced traffic) is a modern HTTP reverse proxy and load balancer that assists in deploying microservices. There is a potential vulnerability in Traefik managing HTTP/2 connections. A closing HTTP/2 server connection could hang forever because of a subsequent fatal error. This failure mode could be exploited to cause a denial of service. There has been a patch released in versions 2.8.8 and 2.9.0-rc5. There are currently no known workarounds."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-39209",
+        "description" : "cmark-gfm is GitHub's fork of cmark, a CommonMark parsing and rendering library and program in C. In versions prior to 0.29.0.gfm.6 a polynomial time complexity issue in cmark-gfm's autolink extension may lead to unbounded resource exhaustion and subsequent denial of service. Users may verify the patch by running `python3 -c 'print(\"![l\"* 100000 + \"\n\")' | ./cmark-gfm -e autolink`, which will resource exhaust on unpatched cmark-gfm but render correctly on patched cmark-gfm. This vulnerability has been patched in 0.29.0.gfm.6. Users are advised to upgrade. Users unable to upgrade should disable the use of the autolink extension."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-39190",
+        "description" : "An issue was discovered in net/netfilter/nf_tables_api.c in the Linux kernel before 5.19.6. A denial of service can occur upon binding to an already bound chain."
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-39177",
+        "description" : "BlueZ before 5.59 allows physically proximate attackers to cause a denial of service because malformed and invalid capabilities can be processed in profiles/audio/avdtp.c."
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-39158",
+        "description" : "A vulnerability has been identified in RUGGEDCOM ROS RMC8388 (All versions < V5.6.0), RUGGEDCOM ROS RS416Pv2 (All versions < V5.6.0), RUGGEDCOM ROS RS416v2 (All versions < V5.6.0), RUGGEDCOM ROS RS900 (32M) (All versions < V5.6.0), RUGGEDCOM ROS RS900G (32M) (All versions < V5.6.0), RUGGEDCOM ROS RSG2100 (32M) (All versions < V5.6.0), RUGGEDCOM ROS RSG2288 (All versions < V5.6.0), RUGGEDCOM ROS RSG2300 (All versions < V5.6.0), RUGGEDCOM ROS RSG2300P (All versions < V5.6.0), RUGGEDCOM ROS RSG2488 (All versions < V5.6.0), RUGGEDCOM ROS RSG907R (All versions < V5.6.0), RUGGEDCOM ROS RSG908C (All versions < V5.6.0), RUGGEDCOM ROS RSG909R (All versions < V5.6.0), RUGGEDCOM ROS RSG910C (All versions < V5.6.0), RUGGEDCOM ROS RSG920P (All versions < V5.6.0), RUGGEDCOM ROS RSL910 (All versions < v5.6.0), RUGGEDCOM ROS RST2228 (All versions < v5.6.0), RUGGEDCOM ROS RST2228P (All versions < V5.6.0), RUGGEDCOM ROS RST916C (All versions < v5.6.0), RUGGEDCOM ROS RST916P (All versions < v5.6.0). Affected devices improperly handle partial HTTP requests which makes them vulnerable to slowloris attacks. This could allow a remote attacker to create a denial of service condition that persists until the attack ends."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-39128",
+        "description" : "In sensor driver, there is a possible out of bounds write due to a missing bounds check. This could lead to local denial of service in kernel."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-39115",
+        "description" : "In Music service, there is a missing permission check. This could lead to local denial of service in Music service with no additional execution privileges needed."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-38752",
+        "description" : "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack-overflow."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-38690",
+        "description" : "In camera driver, there is a possible memory corruption due to improper locking. This could lead to local denial of service in kernel."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-38687",
+        "description" : "In messaging service, there is a missing permission check. This could lead to local denial of service in messaging service with no additional execution privileges needed."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-38570",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a stack overflow in the function formDelPushedAd. This vulnerability allows attackers to cause a Denial of Service (DoS) via the adPushUID parameter."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-38568",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formSetFixTools. This vulnerability allows attackers to cause a Denial of Service (DoS) via the hostname parameter."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-38567",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a stack overflow vulnerability in the function formSetAdConfigInfo. This vulnerability allows attackers to cause a Denial of Service (DoS) via the authIPs parameter."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-38566",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formEmailTest. This vulnerability allows attackers to cause a Denial of Service (DoS) via the mailname parameter."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-38565",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formEmailTest. This vulnerability allows attackers to cause a Denial of Service (DoS) via the mailpwd parameter."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-38564",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a buffer overflow vulnerability in the function formSetPicListItem. This vulnerability allows attackers to cause a Denial of Service (DoS) via the adItemUID parameter."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-38563",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formSetFixTools. This vulnerability allows attackers to cause a Denial of Service (DoS) via the MACAddr parameter."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-38562",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formSetFixTools. This vulnerability allows attackers to cause a Denial of Service (DoS) via the lan parameter."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-38493",
+        "description" : "Rhonabwy 0.9.99 through 1.1.x before 1.1.7 doesn't check the RSA private key length before RSA-OAEP decryption. This allows attackers to cause a Denial of Service via a crafted JWE (JSON Web Encryption) token."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-38457",
+        "description" : "A use-after-free(UAF) vulnerability was found in function 'vmw_cmd_res_check' in drivers/gpu/vmxgfx/vmxgfx_execbuf.c in Linux kernel's vmwgfx driver with device file '/dev/dri/renderD128 (or Dxxx)'. This flaw allows a local attacker with a user account on the system to gain privilege, causing a denial of service(DoS)."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-38392",
+        "description" : "Certain 5400 RPM hard drives, for laptops and other PCs in approximately 2005 and later, allow physically proximate attackers to cause a denial of service (device malfunction and system crash) via a resonant-frequency attack with the audio signal from the Rhythm Nation music video. A reported product is Seagate STDT4000100 763649053447."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-38371",
+        "description" : "A vulnerability has been identified in Nucleus NET (All versions), Nucleus ReadyStart V3 (All versions), Nucleus Source Code (Versions including affected FTP server). The FTP server does not properly release memory resources that were reserved for incomplete connection attempts by FTP clients. This could allow a remote attacker to generate a denial of service condition on devices that incorporate a vulnerable version of the FTP server."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-38266",
+        "description" : "An issue in the Leptonica linked library (v1.79.0) in Tesseract v5.0.0 allows attackers to cause an arithmetic exception leading to a Denial of Service (DoS) via a crafted JPEG file."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-38258",
+        "description" : "A local file inclusion (LFI) vulnerability in D-Link DIR 819 v1.06 allows attackers to cause a Denial of Service (DoS) or access sensitive server information via manipulation of the getpage parameter in a crafted web request."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-38223",
+        "description" : "There is an out-of-bounds write in checkType located in etc.c in w3m 0.5.3. It can be triggered by sending a crafted HTML file to the w3m binary. It allows an attacker to cause Denial of Service or possibly have unspecified other impact."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-38222",
+        "description" : "There is a use-after-free issue in JBIG2Stream::close() located in JBIG2Stream.cc in Xpdf 4.04. It can be triggered by sending a crafted PDF file to (for example) the pdfimages binary. It allows an attacker to cause Denial of Service or possibly have unspecified other impact."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-38128",
+        "description" : "An infinite loop may be triggered in display_debug_abbrev() function in binutils/dwarf.c while opening a crafted ELF, which may lead to denial of service by a local attacker."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-38126",
+        "description" : "Assertion fail in the display_debug_names() function in binutils/dwarf.c may lead to program crash and denial of service."
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-38096",
+        "description" : "A NULL pointer dereference vulnerability was found in vmwgfx driver in drivers/gpu/vmxgfx/vmxgfx_execbuf.c in GPU component of Linux kernel with device file '/dev/dri/renderD128 (or Dxxx)'. This flaw allows a local attacker with a user account on the system to gain privilege, causing a denial of service(DoS)."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-38041",
+        "description" : "Windows Secure Channel Denial of Service Vulnerability."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-37895",
+        "description" : "An unauthenticated Denial of Service (DoS) vulnerability exists in the handling of certain SSID strings by Aruba InstantOS and ArubaOS 10. Successful exploitation of this vulnerability results in the ability to interrupt the normal operation of the affected AP of Aruba InstantOS 6.4.x: 6.4.4.8-4.2.4.20 and below; Aruba InstantOS 6.5.x: 6.5.4.23 and below; Aruba InstantOS 8.6.x: 8.6.0.18 and below; Aruba InstantOS 8.7.x: 8.7.1.9 and below; Aruba InstantOS 8.10.x: 8.10.0.1 and below; ArubaOS 10.3.x: 10.3.1.0 and below; Aruba has released upgrades for Aruba InstantOS that address this security vulnerability."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-37894",
+        "description" : "An unauthenticated Denial of Service (DoS) vulnerability exists in the handling of certain SSID strings by Aruba InstantOS and ArubaOS 10. Successful exploitation of this vulnerability results in the ability to interrupt the normal operation of the affected AP of Aruba InstantOS 6.4.x: 6.4.4.8-4.2.4.20 and below; Aruba InstantOS 6.5.x: 6.5.4.23 and below; Aruba InstantOS 8.6.x: 8.6.0.18 and below; Aruba InstantOS 8.7.x: 8.7.1.9 and below; Aruba InstantOS 8.10.x: 8.10.0.1 and below; ArubaOS 10.3.x: 10.3.1.0 and below; Aruba has released upgrades for Aruba InstantOS that address this security vulnerability."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-37797",
+        "description" : "In lighttpd 1.4.65, mod_wstunnel does not initialize a handler function pointer if an invalid HTTP request (websocket handshake) is received. It leads to null pointer dereference which crashes the server. It could be used by an external attacker to cause denial of service condition."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-37770",
+        "description" : "libjpeg commit 281daa9 was discovered to contain a segmentation fault via LineMerger::GetNextLowpassLine at linemerger.cpp. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted file."
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-37734",
+        "description" : "graphql-java before19.0 is vulnerable to Denial of Service. An attacker can send a malicious GraphQL query that consumes CPU resources. The fixed versions are 19.0 and later, 18.3, and 17.4, and 0.0.0-2022-07-26T05-45-04-226aabd9."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-37599",
+        "description" : "A Regular expression denial of service (ReDoS) flaw was found in Function interpolateName in interpolateName.js in webpack loader-utils 2.0.0 via the resourcePath variable in interpolateName.js."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-37428",
+        "description" : "PowerDNS Recursor up to and including 4.5.9, 4.6.2 and 4.7.1, when protobuf logging is enabled, has Improper Cleanup upon a Thrown Exception, leading to a denial of service (daemon crash) via a DNS query that leads to an answer with specific properties."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-37394",
+        "description" : "An issue was discovered in OpenStack Nova before 23.2.2, 24.x before 24.1.2, and 25.x before 25.0.2. By creating a neutron port with the direct vnic_type, creating an instance bound to that port, and then changing the vnic_type of the bound port to macvtap, an authenticated user may cause the compute service to fail to restart, resulting in a possible denial of service. Only Nova deployments configured with SR-IOV are affected."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-37262",
+        "description" : "A Regular Expression Denial of Service (ReDoS) flaw was found in stealjs steal 2.2.4 via the source and sourceWithComments variable in main.js."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-37260",
+        "description" : " Regular Expression Denial of Service (ReDoS) flaw was found in stealjs steal 2.2.4 via the input variable in main.js."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-37259",
+        "description" : "A Regular Expression Denial of Service (ReDoS) flaw was found in stealjs steal 2.2.4 via the string variable in babel.js."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-37189",
+        "description" : "DDMAL MEI2Volpiano 0.8.2 is vulnerable to XML External Entity (XXE), leading to a Denial of Service. This occurs due to the usage of the unsafe 'xml.etree' library to parse untrusted XML input."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-37032",
+        "description" : "An out-of-bounds read in the BGP daemon of FRRouting FRR before 8.4 may lead to a segmentation fault and denial of service. This occurs in bgp_capability_msg_parse in bgpd/bgp_packet.c."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-36998",
+        "description" : "An issue was discovered in Veritas NetBackup 8.1.x through 8.1.2, 8.2, 8.3.x through 8.3.0.2, 9.x through 9.0.0.1, and 9.1.x through 9.1.0.1 (and related NetBackup products). An attacker with authenticated access to a NetBackup Client could remotely trigger a stack-based buffer overflow on the NetBackup Primary server, resulting in a denial of service."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-36997",
+        "description" : "An issue was discovered in Veritas NetBackup 8.1.x through 8.1.2, 8.2, 8.3.x through 8.3.0.2, 9.x through 9.0.0.1, and 9.1.x through 9.1.0.1 (and related NetBackup products). An attacker with authenticated access to a NetBackup Client could remotely trigger impacts that include arbitrary file read, Server-Side Request Forgery (SSRF), and denial of service."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-36984",
+        "description" : "An issue was discovered in Veritas NetBackup 8.1.x through 8.1.2, 8.2, 8.3.x through 8.3.0.2, 9.x through 9.0.0.1, and 9.1.x through 9.1.0.1 (and related NetBackup products). An attacker with authenticated access to a NetBackup Client could remotely trigger a denial of service attack against a NetBackup Primary server."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-36946",
+        "description" : "nfqnl_mangle in net/netfilter/nfnetlink_queue.c in the Linux kernel through 5.18.14 allows remote attackers to cause a denial of service (panic) because, in the case of an nf_queue verdict with a one-byte nfta_payload attribute, an skb_pull can encounter a negative skb->len."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-36848",
+        "description" : "Improper Authorization vulnerability in setDualDARPolicyCmd prior to SMR Sep-2022 Release 1 allows local attackers to cause local permanent denial of service."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-36661",
+        "description" : "xhyve commit dfbe09b was discovered to contain a NULL pointer dereference via the component vi_pci_read(). This vulnerability allows attackers to cause a Denial of Service via unspecified vectors."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-36522",
+        "description" : "Mikrotik RouterOs through stable v6.48.3 was discovered to contain an assertion failure in the component /advanced-tools/nova/bin/netwatch. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted packet."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-36402",
+        "description" : "An integer overflow vulnerability was found in vmwgfx driver in drivers/gpu/vmxgfx/vmxgfx_execbuf.c in GPU component of Linux kernel with device file '/dev/dri/renderD128 (or Dxxx)'. This flaw allows a local attacker with a user account on the system to gain privilege, causing a denial of service(DoS)."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-36324",
+        "description" : "Affected devices do not properly handle the renegotiation of SSL/TLS parameters. This could allow an unauthenticated remote attacker to bypass the TCP brute force prevention and lead to a denial of service condition for the duration of the attack."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-36280",
+        "description" : "An out-of-bounds(OOB) memory access vulnerability was found in vmwgfx driver in drivers/gpu/vmxgfx/vmxgfx_kms.c in GPU component in the Linux kernel with device file '/dev/dri/renderD128 (or Dxxx)'. This flaw allows a local attacker with a user account on the system to gain privilege, causing a denial of service(DoS)."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-36186",
+        "description" : "A Null Pointer dereference vulnerability exists in GPAC 2.1-DEV-revUNKNOWN-master via the function gf_filter_pid_set_property_full () at filter_core/filter_pid.c:5250,which causes a Denial of Service (DoS). This vulnerability was fixed in commit b43f9d1."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-36087",
+        "description" : "OAuthLib is an implementation of the OAuth request-signing logic for Python 3.6+. In OAuthLib versions 3.1.1 until 3.2.1, an attacker providing malicious redirect uri can cause denial of service. An attacker can also leverage usage of `uri_validate` functions depending where it is used. OAuthLib applications using OAuth2.0 provider support or use directly `uri_validate` are affected by this issue. Version 3.2.1 contains a patch. There are no known workarounds."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-36064",
+        "description" : "Shescape is a shell escape package for JavaScript. An Inefficient Regular Expression Complexity vulnerability impacts users that use Shescape to escape arguments for the Unix shells `Bash` and `Dash`, or any not-officially-supported Unix shell; and/or using the `escape` or `escapeAll` functions with the `interpolation` option set to `true`. An attacker can cause polynomial backtracking or quadratic runtime in terms of the input string length due to two Regular Expressions in Shescape that are vulnerable to Regular Expression Denial of Service (ReDoS). This bug has been patched in v1.5.10. For `Dash` only, this bug has been patched since v1.5.9. As a workaround, a maximum length can be enforced on input strings to Shescape to reduce the impact of the vulnerability. It is not recommended to try and detect vulnerable input strings, as the logic for this may end up being vulnerable to ReDoS itself."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-36063",
+        "description" : "Azure RTOS USBx is a USB host, device, and on-the-go (OTG) embedded stack, fully integrated with Azure RTOS ThreadX and available for all Azure RTOS ThreadX–supported processors. Azure RTOS USBX implementation of host support for USB CDC ECM includes an integer underflow and a buffer overflow in the `_ux_host_class_cdc_ecm_mac_address_get` function which may be potentially exploited to achieve remote code execution or denial of service. Setting mac address string descriptor length to a `0` or `1` allows an attacker to introduce an integer underflow followed (string_length) by a buffer overflow of the `cdc_ecm -> ux_host_class_cdc_ecm_node_id` array. This may allow one to redirect the code execution flow or introduce a denial of service. The fix has been included in USBX release [6.1.12](https://github.com/azure-rtos/usbx/releases/tag/v6.1.12_rel). Improved mac address string descriptor length validation to check for unexpectedly small values may be used as a workaround."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-36055",
+        "description" : "Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources. Fuzz testing, provided by the CNCF, identified input to functions in the _strvals_ package that can cause an out of memory panic. The _strvals_ package contains a parser that turns strings in to Go structures. The _strvals_ package converts these strings into structures Go can work with. Some string inputs can cause array data structures to be created causing an out of memory panic. Applications that use the _strvals_ package in the Helm SDK to parse user supplied input can suffer a Denial of Service when that input causes a panic that cannot be recovered from. The Helm Client will panic with input to `--set`, `--set-string`, and other value setting flags that causes an out of memory panic. Helm is not a long running service so the panic will not affect future uses of the Helm client. This issue has been resolved in 3.9.4. SDK users can validate strings supplied by users won't create large arrays causing significant memory usage before passing them to the _strvals_ functions."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-36026",
+        "description" : "TensorFlow is an open source platform for machine learning. If `QuantizeAndDequantizeV3` is given a nonscalar `num_bits` input tensor, it results in a `CHECK` fail that can be used to trigger a denial of service attack. We have patched the issue in GitHub commit f3f9cb38ecfe5a8a703f2c4a8fead434ef291713. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-36019",
+        "description" : "TensorFlow is an open source platform for machine learning. If `FakeQuantWithMinMaxVarsPerChannel` is given `min` or `max` tensors of a rank other than one, it results in a `CHECK` fail that can be used to trigger a denial of service attack. We have patched the issue in GitHub commit 785d67a78a1d533759fcd2f5e8d6ef778de849e0. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-36005",
+        "description" : "TensorFlow is an open source platform for machine learning. When `tf.quantization.fake_quant_with_min_max_vars_gradient` receives input `min` or `max` that is nonscalar, it gives a `CHECK` fail that can trigger a denial of service attack. We have patched the issue in GitHub commit f3cf67ac5705f4f04721d15e485e192bb319feed. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-35997",
+        "description" : "TensorFlow is an open source platform for machine learning. If `tf.sparse.cross` receives an input `separator` that is not a scalar, it gives a `CHECK` fail that can be used to trigger a denial of service attack. We have patched the issue in GitHub commit 83dcb4dbfa094e33db084e97c4d0531a559e0ebf. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-35992",
+        "description" : "TensorFlow is an open source platform for machine learning. When `TensorListFromTensor` receives an `element_shape` of a rank greater than one, it gives a `CHECK` fail that can trigger a denial of service attack. We have patched the issue in GitHub commit 3db59a042a38f4338aa207922fa2f476e000a6ee. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-35923",
+        "description" : "v8n is a javascript validation library. Versions of v8n prior to 1.5.1 were found to have an inefficient regular expression complexity in the `lowercase()` and `uppercase()` regex which could lead to a denial of service attack. In testing of the `lowercase()` function a payload of 'a' + 'a'.repeat(i) + 'A' with 32 leading characters took 29443 ms to execute. The same issue happens with uppercase(). Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-35913",
+        "description" : "Samourai Wallet Stonewallx2 0.99.98e allows a denial of service via a P2P coinjoin. The attacker and victim must follow each other's paynym. Then, the victim must try to collaborate with the attacker for a Stonewallx2 transaction. Next, the attacker broadcasts a tx, spending the inputs used in Stonewallx2 before the victim can broadcast the collaborative transaction. The attacker does not signal opt in RBF, and uses the lowest fee rate. This would result in the victim being unable to perform Stonewallx2. (Note that the attacker could use multiple paynyms.)"
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-35858",
+        "description" : "The TEE_PopulateTransientObject and __utee_from_attr functions in Samsung mTower 0.3.0 allow a trusted application to trigger a memory overwrite, denial of service, and information disclosure by invoking the function TEE_PopulateTransientObject with a large number in the parameter attrCount."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-35741",
+        "description" : "Apache CloudStack version 4.5.0 and later has a SAML 2.0 authentication Service Provider plugin which is found to be vulnerable to XML external entity (XXE) injection. This plugin is not enabled by default and the attacker would require that this plugin be enabled to exploit the vulnerability. When the SAML 2.0 plugin is enabled in affected versions of Apache CloudStack could potentially allow the exploitation of XXE vulnerabilities. The SAML 2.0 messages constructed during the authentication flow in Apache CloudStack are XML-based and the XML data is parsed by various standard libraries that are now understood to be vulnerable to XXE injection attacks such as arbitrary file reading, possible denial of service, server-side request forgery (SSRF) on the CloudStack management server."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-35648",
+        "description" : "Nautilus treadmills T616 S/N 100672PRO21140001 through 100672PRO21171980 and T618 S/N 100647PRO21130111 through 100647PRO21183960 with software before 2022-06-09 allow physically proximate attackers to cause a denial of service (fall) by connecting the power cord to a 120V circuit (which may lead to self-starting at an inopportune time)."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-35637",
+        "description" : "IBM Db2 for Linux, UNIX and Windows 9.7, 10.1, 10.5, 11.1, and 11.5 is vulnerable to a denial of service after entering a malformed SQL statement into the Db2expln tool. IBM X-Force ID: 230823."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-35560",
+        "description" : "A stack overflow vulnerability exists in /goform/wifiSSIDset in Tenda W6 V1.0.0.9(4122) version, which can be exploited by attackers to cause a denial of service (DoS) via the index parameter."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-34917",
+        "description" : "A security vulnerability has been identified in Apache Kafka. It affects all releases since 2.8.0. The vulnerability allows malicious unauthenticated clients to allocate large amounts of memory on brokers. This can lead to brokers hitting OutOfMemoryException and causing denial of service. Example scenarios: - Kafka cluster without authentication: Any clients able to establish a network connection to a broker can trigger the issue. - Kafka cluster with SASL authentication: Any clients able to establish a network connection to a broker, without the need for valid SASL credentials, can trigger the issue. - Kafka cluster with TLS authentication: Only clients able to successfully authenticate via TLS can trigger the issue. We advise the users to upgrade the Kafka installations to one of the 3.2.3, 3.1.2, 3.0.2, 2.8.2 versions."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-34829",
+        "description" : "Zoho ManageEngine ADSelfService Plus before 6203 allows a denial of service (application restart) via a crafted payload to the Mobile App Deployment API."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-34764",
+        "description" : "A CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability exists that could cause denial of service when parsing the URL. Affected Products: X80 advanced RTU Communication Module (BMENOR2200H) (V1.0), OPC UA Modicon Communication Module (BMENUA0100) (V1.10 and prior)"
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-34760",
+        "description" : "A CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability exists that could cause a denial of service of the webserver due to improper handling of the cookies. Affected Products: X80 advanced RTU Communication Module (BMENOR2200H) (V1.0), OPC UA Modicon Communication Module (BMENUA0100) (V1.10 and prior)"
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-34668",
+        "description" : "NVFLARE, versions prior to 2.1.4, contains a vulnerability that deserialization of Untrusted Data due to Pickle usage may allow an unprivileged network attacker to cause Remote Code Execution, Denial Of Service, and Impact to both Confidentiality and Integrity."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-34661",
+        "description" : "A vulnerability has been identified in Teamcenter V12.4 (All versions < V12.4.0.15), Teamcenter V13.0 (All versions < V13.0.0.10), Teamcenter V13.1 (All versions < V13.1.0.10), Teamcenter V13.2 (All versions < V13.2.0.9), Teamcenter V13.3 (All versions < V13.3.0.5), Teamcenter V14.0 (All versions < V14.0.0.2). File Server Cache service in Teamcenter is vulnerable to denial of service by entering infinite loops and using up CPU cycles. This could allow an attacker to cause denial of service condition."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-34520",
+        "description" : "Radare2 v5.7.2 was discovered to contain a NULL pointer dereference via the function r_bin_file_xtr_load_buffer at bin/bfile.c. This vulnerability allows attackers to cause a Denial of Service (DOS) via a crafted binary file."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-34503",
+        "description" : "QPDF v8.4.2 was discovered to contain a heap buffer overflow via the function QPDF::processXRefStream. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted PDF file."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-34502",
+        "description" : "Radare2 v5.7.0 was discovered to contain a heap buffer overflow via the function consume_encoded_name_new at format/wasm/wasm.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted binary file."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2022-34428",
+        "description" : "Dell Hybrid Client prior to version 1.8 contains a Regular Expression Denial of Service Vulnerability in the UI. An adversary with WMS group admin access could potentially exploit this vulnerability, leading to temporary denial-of-service."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2022-34402",
+        "description" : "Dell Wyse ThinOS 2205 contains a Regular Expression Denial of Service Vulnerability in UI. An admin privilege attacker could potentially exploit this vulnerability, leading to denial-of-service."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2022-34378",
+        "description" : "Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.20, 9.2.1.13, 9.3.0.6, and 9.4.0.3, contain a relative path traversal vulnerability. A low privileged local attacker could potentially exploit this vulnerability, leading to denial of service."
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2022-34266",
+        "description" : "The libtiff-4.0.3-35.amzn2.0.1 package for LibTIFF on Amazon Linux 2 allows attackers to cause a denial of service (application crash), a different vulnerability than CVE-2022-0562. When processing a malicious TIFF file, an invalid range may be passed as an argument to the memset() function within TIFFFetchStripThing() in tif_dirread.c. This will cause TIFFFetchStripThing() to segfault after use of an uninitialized resource."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2022-34009",
+        "description" : "Fossil 2.18 on Windows allows attackers to cause a denial of service (daemon crash) via an XSS payload in a ticket. This occurs because the ticket data is stored in a temporary file, and the product does not properly handle the absence of this file after Windows Defender has flagged it as malware."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2022-33981",
+        "description" : "drivers/block/floppy.c in the Linux kernel before 5.17.6 is vulnerable to a denial of service, because of a concurrency use-after-free flaw after deallocating raw_cmd in the raw_cmd_ioctl function."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2022-33939",
+        "description" : "CENTUM VP / CS 3000 controller FCS (CP31, CP33, CP345, CP401, and CP451) contains an issue in processing communication packets, which may lead to resource consumption. If this vulnerability is exploited, an attacker may cause a denial of service (DoS) condition in ADL communication by sending a specially crafted packet to the affected product."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2022-33744",
+        "description" : "Arm guests can cause Dom0 DoS via PV devices When mapping pages of guests on Arm, dom0 is using an rbtree to keep track of the foreign mappings. Updating of that rbtree is not always done completely with the related lock held, resulting in a small race window, which can be used by unprivileged guests via PV devices to cause inconsistencies of the rbtree. These inconsistencies can lead to Denial of Service (DoS) of dom0, e.g. by causing crashes or the inability to perform further mappings of other guests' memory pages."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2022-33736",
+        "description" : "A vulnerability has been identified in Opcenter Quality V13.1 (All versions < V13.1.20220624), Opcenter Quality V13.2 (All versions < V13.2.20220624). The affected applications do not properly validate login information during authentication. This could lead to denial of service condition for existing users or allow unauthenticated remote attackers to successfully login without credentials."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2022-33645",
+        "description" : "Windows TCP/IP Driver Denial of Service Vulnerability."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2022-33319",
+        "description" : "Out-of-bounds Read vulnerability in ICONICS GENESIS64 versions 10.97.1 and prior and Mitsubishi Electric MC Works64 versions 4.04E (10.95.210.01) and prior allows a remote unauthenticated attacker to disclose information on memory or cause a Denial of Service (DoS) condition by sending specially crafted packets to the GENESIS64 server."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2022-33142",
+        "description" : "Authenticated (subscriber+) Denial Of Service (DoS) vulnerability in WordPlus WordPress Better Messages plugin <= 1.9.10.57 at WordPress."
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2022-33124",
+        "description" : "* DISPUTED ** AIOHTTP 3.8.1 can report a \"ValueError: Invalid IPv6 URL\" outcome, which can lead to a Denial of Service (DoS). NOTE: multiple third parties dispute this issue because there is no example of a context in which denial of service would occur, and many common contexts have exception handing in the calling application."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2022-33087",
+        "description" : "A stack overflow in the function DM_ In fillobjbystr() of TP-Link Archer C50&A5(US)_V5_200407 allows attackers to cause a Denial of Service (DoS) via a crafted HTTP request."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2022-33070",
+        "description" : "Protobuf-c v1.4.0 was discovered to contain an invalid arithmetic shift via the function parse_tag_and_wiretype in protobuf-c/protobuf-c.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via unspecified vectors."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2022-33067",
+        "description" : "Lrzip v0.651 was discovered to contain multiple invalid arithmetic shifts via the functions get_magic in lrzip.c and Predictor::init in libzpaq/libzpaq.cpp. These vulnerabilities allow attackers to cause a Denial of Service via unspecified vectors."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2022-32990",
+        "description" : "An issue in gimp_layer_invalidate_boundary of GNOME GIMP 2.10.30 allows attackers to trigger an unhandled exception via a crafted XCF file, causing a Denial of Service (DoS)."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2022-32441",
+        "description" : "A memory corruption in Hex Rays Ida Pro v6.6 allows attackers to cause a Denial of Service (DoS) via a crafted file. Related to Data from Faulting Address controls subsequent Write Address starting at msvcrt!memcpy+0x0000000000000056."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2022-32406",
+        "description" : "GtkRadiant v1.6.6 was discovered to contain a buffer overflow via the component q3map2. This vulnerability can cause a Denial of Service (DoS) via a crafted MAP file."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2022-32317",
+        "description" : "The MPlayer Project v1.5 was discovered to contain a heap use-after-free resulting in a double free in the preinit function at libvo/vo_v4l2.c. This vulnerability can lead to a Denial of Service (DoS) via a crafted file. The device=strdup statement is not executed on every call."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2022-32298",
+        "description" : "Toybox v0.8.7 was discovered to contain a NULL pointer dereference via the component httpd.c. This vulnerability can lead to a Denial of Service (DoS) via unspecified vectors."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2022-32205",
+        "description" : "A malicious server can serve excessive amounts of `Set-Cookie:` headers in a HTTP response to curl and curl < 7.84.0 stores all of them. A sufficiently large amount of (big) cookies make subsequent HTTP requests to this, or other servers to which the cookies match, create requests that become larger than the threshold that curl uses internally to avoid sending crazy large requests (1048576 bytes) and instead returns an error.This denial state might remain for as long as the same cookies are kept, match and haven't expired. Due to cookie matching rules, a server on `foo.example.com` can set cookies that also would match for `bar.example.com`, making it it possible for a \"sister server\" to effectively cause a denial of service for a sibling site on the same second level domain using this method."
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2022-32143",
+        "description" : "In multiple CODESYS products, file download and upload function allows access to internal files in the working directory e.g. firmware files of the PLC. All requests are processed on the controller only if no level 1 password is configured on the controller or if remote attacker has previously successfully authenticated himself to the controller. A successful Attack may lead to a denial of service, change of local files, or drain of confidential Information. User interaction is not required"
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2022-31781",
+        "description" : "Apache Tapestry up to version 5.8.1 is vulnerable to Regular Expression Denial of Service (ReDoS) in the way it handles Content Types. Specially crafted Content Types may cause catastrophic backtracking, taking exponential time to complete. Specifically, this is about the regular expression used on the parameter of the org.apache.tapestry5.http.ContentType class. Apache Tapestry 5.8.2 has a fix for this vulnerability. Notice the vulnerability cannot be triggered by web requests in Tapestry code alone. It would only happen if there's some non-Tapestry codepath passing some outside input to the ContentType class constructor."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2022-31770",
+        "description" : "IBM App Connect Enterprise Certified Container 4.2 could allow a user from the administration console to cause a denial of service by creating a specially crafted request. IBM X-Force ID: 228221."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2022-31766",
+        "description" : "A vulnerability has been identified in RUGGEDCOM RM1224 LTE(4G) EU (All versions < V7.1.2), RUGGEDCOM RM1224 LTE(4G) NAM (All versions < V7.1.2), SCALANCE M804PB (All versions < V7.1.2), SCALANCE M812-1 ADSL-Router (Annex A) (All versions < V7.1.2), SCALANCE M812-1 ADSL-Router (Annex B) (All versions < V7.1.2), SCALANCE M816-1 ADSL-Router (Annex A) (All versions < V7.1.2), SCALANCE M816-1 ADSL-Router (Annex B) (All versions < V7.1.2), SCALANCE M826-2 SHDSL-Router (All versions < V7.1.2), SCALANCE M874-2 (All versions < V7.1.2), SCALANCE M874-3 (All versions < V7.1.2), SCALANCE M876-3 (EVDO) (All versions < V7.1.2), SCALANCE M876-3 (ROK) (All versions < V7.1.2), SCALANCE M876-4 (EU) (All versions < V7.1.2), SCALANCE M876-4 (NAM) (All versions < V7.1.2), SCALANCE MUM853-1 (EU) (All versions < V7.1.2), SCALANCE MUM856-1 (EU) (All versions < V7.1.2), SCALANCE MUM856-1 (RoW) (All versions < V7.1.2), SCALANCE S615 (All versions < V7.1.2), SCALANCE WAM763-1 (All versions >= V1.1.0), SCALANCE WAM766-1 (All versions >= V1.1.0), SCALANCE WAM766-1 (All versions >= V1.1.0), SCALANCE WAM766-1 6GHz (All versions >= V1.1.0), SCALANCE WAM766-1 EEC (All versions >= V1.1.0), SCALANCE WAM766-1 EEC (All versions >= V1.1.0), SCALANCE WAM766-1 EEC 6GHz (All versions >= V1.1.0), SCALANCE WUM763-1 (All versions >= V1.1.0), SCALANCE WUM763-1 (All versions >= V1.1.0), SCALANCE WUM766-1 (All versions >= V1.1.0), SCALANCE WUM766-1 (All versions >= V1.1.0), SCALANCE WUM766-1 6GHz (All versions >= V1.1.0). Affected devices with TCP Event service enabled do not properly handle malformed packets. This could allow an unauthenticated remote attacker to cause a denial of service and reboot the device thus possibly affecting other network resources."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2022-31681",
+        "description" : "VMware ESXi contains a null-pointer deference vulnerability. A malicious actor with privileges within the VMX process only, may create a denial of service condition on the host."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2022-31625",
+        "description" : "In PHP versions 7.4.x below 7.4.30, 8.0.x below 8.0.20, and 8.1.x below 8.1.7, when using Postgres database extension, supplying invalid parameters to the parametrized query may lead to PHP attempting to free memory using uninitialized data as pointers. This could lead to RCE vulnerability or denial of service."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2022-31624",
+        "description" : "MariaDB Server before 10.7 is vulnerable to Denial of Service. While executing the plugin/server_audit/server_audit.c method log_statement_ex, the held lock lock_bigbuffer is not released correctly, which allows local users to trigger a denial of service due to the deadlock."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2022-31620",
+        "description" : "In libjpeg before 1.64, BitStream<false>::Get in bitstream.hpp has an assertion failure that may cause denial of service. This is related to out-of-bounds array access during arithmetically coded lossless scan or arithmetically coded sequential scan."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2022-31614",
+        "description" : "NVIDIA vGPU software contains a vulnerability in the Virtual GPU Manager (vGPU plugin) where it may double-free some resources. An attacker may exploit this vulnerability with other vulnerabilities to cause denial of service, code execution, and information disclosure."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2022-31609",
+        "description" : "NVIDIA vGPU software contains a vulnerability in the Virtual GPU Manager (vGPU plugin), where it allows the guest VM to allocate resources for which the guest is not authorized. This vulnerability may lead to loss of data integrity and confidentiality, denial of service, or information disclosure."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2022-31321",
+        "description" : "The foldername parameter in Bolt 5.1.7 was discovered to have incorrect input validation, allowing attackers to perform directory enumeration or cause a Denial of Service (DoS) via a crafted input."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2022-31246",
+        "description" : "paymentrequest.py in Electrum before 4.2.2 allows a file:// URL in the r parameter of a payment request (e.g., within QR code data). On Windows, this can lead to capture of credentials over SMB. On Linux and UNIX, it can lead to a denial of service by specifying the /dev/zero filename."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2022-31147",
+        "description" : "The jQuery Validation Plugin (jquery-validation) provides drop-in validation for forms. Versions of jquery-validation prior to 1.19.5 are vulnerable to regular expression denial of service (ReDoS) when an attacker is able to supply arbitrary input to the url2 method. This is due to an incomplete fix for CVE-2021-43306. Users should upgrade to version 1.19.5 to receive a patch."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2022-31140",
+        "description" : "Valinor is a PHP library that helps to map any input into a strongly-typed value object structure. Prior to version 0.12.0, Valinor can use `Throwable#getMessage()` when it should not have permission to do so. This is a problem with cases such as an SQL exception showing an SQL snippet, a database connection exception showing database IP address/username/password, or a timeout detail / out of memory detail. Attackers could use this information for potential data exfiltration, denial of service attacks, enumeration attacks, etc. Version 0.12.0 contains a patch for this vulnerability."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2022-31135",
+        "description" : "Akashi is an open source server implementation of the Attorney Online video game based on the Ace Attorney universe. Affected versions of Akashi are subject to a denial of service attack. An attacker can use a specially crafted evidence packet to make an illegal modification, causing a server crash. This can be used to mount a denial-of-service exploit. Users are advised to upgrade. There is no known workaround for this issue."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2022-31110",
+        "description" : "RSSHub is an open source, extensible RSS feed generator. In commits prior to 5c4177441417 passing some special values to the `filter` and `filterout` parameters can cause an abnormally high CPU. This results in an impact on the performance of the servers and RSSHub services which may lead to a denial of service. This issue has been fixed in commit 5c4177441417 and all users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2022-31103",
+        "description" : "lettersanitizer is a DOM-based HTML email sanitizer for in-browser email rendering. All versions of lettersanitizer below 1.0.2 are affected by a denial of service issue when processing a CSS at-rule `@keyframes`. This package is depended on by [react-letter](https://github.com/mat-sz/react-letter), therefore everyone using react-letter is also at risk. The problem has been patched in version 1.0.2."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2022-31100",
+        "description" : "rulex is a new, portable, regular expression language. When parsing untrusted rulex expressions, rulex may crash, possibly enabling a Denial of Service attack. This happens when the expression contains a multi-byte UTF-8 code point in a string literal or after a backslash, because rulex tries to slice into the code point and panics as a result. This is a security concern for you, if your service parses untrusted rulex expressions (expressions provided by an untrusted user), and your service becomes unavailable when the thread running rulex panics. The crashes are fixed in version **0.4.3**. Affected users are advised to update to this version. The only known workaround for this issue is to assume that regular expression parsing will panic and to add logic to catch panics."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2022-31099",
+        "description" : "rulex is a new, portable, regular expression language. When parsing untrusted rulex expressions, the stack may overflow, possibly enabling a Denial of Service attack. This happens when parsing an expression with several hundred levels of nesting, causing the process to abort immediately. This is a security concern for you, if your service parses untrusted rulex expressions (expressions provided by an untrusted user), and your service becomes unavailable when the process running rulex aborts due to a stack overflow. The crash is fixed in version **0.4.3**. Affected users are advised to update to this version. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2022-31080",
+        "description" : "KubeEdge is an open source system for extending native containerized application orchestration capabilities to hosts at Edge. Prior to versions 1.11.1, 1.10.2, and 1.9.4, a large response received by the viaduct WSClient can cause a DoS from memory exhaustion. The entire body of the response is being read into memory which could allow an attacker to send a request that returns a response with a large body. The consequence of the exhaustion is that the process which invokes a WSClient will be in a denial of service. The software is affected If users who are authenticated to the edge side connect to `cloudhub` from the edge side through WebSocket protocol. This bug has been fixed in Kubeedge 1.11.1, 1.10.2, and 1.9.4. There are currently no known workarounds."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2022-31079",
+        "description" : "KubeEdge is an open source system for extending native containerized application orchestration capabilities to hosts at Edge. Prior to versions 1.11.1, 1.10.2, and 1.9.4, the Cloud Stream server and the Edge Stream server reads the entire message into memory without imposing a limit on the size of this message. An attacker can exploit this by sending a large message to exhaust memory and cause a DoS. The Cloud Stream server and the Edge Stream server are under DoS attack in this case. The consequence of the exhaustion is that the CloudCore and EdgeCore will be in a denial of service. Only an authenticated user can cause this issue. It will be affected only when users enable `cloudStream` module in the config file `cloudcore.yaml` and enable `edgeStream` module in the config file `edgecore.yaml`. This bug has been fixed in Kubeedge 1.11.1, 1.10.2, and 1.9.4. As a workaround, disable cloudStream module in the config file `cloudcore.yaml` and disable edgeStream module in the config file `edgecore.yaml`."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2022-31078",
+        "description" : "KubeEdge is an open source system for extending native containerized application orchestration capabilities to hosts at Edge. Prior to versions 1.11.1, 1.10.2, and 1.9.4, the CloudCore Router does not impose a limit on the size of responses to requests made by the REST handler. An attacker could use this weakness to make a request that will return an HTTP response with a large body and cause DoS of CloudCore. In the HTTP Handler API, the rest handler makes a request to a pre-specified handle. The handle will return an HTTP response that is then read into memory. The consequence of the exhaustion is that CloudCore will be in a denial of service. Only an authenticated user of the cloud can make an attack. It will be affected only when users enable `router` module in the config file `cloudcore.yaml`. This bug has been fixed in Kubeedge 1.11.1, 1.10.2, and 1.9.4. As a workaround, disable the router switch in the config file `cloudcore.yaml`."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2022-31077",
+        "description" : "KubeEdge is built upon Kubernetes and extends native containerized application orchestration and device management to hosts at the Edge. In affected versions a malicious message response from KubeEdge can crash the CSI Driver controller server by triggering a nil-pointer dereference panic. As a consequence, the CSI Driver controller will be in denial of service. This bug has been fixed in Kubeedge 1.11.0, 1.10.1, and 1.9.3. Users should update to these versions to resolve the issue. At the time of writing, no workaround exists."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2022-31075",
+        "description" : "KubeEdge is an open source system for extending native containerized application orchestration capabilities to hosts at Edge. Prior to versions 1.11.1, 1.10.2, and 1.9.4, EdgeCore may be susceptible to a DoS attack on CloudHub if an attacker was to send a well-crafted HTTP request to `/edge.crt`. If an attacker can send a well-crafted HTTP request to CloudHub, and that request has a very large body, that request can crash the HTTP service through a memory exhaustion vector. The request body is being read into memory, and a body that is larger than the available memory can lead to a successful attack. Because the request would have to make it through authorization, only authorized users may perform this attack. The consequence of the exhaustion is that CloudHub will be in denial of service. KubeEdge is affected only when users enable the CloudHub module in the file `cloudcore.yaml`. This bug has been fixed in Kubeedge 1.11.1, 1.10.2, and 1.9.4. As a workaround, disable the CloudHub switch in the config file `cloudcore.yaml`."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2022-31074",
+        "description" : "KubeEdge is an open source system for extending native containerized application orchestration capabilities to hosts at Edge. Prior to versions 1.11.1, 1.10.2, and 1.9.4, several endpoints in the Cloud AdmissionController may be susceptible to a DoS attack if an HTTP request containing a very large Body is sent to it. The consequence of the exhaustion is that the Cloud AdmissionController will be in denial of service. This bug has been fixed in Kubeedge 1.11.1, 1.10.2, and 1.9.4. There is currently no known workaround."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2022-31073",
+        "description" : "KubeEdge is an open source system for extending native containerized application orchestration capabilities to hosts at Edge. Prior to versions 1.11.1, 1.10.2, and 1.9.4, the ServiceBus server on the edge side may be susceptible to a DoS attack if an HTTP request containing a very large Body is sent to it. It is possible for the node to be exhausted of memory. The consequence of the exhaustion is that other services on the node, e.g. other containers, will be unable to allocate memory and thus causing a denial of service. Malicious apps accidentally pulled by users on the host and have the access to send HTTP requests to localhost may make an attack. It will be affected only when users enable the `ServiceBus` module in the config file `edgecore.yaml`. This bug has been fixed in Kubeedge 1.11.1, 1.10.2, and 1.9.4. As a workaround, disable the `ServiceBus` module in the config file `edgecore.yaml`."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2022-31054",
+        "description" : "Argo Events is an event-driven workflow automation framework for Kubernetes. Prior to version 1.7.1, several `HandleRoute` endpoints make use of the deprecated `ioutil.ReadAll()`. `ioutil.ReadAll()` reads all the data into memory. As such, an attacker who sends a large request to the Argo Events server will be able to crash it and cause denial of service. A patch for this vulnerability has been released in Argo Events version 1.7.1."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2022-31018",
+        "description" : "Play Framework is a web framework for Java and Scala. A denial of service vulnerability has been discovered in verions 2.8.3 through 2.8.15 of Play's forms library, in both the Scala and Java APIs. This can occur when using either the `Form#bindFromRequest` method on a JSON request body or the `Form#bind` method directly on a JSON value. If the JSON data being bound to the form contains a deeply-nested JSON object or array, the form binding implementation may consume all available heap space and cause an `OutOfMemoryError`. If executing on the default dispatcher and `akka.jvm-exit-on-fatal-error` is enabled—as it is by default—then this can crash the application process. `Form.bindFromRequest` is vulnerable when using any body parser that produces a type of `AnyContent` or `JsValue` in Scala, or one that can produce a `JsonNode` in Java. This includes Play's default body parser. This vulnerability been patched in version 2.8.16. There is now a global limit on the depth of a JSON object that can be parsed, which can be configured by the user if necessary. As a workaround, applications that do not need to parse a request body of type `application/json` can switch from the default body parser to another body parser that supports only the specific type of body they expect."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2022-31016",
+        "description" : "Argo CD is a declarative continuous deployment for Kubernetes. Argo CD versions v0.7.0 and later are vulnerable to an uncontrolled memory consumption bug, allowing an authorized malicious user to crash the repo-server service, resulting in a Denial of Service. The attacker must be an authenticated Argo CD user authorized to deploy Applications from a repository which contains (or can be made to contain) a large file. The fix for this vulnerability is available in versions 2.3.5, 2.2.10, 2.1.16, and later. There are no known workarounds. Users are recommended to upgrade."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2022-31006",
+        "description" : "indy-node is the server portion of Hyperledger Indy, a distributed ledger purpose-built for decentralized identity. In vulnerable versions of indy-node, an attacker can max out the number of client connections allowed by the ledger, leaving the ledger unable to be used for its intended purpose. However, the ledger content will not be impacted and the ledger will resume functioning after the attack. This attack exploits the trade-off between resilience and availability. Any protection against abusive client connections will also prevent the network being accessed by certain legitimate users. As a result, validator nodes must tune their firewall rules to ensure the right trade-off for their network's expected users. The guidance to network operators for the use of firewall rules in the deployment of Indy networks has been modified to better protect against denial of service attacks by increasing the cost and complexity in mounting such attacks. The mitigation for this vulnerability is not in the Hyperledger Indy code per se, but rather in the individual deployments of Indy. The mitigations should be applied to all deployments of Indy, and are not related to a particular release."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2022-30973",
+        "description" : "We failed to apply the fix for CVE-2022-30126 to the 1.x branch in the 1.28.2 release. In Apache Tika, a regular expression in the StandardsText class, used by the StandardsExtractingContentHandler could lead to a denial of service caused by backtracking on a specially crafted file. This only affects users who are running the StandardsExtractingContentHandler, which is a non-standard handler. This is fixed in 1.28.3."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2022-30780",
+        "description" : "Lighttpd 1.4.56 through 1.4.58 allows a remote attacker to cause a denial of service (CPU consumption from stuck connections) because connection_read_header_more in connections.c has a typo that disrupts use of multiple read operations on large headers."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2022-30614",
+        "description" : "IBM Cognos Analytics 11.1.7, 11.2.0, and 11.2.1 is vulnerable to a denial of service via email flooding caused by sending a specially-crafted request. A remote attacker could exploit this vulnerability to cause the server to consume all available CPU resources. IBM X-Force ID: 227591."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2022-30524",
+        "description" : "There is an invalid memory access in the TextLine class in TextOutputDev.cc in Xpdf 4.0.4 because the text extractor mishandles characters at large y coordinates. It can be triggered by (for example) sending a crafted pdf file to the pdftotext binary, which allows a remote attacker to cause a Denial of Service (Segmentation fault) or possibly have unspecified other impact."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2022-30317",
+        "description" : "Honeywell Experion LX through 2022-05-06 has Missing Authentication for a Critical Function. According to FSCT-2022-0055, there is a Honeywell Experion LX Control Data Access (CDA) EpicMo protocol with unauthenticated functionality issue. The affected components are characterized as: Honeywell Control Data Access (CDA) EpicMo (55565/TCP). The potential impact is: Firmware manipulation, Denial of service. The Honeywell Experion LX Distributed Control System (DCS) utilizes the Control Data Access (CDA) EpicMo protocol (55565/TCP) for device diagnostics and maintenance purposes. This protocol does not have any authentication features, allowing any attacker capable of communicating with the ports in question to invoke (a subset of) desired functionality. There is no authentication functionality on the protocol in question. An attacker capable of invoking the protocols' functionalities could issue firmware download commands potentially allowing for firmware manipulation and reboot devices causing denial of service."
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2022-30126",
+        "description" : "In Apache Tika, a regular expression in our StandardsText class, used by the StandardsExtractingContentHandler could lead to a denial of service caused by backtracking on a specially crafted file. This only affects users who are running the StandardsExtractingContentHandler, which is a non-standard handler. This is fixed in 1.28.2 and 2.4.0"
+    }
+]

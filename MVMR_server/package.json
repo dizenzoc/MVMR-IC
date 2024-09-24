@@ -1,0 +1,25 @@
+{
+  "name": "mvmr_server",
+  "version": "1.0.0",
+  "description": "MVMR (Merging of Vulnerability Mapping Results) is a web app that provides useful support to pentesters during penetration testing activities. In fact, once a pentester has collected information regarding the vulnerabilities of one or more hosts in XML format, he or she can input these files to MVMR to obtain a final report that will detail and merge the information gathered from different sources such as Nmap, Owasp ZAP, Nessus and OpenVAS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --delay 10 index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carmine Sorrentino",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "electron": "^31.1.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "nightmare": "^3.0.2",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

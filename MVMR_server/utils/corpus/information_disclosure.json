@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-43410",
+        "description" : "Jenkins Mercurial Plugin 1251.va_b_121f184902 and earlier provides information about which jobs were triggered or scheduled for polling through its webhook endpoint, including jobs the user has no permission to access."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-42724",
+        "description" : "app/Controller/UsersController.php in MISP before 2.4.164 allows attackers to discover role names (this is information that only the site admin should have)."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-41986",
+        "description" : "Information disclosure vulnerability in Android App 'IIJ SmartKey' versions prior to 2.1.4 allows an attacker to obtain a one-time password issued by the product under certain conditions."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-41540",
+        "description" : "The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic keys when communicating with the router. Attackers who are able to intercept the communications between the web client and router through a man-in-the-middle attack can then obtain the sequence key via a brute-force attack, and access sensitive information."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-41233",
+        "description" : "Jenkins Rundeck Plugin 3.6.11 and earlier does not perform Run/Artifacts permission checks in multiple HTTP endpoints, allowing attackers with Item/Read permission to obtain information about build artifacts of a given job, if the optional Run/Artifacts permission is enabled."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-40768",
+        "description" : "drivers/scsi/stex.c in the Linux kernel through 5.19.9 allows local users to obtain sensitive information from kernel memory because stex_queuecommand_lck lacks a memset for the PASSTHRU_CMD case."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-40709",
+        "description" : "An Out-of-bounds read vulnerability in Trend Micro Deep Security 20 and Cloud One - Workload Security Agent for Windows could allow a local attacker to disclose sensitive information on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit these vulnerabilities. This vulnerability is similar to, but not identical to CVE-2022-40707 and 40708."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-40708",
+        "description" : "An Out-of-bounds read vulnerability in Trend Micro Deep Security 20 and Cloud One - Workload Security Agent for Windows could allow a local attacker to disclose sensitive information on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit these vulnerabilities. This vulnerability is similar to, but not identical to CVE-2022-40707."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-40707",
+        "description" : "An Out-of-bounds read vulnerability in Trend Micro Deep Security 20 and Cloud One - Workload Security Agent for Windows could allow a local attacker to disclose sensitive information on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit these vulnerabilities. This vulnerability is similar to, but not identical to CVE-2022-40708."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-40616",
+        "description" : "IBM Maximo Asset Management 7.6.1.1, 7.6.1.2, and 7.6.1.3 could allow a user to bypass authentication and obtain sensitive information or perform tasks they should not have access to. IBM X-Force ID: 236311."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-40443",
+        "description" : "An absolute path traversal vulnerability in ZZCMS 2022 allows attackers to obtain sensitive information via a crafted GET request sent to /one/siteinfo.php."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-40234",
+        "description" : "Versions of IBM Spectrum Protect Plus prior to 10.1.12 (excluding 10.1.12) include the private key information for a certificate inside the generated .crt file when uploading a TLS certificate to IBM Spectrum Protect Plus. If this generated .crt file is shared, an attacker can obtain the private key information for the uploaded certificate. IBM X-Force ID: 235718."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-40199",
+        "description" : "Directory traversal vulnerability in EC-CUBE 3 series (EC-CUBE 3.0.0 to 3.0.18-p4 ) and EC-CUBE 4 series (EC-CUBE 4.0.0 to 4.1.2) allows a remote authenticated attacker with an administrative privilege to obtain the product's directory structure information."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-40194",
+        "description" : "Unauthenticated Sensitive Information Disclosure vulnerability in Customer Reviews for WooCommerce plugin <= 5.3.5 at WordPress"
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-40177",
+        "description" : "A vulnerability has been identified in Desigo PXM30-1 (All versions < V02.20.126.11-41), Desigo PXM30.E (All versions < V02.20.126.11-41), Desigo PXM40-1 (All versions < V02.20.126.11-41), Desigo PXM40.E (All versions < V02.20.126.11-41), Desigo PXM50-1 (All versions < V02.20.126.11-41), Desigo PXM50.E (All versions < V02.20.126.11-41), PXG3.W100-1 (All versions < V02.20.126.11-37), PXG3.W100-2 (All versions < V02.20.126.11-41), PXG3.W200-1 (All versions < V02.20.126.11-37), PXG3.W200-2 (All versions < V02.20.126.11-41). Endpoints of the “Operation” web application that interpret and execute Axon language queries allow file read access to the device file system with root privileges. By supplying specific I/O related Axon queries, a remote low-privileged attacker can read sensitive files on the device."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-39874",
+        "description" : "Sensitive log information leakage vulnerability in Samsung Account prior to version 13.5.0 allows attackers to unauthorized logout."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-39848",
+        "description" : "Exposure of sensitive information in AT_Distributor prior to SMR Oct-2022 Release 1 allows local attacker to access SerialNo via log."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-39824",
+        "description" : "Server-side JavaScript injection in Appsmith through 1.7.14 allows remote attackers to execute arbitrary JavaScript code from the server via the currentItem property of the list widget, e.g., to perform DoS attacks or achieve an information leak."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-39268",
+        "description" : "### Impact In a CSRF attack, an innocent end user is tricked by an attacker into submitting a web request that they did not intend. This may cause actions to be performed on the website that can include inadvertent client or server data leakage, change of session state, or manipulation of an end user's account. ### Patch Upgrade to v2022.09.10 to patch this vulnerability. ### Workarounds Rebuild and redeploy the Orchest `auth-server` with this commit: https://github.com/orchest/orchest/commit/c2587a963cca742c4a2503bce4cfb4161bf64c2d ### References https://en.wikipedia.org/wiki/Cross-site_request_forgery https://cwe.mitre.org/data/definitions/352.html ### For more information If you have any questions or comments about this advisory: * Open an issue in https://github.com/orchest/orchest * Email us at rick@orchest.io"
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-39230",
+        "description" : "fhir-works-on-aws-authz-smart is an implementation of the authorization interface from the FHIR Works interface. Versions 3.1.1 and 3.1.2 are subject to Exposure of Sensitive Information to an Unauthorized Actor. This issue allows a client of the API to retrieve more information than the client’s OAuth scope permits when making “search-type” requests. This issue would not allow a client to retrieve information about individuals other than those the client was already authorized to access. Users of fhir-works-on-aws-authz-smart 3.1.1 or 3.1.2 should upgrade to version 3.1.3 or higher immediately. Versions 3.1.0 and below are unaffected. There is no workaround for this issue."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-39222",
+        "description" : "Dex is an identity service that uses OpenID Connect to drive authentication for other apps. Dex instances with public clients (and by extension, clients accepting tokens issued by those Dex instances) are affected by this vulnerability if they are running a version prior to 2.35.0. An attacker can exploit this vulnerability by making a victim navigate to a malicious website and guiding them through the OIDC flow, stealing the OAuth authorization code in the process. The authorization code then can be exchanged by the attacker for a token, gaining access to applications accepting that token. Version 2.35.0 has introduced a fix for this issue. Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-39210",
+        "description" : "Nextcloud android is the official Android client for the Nextcloud home server platform. Internal paths to the Nextcloud Android app files are not properly protected. As a result access to internal files of the from within the Nextcloud Android app is possible. This may lead to a leak of sensitive information in some cases. It is recommended that the Nextcloud Android app is upgraded to 3.21.0. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-39176",
+        "description" : "BlueZ before 5.59 allows physically proximate attackers to obtain sensitive information because profiles/audio/avrcp.c does not validate params_len."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-39141",
+        "description" : "A vulnerability has been identified in Parasolid V33.1 (All versions < V33.1.262), Parasolid V34.0 (All versions < V34.0.252), Parasolid V34.1 (All versions < V34.1.242), Parasolid V35.0 (All versions < V35.0.161), Simcenter Femap V2022.1 (All versions < V2022.1.3), Simcenter Femap V2022.2 (All versions < V2022.2.2). The affected application is vulnerable to out of bounds read past the end of an allocated buffer when parsing X_T files. An attacker could leverage this vulnerability to leak information in the context of the current process. (ZDI-CAN-17296)"
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-39137",
+        "description" : "A vulnerability has been identified in Parasolid V33.1 (All versions < V33.1.262), Parasolid V34.0 (All versions < V34.0.252), Parasolid V34.1 (All versions < V34.1.242), Parasolid V35.0 (All versions < V35.0.161), Simcenter Femap V2022.1 (All versions < V2022.1.3), Simcenter Femap V2022.2 (All versions < V2022.2.2). The affected application is vulnerable to out of bounds read past the end of an allocated buffer when parsing X_T files. An attacker could leverage this vulnerability to leak information in the context of the current process. (ZDI-CAN-17276)"
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-39013",
+        "description" : "Under certain conditions an authenticated attacker can get access to OS credentials. Getting access to OS credentials enables the attacker to modify system data and make the system unavailable leading to high impact on confidentiality and low impact on integrity and availability of the application."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-38981",
+        "description" : "The HwAirlink module has an out-of-bounds read vulnerability.Successful exploitation of this vulnerability may cause information leakage."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-38668",
+        "description" : "HTTP applications (servers) based on Crow through 1.0+4 may reveal potentially sensitive uninitialized data from stack memory when fulfilling a request for a static file smaller than 16 KB."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-37703",
+        "description" : "In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUID binary. An attacker can abuse this vulnerability to know if a directory exists or not anywhere in the fs. The binary will use `opendir()` as root directly without checking the path, letting the attacker provide an arbitrary path."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-38388",
+        "description" : "IBM Navigator Mobile Android 3.4.1.1 and 3.4.1.2 app could allow a local user to obtain sensitive information due to improper access control. IBM X-Force ID: 233968."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-37700",
+        "description" : "Zentao Demo15 is vulnerable to Directory Traversal. The impact is: obtain sensitive information (remote). The component is: URL : view-source:https://demo15.zentao.pm/user-login.html/zentao/index.php?mode=getconfig."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-37438",
+        "description" : "In Splunk Enterprise versions in the following table, an authenticated user can craft a dashboard that could potentially leak information (for example, username, email, and real name) about Splunk users, when visited by another user through the drilldown component. The vulnerability requires user access to create and share dashboards using Splunk Web."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-37185",
+        "description" : "SQL injection vulnerability exists in the school information query interface (repschoolproj.php) of the EMS 6.2 system of the Office of the Thai Basic Education Commission, which can lead to data leakage."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-36910",
+        "description" : "Jenkins Lucene-Search Plugin 370.v62a5f618cd3a and earlier does not perform a permission check in several HTTP endpoints, allowing attackers with Overall/Read permission to reindex the database and to obtain information about jobs otherwise inaccessible to them."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-36884",
+        "description" : "The webhook endpoint in Jenkins Git Plugin 4.11.3 and earlier provide unauthenticated attackers information about the existence of jobs configured to use an attacker-specified Git repository."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-36878",
+        "description" : "Exposure of Sensitive Information in Find My Mobile prior to version 7.2.25.14 allows local attacker to access IMEI via log."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-36834",
+        "description" : "Exposure of Sensitive Information vulnerability in Game Launcher prior to version 6.0.07 allows local attacker to access app data with user interaction."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-36772",
+        "description" : "IBM InfoSphere Information Server 11.7 could allow an authenticated user to obtain sensitive information that should only be available to a privileged user."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-36771",
+        "description" : "IBM QRadar User Behavior Analytics could allow an authenticated user to obtain sensitive information from that they should not have access to. IBM X-Force ID: 232791."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-36537",
+        "description" : "ZK Framework v9.6.1, 9.6.0.1, 9.5.1.3, 9.0.1.2 and 8.6.4.1 allows attackers to access sensitive information via a crafted POST request sent to the component AuUploader."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-35927",
+        "description" : "Contiki-NG is an open-source, cross-platform operating system for IoT devices. In the RPL-Classic routing protocol implementation in the Contiki-NG operating system, an incoming DODAG Information Option (DIO) control message can contain a prefix information option with a length parameter. The value of the length parameter is not validated, however, and it is possible to cause a buffer overflow when copying the prefix in the set_ip_from_prefix function. This vulnerability affects anyone running a Contiki-NG version prior to 4.7 that can receive RPL DIO messages from external parties. To obtain a patched version, users should upgrade to Contiki-NG 4.7 or later. There are no workarounds for this issue."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-35918",
+        "description" : "Streamlit is a data oriented application development framework for python. Users hosting Streamlit app(s) that use custom components are vulnerable to a directory traversal attack that could leak data from their web server file-system such as: server logs, world readable files, and potentially other sensitive information. An attacker can craft a malicious URL with file paths and the streamlit server would process that URL and return the contents of that file. This issue has been resolved in version 1.11.1. Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-35896",
+        "description" : "An issue SMM memory leak vulnerability in SMM driver (SMRAM was discovered in Insyde InsydeH2O with kernel 5.0 through 5.5. An attacker can dump SMRAM contents via the software SMI provided by the FvbServicesRuntimeDxe driver to read the contents of SMRAM, leading to information disclosure."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-35716",
+        "description" : "IBM UrbanCode Deploy (UCD) 6.2.0.0 through 6.2.7.16, 7.0.0.0 through 7.0.5.11, 7.1.0.0 through 7.1.2.7, and 7.2.0.0 through 7.2.3.0 could allow an authenticated user to obtain sensitive information in some instances due to improper security checking. IBM X-Force ID: 231360."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-35715",
+        "description" : "IBM InfoSphere Information Server 11.7 could allow a remote attacker to obtain sensitive information when a detailed technical error message is returned in a stack trace. This information could be used in further attacks against the system. IBM X-Force ID: 231202."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-35692",
+        "description" : "Adobe Commerce versions 2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4 (and earlier) are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to leak minor information of another user's account detials. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-35572",
+        "description" : "On Linksys E5350 WiFi Router with firmware version 1.0.00.037 and lower, (and potentially other vendors/devices due to code reuse), the /SysInfo.htm URI does not require a session ID. This web page calls a show_sysinfo function which retrieves WPA passwords, SSIDs, MAC Addresses, serial numbers, WPS Pins, and hardware/firmware versions, and prints this information into the web page. This web page is visible when remote management is enabled. A user who has access to the web interface of the device can extract these secrets. If the device has remote management enabled and is connected directly to the internet, this vulnerability is exploitable over the internet without interaction."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-35509",
+        "description" : "An issue was discovered in EyouCMS 1.5.8. There is a Storage XSS vulnerability that can allows an attacker to execute arbitrary Web scripts or HTML by injecting a special payload via the title parameter in the foreground contribution, allowing the attacker to obtain sensitive information."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-35410",
+        "description" : "mat2 (aka metadata anonymisation toolkit) before 0.13.0 allows ../ directory traversal during the ZIP archive cleaning process. This primarily affects mat2 web instances, in which clients could obtain sensitive information via a crafted archive."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-35296",
+        "description" : "Under certain conditions, the application SAP BusinessObjects Business Intelligence Platform (Version Management System) exposes sensitive information to an actor over the network with high privileges that is not explicitly authorized to have access to that information, leading to a high impact on Confidentiality."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-35288",
+        "description" : "IBM Security Verify Information Queue 10.0.2 could allow a user to obtain sensitive information that could be used in further attacks against the system. IBM X-Force ID: 230818."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-35249",
+        "description" : "A information disclosure vulnerability exists in Rocket.Chat <v5 where the getUserMentionsByChannel meteor server method discloses messages from private channels and direct messages regardless of the users access permission to the room."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-35247",
+        "description" : "A information disclosure vulnerability exists in Rocket.chat <v5, <v4.8.2 and <v4.7.5 where the lack of ACL checks in the getRoomRoles Meteor method leak channel members with special roles to unauthorized clients."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-35169",
+        "description" : "SAP BusinessObjects Business Intelligence Platform (LCM) - versions 420, 430, allows an attacker with an admin privilege to read and decrypt LCMBIAR file's password under certain conditions, enabling the attacker to modify the password or import the file into another system causing high impact on confidentiality but a limited impact on the availability and integrity of the application."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-34890",
+        "description" : "This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop 17.1.1 (51537). An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Parallels Tools component. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the kernel. Was ZDI-CAN-16653."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-34785",
+        "description" : "Jenkins build-metrics Plugin 1.3 and earlier does not perform permission checks in multiple HTTP endpoints, allowing attackers with Overall/Read permission to obtain information about jobs otherwise inaccessible to them."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-34776",
+        "description" : "Tabit - giftcard stealth. Several APIs on the web system display, without authorization, sensitive information such as health statements, previous bills in a specific restaurant, alcohol consumption and smoking habits. Each of the described APIs, has in its URL one or more MongoDB ID which is not so simple to enumerate. However, they each receive a 'tiny URL' in tabits domain, in the form of https://tbit.be/{suffix} with suffix being a 5 character long string containing numbers, lower and upper case letters. It is not so simple to enumerate them all, but really easy to find some that work and lead to a personal endpoint. Furthermore, the redirect URL disclosed the MongoDB IDs discussed above, and we could use them to query other endpoints disclosing more personal information."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-34659",
+        "description" : "A vulnerability has been identified in Simcenter STAR-CCM+ (All versions only if the Power-on-Demand public license server is used). Affected applications expose user, host and display name of users, when the public license server is used. This could allow an attacker to retrieve this information."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-34575",
+        "description" : "An access control issue in Wavlink WiFi-Repeater RPTA2-77W.M4300.01.GD.2017Sep19 allows attackers to obtain the key information of the device via accessing fctest.shtml."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-34574",
+        "description" : "An access control issue in Wavlink WiFi-Repeater RPTA2-77W.M4300.01.GD.2017Sep19 allows attackers to obtain the key information of the device via accessing Tftpd32.ini."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-34571",
+        "description" : "An access control issue in Wavlink WiFi-Repeater RPTA2-77W.M4300.01.GD.2017Sep19 allows attackers to obtain the system key information and execute arbitrary commands via accessing the page syslog.shtml."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-34570",
+        "description" : "WAVLINK WN579 X3 M79X3.V5030.191012/M79X3.V5030.191012 contains an information leak which allows attackers to obtain the key information via accessing the messages.txt page."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-34534",
+        "description" : "Digital Watchdog DW Spectrum Server 4.2.0.32842 allows attackers to access sensitive infromation via a crafted API call."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-34466",
+        "description" : "A vulnerability has been identified in Mendix Applications using Mendix 9 (All versions >= V9.11 < V9.15), Mendix Applications using Mendix 9 (V9.12) (All versions < V9.12.3). An expression injection vulnerability was discovered in the Workflow subsystem of Mendix Runtime, that can affect the running applications. The vulnerability could allow a malicious user to leak sensitive information in a certain configuration."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-34291",
+        "description" : "A vulnerability has been identified in PADS Standard/Plus Viewer (All versions). The affected application contains a stack corruption vulnerability while parsing PCB files. An attacker could leverage this vulnerability to leak information in the context of the current process. (FG-VD-22-057, FG-VD-22-058, FG-VD-22-060)"
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-34290",
+        "description" : "A vulnerability has been identified in PADS Standard/Plus Viewer (All versions). The affected application contains a stack corruption vulnerability while parsing PCB files. An attacker could leverage this vulnerability to leak information in the context of the current process. (FG-VD-22-055)"
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-34288",
+        "description" : "A vulnerability has been identified in PADS Standard/Plus Viewer (All versions). The affected application is vulnerable to an out of bounds read past the end of an allocated buffer when parsing PCB files. An attacker could leverage this vulnerability to leak information in the context of the current process. (FG-VD-22-053)"
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-34287",
+        "description" : "A vulnerability has been identified in PADS Standard/Plus Viewer (All versions). The affected application contains a stack corruption vulnerability while parsing PCB files. An attacker could leverage this vulnerability to leak information in the context of the current process. (FG-VD-22-052, FG-VD-22-056)"
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-34285",
+        "description" : "A vulnerability has been identified in PADS Standard/Plus Viewer (All versions). The affected application is vulnerable to an out of bounds read past the end of an allocated buffer when parsing PCB files. An attacker could leverage this vulnerability to leak information in the context of the current process. (FG-VD-22-050)"
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-34283",
+        "description" : "A vulnerability has been identified in PADS Standard/Plus Viewer (All versions). The affected application is vulnerable to an out of bounds read past the end of an allocated buffer when parsing PCB files. An attacker could leverage this vulnerability to leak information in the context of the current process. (FG-VD-22-048)"
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-34282",
+        "description" : "A vulnerability has been identified in PADS Standard/Plus Viewer (All versions). The affected application is vulnerable to an out of bounds read past the end of an allocated buffer when parsing PCB files. An attacker could leverage this vulnerability to leak information in the context of the current process. (FG-VD-22-047)"
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-33953",
+        "description" : "IBM Robotic Process Automation 21.0.1 and 21.0.2 could allow a user with psychical access to the system to obtain sensitive information due to insufficiently protected access tokens. IBM X-Force ID: 229198."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-33911",
+        "description" : "An issue was discovered in Couchbase Server 7.x before 7.0.4. Field names are not redacted in logged validation messages for Analytics Service. An Unauthorized Actor may be able to obtain Sensitive Information."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-33742",
+        "description" : "Linux disk/nic frontends data leaks T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Linux Block and Network PV device frontends don't zero memory regions before sharing them with the backend (CVE-2022-26365, CVE-2022-33740). Additionally the granularity of the grant table doesn't allow sharing less than a 4K page, leading to unrelated data residing in the same 4K page as data shared with a backend being accessible by such backend (CVE-2022-33741, CVE-2022-33742)."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-33741",
+        "description" : "Linux disk/nic frontends data leaks T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Linux Block and Network PV device frontends don't zero memory regions before sharing them with the backend (CVE-2022-26365, CVE-2022-33740). Additionally the granularity of the grant table doesn't allow sharing less than a 4K page, leading to unrelated data residing in the same 4K page as data shared with a backend being accessible by such backend (CVE-2022-33741, CVE-2022-33742)."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-33740",
+        "description" : "Linux disk/nic frontends data leaks T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Linux Block and Network PV device frontends don't zero memory regions before sharing them with the backend (CVE-2022-26365, CVE-2022-33740). Additionally the granularity of the grant table doesn't allow sharing less than a 4K page, leading to unrelated data residing in the same 4K page as data shared with a backend being accessible by such backend (CVE-2022-33741, CVE-2022-33742)."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-33735",
+        "description" : "There is a password verification vulnerability in WS7200-10 11.0.2.13. Attackers on the LAN may use brute force cracking to obtain passwords, which may cause sensitive system information to be disclosed."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-33202",
+        "description" : "Authentication bypass vulnerability in the setup screen of L2Blocker(on-premise) Ver4.8.5 and earlier and L2Blocker(Cloud) Ver4.8.5 and earlier allows an adjacent attacker to perform an unauthorized login and obtain the stored information or cause a malfunction of the device by using alternative paths or channels for Sensor."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-32823",
+        "description" : "A memory initialization issue was addressed with improved memory handling. This issue is fixed in iOS 15.6 and iPadOS 15.6, macOS Big Sur 11.6.8, watchOS 8.7, tvOS 15.6, macOS Monterey 12.5, Security Update 2022-005 Catalina. An app may be able to leak sensitive user information."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-32799",
+        "description" : "An out-of-bounds read issue was addressed with improved bounds checking. This issue is fixed in Security Update 2022-005 Catalina, macOS Monterey 12.5. A user in a privileged network position may be able to leak sensitive information."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-32778",
+        "description" : "An information disclosure vulnerability exists in the cookie functionality of WWBN AVideo 11.6 and dev master commit 3f7c0364. The session cookie and the pass cookie miss the HttpOnly flag, making them accessible via JavaScript. The session cookie also misses the secure flag, which allows the session cookie to be leaked over non-HTTPS connections. This could allow an attacker to steal the session cookie via crafted HTTP requests.This vulnerability is for the pass cookie, which contains the hashed password and can be leaked via JavaScript."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-32777",
+        "description" : "An information disclosure vulnerability exists in the cookie functionality of WWBN AVideo 11.6 and dev master commit 3f7c0364. The session cookie and the pass cookie miss the HttpOnly flag, making them accessible via JavaScript. The session cookie also misses the secure flag, which allows the session cookie to be leaked over non-HTTPS connections. This could allow an attacker to steal the session cookie via crafted HTTP requests.This vulnerabilty is for the session cookie which can be leaked via JavaScript."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-32540",
+        "description" : "Information Disclosure in Operator Client application in BVMS 10.1.1, 11.0 and 11.1.0 and VIDEOJET Decoder VJD-7513 versions 10.23 and 10.30 allows man-in-the-middle attacker to compromise confidential video stream. This is only applicable for UDP encryption when target system contains cameras with platform CPP13 or CPP14 and firmware version 8.x."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-32229",
+        "description" : "A information disclosure vulnerability exists in Rockert.Chat <v5 due to /api/v1/chat.getThreadsList lack of sanitization of user inputs and can therefore leak private thread messages to unauthorized users via Mongo DB injection."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-32227",
+        "description" : "A cleartext transmission of sensitive information exists in Rocket.Chat <v5, <v4.8.2 and <v4.7.5 relating to Oauth tokens by having the permission \"view-full-other-user-info\", this could cause an oauth token leak in the product."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-32220",
+        "description" : "An information disclosure vulnerability exists in Rocket.Chat <v5 due to the getUserMentionsByChannel meteor server method discloses messages from private channels and direct messages regardless of the users access permission to the room."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-32219",
+        "description" : "An information disclosure vulnerability exists in Rocket.Chat <v4.7.5 which allowed the \"users.list\" REST endpoint gets a query parameter from JSON and runs Users.find(queryFromClientSide). This means virtually any authenticated user can access any data (except password hashes) of any user authenticated."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-32218",
+        "description" : "An information disclosure vulnerability exists in Rocket.Chat <v5, <v4.8.2 and <v4.7.5 due to the actionLinkHandler method was found to allow Message ID Enumeration with Regex MongoDB queries."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-32217",
+        "description" : "A cleartext storage of sensitive information exists in Rocket.Chat <v4.6.4 due to Oauth token being leaked in plaintext in Rocket.chat logs."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-32192",
+        "description" : "Couchbase Server 5.x through 7.x before 7.0.4 exposes Sensitive Information to an Unauthorized Actor."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-31847",
+        "description" : "A vulnerability in /cgi-bin/ExportAllSettings.sh of WAVLINK WN579 X3 M79X3.V5030.180719 allows attackers to obtain sensitive router information via a crafted POST request."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-31846",
+        "description" : "A vulnerability in live_mfg.shtml of WAVLINK WN535 G3 M35G3R.V5030.180927 allows attackers to obtain sensitive router information via execution of the exec cmd function."
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-31845",
+        "description" : "A vulnerability in live_check.shtml of WAVLINK WN535 G3 M35G3R.V5030.180927 allows attackers to obtain sensitive router information via execution of the exec cmd function."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-31769",
+        "description" : "IBM Spectrum Copy Data Management 2.2.0.0 through 2.2.15.0 could allow a remote attacker to view product configuration information stored in PostgreSQL, which could be used in further attacks against the system. IBM X-Force ID: 228219."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-31673",
+        "description" : "VMware vRealize Operations contains an information disclosure vulnerability. A low-privileged malicious actor with network access can create and leak hex dumps, leading to information disclosure. Successful exploitation can lead to a remote code execution."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-31459",
+        "description" : "Owl Labs Meeting Owl 5.2.0.15 allows attackers to retrieve the passcode hash via a certain c 10 value over Bluetooth."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-31309",
+        "description" : "A vulnerability in live_check.shtml of WAVLINK AERIAL X 1200M M79X3.V5030.180719 allows attackers to obtain sensitive router information via execution of the exec cmd function."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-31308",
+        "description" : "A vulnerability in live_mfg.shtml of WAVLINK AERIAL X 1200M M79X3.V5030.191012 allows attackers to obtain sensitive router information via execution of the exec cmd function."
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-31221",
+        "description" : "Dell BIOS versions contain an Information Exposure vulnerability. A local authenticated administrator user could potentially exploit this vulnerability in order access sensitive state information on the system."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-31196",
+        "description" : "Databasir is a database metadata management platform. Databasir <= 1.06 has Server-Side Request Forgery (SSRF) vulnerability. The SSRF is triggered by a sending a **single** HTTP POST request to create a databaseType. By supplying a `jdbcDriverFileUrl` that returns a non `200` response code, the url is executed, the response is logged (both in terminal and in database) and is included in the response. This would allow an attackers to obtain the real IP address and scan Intranet information. This issue was fixed in version 1.0.7."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-31190",
+        "description" : "DSpace open source software is a repository application which provides durable access to digital resources. dspace-xmlui is a UI component for DSpace. In affected versions metadata on a withdrawn Item is exposed via the XMLUI \"mets.xml\" object, as long as you know the handle/URL of the withdrawn Item. This vulnerability only impacts the XMLUI. Users are advised to upgrade to version 6.4 or newer."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-31186",
+        "description" : "NextAuth.js is a complete open source authentication solution for Next.js applications. An information disclosure vulnerability in `next-auth` before `v4.10.2` and `v3.29.9` allows an attacker with log access privilege to obtain excessive information such as an identity provider's secret in the log (which is thrown during OAuth error handling) and use it to leverage further attacks on the system, like impersonating the client to ask for extensive permissions. This issue has been patched in `v4.10.2` and `v3.29.9` by moving the log for `provider` information to the debug level. In addition, we added a warning for having the `debug: true` option turned on in production. If for some reason you cannot upgrade, you can user the `logger` configuration option by sanitizing the logs."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-31185",
+        "description" : "mprweb is a hosting platform for the makedeb Package Repository. Email addresses were found to not have been hidden, even if a user had clicked the `Hide Email Address` checkbox on their account page, or during signup. This could lead to an account's email being leaked, which may be problematic if your email needs to remain private for any reason. Users hosting their own mprweb instance will need to upgrade to the latest commit to get this fixed. Users on the official instance will already have this issue fixed."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-31176",
+        "description" : "Grafana Image Renderer is a Grafana backend plugin that handles rendering of panels & dashboards to PNGs using a headless browser (Chromium/Chrome). An internal security review identified an unauthorized file disclosure vulnerability. It is possible for a malicious user to retrieve unauthorized files under some network conditions or via a fake datasource (if user has admin permissions in Grafana). All Grafana installations should be upgraded to version 3.6.1 as soon as possible. As a workaround it is possible to [disable HTTP remote rendering](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#plugingrafana-image-renderer)."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-31162",
+        "description" : "Slack Morphism is an async client library for Rust. Prior to 0.41.0, it was possible for Slack OAuth client information to leak in application debug logs. Stricter and more secure debug formatting was introduced in v0.41.0 for OAuth secret types to reduce the possibility of printing sensitive information in application logs. As a workaround, do not print/output requests and responses for OAuth and client configurations in logs."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-31143",
+        "description" : "GLPI stands for Gestionnaire Libre de Parc Informatique and is a Free Asset and IT Management Software package, that provides ITIL Service Desk features, licenses tracking and software auditing. It was found that in affected versions there is an exposure of private information defined in setup of GLPI (like smtp or cas hosts). Note that passwords are not exposed. Users are advised to upgrade to version 10.0.3. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-31139",
+        "description" : "UnsafeAccessor (UA) is a bridge to access jdk.internal.misc.Unsafe & sun.misc.Unsafe. Normally, if UA is loaded as a named module, the internal data of UA is protected by JVM and others can only access UA via UA's standard API. The main application can set up `SecurityCheck.AccessLimiter` for UA to limit access to UA. Starting with version 1.4.0 and prior to version 1.7.0, when `SecurityCheck.AccessLimiter` is set up, untrusted code can access UA without limitation, even when UA is loaded as a named module. This issue does not affect those for whom `SecurityCheck.AccessLimiter` is not set up. Version 1.7.0 contains a patch."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-31112",
+        "description" : "Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. In affected versions parse Server LiveQuery does not remove protected fields in classes, passing them to the client. The LiveQueryController now removes protected fields from the client response. Users are advised to upgrade. Users unable t upgrade should use `Parse.Cloud.afterLiveQueryEvent` to manually remove protected fields."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-31095",
+        "description" : "discourse-chat is a chat plugin for the Discourse application. Versions prior to 0.4 are vulnerable to an exposure of sensitive information, where an attacker who knows the message ID for a channel they do not have access to can view that message using the chat message lookup endpoint, primarily affecting direct message channels. There are no known workarounds for this issue, and users are advised to update the plugin."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-31091",
+        "description" : "Guzzle, an extensible PHP HTTP client. `Authorization` and `Cookie` headers on requests are sensitive information. In affected versions on making a request which responds with a redirect to a URI with a different port, if we choose to follow it, we should remove the `Authorization` and `Cookie` headers from the request, before containing. Previously, we would only consider a change in host or scheme. Affected Guzzle 7 users should upgrade to Guzzle 7.4.5 as soon as possible. Affected users using any earlier series of Guzzle should upgrade to Guzzle 6.5.8 or 7.4.5. Note that a partial fix was implemented in Guzzle 7.4.2, where a change in host would trigger removal of the curl-added Authorization header, however this earlier fix did not cover change in scheme or change in port. An alternative approach would be to use your own redirect middleware, rather than ours, if you are unable to upgrade. If you do not require or expect redirects to be followed, one should simply disable redirects all together."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-31090",
+        "description" : "Guzzle, an extensible PHP HTTP client. `Authorization` headers on requests are sensitive information. In affected versions when using our Curl handler, it is possible to use the `CURLOPT_HTTPAUTH` option to specify an `Authorization` header. On making a request which responds with a redirect to a URI with a different origin (change in host, scheme or port), if we choose to follow it, we should remove the `CURLOPT_HTTPAUTH` option before continuing, stopping curl from appending the `Authorization` header to the new request. Affected Guzzle 7 users should upgrade to Guzzle 7.4.5 as soon as possible. Affected users using any earlier series of Guzzle should upgrade to Guzzle 6.5.8 or 7.4.5. Note that a partial fix was implemented in Guzzle 7.4.2, where a change in host would trigger removal of the curl-added Authorization header, however this earlier fix did not cover change in scheme or change in port. If you do not require or expect redirects to be followed, one should simply disable redirects all together. Alternatively, one can specify to use the Guzzle steam handler backend, rather than curl."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-31070",
+        "description" : "NestJS Proxy is a NestJS module to decorate and proxy calls. Prior to version 0.7.0, the nestjs-proxy library did not have a way to block sensitive cookies (e.g. session cookies) from being forwarded to backend services configured by the application developer. This could have led to sensitive cookies being inadvertently exposed to such services that should not see them. The patched version now blocks cookies from being forwarded by default. However developers can configure an allow-list of cookie names by using the `allowedCookies` config setting. This issue has been fixed in version 0.7.0 of `@finastra/nestjs-proxy`. Users of `@ffdc/nestjs-proxy` are advised that this package has been deprecated and is no longer being maintained or receiving updates. Such users should update their package.json file to use `@finastra/nestjs-proxy` instead."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-31069",
+        "description" : "NestJS Proxy is a NestJS module to decorate and proxy calls. Prior to version 0.7.0, the nestjs-proxy library did not have a way to control when Authorization headers should should be forwarded for specific backend services configured by the application developer. This could have resulted in sensitive information such as OAuth bearer access tokens being inadvertently exposed to such services that should not see them. A new feature has been introduced in the patched version of nestjs-proxy that allows application developers to opt out of forwarding the Authorization headers on a per service basis using the `forwardToken` config setting. Developers are advised to review the README for this library on Github or NPM for further details on how this configuration can be applied. This issue has been fixed in version 0.7.0 of `@finastra/nestjs-proxy`. Users of `@ffdc/nestjs-proxy` are advised that this package has been deprecated and is no longer being maintained or receiving updates. Such users should update their package.json file to use `@finastra/nestjs-proxy` instead."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-31068",
+        "description" : "GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing. In affected versions all GLPI instances with the native inventory used may leak sensitive information. The feature to get refused file is not authenticated. This issue has been addressed in version 10.0.2 and all affected users are advised to upgrade."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-31051",
+        "description" : "semantic-release is an open source npm package for automated version management and package publishing. In affected versions secrets that would normally be masked by semantic-release can be accidentally disclosed if they contain characters that are excluded from uri encoding by `encodeURI`. Occurrence is further limited to execution contexts where push access to the related repository is not available without modifying the repository url to inject credentials. Users are advised to upgrade. Users unable to upgrade should ensure that secrets that do not contain characters that are excluded from encoding with `encodeURI` when included in a URL are already masked properly."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-31043",
+        "description" : "Guzzle is an open source PHP HTTP client. In affected versions `Authorization` headers on requests are sensitive information. On making a request using the `https` scheme to a server which responds with a redirect to a URI with the `http` scheme, we should not forward the `Authorization` header on. This is much the same as to how we don't forward on the header if the host changes. Prior to this fix, `https` to `http` downgrades did not result in the `Authorization` header being removed, only changes to the host. Affected Guzzle 7 users should upgrade to Guzzle 7.4.4 as soon as possible. Affected users using any earlier series of Guzzle should upgrade to Guzzle 6.5.7 or 7.4.4. Users unable to upgrade may consider an alternative approach which would be to use their own redirect middleware. Alternately users may simply disable redirects all together if redirects are not expected or required."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-31042",
+        "description" : "Guzzle is an open source PHP HTTP client. In affected versions the `Cookie` headers on requests are sensitive information. On making a request using the `https` scheme to a server which responds with a redirect to a URI with the `http` scheme, or on making a request to a server which responds with a redirect to a a URI to a different host, we should not forward the `Cookie` header on. Prior to this fix, only cookies that were managed by our cookie middleware would be safely removed, and any `Cookie` header manually added to the initial request would not be stripped. We now always strip it, and allow the cookie middleware to re-add any cookies that it deems should be there. Affected Guzzle 7 users should upgrade to Guzzle 7.4.4 as soon as possible. Affected users using any earlier series of Guzzle should upgrade to Guzzle 6.5.7 or 7.4.4. Users unable to upgrade may consider an alternative approach to use your own redirect middleware, rather than ours. If you do not require or expect redirects to be followed, one should simply disable redirects all together."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-31033",
+        "description" : "The Mechanize library is used for automating interaction with websites. Mechanize automatically stores and sends cookies, follows redirects, and can follow links and submit forms. In versions prior to 2.8.5 the Authorization header is leaked after a redirect to a different port on the same site. Users are advised to upgrade to Mechanize v2.8.5 or later. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-30990",
+        "description" : "Sensitive information disclosure due to insecure folder permissions. The following products are affected: Acronis Cyber Protect 15 (Linux) before build 29240, Acronis Agent (Linux) before build 28037"
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-30949",
+        "description" : "Jenkins REPO Plugin 1.14.0 and earlier allows attackers able to configure pipelines to check out some SCM repositories stored on the Jenkins controller's file system using local paths as SCM URLs, obtaining limited information about other projects' SCM contents."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-30948",
+        "description" : "Jenkins Mercurial Plugin 2.16 and earlier allows attackers able to configure pipelines to check out some SCM repositories stored on the Jenkins controller's file system using local paths as SCM URLs, obtaining limited information about other projects' SCM contents."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-30947",
+        "description" : "Jenkins Git Plugin 4.11.1 and earlier allows attackers able to configure pipelines to check out some SCM repositories stored on the Jenkins controller's file system using local paths as SCM URLs, obtaining limited information about other projects' SCM contents."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-30760",
+        "description" : "An Insecure Direct Object Reference (IDOR) issue in fn2Web in ihb eG FlexNow before 2.04.09.016 allows remote authenticated attackers to obtain sensitive student information (final grades, study courses, degrees) by changing the student ID parameter in the HTTP POST request to the FrontControllerSS endpoint."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-30703",
+        "description" : "Trend Micro Security 2021 and 2022 (Consumer) is vulnerable to an exposed dangerous method vulnerability that could allow an attacker to obtain access to leaked kernel addresses and disclose sensitive information. This vulnerability could also potentially be chained for privilege escalation."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-30693",
+        "description" : "Information disclosure vulnerability in the system configuration of Cybozu Office 10.0.0 to 10.8.5 allows a remote attacker to obtain the data of the product via unspecified vectors."
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-30625",
+        "description" : "Directory listing is a web server function that displays the directory contents when there is no index file in a specific website directory. A directory listing provides an attacker with the complete index of all the resources located inside of the directory. The specific risks and consequences vary depending on which files are listed and accessible."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-30618",
+        "description" : "An authenticated user with access to the Strapi admin panel can view private and sensitive data, such as email and password reset tokens, for API users if content types accessible to the authenticated user contain relationships to API users (from:users-permissions). There are many scenarios in which such details from API users can leak in the JSON response within the admin panel, either through a direct or indirect relationship. Access to this information enables a user to compromise these users’ accounts if the password reset API endpoints have been enabled. In a worst-case scenario, a low-privileged user could get access to a high-privileged API account, and could read and modify any data as well as block access to both the admin panel and API by revoking privileges for all other users."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-30617",
+        "description" : "An authenticated user with access to the Strapi admin panel can view private and sensitive data, such as email and password reset tokens, for other admin panel users that have a relationship (e.g., created by, updated by) with content accessible to the authenticated user. For example, a low-privileged “author” role account can view these details in the JSON response for an “editor” or “super admin” that has updated one of the author’s blog posts. There are also many other scenarios where such details from other users can leak in the JSON response, either through a direct or indirect relationship. Access to this information enables a user to compromise other users’ accounts by successfully invoking the password reset workflow. In a worst-case scenario, a low-privileged user could get access to a “super admin” account with full control over the Strapi instance, and could read and modify any data as well as block access to both the admin panel and API by revoking privileges for all other users."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-30607",
+        "description" : "IBM Robotic Process Automation 20.10.0, 20.12.5, 21.0.0, 21.0.1, and 21.0.2 contains a vulnerability that could allow a user to obtain sensitive information due to information properly masked in the control center UI. IBM X-Force ID: 227294."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-30570",
+        "description" : "The Column Based Security component of TIBCO Software Inc.'s TIBCO Data Virtualization and TIBCO Data Virtualization for AWS Marketplace contains an easily exploitable vulnerability that allows a low privileged attacker with network access to obtain read access to application information on the affected system. Affected releases are TIBCO Software Inc.'s TIBCO Data Virtualization: versions 8.5.2 and below and TIBCO Data Virtualization for AWS Marketplace: versions 8.5.2 and below."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-30556",
+        "description" : "Apache HTTP Server 2.4.53 and earlier may return lengths to applications calling r:wsread() that point past the end of the storage allocated for the buffer."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-30549",
+        "description" : "Out-of-bounds read vulnerability exists in V-Server v4.0.11.0 and earlier and V-Server Lite v4.0.13.0 and earlier, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-30546",
+        "description" : "Out-of-bounds read vulnerability exists in the simulator module contained in the graphic editor 'V-SFT' versions prior to v6.1.6.0, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-30538",
+        "description" : "Out-of-bounds write vulnerability exists in the simulator module contained in the graphic editor 'V-SFT' versions prior to v6.1.6.0, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-30312",
+        "description" : "The Trend Controls IC protocol through 2022-05-06 allows Cleartext Transmission of Sensitive Information. According to FSCT-2022-0050, there is a Trend Controls Inter-Controller (IC) protocol cleartext transmission of credentials issue. The affected components are characterized as: Inter-Controller (IC) protocol (57612/UDP). The potential impact is: Compromise of credentials. Several Trend Controls building automation controllers utilize the Inter-Controller (IC) protocol in for information exchange and automation purposes. This protocol offers authentication in the form of a 4-digit PIN in order to protect access to sensitive operations like strategy uploads and downloads as well as optional 0-30 character username and password protection for web page access protection. Both the PIN and usernames and passwords are transmitted in cleartext, allowing an attacker with passive interception capabilities to obtain these credentials. Credentials are transmitted in cleartext. An attacker who obtains Trend IC credentials can carry out sensitive engineering actions such as manipulating controller strategy or configuration settings. If the credentials in question are (re)used for other applications, their compromise could potentially facilitate lateral movement."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-30049",
+        "description" : "A Server-Side Request Forgery (SSRF) in Rebuild v2.8.3 allows attackers to obtain the real IP address and scan Intranet information via the fileurl parameter."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-30012",
+        "description" : "In the POST request of the appointment.php page of HMS v.0, there are SQL injection vulnerabilities in multiple parameters, and database information can be obtained through injection."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-29973",
+        "description" : "relan exFAT 1.3.0 allows local users to obtain sensitive information (data from deleted files in the filesystem) in certain situations involving offsets beyond ValidDataLength."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-29925",
+        "description" : "Access of uninitialized pointer vulnerability exists in the simulator module contained in the graphic editor 'V-SFT' versions prior to v6.1.6.0, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-29900",
+        "description" : "Mis-trained branch predictions for return instructions may allow arbitrary speculative code execution under certain microarchitecture-dependent conditions."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-29869",
+        "description" : "cifs-utils through 6.14, with verbose logging, can cause an information leak when a file contains = (equal sign) characters but is not a valid credentials file."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-29846",
+        "description" : "In Progress Ipswitch WhatsUp Gold 16.1 through 21.1.1, and 22.0.0, it is possible for an unauthenticated attacker to obtain the WhatsUp Gold installation serial number."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2022-29784",
+        "description" : "PublicCMS V4.0.202204.a and below contains an information leak via the component /views/directive/sys/SysConfigDataDirective.java."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2022-29646",
+        "description" : "An access control issue in TOTOLINK A3100R V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211129 allows attackers to obtain sensitive information via a crafted web request."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2022-29612",
+        "description" : "SAP NetWeaver, ABAP Platform and SAP Host Agent - versions KERNEL 7.22, 7.49, 7.53, 7.77, 7.81, 7.85, 7.86, 7.87, 7.88, 8.04, KRNL64NUC 7.22, 7.22EXT, 7.49, KRNL64UC 7.22, 7.22EXT, 7.49, 7.53, 8.04, SAPHOSTAGENT 7.22, allows an authenticated user to misuse a function of sapcontrol webfunctionality(startservice) in Kernel which enables malicious users to retrieve information. On successful exploitation, an attacker can obtain technical information like system number or physical address, which is otherwise restricted, causing a limited impact on the confidentiality of the application."
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2022-29578",
+        "description" : "Meridian Cooperative Utility Software versions 22.02 and 22.03 allows remote attackers to obtain sensitive information such as name, address, and daily energy usage."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2022-29567",
+        "description" : "The default configuration of a TreeGrid component uses Object::toString as a key on the client-side and server communication in Vaadin 14.8.5 through 14.8.9, 22.0.6 through 22.0.14, 23.0.0.beta2 through 23.0.8 and 23.1.0.alpha1 through 23.1.0.alpha4, resulting in potential information disclosure of values that should not be available on the client-side."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2022-29524",
+        "description" : "Out-of-bounds write vulnerability exists in V-Server v4.0.11.0 and earlier and V-Server Lite v4.0.13.0 and earlier, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2022-29522",
+        "description" : "Use after free vulnerability exists in the simulator module contained in the graphic editor 'V-SFT' versions prior to v6.1.6.0, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2022-29512",
+        "description" : "Exposure of sensitive information to an unauthorized actor issue in multiple applications of Cybozu Garoon 4.0.0 to 5.9.1 allows a remote authenticated attacker to obtain the data without the viewing privilege."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2022-29506",
+        "description" : "Out-of-bounds read vulnerability exist in the simulator module contained in the graphic editor 'V-SFT' v6.1.3.0 and earlier, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2022-29467",
+        "description" : "Address information disclosure vulnerability in Cybozu Garoon 4.2.0 to 5.5.1 allows a remote authenticated attacker to obtain some data of Address."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2022-29266",
+        "description" : "In APache APISIX before 3.13.1, the jwt-auth plugin has a security issue that leaks the user's secret key because the error message returned from the dependency lua-resty-jwt contains sensitive information."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2022-29248",
+        "description" : "Guzzle is a PHP HTTP client. Guzzle prior to versions 6.5.6 and 7.4.3 contains a vulnerability with the cookie middleware. The vulnerability is that it is not checked if the cookie domain equals the domain of the server which sets the cookie via the Set-Cookie header, allowing a malicious server to set cookies for unrelated domains. The cookie middleware is disabled by default, so most library consumers will not be affected by this issue. Only those who manually add the cookie middleware to the handler stack or construct the client with ['cookies' => true] are affected. Moreover, those who do not use the same Guzzle client to call multiple domains and have disabled redirect forwarding are not affected by this vulnerability. Guzzle versions 6.5.6 and 7.4.3 contain a patch for this issue. As a workaround, turn off the cookie middleware."
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2022-29244",
+        "description" : "npm pack ignores root-level .gitignore and .npmignore file exclusion directives when run in a workspace or with a workspace flag (ie. `--workspaces`, `--workspace=<name>`). Anyone who has run `npm pack` or `npm publish` inside a workspace, as of v7.9.0 and v7.13.0 respectively, may be affected and have published files into the npm registry they did not intend to include. Users should upgrade to the latest, patched version of npm v8.11.0, run: npm i -g npm@latest . Node.js versions v16.15.1, v17.19.1, and v18.3.0 include the patched v8.11.0 version of npm."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2022-29235",
+        "description" : "BigBlueButton is an open source web conferencing system. Starting in version 2.2 and up to versions 2.3.18 and 2.4-rc-6, an attacker who is able to obtain the meeting identifier for a meeting on a server can find information related to an external video being shared, like the current timestamp and play/pause. The problem has been patched in versions 2.3.18 and 2.4-rc-6 by modifying the stream to send the data only for users in the meeting. There are currently no known workarounds."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2022-29232",
+        "description" : "BigBlueButton is an open source web conferencing system. Starting with version 2.2 and prior to versions 2.3.9 and 2.4-beta-1, an attacker can circumvent access controls to obtain the content of public chat messages from different meetings on the server. The attacker must be a participant in a meeting on the server. BigBlueButton versions 2.3.9 and 2.4-beta-1 contain a patch for this issue. There are currently no known workarounds."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2022-29071",
+        "description" : "This advisory documents an internally found vulnerability in the on premises deployment model of Arista CloudVision Portal (CVP) where under a certain set of conditions, user passwords can be leaked in the Audit and System logs. The impact of this vulnerability is that the CVP user login passwords might be leaked to other authenticated users."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2022-28998",
+        "description" : "Xlight FTP v3.9.3.2 was discovered to contain a stack-based buffer overflow which allows attackers to leak sensitive information via crafted code."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2022-28924",
+        "description" : "An information disclosure vulnerability in UniverSIS-Students before v1.5.0 allows attackers to obtain sensitive information via a crafted GET request to the endpoint /api/students/me/courses/."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2022-28713",
+        "description" : "Improper authentication vulnerability in Scheduler of Cybozu Garoon 4.10.0 to 5.5.1 allows a remote attacker to obtain some data of Facility Information without logging in to the product."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2022-28662",
+        "description" : "A vulnerability has been identified in Simcenter Femap (All versions < V2022.1.2). The affected application contains an out of bounds write past the end of an allocated buffer while parsing specially crafted .NEU files. This could allow an attacker to leverage this vulnerability to leak information in the context of the current process. (ZDI-CAN-15307)"
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2022-28382",
+        "description" : "An issue was discovered in certain Verbatim drives through 2022-03-31. Due to the use of an insecure encryption AES mode (Electronic Codebook, aka ECB), an attacker may be able to extract information even from encrypted data, for example by observing repeating byte patterns. The firmware of the USB-to-SATA bridge controller INIC-3637EN uses AES-256 with the ECB mode. This operation mode of block ciphers (e.g., AES) always encrypts identical plaintext data, in this case blocks of 16 bytes, to identical ciphertext data. For some data, for instance bitmap images, the lack of the cryptographic property called diffusion, within ECB, can leak sensitive information even in encrypted data. Thus, the use of the ECB operation mode can put the confidentiality of specific information at risk, even in an encrypted form. This affects Keypad Secure USB 3.2 Gen 1 Drive Part Number #49428, Store 'n' Go Secure Portable HDD GD25LK01-3637-C VER4.0, Executive Fingerprint Secure SSD GDMSFE01-INI3637-C VER1.1, and Fingerprint Secure Portable Hard Drive Part Number #53650."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2022-27875",
+        "description" : "On F5 Access for Android 3.x versions prior to 3.0.8, a Task Hijacking vulnerability exists in the F5 Access for Android application, which may allow an attacker to steal sensitive user information. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated"
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2022-27873",
+        "description" : "An attacker can force the victim’s device to perform arbitrary HTTP requests in WAN through a malicious SVG file being parsed by Autodesk Fusion 360’s document parser. The vulnerability exists in the application’s ‘Insert SVG’ procedure. An attacker can also leverage this vulnerability to obtain victim’s public IP and possibly other sensitive information."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2022-27863",
+        "description" : "Sensitive Information Exposure in E4J s.r.l. VikBooking Hotel Booking Engine & PMS plugin <= 1.5.3 on WordPress allows attackers to get the booking data by guessing / brute-forcing easy predictable booking IDs via search POST requests."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2022-27849",
+        "description" : "Sensitive Information Disclosure (sac-export.csv) in Simple Ajax Chat (WordPress plugin) <= 20220115"
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2022-27819",
+        "description" : "SWHKD 1.1.5 allows unsafe parsing via the -c option. An information leak might occur but there is a simple denial of service (memory exhaustion) upon an attempt to parse a large or infinite file (such as a block or character device)."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2022-27818",
+        "description" : "SWHKD 1.1.5 unsafely uses the /tmp/swhkd.sock pathname. There can be an information leak or denial of service."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2022-27817",
+        "description" : "SWHKD 1.1.5 consumes the keyboard events of unintended users. This could potentially cause an information leak, but is usually a denial of functionality."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2022-27815",
+        "description" : "SWHKD 1.1.5 unsafely uses the /tmp/swhkd.pid pathname. There can be an information leak or denial of service."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2022-27667",
+        "description" : "Under certain conditions, SAP BusinessObjects Business Intelligence platform, Client Management Console (CMC) - version 430, allows an attacker to access information which would otherwise be restricted, leading to Information Disclosure."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2022-27633",
+        "description" : "An information disclosure vulnerability exists in the confctl_get_guest_wlan functionality of TCL LinkHub Mesh Wifi MS1G_00_01.00_14. A specially-crafted network packet can lead to information disclosure. An attacker can send packets to trigger this vulnerability."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2022-27630",
+        "description" : "An information disclosure vulnerability exists in the confctl_get_master_wlan functionality of TCL LinkHub Mesh Wi-Fi MS1G_00_01.00_14. A specially-crafted network packet can lead to information disclosure. An attacker can send packets to trigger this vulnerability."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2022-27619",
+        "description" : "Cleartext transmission of sensitive information vulnerability in authentication management in Synology Note Station Client before 2.2.2-609 allows man-in-the-middle attackers to obtain sensitive information via unspecified vectors."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2022-27614",
+        "description" : "Exposure of sensitive information to an unauthorized actor vulnerability in web server in Synology Media Server before 1.8.1-2876 allows remote attackers to obtain sensitive information via unspecified vectors."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2022-27551",
+        "description" : "HCL Launch could allow an authenticated user to obtain sensitive information in some instances due to improper security checking."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2022-27442",
+        "description" : "TPCMS v3.2 allows attackers to access the ThinkPHP log directory and obtain sensitive information such as the administrator's user name and password."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2022-27250",
+        "description" : "The UNISOC chipset through 2022-03-15 allows attackers to obtain remote control of a mobile phone, e.g., to obtain sensitive information from text messages or the device's screen, record video of the device's physical environment, or modify data."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2022-27241",
+        "description" : "A vulnerability has been identified in Mendix Applications using Mendix 7 (All versions < V7.23.31), Mendix Applications using Mendix 8 (All versions < V8.18.18), Mendix Applications using Mendix 9 (All versions < V9.11), Mendix Applications using Mendix 9 (V9.6) (All versions < V9.6.12). Applications built with an affected system publicly expose the internal project structure. This could allow an unauthenticated remote attacker to read confidential information."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2022-27192",
+        "description" : "The Reporting module in Aseco Lietuva document management system DVS Avilys before 3.5.58 allows unauthorized file download. An unauthenticated attacker can impersonate an administrator by reading administrative files."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2022-27055",
+        "description" : "** DISPUTED ** ecjia-daojia 1.38.1-20210202629 is vulnerable to information leakage via content/apps/installer/classes/Helper.php. When the web program is installed, a new environment file is created, and the database information is recorded, including the database record password. NOTE: the vendor disputes this because the environment file is in the data directory, which is not intended for access by website visitors (only the statics directory can be accessed by website visitors)."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2022-26966",
+        "description" : "An issue was discovered in the Linux kernel before 5.16.12. drivers/net/usb/sr9700.c allows attackers to obtain sensitive information from heap memory via crafted frame lengths from a device."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2022-26948",
+        "description" : "The Archer RSS feed integration for Archer 6.x through 6.9 SP1 (6.9.1.0) is affected by an insecure credential storage vulnerability. A malicious attacker may obtain access to credential information to use it in further attacks."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2022-26847",
+        "description" : "SPIP before 3.2.14 and 4.x before 4.0.5 allows unauthenticated access to information about editorial objects."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2022-26834",
+        "description" : "Improper access control vulnerability in Rakuten Casa version AP_F_V1_4_1 or AP_F_V2_0_0 allows a remote attacker to obtain the information stored in the product because the product is set to accept HTTP connections from the WAN side by default."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2022-26591",
+        "description" : "FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows unauthenticated attackers to access and download arbitrary files via a crafted GET request."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2022-26572",
+        "description" : "Xerox ColorQube 8580 was discovered to contain an access control issue which allows attackers to print, view the status, and obtain sensitive information."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2022-26546",
+        "description" : "Hospital Management System v1.0 was discovered to lack an authorization component, allowing attackers to access sensitive information and obtain the admin password."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2022-26487",
+        "description" : "Mitel MiCollab before 9.4 SP1 FP1 and MiVoice Business Express through 8.1 allow remote attackers to obtain sensitive information and cause a denial of service (performance degradation and excessive outbound traffic)."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2022-26365",
+        "description" : "Linux disk/nic frontends data leaks T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Linux Block and Network PV device frontends don't zero memory regions before sharing them with the backend (CVE-2022-26365, CVE-2022-33740). Additionally the granularity of the grant table doesn't allow sharing less than a 4K page, leading to unrelated data residing in the same 4K page as data shared with a backend being accessible by such backend (CVE-2022-33741, CVE-2022-33742)."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2022-26348",
+        "description" : "Command Centre Server is vulnerable to SQL Injection via Windows Registry settings for date fields on the server. The Windows Registry setting allows an attacker using the Visitor Management Kiosk, an application designed for public use, to invoke an arbitrary SQL query that has been preloaded into the registry of the Windows Server to obtain sensitive information. This issue affects: Gallagher Command Centre 8.60 versions prior to 8.60.1652; 8.50 versions prior to 8.50.2245; 8.40 versions prior to 8.40.2216; 8.30 versions prior to 8.30.1470; version 8.20 and prior versions."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2022-26302",
+        "description" : "Heap-based buffer overflow exists in the simulator module contained in the graphic editor 'V-SFT' versions prior to v6.1.6.0, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2022-26267",
+        "description" : "Piwigo v12.2.0 was discovered to contain an information leak via the action parameter in /admin/maintenance_actions.php."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2022-26143",
+        "description" : "The TP-240 (aka tp240dvr) component in Mitel MiCollab before 9.4 SP1 FP1 and MiVoice Business Express through 8.1 allows remote attackers to obtain sensitive information and cause a denial of service (performance degradation and excessive outbound traffic). This was exploited in the wild in February and March 2022 for the TP240PhoneHome DDoS attack."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2022-25990",
+        "description" : "On 1.0.x versions prior to 1.0.1, systems running F5OS-A software may expose certain registry ports externally. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated"
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2022-25850",
+        "description" : "The package github.com/hoppscotch/proxyscotch before 1.0.0 are vulnerable to Server-side Request Forgery (SSRF) when interceptor mode is set to proxy. It occurs when an HTTP request is made by a backend server to an untrusted URL submitted by a user. It leads to a leakage of sensitive information from the server."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2022-25830",
+        "description" : "Information Exposure vulnerability in Galaxy Watch3 Plugin prior to version 2.2.09.22012751 allows attacker to access password information of connected WiFiAp in the log"
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2022-25829",
+        "description" : "Information Exposure vulnerability in Watch Active2 Plugin prior to version 2.2.08.22012751 allows attacker to access password information of connected WiFiAp in the log"
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2022-25828",
+        "description" : "Information Exposure vulnerability in Watch Active Plugin prior to version 2.2.07.22012751 allows attacker to access password information of connected WiFiAp in the log"
+    }
+]

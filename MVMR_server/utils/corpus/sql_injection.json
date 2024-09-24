@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-43023",
+        "description" : "OpenCATS v0.9.6 was discovered to contain a SQL injection vulnerability via the importID parameter in the Import viewerrors function."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-43022",
+        "description" : "OpenCATS v0.9.6 was discovered to contain a SQL injection vulnerability via the tag_id variable in the Tag deletion function."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-43021",
+        "description" : "OpenCATS v0.9.6 was discovered to contain a SQL injection vulnerability via the entriesPerPage variable."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-43020",
+        "description" : "OpenCATS v0.9.6 was discovered to contain a SQL injection vulnerability via the tag_id variable in the Tag update function."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-42304",
+        "description" : "An issue was discovered in Veritas NetBackup through 10.0 and related Veritas products. The NetBackup Primary server is vulnerable to a SQL Injection attack affecting idm, nbars, and SLP manager code."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-42303",
+        "description" : "An issue was discovered in Veritas NetBackup through 10.0 and related Veritas products. The NetBackup Primary server is vulnerable to a second-order SQL Injection attack affecting the NBFSMCLIENT service by leveraging CVE-2022-42302."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-42302",
+        "description" : "An issue was discovered in Veritas NetBackup through 10.0 and related Veritas products. The NetBackup Primary server is vulnerable to a SQL Injection attack affecting the NBFSMCLIENT service."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-42250",
+        "description" : "Simple Cold Storage Management System v1.0 is vulnerable to SQL injection via /csms/admin/inquiries/view_details.php?id=."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-42249",
+        "description" : "Simple Cold Storage Management System v1.0 is vulnerable to SQL injection via /csms/admin/storages/view_storage.php?id=."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-42243",
+        "description" : "Simple Cold Storage Management System v1.0 is vulnerable to SQL injection via /csms/admin/storages/manage_storage.php?id=."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-42242",
+        "description" : "Simple Cold Storage Management System v1.0 is vulnerable to SQL injection via /csms/classes/Master.php?f=delete_booking."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-42241",
+        "description" : "Simple Cold Storage Management System v1.0 is vulnerable to SQL injection via /csms/classes/Master.php?f=delete_message."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-42237",
+        "description" : "A SQL Injection issue in Merchandise Online Store v.1.0 allows an attacker to log in to the admin account."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-42232",
+        "description" : "Simple Cold Storage Management System v1.0 is vulnerable to SQL Injection via /csms/classes/Master.php?f=delete_storage."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-42230",
+        "description" : "Simple Cold Storage Management System v1.0 is vulnerable to SQL Injection via /csms/admin/?page=user/manage_user&id=."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-42218",
+        "description" : "Open Source SACCO Management System v1.0 vulnerable to SQL Injection via /sacco_shield/manage_loan.php."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-42143",
+        "description" : "Open Source SACCO Management System v1.0 is vulnerable to SQL Injection via /sacco_shield/manage_payment.php."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-42074",
+        "description" : "Online Diagnostic Lab Management System v1.0 is vulnerable to SQL Injection via /diagnostic/editcategory.php?id=."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-42073",
+        "description" : "Online Diagnostic Lab Management System v1.0 is vulnerable to SQL Injection via /diagnostic/editclient.php?id=."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-42064",
+        "description" : "Online Diagnostic Lab Management System version 1.0 remote exploit that bypasses login with SQL injection and then uploads a shell."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-42021",
+        "description" : "Best Student Result Management System v1.0 is vulnerable to SQL Injection via /upresult/upresult/notice-details.php?nid=."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-41570",
+        "description" : "An issue was discovered in EyesOfNetwork (EON) through 5.3.11. Unauthenticated SQL injection can occur."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-41536",
+        "description" : "Open Source SACCO Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /sacco_shield/manage_user.php."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-41535",
+        "description" : "Open Source SACCO Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /sacco_shield/manage_borrower.php."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-41532",
+        "description" : "Open Source SACCO Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /sacco_shield/ajax.php?action=delete_plan."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-41530",
+        "description" : "Open Source SACCO Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /sacco_shield/ajax.php?action=delete_borrower."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-41515",
+        "description" : "Open Source SACCO Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /sacco_shield/ajax.php?action=delete_payment."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-41514",
+        "description" : "Open Source SACCO Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /sacco_shield/ajax.php?action=delete_loan."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-41513",
+        "description" : "Online Diagnostic Lab Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /diagnostic/edittest.php."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-41498",
+        "description" : "Billing System Project v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /phpinventory/editbrand.php."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-41440",
+        "description" : "Billing System Project v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /phpinventory/editcategory.php."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-41439",
+        "description" : "Billing System Project v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /phpinventory/edituser.php."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-41416",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /user/update_booking.php."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-41408",
+        "description" : "Online Pet Shop We App v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/?page=orders/view_order."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-41407",
+        "description" : "Online Pet Shop We App v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/?page=orders/view_order."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-41403",
+        "description" : "OpenCart 3.x Newsletter Custom Popup was discovered to contain a SQL injection vulnerability via the email parameter at index.php?route=extension/module/so_newletter_custom_popup/newsletter."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-41391",
+        "description" : "OcoMon v4.0 was discovered to contain a SQL injection vulnerability via the cod parameter at showImg.php."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-41390",
+        "description" : "OcoMon v4.0 was discovered to contain a SQL injection vulnerability via the cod parameter at download.php."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-41378",
+        "description" : "Online Pet Shop We App v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /pet_shop/admin/?page=inventory/manage_inventory."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-41377",
+        "description" : "Online Pet Shop We App v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /pet_shop/admin/?page=maintenance/manage_category."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-41355",
+        "description" : "Online Leave Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /leave_system/classes/Master.php?f=delete_department."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-40944",
+        "description" : "Dairy Farm Shop Management System 1.0 is vulnerable to SQL Injection via sales-report-ds.php file."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-40943",
+        "description" : "Dairy Farm Shop Management System 1.0 is vulnerable to SQL Injection via bwdate-report-ds.php file."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-40935",
+        "description" : "Online Pet Shop We App v1.0 is vulnerable to SQL Injection via /pet_shop/classes/Master.php?f=delete_category,id."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-40934",
+        "description" : "Online Pet Shop We App v1.0 is vulnerable to SQL injection via /pet_shop/classes/Master.php?f=delete_sub_category,id"
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-40933",
+        "description" : "Online Pet Shop We App v1.0 by oretnom23 is vulnerable to SQL injection via /pet_shop/classes/Master.php?f=delete_order,id."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-40928",
+        "description" : "Online Leave Management System v1.0 is vulnerable to SQL Injection via /leave_system/classes/Master.php?f=delete_application."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-40927",
+        "description" : "Online Leave Management System v1.0 is vulnerable to SQL Injection via /leave_system/classes/Master.php?f=delete_designation."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-40926",
+        "description" : "Online Leave Management System v1.0 is vulnerable to SQL Injection via /leave_system/classes/Master.php?f=delete_leave_type."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-40887",
+        "description" : "SourceCodester Best Student Result Management System 1.0 is vulnerable to SQL Injection."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-40877",
+        "description" : "Exam Reviewer Management System 1.0 is vulnerable to SQL Injection via the ‘id’ parameter."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-40872",
+        "description" : "An SQL injection vulnerability issue was discovered in Sourcecodester Simple E-Learning System 1.0., in /vcs/classRoom.php?classCode=, classCode."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-40835",
+        "description" : "B.C. Institute of Technology CodeIgniter <=3.1.13 is vulnerable to SQL Injection via system\\database\\DB_query_builder.php."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-40834",
+        "description" : "B.C. Institute of Technology CodeIgniter <=3.1.13 is vulnerable to SQL Injection via system\\database\\DB_query_builder.php or_not_like() function."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-40485",
+        "description" : "Wedding Planner v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /package_detail.php."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-40484",
+        "description" : "Wedding Planner v1.0 was discovered to contain a SQL injection vulnerability via the booking parameter at /admin/client_edit.php."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-40483",
+        "description" : "Wedding Planner v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /wedding_details.php."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-40447",
+        "description" : "ZZCMS 2022 was discovered to contain a SQL injection vulnerability via the keyword parameter at /admin/baojia_list.php."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-40446",
+        "description" : "ZZCMS 2022 was discovered to contain a SQL injection vulnerability via the component /admin/sendmailto.php?tomail=&groupid=."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-40404",
+        "description" : "Wedding Planner v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/select.php."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-40403",
+        "description" : "Wedding Planner v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/feature_edit.php."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-40402",
+        "description" : "Wedding Planner v1.0 was discovered to contain a SQL injection vulnerability via the booking parameter at /admin/client_assign.php."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-40354",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/update_booking.php."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-40353",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/up_booking.php."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-40352",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/update_traveller.php."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-40315",
+        "description" : "A limited SQL injection risk was identified in the \"browse list of users\" site administration page."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-40300",
+        "description" : "Zoho ManageEngine Password Manager Pro through 12120 before 12121, PAM360 through 5550 before 5600, and Access Manager Plus through 4304 before 4305 have multiple SQL injection vulnerabilities."
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-40122",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the cust_id parameter at /net-banking/edit_customer_action.php."
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-40121",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the search parameter at /net-banking/manage_customers.php."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-40120",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the search_term parameter at /net-banking/customer_transactions.php."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-40119",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the search_term parameter at /net-banking/transactions.php."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-40118",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the cust_id parameter at /net-banking/send_funds_action.php."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-40117",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the cust_id parameter at /net-banking/delete_customer.php."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-40116",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the search parameter at /net-banking/beneficiary.php."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-40115",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the cust_id parameter at /net-banking/delete_beneficiary.php."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-40114",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the cust_id parameter at /net-banking/edit_customer.php."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-40113",
+        "description" : "Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the cust_id parameter at /net-banking/send_funds.php."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-40099",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/update_expense_category.php."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-40098",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/update_expense.php."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-40097",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/update_currency.php."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-40093",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /tour/admin/update_tax.php."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-40092",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /tour/admin/update_payment.php."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-40091",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /tour/admin/update_packages.php."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-40043",
+        "description" : "Centreon v20.10.18 was discovered to contain a SQL injection vulnerability via the esc_name (Escalation Name) parameter at Configuration/Notifications/Escalations."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-40030",
+        "description" : "SourceCodester Simple Task Managing System v1.0 was discovered to contain a SQL injection vulnerability via the bookId parameter at changeStatus.php."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-40026",
+        "description" : "SourceCodester Simple Task Managing System v1.0 was discovered to contain a SQL injection vulnerability via the bookId parameter at board.php."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-39817",
+        "description" : "In NOKIA 1350 OMS R14.2, multiple SQL Injection vulnerabilities occurs. Exploitation requires an authenticated attacker. Through the injection of arbitrary SQL statements, a potential authenticated attacker can modify query syntax and perform unauthorized (and unexpected) operations against the remote database."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-39303",
+        "description" : "Ree6 is a moderation bot. This vulnerability allows manipulation of SQL queries. This issue has been patched in version 1.7.0 by using Javas PreparedStatements, which allow object setting without the risk of SQL injection. There are currently no known workarounds."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-39056",
+        "description" : "RAVA certificate validation system has insufficient validation for user input. An unauthenticated remote attacker can inject arbitrary SQL command to access, modify and delete database."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-38878",
+        "description" : "School Activity Updates with SMS Notification v1.0 is vulnerable to SQL Injection via /activity/admin/modules/event/index.php?view=edit&id=."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-38833",
+        "description" : "School Activity Updates with SMS Notification v1.0 is vulnerable to SQL Injection via /activity/admin/modules/modstudent/index.php?view=view&id=."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-38832",
+        "description" : "School Activity Updates with SMS Notification v1.0 is vulnerable to SQL Injection via /activity/admin/modules/department/index.php?view=edit&id=."
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-38812",
+        "description" : "AeroCMS 0.1.1 is vulnerable to SQL Injection via the author parameter."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-38808",
+        "description" : "ywoa v6.1 is vulnerable to SQL Injection via backend/oa/visual/exportExcel.do interface."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-38771",
+        "description" : "The mobile application in Transtek Mojodat FAM (Fixed Asset Management) 2.4.6 allows remote attackers to send SCRIPT tags as injected input to the API request."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-38637",
+        "description" : "Hospital Management System v1.0 was discovered to contain multiple SQL injection vulnerabilities via the Username and Password parameters on the Login page."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-38619",
+        "description" : "SmartVista SVFE2 v2.2.22 was discovered to contain a SQL injection vulnerability via the UserForm:j_id90 parameter at /SVFE2/pages/feegroups/mcc_group.jsf."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-38618",
+        "description" : "SmartVista SVFE2 v2.2.22 was discovered to contain a SQL injection vulnerability via the UserForm:j_id88, UserForm:j_id90, and UserForm:j_id92 parameters at /SVFE2/pages/feegroups/country_group.jsf."
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-38617",
+        "description" : "SmartVista SVFE2 v2.2.22 was discovered to contain a SQL injection vulnerability via the voiceAudit:j_id97 parameter at /SVFE2/pages/audit/voiceaudit.jsf."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-38616",
+        "description" : "SmartVista SVFE2 v2.2.22 was discovered to contain a SQL injection vulnerability via the UserForm:j_id90 parameter at /feegroups/tgrt_group.jsf."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-38615",
+        "description" : "SmartVista SVFE2 v2.2.22 was discovered to contain multiple SQL injection vulnerabilities via the UserForm:j_id88, UserForm:j_id90, and UserForm:j_id92 parameters at /SVFE2/pages/feegroups/service_group.jsf."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-38610",
+        "description" : "Garage Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /garage/editclient.php."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-38606",
+        "description" : "Garage Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /garage/editcategory.php."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-38605",
+        "description" : "Church Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/edit_event.php."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-38595",
+        "description" : "Church Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/edit_user.php."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-38594",
+        "description" : "Church Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/edit_visitor.php."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-38576",
+        "description" : "Interview Management System v1.0 was discovered to contain a SQL injection vulnerability via the component /interview/delete.php?action=deletecand&id=."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-38542",
+        "description" : "Archery v1.4.0 to v1.8.5 was discovered to contain a SQL injection vulnerability via the ThreadIDs parameter in the kill_session interface. The project has released an update, please upgrade to v1.9.0 and above."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-38541",
+        "description" : "Archery v1.8.3 to v1.8.5 was discovered to contain multiple SQL injection vulnerabilities via the start_time and stop_time parameters in the my2sql interface."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-38540",
+        "description" : "Archery v1.4.0 to v1.8.5 was discovered to contain a SQL injection vulnerability via the ThreadIDs parameter in the create_kill_session interface."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-38539",
+        "description" : "Archery v1.7.5 to v1.8.5 was discovered to contain a SQL injection vulnerability via the where parameter at /archive/apply."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-38538",
+        "description" : "Archery v1.7.0 to v1.8.5 was discovered to contain a SQL injection vulnerability via the checksum parameter in the report module."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-38537",
+        "description" : "Archery v1.4.5 to v1.8.5 was discovered to contain multiple SQL injection vulnerabilities via the start_file, end_file, start_time, and stop_time parameters in the binlog2sql interface."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-38509",
+        "description" : "Wedding Planner v1.0 was discovered to contain a SQL injection vulnerability via the booking_id parameter at /admin/budget.php."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-38304",
+        "description" : "Online Leave Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /maintenance/manage_leave_type.php."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-38303",
+        "description" : "Online Leave Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /employees/manage_leave_type.php."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-38302",
+        "description" : "Online Leave Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /maintenance/manage_department.php."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-38286",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /system/role/list."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-38285",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /system/menu/list."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-38284",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /system/department/list."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-38283",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/video/list."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-38282",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/videoalbum/list."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-38281",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/site/list."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-38280",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/image/list."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-38279",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/imagealbum/list."
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-38278",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/friendlylink/list."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-38277",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/folderrollpicture/list."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-38276",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/foldernotice/list."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-38275",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/contact/list."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-38274",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/comment/list."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-38269",
+        "description" : "School Activity Updates with SMS Notification v1.0 was discovered to contain a SQL injection vulnerability via the component /modules/modstudent/index.php?view=edit&id=."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-38268",
+        "description" : "School Activity Updates with SMS Notification v1.0 was discovered to contain a SQL injection vulnerability via the component /modules/autonumber/index.php?view=edit&id=."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-38267",
+        "description" : "School Activity Updates with SMS Notification v1.0 was discovered to contain a SQL injection vulnerability via the component /modules/user/index.php?view=edit&id=."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-38265",
+        "description" : "Apartment Visitor Management System v1.0 was discovered to contain a SQL injection vulnerability via the editid parameter at /avms/edit-apartment.php."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-38260",
+        "description" : "Interview Management System v1.0 was discovered to contain a SQL injection vulnerability via the component /interview/delete.php?action=questiondelete&id=."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-38255",
+        "description" : "Interview Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /interview/editQuestion.php."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-38250",
+        "description" : "Nagios XI v5.8.6 was discovered to contain a SQL injection vulnerability via the mib_name parameter at the Manage MIBs page."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-38130",
+        "description" : "The com.keysight.tentacle.config.ResourceManager.smsRestoreDatabaseZip() method is used to restore the HSQLDB database used in SMS. It takes the path of the zipped database file as the single parameter. An unauthenticated, remote attacker can specify an UNC path for the database file (i.e., \\<attacker-host>\\sms\\<attacker-db.zip>), effectively controlling the content of the database to be restored."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-38118",
+        "description" : "OAKlouds Portal website’s Meeting Room has insufficient validation for user input. A remote attacker with general user privilege can perform SQL-injection to access, modify, delete database, perform system operations and disrupt service."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-37794",
+        "description" : "In Library Management System 1.0 the /card/in-card.php file id_no parameters are vulnerable to SQL injection."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-37333",
+        "description" : "SQL injection vulnerability in the Exment ((PHP8) exceedone/exment v5.0.2 and earlier and exceedone/laravel-admin v3.0.0 and earlier, (PHP7) exceedone/exment v4.4.2 and earlier and exceedone/laravel-admin v2.2.2 and earlier) allows remote authenticated attackers to execute arbitrary SQL commands."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-37223",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /jfinal_cms/system/role/list."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2022-37209",
+        "description" : "JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2022-37208",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2022-37207",
+        "description" : "JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection"
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2022-37205",
+        "description" : "JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2022-37204",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2022-37199",
+        "description" : "JFinal CMS 5.1.0 is vulnerable to SQL Injection via /jfinal_cms/system/user/list."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2022-37185",
+        "description" : "SQL injection vulnerability exists in the school information query interface (repschoolproj.php) of the EMS 6.2 system of the Office of the Thai Basic Education Commission, which can lead to data leakage."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2022-37178",
+        "description" : "An issue was discovered in 72crm 9.0. There is a SQL Injection vulnerability in View the task calendar."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2022-37152",
+        "description" : "An issue was discovered in Online Diagnostic Lab Management System 1.0, There is a SQL injection vulnerability via \"dob\" parameter in \"/classes/Users.php?f=save_client\""
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2022-37138",
+        "description" : "Loan Management System 1.0 is vulnerable to SQL Injection at the login page, which allows unauthorized users to login as Administrator after injecting username form."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2022-37113",
+        "description" : "Bluecms 1.6 has SQL injection in line 132 of admin/area.php"
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2022-37112",
+        "description" : "BlueCMS 1.6 has SQL injection in line 55 of admin/model.php"
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2022-37111",
+        "description" : "BlueCMS 1.6 has SQL injection in line 132 of admin/article.php"
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2022-36961",
+        "description" : "A vulnerable component of Orion Platform was vulnerable to SQL Injection, an authenticated attacker could leverage this for privilege escalation or remote code execution."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2022-36839",
+        "description" : "SQL injection vulnerability via IAPService in Samsung Checkout prior to version 5.0.53.1 allows attackers to access IAP information."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2022-36759",
+        "description" : "Online Food Ordering System v1.0 was discovered to contain a SQL injection vulnerability via the component /dishes.php?res_id=."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2022-36754",
+        "description" : "Expense Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /Home/debit_credit_p."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2022-36750",
+        "description" : "Clinic's Patient Management System v1.0 is vulnerable to SQL injection via /pms/update_user.php?id=."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2022-36735",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the bookId parameter at /admin/delete.php."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2022-36734",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the RollNo parameter at /admin/delstu.php."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2022-36733",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the M_Id parameter at /admin/del.php."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2022-36732",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /librarian/dele.php."
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2022-36731",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the RollNo parameter at /librarian/delstu.php."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2022-36730",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the bookId parameter at /librarian/delete.php."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2022-36729",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the M_Id parameter at /librarian/del.php."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2022-36728",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the RollNo parameter at /staff/delstu.php."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2022-36727",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the bookId parameter at /staff/delete.php."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2022-36725",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the M_Id parameter at /student/dele.php."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2022-36722",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the title parameter at /librarian/history.php."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2022-36721",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the Textbook parameter at /admin/modify.php."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2022-36720",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/modify1.php."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2022-36719",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the ok parameter at /admin/history.php."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2022-36716",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/changestock.php."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2022-36715",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the name parameter at /admin/search.php."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2022-36714",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the Section parameter at /staff/lab.php."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2022-36713",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the Section parameter at /librarian/lab.php."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2022-36712",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /staff/studentdetails.php."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2022-36711",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /staff/bookdetails.php."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2022-36709",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /staff/edit_book_details.php."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2022-36708",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the Id parameter at /student/bookdetails.php."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2022-36707",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the Id parameter at /librarian/bookdetails.php."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2022-36706",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the Id parameter at /stocks/manage_stockout.php."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2022-36705",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the Id parameter at /stocks/manage_waste.php."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2022-36704",
+        "description" : "Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the Id parameter at /librarian/studentdetails.php."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2022-36703",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /stocks/manage_stockin.php."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2022-36701",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /items/view_item.php."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2022-36700",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /items/manage_item.php."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2022-36699",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /categories/manage_category.php."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2022-36698",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /categories/view_category.php."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2022-36697",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /classes/Master.php?f=delete_waste."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2022-36696",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /classes/Master.php?f=delete_stockout."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2022-36695",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /classes/Master.php?f=delete_stockin."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2022-36693",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /classes/Master.php?f=delete_item."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2022-36692",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /classes/Master.php?f=delete_category."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2022-36690",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/?page=user/manage_user&id=."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2022-36689",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the month parameter at /admin/?page=reports/waste&month=."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2022-36688",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the month parameter at /admin/?page=reports/stockout&month=."
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2022-36686",
+        "description" : "Ingredients Stock Management System v1.0 was discovered to contain a SQL injection vulnerability via the month parameter at /admin/?page=reports/stockin&month=."
+    }
+]

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<report>
+    <generator>OpenVAS</generator>
+    <timestamp>2024-07-08T12:00:00Z</timestamp>
+    <target>192.168.1.1</target>
+    <results>
+        <result>
+            <host ip="192.168.1.1">
+                <hostname>example.com</hostname>
+                <port port="22">
+                    <name>SSH Server CBC Mode Ciphers Enabled</name>
+                    <severity>Medium</severity>
+                    <description>SSH servers support the Cipher Block Chaining (CBC) mode of encryption, which is known to have several vulnerabilities.</description>
+                    <!-- Altri dettagli del port -->
+                </port>
+                <!-- Altri port e vulnerabilità trovate -->
+            </host>
+            <!-- Altri host scansionati -->
+        </result>
+    </results>
+    <summaryparams>
+        <param>
+            <name>Scan Type</name>
+            <value>Full Scan</value>
+        </param>
+        <param>
+            <name>Scan Duration</name>
+            <value>2 hours</value>
+        </param>
+        <!-- Aggiungi altri parametri di riepilogo necessari -->
+    </summaryparams>
+</report>

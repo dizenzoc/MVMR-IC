@@ -1,0 +1,722 @@
+[
+    {
+        "index" : 0,
+        "cve" : "CVE-2019-1020019",
+        "description" : "invenio-previewer before 1.0.0a12 allows XSS.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 1,
+        "cve" : "CVE-2019-1020010",
+        "description" : "Misskey before 10.102.4 allows hijacking a user's token.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 2,
+        "cve" : "CVE-2019-1020008",
+        "description" : "stacktable.js before 1.0.4 allows XSS.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 3,
+        "cve" : "CVE-2019-1020007",
+        "description" : "Dependency-Track before 3.5.1 allows XSS.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 4,
+        "cve" : "CVE-2019-1020005",
+        "description" : "invenio-communities before 1.0.0a20 allows XSS.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 5,
+        "cve" : "CVE-2019-1020003",
+        "description" : "invenio-records before 1.2.2 allows XSS.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 6,
+        "cve" : "CVE-2019-1010314",
+        "description" : "Gitea 1.7.2, 1.7.3 is affected by: Cross Site Scripting (XSS). The impact is: execute JavaScript in victim's browser, when the vulnerable repo page is loaded. The component is: repository's description. The attack vector is: victim must navigate to public and affected repo page.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 7,
+        "cve" : "CVE-2019-1010311",
+        "description" : "Tildeslash Monit Version 5.25.2 and earlier is affected by: Cross Site Scripting (XSS). The impact is: Execute javascript in a victim s browser; disable all monitoring for a particular host or service. The component is: In function do_viewlog() on line 910 in Monit/src/http/cervlet.c, an attacker controlled log file is copied into an HTTP response without any HTML escaping. The attack vector is: An authenticated remote attacker can exploit the vulnerability over a network. The fixed version is: Version 5.25.3 and later.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 8,
+        "cve" : "CVE-2019-1010307",
+        "description" : "GLPI GLPI Product 9.3.1 is affected by: Cross Site Scripting (XSS). The impact is: All dropdown values are vulnerable to XSS leading to privilege escalation and executing js on admin. The component is: /glpi/ajax/getDropDownValue.php. The attack vector is: 1- User Create a ticket , 2- Admin opens another ticket and click on the \"Link Tickets\" feature, 3- a request to the endpoint fetches js and executes it.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 9,
+        "cve" : "CVE-2019-1010261",
+        "description" : "Gitea 1.7.0 and earlier is affected by: Cross Site Scripting (XSS). The impact is: Attacker is able to have victim execute arbitrary JS in browser. The component is: go-get URL generation - PR to fix: https://github.com/go-gitea/gitea/pull/5905. The attack vector is: victim must open a specifically crafted URL. The fixed version is: 1.7.1 and later.",
+        "label" : "Cross Site Scripting (XSS)"
+    },
+    {
+        "index" : 10,
+        "cve" : "CVE-2019-1010312",
+        "description" : "Tildeslash Monit Version 5.25.2 and earlier is affected by: Buffer Over-read. The impact is: Disclosure of memory contents in an HTTP response, and Denial of Service. The component is: In function Util_urlDecode() on lines 1553 -1563 in Monit/src/util.c, a crafted POST parameter can cause the buffer index to increment to a value greater than the length of the buffer. The attack vector is: An authenticated remote attacker can exploit the vulnerability by sending a HTTP POST request that contains a maliciously crafted body parameter. The fixed version is: Version 5.25.3 and later.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 11,
+        "cve" : "CVE-2019-1010266",
+        "description" : "lodash prior to 4.17.11 is affected by: CWE-400: Uncontrolled Resource Consumption. The impact is: Denial of service. The component is: Date handler. The attack vector is: Attacker provides very long strings, which the library attempts to match using a regular expression. The fixed version is: 4.17.11.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 12,
+        "cve" : "CVE-2019-1010262",
+        "description" : "scapy 2.4.0 and earlier is affected by: Denial of Services. The impact is: busy loop forever. The component is: _RADIUSAttrPacketListField class. The attack vector is: a packet sent over the network or in a pcap. The fixed version is: after commit 0d7ae2b039f650a40e511d09eb961c782da025d9.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 13,
+        "cve" : "CVE-2019-1010239",
+        "description" : "DaveGamble/cJSON cJSON 1.7.8 is affected by: Improper Check for Unusual or Exceptional Conditions. The impact is: Null dereference, so attack can cause denial of service. The component is: cJSON_GetObjectItemCaseSensitive() function. The attack vector is: crafted json file. The fixed version is: 1.7.9 and later.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 14,
+        "cve" : "CVE-2019-1010204",
+        "description" : "GNU binutils gold gold v1.11-v1.16 (GNU binutils v2.21-v2.31.1) is affected by: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read. The impact is: Denial of service. The component is: gold/fileread.cc:497, elfcpp/elfcpp_file.h:644. The attack vector is: An ELF file with an invalid e_shoff header field must be opened.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 15,
+        "cve" : "CVE-2019-1010183",
+        "description" : "serde serde_yaml 0.6.0 to 0.8.3 is affected by: Uncontrolled Recursion. The impact is: Denial of service by aborting. The component is: from_* functions (all deserialization functions). The attack vector is: Parsing a malicious YAML file. The fixed version is: 0.8.4 and later.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 16,
+        "cve" : "CVE-2019-1010182",
+        "description" : "yaml-rust 0.4.0 and earlier is affected by: Uncontrolled Recursion. The impact is: Denial of service by impossible to catch abort. The component is: YamlLoader::load_from_str function. The attack vector is: Parsing of a malicious YAML document. The fixed version is: 0.4.1 and later.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 17,
+        "cve" : "CVE-2019-1010173",
+        "description" : "Jsish 2.4.84 2.0484 is affected by: Reachable Assertion. The impact is: denial of service. The component is: function Jsi_ValueArrayIndex (jsiValue.c:366). The attack vector is: executing crafted javascript code. The fixed version is: after commit 738ead193aff380a7e3d7ffb8e11e446f76867f3.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 18,
+        "cve" : "CVE-2019-1010172",
+        "description" : "Jsish 2.4.84 2.0484 is affected by: Uncontrolled Resource Consumption. The impact is: denial of service. The component is: function jsiValueGetString (jsiUtils.c). The attack vector is: executing crafted javascript code. The fixed version is: after commit f3a8096e0ce44bbf36c1dcb6e603adf9c8670c39.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 19,
+        "cve" : "CVE-2019-1010171",
+        "description" : "Jsish 2.4.83 2.0483 is affected by: Nullpointer dereference. The impact is: denial of service. The component is: function jsi_DumpFunctions (jsiEval.c:567). The attack vector is: executing crafted javascript code. The fixed version is: 2.4.84.",
+        "label" : "Denial of Service (DoS)"
+    },
+    {
+        "index" : 20,
+        "cve" : "CVE-2019-1010257",
+        "description" : "An Information Disclosure / Data Modification issue exists in article2pdf_getfile.php in the article2pdf Wordpress plugin 0.24, 0.25, 0.26, 0.27. A URL can be constructed which allows overriding the PDF file's path leading to any PDF whose path is known and which is readable to the web server can be downloaded. The file will be deleted after download if the web server has permission to do so. For PHP versions before 5.3, any file can be read by null terminating the string left of the file extension.",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 21,
+        "cve" : "CVE-2019-1010205",
+        "description" : "LINAGORA hublin latest (commit 72ead897082403126bf8df9264e70f0a9de247ff) is affected by: Directory Traversal. The impact is: The vulnerability allows an attacker to access any file (with a fixed extension) on the server. The component is: A web-view renderer; details here: https://lgtm.com/projects/g/linagora/hublin/snapshot/af9f1ce253b4ee923ff8da8f9d908d02a8e95b7f/files/backend/webserver/views.js?sort=name&dir=ASC&mode=heatmap&showExcluded=false#xb24eb0101d2aec21:1. The attack vector is: Attacker sends a specially crafted HTTP request.",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 22,
+        "cve" : "CVE-2019-1000009",
+        "description" : "Helm ChartMuseum version >=0.1.0 and < 0.8.1 contains a CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in HTTP API to save charts that can result in a specially crafted chart could be uploaded and saved outside the intended location. This attack appears to be exploitable via A POST request to the HTTP API can save a chart archive outside of the intended directory. If authentication is, optionally, enabled this requires an authorized user to do so. This vulnerability appears to have been fixed in 0.8.1.",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 23,
+        "cve" : "CVE-2019-1000008",
+        "description" : "All versions of Helm between Helm >=2.0.0 and < 2.12.2 contains a CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in The commands `helm fetch --untar` and `helm lint some.tgz` that can result when chart archive files are unpacked a file may be unpacked outside of the target directory. This attack appears to be exploitable via a victim must run a helm command on a specially crafted chart archive. This vulnerability appears to have been fixed in 2.12.2.",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 24,
+        "cve" : "CVE-2019-20085",
+        "description" : "TVT NVMS-1000 devices allow GET /.. Directory Traversal",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 25,
+        "cve" : "TVT NVMS-1000 devices allow GET /.. Directory Traversal",
+        "description" : "An issue was discovered in TYPO3 before 8.7.30, 9.x before 9.5.12, and 10.x before 10.2.2. It has been discovered that the extraction of manually uploaded ZIP archives in Extension Manager is vulnerable to directory traversal. Admin privileges are required in order to exploit this vulnerability. (In v9 LTS and later, System Maintainer privileges are also required.)",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 26,
+        "cve" : "CVE-2019-19781",
+        "description" : "An issue was discovered in Citrix Application Delivery Controller (ADC) and Gateway 10.5, 11.1, 12.0, 12.1, and 13.0. They allow Directory Traversal.",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 27,
+        "cve" : "CVE-2019-19683",
+        "description" : "RoxyFileman, as shipped with nopCommerce v4.2.0, is vulnerable to ../ path traversal via d or f to Admin/RoxyFileman/ProcessRequest because of Libraries/Nop.Services/Media/RoxyFileman/FileRoxyFilemanService.cs.",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 28,
+        "cve" : "CVE-2019-19458",
+        "description" : "SALTO ProAccess SPACE 5.4.3.0 allows Directory Traversal in the Data Export feature.",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 29,
+        "cve" : "CVE-2019-18922",
+        "description" : "A Directory Traversal in the Web interface of the Allied Telesis AT-GS950/8 until Firmware AT-S107 V.1.1.3 [1.00.047] allows unauthenticated attackers to read arbitrary system files via a GET request. NOTE: This is an End-of-Life product.",
+        "label" : "Directory Traversal"
+    },
+    {
+        "index" : 30,
+        "cve" : "CVE-2019-1010306",
+        "description" : "Slanger 0.6.0 is affected by: Remote Code Execution (RCE). The impact is: A remote attacker can execute arbitrary commands by sending a crafted request to the server. The component is: Message handler & request validator. The attack vector is: Remote unauthenticated. The fixed version is: after commit 5267b455caeb2e055cccf0d2b6a22727c111f5c3.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 31,
+        "cve" : "CVE-2019-1010260",
+        "description" : "Using ktlint to download and execute custom rulesets can result in arbitrary code execution as the served jars can be compromised by a MITM. This attack is exploitable via Man in the Middle of the HTTP connection to the artifact servers. This vulnerability appears to have been fixed in 0.30.0 and later; after commit 5e547b287d6c260d328a2cb658dbe6b7a7ff2261.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 32,
+        "cve" : "CVE-2019-1010245",
+        "description" : "The Linux Foundation ONOS SDN Controller 1.15 and earlier versions is affected by: Improper Input Validation. The impact is: A remote attacker can execute arbitrary commands on the controller. The component is: apps/yang/src/main/java/org/onosproject/yang/impl/YangLiveCompilerManager.java. The attack vector is: network connectivity. The fixed version is: 1.15.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 33,
+        "cve" : "CVE-2019-1010234",
+        "description" : "The Linux Foundation ONOS 1.15.0 and ealier is affected by: Improper Input Validation. The impact is: The attacker can remotely execute any commands by sending malicious http request to the controller. The component is: Method runJavaCompiler in YangLiveCompilerManager.java. The attack vector is: network connectivity.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 34,
+        "cve" : "CVE-2019-1010179",
+        "description" : "PHKP including commit 88fd9cfdf14ea4b6ac3e3967feea7bcaabb6f03b is affected by: Improper Neutralization of Special Elements used in a Command ('Command Injection'). The impact is: It is possible to manipulate gpg-keys or execute commands remotely. The component is: function pgp_exec() phkp.php:98. The attack vector is: HKP-Api: /pks/lookup?search.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 35,
+        "cve" : "CVE-2019-1010152",
+        "description" : "zzcms 8.3 and earlier is affected by: File Delete to Code Execution. The impact is: getshell. The component is: user/manage.php line 31-80.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 36,
+        "cve" : "CVE-2019-1010150",
+        "description" : "zzcms 8.3 and earlier is affected by: File Delete to Code Execution. The impact is: getshell. The component is: /user/zssave.php.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 37,
+        "cve" : "CVE-2019-1010149",
+        "description" : "zzcms version 8.3 and earlier is affected by: File Delete to Code Execution. The impact is: zzcms File Delete to Code Execution. The component is: user/licence_save.php.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 38,
+        "cve" : "CVE-2019-1010101",
+        "description" : "Akeo Consulting Rufus 3.0 and earlier is affected by: Insecure Permissions. The impact is: arbitrary code execution with escalation of privilege. The component is: Executable installer, portable executable (ALL executables available). The attack vector is: CWE-29, CWE-377, CWE-379.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 39,
+        "cve" : "CVE-2019-1010100",
+        "description" : "Akeo Consulting Rufus 3.0 and earlier is affected by: DLL search order hijacking. The impact is: Arbitrary code execution WITH escalation of privilege. The component is: Executable installers, portable executables (ALL executables on the web site). The attack vector is: CAPEC-471, CWE-426, CWE-427.",
+        "label" : "Execute arbitrary code on vulnerable system"
+    },
+    {
+        "index" : 40,
+        "cve" : "CVE-2019-19954",
+        "description" : "Signal Desktop before 1.29.1 on Windows allows local users to gain privileges by creating a Trojan horse %SYSTEMDRIVE%\node_modules\\.bin\\wmic.exe file.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 41,
+        "cve" : "CVE-2019-19793",
+        "description" : "In Cyxtera AppGate SDP Client 4.1.x through 4.3.x before 4.3.2 on Windows, a local or remote user from the same domain can gain privileges.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 42,
+        "cve" : "CVE-2019-19580",
+        "description" : "An issue was discovered in Xen through 4.12.x allowing x86 PV guest OS users to gain host OS privileges by leveraging race conditions in pagetable promotion and demotion operations, because of an incomplete fix for CVE-2019-18421. XSA-299 addressed several critical issues in restartable PV type change operations. Despite extensive testing and auditing, some corner cases were missed. A malicious PV guest administrator may be able to escalate their privilege to that of the host. All security-supported versions of Xen are vulnerable. Only x86 systems are affected. Arm systems are not affected. Only x86 PV guests can leverage the vulnerability. x86 HVM and PVH guests cannot leverage the vulnerability. Note that these attacks require very precise timing, which may be difficult to exploit in practice.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 43,
+        "cve" : "CVE-2019-19579",
+        "description" : "An issue was discovered in Xen through 4.12.x allowing attackers to gain host OS privileges via DMA in a situation where an untrusted domain has access to a physical device (and assignable-add is not used), because of an incomplete fix for CVE-2019-18424. XSA-302 relies on the use of libxl's \"assignable-add\" feature to prepare devices to be assigned to untrusted guests. Unfortunately, this is not considered a strictly required step for device assignment. The PCI passthrough documentation on the wiki describes alternate ways of preparing devices for assignment, and libvirt uses its own ways as well. Hosts where these \"alternate\" methods are used will still leave the system in a vulnerable state after the device comes back from a guest. An untrusted domain with access to a physical device can DMA into host memory, leading to privilege escalation. Only systems where guests are given direct access to physical devices capable of DMA (PCI pass-through) are vulnerable. Systems which do not use PCI pass-through are not vulnerable.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 44,
+        "cve" : "CVE-2019-19520",
+        "description" : "xlock in OpenBSD 6.6 allows local users to gain the privileges of the auth group by providing a LIBGL_DRIVERS_PATH environment variable, because xenocara/lib/mesa/src/loader/loader.c mishandles dlopen.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 45,
+        "cve" : "CVE-2019-19460",
+        "description" : "An issue was discovered in SALTO ProAccess SPACE 5.4.3.0. The product's webserver runs as a Windows service with local SYSTEM permissions by default. This is against the principle of least privilege. An attacker who is able to exploit CVE-2019-19458 or CVE-2019-19459 is basically able to write to every single path on the file system, because the webserver is running with the highest privileges available.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 46,
+        "cve" : "CVE-2019-19231",
+        "description" : "An insecure file access vulnerability exists in CA Client Automation 14.0, 14.1, 14.2, and 14.3 Agent for Windows that can allow a local attacker to gain escalated privileges.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 47,
+        "cve" : "CVE-2019-19017",
+        "description" : "An issue was discovered in TitanHQ WebTitan before 5.18. The appliance has a hard-coded root password set during installation. An attacker could utilize this to gain root privileges on the system.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 48,
+        "cve" : "CVE-2019-18845",
+        "description" : "The MsIo64.sys and MsIo32.sys drivers in Patriot Viper RGB before 1.1 allow local users (including low integrity processes) to read and write to arbitrary memory locations, and consequently gain NT AUTHORITY\\SYSTEM privileges, by mapping \\Device\\PhysicalMemory into the calling process via ZwOpenSection and ZwMapViewOfSection.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 49,
+        "cve" : "CVE-2019-18573",
+        "description" : "The RSA Identity Governance and Lifecycle and RSA Via Lifecycle and Governance products prior to 7.1.1 P03 contain a Session Fixation vulnerability. An authenticated malicious local user could potentially exploit this vulnerability as the session token is exposed as part of the URL. A remote attacker can gain access to victim’s session and perform arbitrary actions with privileges of the user within the compromised session.",
+        "label" : "Gain Privileges"
+    },
+    {
+        "index" : 50,
+        "cve" : "CVE-2019-19389",
+        "description" : "JetBrains Ktor framework before version 1.2.6 was vulnerable to HTTP Response Splitting.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 51,
+        "cve" : "CVE-2019-17513",
+        "description" : "An issue was discovered in Ratpack before 1.7.5. Due to a misuse of the Netty library class DefaultHttpHeaders, there is no validation that headers lack HTTP control characters. Thus, if untrusted data is used to construct HTTP headers with Ratpack, HTTP Response Splitting can occur.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 52,
+        "cve" : "CVE-2019-16254",
+        "description" : "Ruby through 2.4.7, 2.5.x through 2.5.6, and 2.6.x through 2.6.4 allows HTTP Response Splitting. If a program using WEBrick inserts untrusted input into the response header, an attacker can exploit it to insert a newline character to split a header, and inject malicious content to deceive clients. NOTE: this issue exists because of an incomplete fix for CVE-2017-17742, which addressed the CRLF vector, but did not address an isolated CR or an isolated LF.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 53,
+        "cve" : "CVE-2018-16181",
+        "description" : "HTTP header injection vulnerability in i-FILTER Ver.9.50R05 and earlier may allow remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks that may result in an arbitrary script injection or setting an arbitrary cookie values via unspecified vectors.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 54,
+        "cve" : "CVE-2018-11347",
+        "description" : "The YunoHost 2.7.2 through 2.7.14 web application is affected by one HTTP Response Header Injection. This flaw allows an attacker to inject, into the response from the server, one or several HTTP Header. It requires an interaction with the user to send him the malicious link. It could be used to perform other attacks such as user redirection to a malicious website, HTTP response splitting, or HTTP cache poisoning.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 55,
+        "cve" : "CVE-2018-1067",
+        "description" : "In Undertow before versions 7.1.2.CR1, 7.1.2.GA it was found that the fix for CVE-2016-4993 was incomplete and Undertow web server is vulnerable to the injection of arbitrary HTTP headers, and also response splitting, due to insufficient sanitization and validation of user input before the input is used as part of an HTTP header value.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 56,
+        "cve" : "CVE-2017-17742",
+        "description" : "Ruby before 2.2.10, 2.3.x before 2.3.7, 2.4.x before 2.4.4, 2.5.x before 2.5.1, and 2.6.0-preview1 allows an HTTP Response Splitting attack. An attacker can inject a crafted key and value into an HTTP response for the HTTP server of WEBrick.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 57,
+        "cve" : "CVE-2017-7459",
+        "description" : "ntopng before 3.0 allows HTTP Response Splitting.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 58,
+        "cve" : "CVE-2017-7443",
+        "description" : "apt-cacher before 1.7.15 and apt-cacher-ng before 3.4 allow HTTP response splitting via encoded newline characters, related to lack of blocking for the %0[ad] regular expression.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 59,
+        "cve" : "CVE-2017-5868",
+        "description" : "CRLF injection vulnerability in the web interface in OpenVPN Access Server 2.1.4 allows remote attackers to inject arbitrary HTTP headers and consequently conduct session fixation attacks and possibly HTTP response splitting attacks via \"%0A\" characters in the PATH_INFO to __session_start__/.",
+        "label" : "HTTP Response Splitting"
+    },
+    {
+        "index" : 60,
+        "cve" : "CVE-2019-1010293",
+        "description" : "Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Boundary crossing. The impact is: Memory corruption of the TEE itself. The component is: optee_os. The fixed version is: 3.4.0 and later.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 61,
+        "cve" : "CVE-2019-17358",
+        "description" : "Cacti through 1.2.7 is affected by multiple instances of lib/functions.php unsafe deserialization of user-controlled data to populate arrays. An authenticated attacker could use this to influence object data values and control actions taken by Cacti or potentially cause memory corruption in the PHP module.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 62,
+        "cve" : "CVE-2019-15554",
+        "description" : "An issue was discovered in the smallvec crate before 0.6.10 for Rust. There is memory corruption for certain grow attempts with less than the current capacity.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 63,
+        "cve" : "CVE-2019-15543",
+        "description" : "An issue was discovered in the slice-deque crate before 0.2.0 for Rust. There is memory corruption in certain allocation cases.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 64,
+        "cve" : "CVE-2019-14210",
+        "description" : "An issue was discovered in Foxit PhantomPDF before 8.3.10. The application could be exposed to Memory Corruption due to the use of an invalid pointer copy, resulting from a destructed string object.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 65,
+        "cve" : "CVE-2019-13724",
+        "description" : "Out of bounds memory access in WebBluetooth in Google Chrome prior to 78.0.3904.108 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 66,
+        "cve" : "CVE-2019-13706",
+        "description" : "Out of bounds memory access in PDFium in Google Chrome prior to 78.0.3904.70 allowed a remote attacker to potentially exploit heap corruption via a crafted PDF file.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 67,
+        "cve" : "CVE-2019-13700",
+        "description" : "Out of bounds memory access in the gamepad API in Google Chrome prior to 78.0.3904.70 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 68,
+        "cve" : "CVE-2019-11740",
+        "description" : "Mozilla developers and community members reported memory safety bugs present in Firefox 68, Firefox ESR 68, and Firefox 60.8. Some of these bugs showed evidence of memory corruption and we presume that with enough effort that some of these could be exploited to run arbitrary code. This vulnerability affects Firefox < 69, Thunderbird < 68.1, Thunderbird < 60.9, Firefox ESR < 60.9, and Firefox ESR < 68.1.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 69,
+        "cve" : "CVE-2019-11735",
+        "description" : "Mozilla developers and community members reported memory safety bugs present in Firefox 68 and Firefox ESR 68. Some of these bugs showed evidence of memory corruption and we presume that with enough effort that some of these could be exploited to run arbitrary code. This vulnerability affects Firefox < 69 and Firefox ESR < 68.1.",
+        "label" : "Memory Corruption"
+    },
+    {
+        "index" : 70,
+        "cve" : "CVE-2019-1010283",
+        "description" : "Univention Corporate Server univention-directory-notifier 12.0.1-3 and earlier is affected by: CWE-213: Intentional Information Exposure. The impact is: Loss of Confidentiality. The component is: function data_on_connection() in src/callback.c. The attack vector is: network connectivity. The fixed version is: 12.0.1-4 and later.",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 71,
+        "cve" : "CVE-2019-1003035",
+        "description" : "An information exposure vulnerability exists in Jenkins Azure VM Agents Plugin 0.8.0 and earlier in src/main/java/com/microsoft/azure/vmagent/AzureVMAgentTemplate.java, src/main/java/com/microsoft/azure/vmagent/AzureVMCloud.java that allows attackers with Overall/Read permission to perform the 'verify configuration' form validation action, thereby obtaining limited information about the Azure configuration.",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 72,
+        "cve" : "CVE-2019-1003025",
+        "description" : "A exposure of sensitive information vulnerability exists in Jenkins Cloud Foundry Plugin 2.3.1 and earlier in AbstractCloudFoundryPushDescriptor.java that allows attackers with Overall/Read access to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 73,
+        "cve" : "CVE-2019-1003021",
+        "description" : "An exposure of sensitive information vulnerability exists in Jenkins OpenId Connect Authentication Plugin 1.4 and earlier in OicSecurityRealm/config.jelly that allows attackers able to view a Jenkins administrator's web browser output, or control the browser (e.g. malicious extension) to retrieve the configured client secret.",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 74,
+        "cve" : "CVE-2019-1003018",
+        "description" : "An exposure of sensitive information vulnerability exists in Jenkins GitHub Authentication Plugin 0.29 and earlier in GithubSecurityRealm/config.jelly that allows attackers able to view a Jenkins administrator's web browser output, or control the browser (e.g. malicious extension) to retrieve the configured client secret.",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 75,
+        "cve" : "CVE-2019-1003016",
+        "description" : "An exposure of sensitive information vulnerability exists in Jenkins Job Import Plugin 2.1 and earlier in src/main/java/org/jenkins/ci/plugins/jobimport/JobImportAction.java, src/main/java/org/jenkins/ci/plugins/jobimport/JobImportGlobalConfig.java, src/main/java/org/jenkins/ci/plugins/jobimport/model/JenkinsSite.java that allows attackers with Overall/Read permission to have Jenkins connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 76,
+        "cve" : "CVE-2019-19983",
+        "description" : "In the WordPress plugin, Fast Velocity Minify before 2.7.7, the full web root path to the running WordPress application can be discovered. In order to exploit this vulnerability, FVM Debug Mode needs to be enabled and an admin-ajax request needs to call the fastvelocity_min_files action.",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 77,
+        "cve" : "CVE-2019-19806",
+        "description" : "_account_forgot_password.ajax.php in MFScripts YetiShare 3.5.2 through 4.5.3 displays a message indicating whether an email address is configured for the account name provided. This can be used by an attacker to enumerate accounts by guessing email addresses.",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 78,
+        "cve" : "CVE-2019-19724",
+        "description" : "Insecure permissions (777) are set on $HOME/.singularity when it is newly created by Singularity (version from 3.3.0 to 3.5.1), which could lead to an information leak, and malicious redirection of operations performed against Sylabs cloud services.",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 79,
+        "cve" : "CVE-2019-19627",
+        "description" : "SROS 2 0.8.1 (after CVE-2019-19625 is mitigated) leaks ROS 2 node-related information regardless of the rtps_protection_kind configuration. (SROS2 provides the tools to generate and distribute keys for Robot Operating System 2 and uses the underlying security plugins of DDS from ROS 2.)",
+        "label" : "Information Disclosure"
+    },
+    {
+        "index" : 80,
+        "cve" : "CVE-2017-17789",
+        "description" : "In GIMP 2.8.22, there is a heap-based buffer overflow in read_channel_data in plug-ins/common/file-psp.c.",       
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 81,
+        "cve" : "CVE-2019-1010300",
+        "description" : "mz-automation libiec61850 1.3.2 1.3.1 1.3.0 is affected by: Buffer Overflow. The impact is: Software crash. The component is: server_example_complex_array. The attack vector is: Send a specific MMS protocol packet.",
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 82,
+        "cve" : "CVE-2017-1000074",
+        "description" : "Creolabs Gravity version 1.0 is vulnerable to a stack overflow in the string_repeat() function.",
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 83,
+        "cve" : "CVE-2017-1000075",
+        "description" : "Creolabs Gravity version 1.0 is vulnerable to a stack overflow in the memcmp function",
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 84,
+        "cve" : "CVE-2017-1000127",
+        "description" : "Exiv2 0.26 contains a heap buffer overflow in tiff parser",
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 85,
+        "cve" : "CVE-2017-1000176",
+        "description" : "In SWFTools, a memcpy buffer overflow was found in swfc.",
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 86,
+        "cve" : "CVE-2017-1000185",
+        "description" : "In SWFTools, a memcpy buffer overflow was found in gif2swf.",
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 87,
+        "cve" : "CVE-2017-1000186",
+        "description" : "In SWFTools, a stack overflow was found in pdf2swf.",
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 88,
+        "cve" : "CVE-2019-1000006",
+        "description" : "RIOT RIOT-OS version after commit 7af03ab624db0412c727eed9ab7630a5282e2fd3 contains a Buffer Overflow vulnerability in sock_dns, an implementation of the DNS protocol utilizing the RIOT sock API that can result in Remote code executing. This attack appears to be exploitable via network connectivity.",
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 89,
+        "cve" : "CVE-2019-20162",
+        "description" : "An issue was discovered in GPAC version 0.8.0 and 0.9.0-development-20191109. There is heap-based buffer overflow in the function gf_isom_box_parse_ex() in isomedia/box_funcs.c.",
+        "label" : "Overflow vulnerability (includes stack and heap based overflows and other overflows)"
+    },
+    {
+        "index" : 90,
+        "cve" : "CVE-2019-1010112",
+        "description" : "OECMS v4.3.R60321 and v4.3 later is affected by: Cross Site Request Forgery (CSRF). The impact is: The victim clicks on adding an administrator account. The component is: admincp.php. The attack vector is: network connectivity. The fixed version is: v4.3.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 91,
+        "cve" : "CVE-2019-1010096",
+        "description" : "DomainMOD v4.10.0 is affected by: Cross Site Request Forgery (CSRF). The impact is: There is a CSRF vulnerability that can change the read-only user to admin. The component is: admin/users/edit.php?uid=2. The attack vector is: After the administrator logged in, open the html page.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 92,
+        "cve" : "CVE-2019-1010095",
+        "description" : "DomainMOD v4.10.0 is affected by: Cross Site Request Forgery (CSRF). The impact is: There is a CSRF vulnerability that can add the administrator account. The component is: admin/users/add.php. The attack vector is: After the administrator logged in, open the html page.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 93,
+        "cve" : "CVE-2019-1010094",
+        "description" : "domainmod v4.10.0 is affected by: Cross Site Request Forgery (CSRF). The impact is: There is a CSRF vulnerability that can change admin password. The component is: http://127.0.0.1/settings/password/ http://127.0.0.1/admin/users/add.php http://127.0.0.1/admin/users/edit.php?uid=2. The attack vector is: After the administrator logged in, open the html page.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 94,
+        "cve" : "CVE-2019-1010054",
+        "description" : "Dolibarr 7.0.0 is affected by: Cross Site Request Forgery (CSRF). The impact is: allow malitious html to change user password, disable users and disable password encryptation. The component is: Function User password change, user disable and password encryptation. The attack vector is: admin access malitious urls.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 95,
+        "cve" : "CVE-2019-1003098",
+        "description" : "A cross-site request forgery vulnerability in Jenkins openid Plugin in the OpenIdSsoSecurityRealm.DescriptorImpl#doValidate form validation method allows attackers to initiate a connection to an attacker-specified server.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 96,
+        "cve" : "CVE-2019-1003092",
+        "description" : "A cross-site request forgery vulnerability in Jenkins Nomad Plugin in the NomadCloud.DescriptorImpl#doTestConnection form validation method allows attackers to initiate a connection to an attacker-specified server.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 97,
+        "cve" : "CVE-2019-1003090",
+        "description" : "A cross-site request forgery vulnerability in Jenkins SOASTA CloudTest Plugin in the CloudTestServer.DescriptorImpl#doValidate form validation method allows attackers to initiate a connection to an attacker-specified server.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 98,
+        "cve" : "CVE-2019-1003086",
+        "description" : "A cross-site request forgery vulnerability in Jenkins Chef Sinatra Plugin in the ChefBuilderConfiguration.DescriptorImpl#doTestConnection form validation method allows attackers to initiate a connection to an attacker-specified server.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 99,
+        "cve" : "CVE-2019-1003084",
+        "description" : "A cross-site request forgery vulnerability in Jenkins Zephyr Enterprise Test Management Plugin in the ZeeDescriptor#doTestConnection form validation method allows attackers to initiate a connection to an attacker-specified server.",
+        "label" : "Cross Site Request Forgery (CSRF)"
+    },
+    {
+        "index" : 100,
+        "cve" : "CVE-2019-19745",
+        "description" : "Contao 4.0 through 4.8.5 allows PHP local file inclusion. A back end user with access to the form generator can upload arbitrary files and execute them on the server.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 101,
+        "cve" : "CVE-2019-17400",
+        "description" : "The unoconv package before 0.9 mishandles untrusted pathnames, leading to SSRF and local file inclusion.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 102,
+        "cve" : "CVE-2019-15322",
+        "description" : "The shortcode-factory plugin before 2.8 for WordPress has Local File Inclusion.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 103,
+        "cve" : "CVE-2017-6774",
+        "description" : "A vulnerability in Cisco ASR 5000 Series Aggregated Services Routers running the Cisco StarOS operating system could allow an authenticated, remote attacker to overwrite or modify sensitive system files. The vulnerability is due to the inclusion of sensitive system files within specific FTP subdirectories. An attacker could exploit this vulnerability by overwriting sensitive configuration files through FTP. An exploit could allow the attacker to overwrite configuration files on an affected system. Cisco Bug IDs: CSCvd47739. Known Affected Releases: 21.0.v0.65839.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 104,
+        "cve" : "CVE-2019-4263",
+        "description" : "IBM Content Navigator 3.0CD is vulnerable to local file inclusion, allowing an attacker to access a configuration file in the ICN server. IBM X-Force ID: 160015.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 105,
+        "cve" : "CVE-2018-1000504",
+        "description" : "Redirection version 2.7.3 contains a ACE via file inclusion vulnerability in Pass-through mode that can result in allows admins to execute any PHP file in the filesystem. This attack appear to be exploitable via Attacker must be have access to an admin account on the target site. This vulnerability appears to have been fixed in 2.8.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 106,
+        "cve" : "CVE-2018-1000502",
+        "description" : "MyBB Group MyBB contains a File Inclusion vulnerability in Admin panel (Tools and Maintenance -> Task Manager -> Add New Task) that can result in Allows Local File Inclusion on modern PHP versions and Remote File Inclusion on ancient PHP versions. This attack appear to be exploitable via Must have access to admin panel. This vulnerability appears to have been fixed in 1.8.15.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 107,
+        "cve" : "CVE-2018-20985",
+        "description" : "The wp-payeezy-pay plugin before 2.98 for WordPress has local file inclusion in pay.php, donate.php, donate-rec, and pay-rec.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 108,
+        "cve" : "CVE-2018-20973",
+        "description" : "The companion-auto-update plugin before 3.2.1 for WordPress has local file inclusion.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 109,
+        "cve" : "CVE-2018-19784",
+        "description" : "The str_rot_pass function in vendor/atholn1600/php-proxy/src/helpers.php in PHP-Proxy 5.1.0 uses weak cryptography, which makes it easier for attackers to calculate the authorization data needed for local file inclusion.",
+        "label" : "File Inclusion"
+    },
+    {
+        "index" : 110,
+        "cve" : "CVE-2019-1010259x",
+        "description" : "DedeCMS through 5.7 has SQL Injection via the $_FILES superglobal to plus/recommend.php.",
+        "label" : "SQL Injection"
+    },
+    {
+        "index" : 111,
+        "cve" : "CVE-2017-17822",
+        "description" : "The List Users API of Piwigo 2.9.2 is vulnerable to SQL Injection via the /admin/user_list_backend.php sSortDir_0 parameter. An attacker can exploit this to gain access to the data in a connected MySQL database.",
+        "label" : "SQL Injection"
+    },
+    {
+        "index" : 112,
+        "cve" : "CVE-2017-17823", 
+        "description" : "The Configuration component of Piwigo 2.9.2 is vulnerable to SQL Injection via the admin/configuration.php order_by array parameter. An attacker can exploit this to gain access to the data in a connected MySQL database.",
+        "label" : "SQL Injection"
+    },
+    {
+        "index" : 113,
+        "cve" : "CVE-2017-17829",
+        "description" : "Bus Booking Script has SQL Injection via the admin/view_seatseller.php sp_id parameter or the admin/view_member.php memid parameter.",
+        "label" : "SQL Injection"
+    },
+    {
+        "index" : 114,
+        "cve" : "CVE-2019-1010153",
+        "description" : "zzcms 8.3 and earlier is affected by: SQL Injection. The impact is: sql inject. The component is: zs/subzs.php.",
+        "label" : "SQL Injection"
+    },
+    {
+        "index" : 115,
+        "cve" : "CVE-2017-17871",
+        "description" : "The \"JEXTN Question And Answer\" extension 3.1.0 for Joomla! has SQL Injection via the an parameter in a view=tags action, or the ques-srch parameter.",
+        "label" : "SQL Injection"
+    },
+    {
+        "index" : 116,
+        "cve" : "CVE-2017-17872",
+        "description" : "The JEXTN Video Gallery extension 3.0.5 for Joomla! has SQL Injection via the id parameter in a view=category action.",
+        "label" : "SQL Injection"
+    },
+    {
+        "index" : 117,
+        "cve" : "CVE-2017-17906",
+        "description" : "PHP Scripts Mall Car Rental Script has SQL Injection via the admin/carlistedit.php carid parameter.",
+        "label" : "SQL Injection"
+    },
+    {
+        "index" : 118,
+        "cve" : "CVE-2017-1002028*",
+        "description" : "Blind SQL Injection in filedownload v1.4 wordpress plugin.",
+        "label" : "SQL Injection"
+    },
+    {
+        "index" : 119,
+        "cve" : "CVE-2019-19740",
+        "description" : "Octeth Oempro 4.7 and 4.8 allow SQL injection. The parameter CampaignID in Campaign.Get is vulnerable.",
+        "label" : "SQL Injection"
+    }
+]

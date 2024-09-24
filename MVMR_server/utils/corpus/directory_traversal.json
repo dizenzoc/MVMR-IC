@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-42308",
+        "description" : "An issue was discovered in Veritas NetBackup through 8.2 and related Veritas products. An attacker with local access can delete arbitrary files by leveraging a path traversal in the pbx_exchange registration code."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-42305",
+        "description" : "An issue was discovered in Veritas NetBackup through 10.0.0.1 and related Veritas products. The NetBackup Primary server is vulnerable to a Path traversal attack through the DiscoveryService service."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-42188",
+        "description" : "In Lavalite 9.0.0, the XSRF-TOKEN cookie is vulnerable to path traversal attacks, enabling read access to arbitrary files on the server."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-41780",
+        "description" : "In F5OS-A version 1.x before 1.1.0 and F5OS-C version 1.x before 1.4.0, a directory traversal vulnerability exists in an undisclosed location of the F5OS CLI that allows an attacker to read arbitrary files."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-41235",
+        "description" : "Jenkins WildFly Deployer Plugin 1.0.2 and earlier implements functionality that allows agent processes to read arbitrary files on the Jenkins controller file system."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-41231",
+        "description" : "Jenkins Build-Publisher Plugin 1.22 and earlier allows attackers with Item/Configure permission to create or replace any config.xml file on the Jenkins controller file system by providing a crafted file name to an API endpoint."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-40734",
+        "description" : "UniSharp laravel-filemanager (aka Laravel Filemanager) through 2.5.1 allows download?working_dir=%2F.. directory traversal to read arbitrary files, as exploited in the wild in June 2022."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-40715",
+        "description" : "An issue was discovered in NOKIA 1350OMS R14.2. An Absolute Path Traversal vulnerability exists for a specific endpoint via the logfile parameter, allowing a remote authenticated attacker to read files on the filesystem arbitrarily."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-40713",
+        "description" : "An issue was discovered in NOKIA 1350OMS R14.2. Multiple Relative Path Traversal issues exist in different specific endpoints via the file parameter, allowing a remote authenticated attacker to read files on the filesystem arbitrarily."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-40608",
+        "description" : "IBM Spectrum Protect Plus 10.1.6 through 10.1.11 Microsoft File Systems restore operation can download any file on the target machine by manipulating the URL with a directory traversal attack. This results in the restore operation gaining access to files which the operator should not have access to. IBM X-Force ID: 235873."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-40444",
+        "description" : "ZZCMS 2022 was discovered to contain a full path disclosure vulnerability via the page /admin/index.PHP? _server."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-40443",
+        "description" : "An absolute path traversal vulnerability in ZZCMS 2022 allows attackers to obtain sensitive information via a crafted GET request sent to /one/siteinfo.php."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-40199",
+        "description" : "Directory traversal vulnerability in EC-CUBE 3 series (EC-CUBE 3.0.0 to 3.0.18-p4 ) and EC-CUBE 4 series (EC-CUBE 4.0.0 to 4.1.2) allows a remote authenticated attacker with an administrative privilege to obtain the product's directory structure information."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-40123",
+        "description" : "mojoPortal v2.7 was discovered to contain a path traversal vulnerability via the \"f\" parameter at /DesignTools/CssEditor.aspx. This vulnerability allows authenticated attackers to read arbitrary files in the system."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-40082",
+        "description" : "Hertz v0.3.0 ws discovered to contain a path traversal vulnerability via the normalizePath function."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-39858",
+        "description" : "Path traversal vulnerability in AtBroadcastReceiver in FactoryCamera prior to version 3.5.51 allows attackers to write arbitrary file as FactoryCamera privilege."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-39838",
+        "description" : "Systematic FIX Adapter (ALFAFX) 2.4.0.25 13/09/2017 allows remote file inclusion via a UNC share pathname, and also allows absolute path traversal to local pathnames."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-39802",
+        "description" : "SAP Manufacturing Execution - versions 15.1, 15.2, 15.3, allows an attacker to exploit insufficient validation of a file path request parameter. The intended file path can be manipulated to allow arbitrary traversal of directories on the remote server. The file content within each directory can be read which may lead to information disclosure."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-39296",
+        "description" : "MelisAssetManager provides deliveries of Melis Platform's assets located in every module's public folder. Attackers can read arbitrary files on affected versions of `melisplatform/melis-asset-manager`, leading to the disclosure of sensitive information. Conducting this attack does not require authentication. Users should immediately upgrade to `melisplatform/melis-asset-manager` >= 5.0.1. This issue was addressed by restricting access to files to intended directories only."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-39261",
+        "description" : "Twig is a template language for PHP. Versions 1.x prior to 1.44.7, 2.x prior to 2.15.3, and 3.x prior to 3.4.3 encounter an issue when the filesystem loader loads templates for which the name is a user input. It is possible to use the `source` or `include` statement to read arbitrary files from outside the templates' directory when using a namespace like `@somewhere/../some.file`. In such a case, validation is bypassed. Versions 1.44.7, 2.15.3, and 3.4.3 contain a fix for validation of such template names. There are no known workarounds aside from upgrading."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-39221",
+        "description" : "McWebserver mod runs a simple HTTP server alongside the Minecraft server in seperate threads. Path traversal in McWebserver Minecraft Mod for Fabric and Quilt up to and including 0.1.2.1 and McWebserver Minecraft Mod for Forge up to and including 0.1.1 allows all files, accessible by the program, to be read by anyone via HTTP request. Version 0.2.0 with patches are released to both platforms (Fabric and Quilt, Forge). As a workaround, the McWebserver mod can be disabled by removing the file from the `mods` directory."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-39210",
+        "description" : "Nextcloud android is the official Android client for the Nextcloud home server platform. Internal paths to the Nextcloud Android app files are not properly protected. As a result access to internal files of the from within the Nextcloud Android app is possible. This may lead to a leak of sensitive information in some cases. It is recommended that the Nextcloud Android app is upgraded to 3.21.0. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-39058",
+        "description" : "RAVA certification validation system has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to bypass authentication and access arbitrary system files."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-39034",
+        "description" : "Smart eVision has a path traversal vulnerability in the Report API function due to insufficient filtering for special characters in URLs. A remote attacker with general user privilege can exploit this vulnerability to bypass authentication, access restricted paths and download system files."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-39033",
+        "description" : "Smart eVision’s file acquisition function has a path traversal vulnerability due to insufficient filtering for special characters in the URL parameter. An unauthenticated remote attacker can exploit this vulnerability to bypass authentication, access restricted paths to download and delete arbitrary system files to disrupt service."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-39001",
+        "description" : "The number identification module has a path traversal vulnerability. Successful exploitation of this vulnerability may cause data disclosure."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-38794",
+        "description" : "Zaver through 2020-12-15 allows directory traversal via the GET /.. substring."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-38614",
+        "description" : "An issue in the IGB Files and OutfileService features of SmartVista Cardgen v3.28.0 allows attackers to list and download arbitrary files via modifying the PATH parameter."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-38613",
+        "description" : "A Path Traversal vulnerability in SmartVista Cardgen v3.28.0 allows authenticated attackers to read arbitrary files in the system."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-38424",
+        "description" : "Adobe ColdFusion versions Update 14 (and earlier) and Update 4 (and earlier) are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could result in arbitrary file system write. Exploitation of this issue does not require user interaction, but does require administrator privileges."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-38423",
+        "description" : "Adobe ColdFusion versions Update 14 (and earlier) and Update 4 (and earlier) are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could result in information disclosure. Exploitation of this issue does not require user interaction, but does require administrator privileges."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-38422",
+        "description" : "Adobe ColdFusion versions Update 14 (and earlier) and Update 4 (and earlier) are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could result in information disclosure. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-38421",
+        "description" : "Adobe ColdFusion versions Update 14 (and earlier) and Update 4 (and earlier) are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue does not require user interaction, but does require administrator privileges."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-38418",
+        "description" : "Adobe ColdFusion versions Update 14 (and earlier) and Update 4 (and earlier) are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-38340",
+        "description" : "Safe Software FME Server v2021.2.5, v2022.0.0.2 and below was discovered to contain a Path Traversal vulnerability via the component fmedataupload."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-38301",
+        "description" : "Onedev v7.4.14 contains a path traversal vulnerability which allows attackers to access restricted files and directories via uploading a crafted JAR file into the directory /opt/onedev/lib."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-38129",
+        "description" : "A path traversal vulnerability exists in the com.keysight.tentacle.licensing.LicenseManager.addLicenseFile() method in the Keysight Sensor Management Server (SMS). This allows an unauthenticated remote attacker to upload arbitrary files to the SMS host."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-37700",
+        "description" : "Zentao Demo15 is vulnerable to Directory Traversal. The impact is: obtain sensitive information (remote). The component is: URL : view-source:https://demo15.zentao.pm/user-login.html/zentao/index.php?mode=getconfig."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-37681",
+        "description" : "Hitachi Kokusai Electric Inc ISnex HC-IP9100HD Version 1.07 and below allows attackers to perform a directory traversal via a crafted GET request to the endpoint /ptippage.cgi."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-37423",
+        "description" : "Neo4j APOC (Awesome Procedures on Cypher) before 4.3.0.7 and 4.x before 4.4.0.8 allows Directory Traversal to sibling directories via apoc.log.stream."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-37422",
+        "description" : "Payara through 5.2022.2 allows directory traversal without authentication. This affects Payara Server, Payara Micro, and Payara Server Embedded."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-37299",
+        "description" : "An issue was discovered in Shirne CMS 1.2.0. There is a Path Traversal vulnerability which could cause arbitrary file read via /static/ueditor/php/controller.php"
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-37122",
+        "description" : "Carel pCOWeb HVAC BACnet Gateway 2.1.0, Firmware: A2.1.0 - B2.1.0, Application Software: 2.15.4A Software v16 13020200 suffers from an unauthenticated arbitrary file disclosure vulnerability. Input passed through the 'file' GET parameter through the 'logdownload.cgi' Bash script is not properly verified before being used to download log files. This can be exploited to disclose the contents of arbitrary and sensitive files via directory traversal attacks."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-37060",
+        "description" : "FLIR AX8 thermal sensor cameras version up to and including 1.46.16 is vulnerable to Directory Traversal due to an improper access restriction. An unauthenticated, remote attacker can exploit this by sending a URI that contains directory traversal characters to disclose the contents of files located outside of the server's restricted path."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-37042",
+        "description" : "Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authentication (i.e., not having an authtoken), an attacker can upload arbitrary files to the system, leading to directory traversal and remote code execution. NOTE: this issue exists because of an incomplete fix for CVE-2022-27925."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-36894",
+        "description" : "An arbitrary file write vulnerability in Jenkins CLIF Performance Testing Plugin 64.vc0d66de1dfb_f and earlier allows attackers with Overall/Read permission to create or replace arbitrary files on the Jenkins controller file system with attacker-specified content."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-36890",
+        "description" : "Jenkins Deployer Framework Plugin 85.v1d1888e8c021 and earlier does not restrict the name of files in methods implementing form validation, allowing attackers with Item/Read permission to check for the existence of an attacker-specified file path on the Jenkins controller file system."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-36889",
+        "description" : "Jenkins Deployer Framework Plugin 85.v1d1888e8c021 and earlier does not restrict the application path of the applications when configuring a deployment, allowing attackers with Item/Configure permission to upload arbitrary files from the Jenkins controller file system to the selected service."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-36850",
+        "description" : "Path traversal vulnerability in CallBGProvider prior to SMR Sep-2022 Release 1 allows attacker to overwrite arbitrary file with phone uid."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-36831",
+        "description" : "Path traversal vulnerability in UriFileUtils of Samsung Notes prior to version 4.3.14.39 allows attacker to access some file as Samsung Notes permission."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-36593",
+        "description" : "kkFileView v4.0.0 was discovered to contain an arbitrary file deletion vulnerability via the fileName parameter at /controller/FileController.java."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-36261",
+        "description" : "An arbitrary file deletion vulnerability was discovered in taocms 3.0.2, that allows attacker to delete file in server when request url admin.php?action=file&ctrl=del&path=/../../../test.txt"
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-36168",
+        "description" : "A directory traversal vulnerability was discovered in Wuzhicms 4.1.0. via /coreframe/app/attachment/admin/index.php:"
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-36113",
+        "description" : "Cargo is a package manager for the rust programming language. After a package is downloaded, Cargo extracts its source code in the ~/.cargo folder on disk, making it available to the Rust projects it builds. To record when an extraction is successful, Cargo writes \"ok\" to the .cargo-ok file at the root of the extracted source code once it extracted all the files. It was discovered that Cargo allowed packages to contain a .cargo-ok symbolic link, which Cargo would extract. Then, when Cargo attempted to write \"ok\" into .cargo-ok, it would actually replace the first two bytes of the file the symlink pointed to with ok. This would allow an attacker to corrupt one file on the machine using Cargo to extract the package. Note that by design Cargo allows code execution at build time, due to build scripts and procedural macros. The vulnerabilities in this advisory allow performing a subset of the possible damage in a harder to track down way. Your dependencies must still be trusted if you want to be protected from attacks, as it's possible to perform the same attacks with build scripts and procedural macros. The vulnerability is present in all versions of Cargo. Rust 1.64, to be released on September 22nd, will include a fix for it. Since the vulnerability is just a more limited way to accomplish what a malicious build scripts or procedural macros can do, we decided not to publish Rust point releases backporting the security fix. Patch files are available for Rust 1.63.0 are available in the wg-security-response repository for people building their own toolchain. Mitigations We recommend users of alternate registries to exercise care in which package they download, by only including trusted dependencies in their projects. Please note that even with these vulnerabilities fixed, by design Cargo allows arbitrary code execution at build time thanks to build scripts and procedural macros: a malicious dependency will be able to cause damage regardless of these vulnerabilities. crates.io implemented server-side checks to reject these kinds of packages years ago, and there are no packages on crates.io exploiting these vulnerabilities. crates.io users still need to exercise care in choosing their dependencies though, as remote code execution is allowed by design there as well."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-36081",
+        "description" : "Wikmd is a file based wiki that uses markdown. Prior to version 1.7.1, Wikmd is vulnerable to path traversal when accessing `/list/<path:folderpath>` and discloses lists of files located on the server including sensitive data. Version 1.7.1 fixes this issue."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-36035",
+        "description" : "Flux is a tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy. Flux CLI allows users to deploy Flux components into a Kubernetes cluster via command-line. The vulnerability allows other applications to replace the Flux deployment information with arbitrary content which is deployed into the target Kubernetes cluster instead. The vulnerability is due to the improper handling of user-supplied input, which results in a path traversal that can be controlled by the attacker. Users sharing the same shell between other applications and the Flux CLI commands could be affected by this vulnerability. In some scenarios no errors may be presented, which may cause end users not to realize that something is amiss. A safe workaround is to execute Flux CLI in ephemeral and isolated shell environments, which can ensure no persistent values exist from previous processes. However, upgrading to the latest version of the CLI is still the recommended mitigation strategy."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-36007",
+        "description" : "Venice is a Clojure inspired sandboxed Lisp dialect with excellent Java interoperability. A partial path traversal issue exists within the functions `load-file` and `load-resource`. These functions can be limited to load files from a list of load paths. Assuming Venice has been configured with the load paths: `[ \"/Users/foo/resources\" ]` When passing **relative** paths to these two vulnerable functions everything is fine: `(load-resource \"test.png\")` => loads the file \"/Users/foo/resources/test.png\" `(load-resource \"../resources-alt/test.png\")` => rejected, outside the load path When passing **absolute** paths to these two vulnerable functions Venice may return files outside the configured load paths: `(load-resource \"/Users/foo/resources/test.png\")` => loads the file \"/Users/foo/resources/test.png\" `(load-resource \"/Users/foo/resources-alt/test.png\")` => loads the file \"/Users/foo/resources-alt/test.png\" !!! The latter call suffers from the _Partial Path Traversal_ vulnerability. This issue’s scope is limited to absolute paths whose name prefix matches a load path. E.g. for a load-path `\"/Users/foo/resources\"`, the actor can cause loading a resource also from `\"/Users/foo/resources-alt\"`, but not from `\"/Users/foo/images\"`. Versions of Venice before and including v1.10.17 are affected by this issue. Upgrade to Venice >= 1.10.18, if you are on a version < 1.10.18. There are currently no known workarounds."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-35920",
+        "description" : "Sanic is an opensource python web server/framework. Affected versions of sanic allow access to lateral directories when using `app.static` if using encoded `%2F` URLs. Parent directory traversal is not impacted. Users are advised to upgrade. There is no known workaround for this issue."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-35919",
+        "description" : "MinIO is a High Performance Object Storage released under GNU Affero General Public License v3.0. In affected versions all 'admin' users authorized for `admin:ServerUpdate` can selectively trigger an error that in response, returns the content of the path requested. Any normal OS system would allow access to contents at any arbitrary paths that are readable by MinIO process. Users are advised to upgrade. Users unable to upgrade may disable ServerUpdate API by denying the `admin:ServerUpdate` action for your admin users via IAM policies."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-35918",
+        "description" : "Streamlit is a data oriented application development framework for python. Users hosting Streamlit app(s) that use custom components are vulnerable to a directory traversal attack that could leak data from their web server file-system such as: server logs, world readable files, and potentially other sensitive information. An attacker can craft a malicious URL with file paths and the streamlit server would process that URL and return the contents of that file. This issue has been resolved in version 1.11.1. Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-35861",
+        "description" : "pyenv 1.2.24 through 2.3.2 allows local users to gain privileges via a .python-version file in the current working directory. An attacker can craft a Python version string in .python-version to execute shims under their control. (Shims are executables that pass a command along to a specific version of pyenv. The version string is used to construct the path to the command, and there is no validation of whether the version specified is a valid version. Thus, relative path traversal can occur.)"
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-35650",
+        "description" : "The vulnerability was found in Moodle, occurs due to input validation error when importing lesson questions. This insufficient path checks results in arbitrary file read risk. This vulnerability allows a remote attacker to perform directory traversal attacks. The capability to access this feature is only available to teachers, managers and admins by default."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-35410",
+        "description" : "mat2 (aka metadata anonymisation toolkit) before 0.13.0 allows ../ directory traversal during the ZIP archive cleaning process. This primarily affects mat2 web instances, in which clients could obtain sensitive information via a crafted archive."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-35216",
+        "description" : "OMICARD EDM’s mail image relay function has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to by-pass authentication and access arbitrary system files."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-35204",
+        "description" : "Vitejs Vite before v2.9.13 was discovered to allow attackers to perform a directory traversal via a crafted URL to the victim's service."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-34836",
+        "description" : "Relative Path Traversal vulnerability in ABB Zenon 8.20 allows the user to access files on the Zenon system and user also can add own log messages and e.g., flood the log entries. An attacker who successfully exploit the vulnerability could access the Zenon runtime activities such as the start and stop of various activity and the last error code etc."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-34762",
+        "description" : "A CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability exists that could cause unauthorized firmware image loading when unsigned images are added to the firmware image path. Affected Products: X80 advanced RTU Communication Module (BMENOR2200H) (V2.01 and later), OPC UA Modicon Communication Module (BMENUA0100) (V1.10 and prior)"
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-34551",
+        "description" : "Sims v1.0 was discovered to allow path traversal when downloading attachments."
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-34486",
+        "description" : "Path traversal vulnerability in PukiWiki versions 1.4.5 to 1.5.3 allows a remote authenticated attacker with an administrative privilege to execute a malicious script via unspecified vectors."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-34429",
+        "description" : "Dell Hybrid Client below 1.8 version contains a Zip Slip Vulnerability in UI. A guest privilege attacker could potentially exploit this vulnerability, leading to system files modification."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-34426",
+        "description" : "Dell Container Storage Modules 1.2 contains an Improper Limitation of a Pathname to a Restricted Directory in goiscsi and gobrick libraries which could lead to OS command injection. A remote unauthenticated attacker could exploit this vulnerability leading to unintentional access to path outside of restricted directory."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-34378",
+        "description" : "Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.20, 9.2.1.13, 9.3.0.6, and 9.4.0.3, contain a relative path traversal vulnerability. A low privileged local attacker could potentially exploit this vulnerability, leading to denial of service."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-34375",
+        "description" : "Dell Container Storage Modules 1.2 contains a path traversal vulnerability in goiscsi and gobrick libraries. A remote authenticated malicious user with low privileges could exploit this vulnerability leading to unintentional access to path outside of restricted directory."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-34373",
+        "description" : "Dell Command | Integration Suite for System Center, versions prior to 6.2.0, contains arbitrary file write vulnerability. A locally authenticated malicious user could potentially exploit this vulnerability in order to perform an arbitrary write as system."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-34365",
+        "description" : "WMS 3.7 contains a Path Traversal Vulnerability in Device API. An attacker could potentially exploit this vulnerability, to gain unauthorized read access to the files stored on the server filesystem, with the privileges of the running web application."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-34254",
+        "description" : "Adobe Commerce versions 2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4 (and earlier) are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could be abused by an attacker to inject malicious scripts into the vulnerable endpoint. A low privileged attacker could leverage this vulnerability to read local files and to perform Stored XSS. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-34179",
+        "description" : "Jenkins Embeddable Build Status Plugin 2.0.3 and earlier allows specifying a `style` query parameter that is used to choose a different SVG image style without restricting possible values, resulting in a relative path traversal vulnerability that allows attackers without Overall/Read permission to specify paths to other SVG images on the Jenkins controller file system."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-34177",
+        "description" : "Jenkins Pipeline: Input Step Plugin 448.v37cea_9a_10a_70 and earlier archives files uploaded for `file` parameters for Pipeline `input` steps on the controller as part of build metadata, using the parameter name without sanitization as a relative path inside a build-related directory, allowing attackers able to configure Pipelines to create or replace arbitrary files on the Jenkins controller file system with attacker-specified content."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-34026",
+        "description" : "ICEcoder v8.1 allows attackers to execute a directory traversal."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-34002",
+        "description" : "The ‘document’ parameter of PDS Vista 7’s /application/documents/display.aspx page is vulnerable to a Local File Inclusion vulnerability which allows an low-privileged authenticated attacker to leak the configuration files and source code of the web application."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-33995",
+        "description" : "A path traversal issue in entry attachments in Devolutions Remote Desktop Manager before 2022.2 allows attackers to create or overwrite files in an arbitrary location."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-33937",
+        "description" : "Dell GeoDrive, Versions 1.0 - 2.2, contain a Path Traversal Vulnerability in the reporting function. A local, low privileged attacker could potentially exploit this vulnerability, to gain unauthorized delete access to the files stored on the server filesystem, with the privileges of the GeoDrive service: NT AUTHORITY\\SYSTEM."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-33715",
+        "description" : "Improper access control and path traversal vulnerability in LauncherProvider prior to SMR Aug-2022 Release 1 allow local attacker to access files of One UI."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-33690",
+        "description" : "Improper input validation in Contacts Storage prior to SMR Jul-2022 Release 1 allows attacker to access arbitrary file."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-33116",
+        "description" : "An issue in the jmpath variable in /modules/mindmap/index.php of GUnet Open eClass Platform (aka openeclass) v3.12.4 and below allows attackers to read arbitrary files via a directory traversal."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-32963",
+        "description" : "OMICARD EDM’s mail file relay function has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to by-pass authentication and access arbitrary system files."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-32551",
+        "description" : "Zoho ManageEngine ServiceDesk Plus MSP before 10604 allows path traversal (to WEBINF/web.xml from sample/WEB-INF/web.xml or sample/META-INF/web.xml)."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-32427",
+        "description" : "PrinterLogic Windows Client through 25.0.0.676 allows attackers to execute directory traversal. Authenticated users with prior knowledge of the driver filename could exploit this to escalate privileges or distribute malicious content. This issue has been resolved in PrinterLogic Windows Client 25.0.0688 and all affected are advised to upgrade."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-32275",
+        "description" : "** DISPUTED ** Grafana 8.4.3 allows reading files via (for example) a /dashboard/snapshot/%7B%7Bconstructor.constructor'/.. /.. /.. /.. /.. /.. /.. /.. /etc/passwd URI. NOTE: the vendor's position is that there is no vulnerability; this request yields a benign error page, not /etc/passwd content."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-32270",
+        "description" : "In Real Player 20.0.7.309 and 20.0.8.310, external::Import() allows download of arbitrary file types and Directory Traversal, leading to Remote Code Execution. This occurs because it is possible to plant executables in the startup folder (DLL planting could also occur)."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-32190",
+        "description" : "JoinPath and URL.JoinPath do not remove ../ path elements appended to a relative path. For example, JoinPath(\"https://go.dev\", \"../go\") returns the URL \"https://go.dev/../go\", despite the JoinPath documentation stating that ../ path elements are removed from the result."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-31836",
+        "description" : "The leafInfo.match() function in Beego v2.0.3 and below uses path.join() to deal with wildcardvalues which can lead to cross directory risk."
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-31793",
+        "description" : "do_request in request.c in muhttpd before 1.1.7 allows remote attackers to read arbitrary files by constructing a URL with a single character before a desired path on the filesystem. This occurs because the code skips over the first character when serving files. Arris NVG443, NVG599, NVG589, and NVG510 devices and Arris-derived BGW210 and BGW320 devices are affected."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-31662",
+        "description" : "VMware Workspace ONE Access, Identity Manager, Connectors and vRealize Automation contain a path traversal vulnerability. A malicious actor with network access may be able to access arbitrary files."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-31588",
+        "description" : "The zippies/testplatform repository through 2016-07-19 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-31587",
+        "description" : "The yuriyouzhou/KG-fashion-chatbot repository through 2018-05-22 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-31586",
+        "description" : "The unizar-30226-2019-06/ChangePop-Back repository through 2019-06-04 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-31585",
+        "description" : "The umeshpatil-dev/Home__internet repository through 2020-08-28 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-31584",
+        "description" : "The stonethree/s3label repository through 2019-08-14 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-31583",
+        "description" : "The sravaniboinepelli/AutomatedQuizEval repository through 2020-04-27 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-31582",
+        "description" : "The shaolo1/VideoServer repository through 2019-09-21 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-31581",
+        "description" : "The scorelab/OpenMF repository before 2022-05-03 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-31580",
+        "description" : "The sanojtharindu/caretakerr-api repository through 2021-05-17 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-31579",
+        "description" : "The ralphjzhang/iasset repository through 2022-05-04 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-31578",
+        "description" : "The piaoyunsoft/bt_lnmp repository through 2019-10-10 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-31577",
+        "description" : "The longmaoteamtf/audio_aligner_app repository through 2020-01-10 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-31576",
+        "description" : "The heidi-luong1109/shackerpanel repository through 2021-05-25 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-31575",
+        "description" : "The duducosmos/livro_python repository through 2018-06-06 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-31574",
+        "description" : "The deepaliupadhyay/RealEstate repository through 2018-11-30 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-31573",
+        "description" : "The chainer/chainerrl-visualizer repository through 0.1.1 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-31572",
+        "description" : "The ceee-vip/cockybook repository through 2015-04-16 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-31571",
+        "description" : "The akashtalole/python-flask-restful-api repository through 2019-09-16 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-31570",
+        "description" : "The adriankoczuruek/ceneo-web-scrapper repository through 2021-03-15 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-31569",
+        "description" : "The RipudamanKaushikDal/projects repository through 2022-04-03 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-31568",
+        "description" : "The Rexians/rex-web repository through 2022-06-05 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-31567",
+        "description" : "The DSABenchmark/DSAB repository through 2.1 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-31566",
+        "description" : "The DSAB-local/DSAB repository through 2019-02-18 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-31565",
+        "description" : "The yogson/syrabond repository through 2020-05-25 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-31564",
+        "description" : "The woduq1414/munhak-moa repository before 2022-05-03 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-31563",
+        "description" : "The whmacmac/vprj repository through 2022-04-06 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-31562",
+        "description" : "The waveyan/internshipsystem repository through 2018-05-22 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-31561",
+        "description" : "The varijkapil13/Sphere_ImageBackend repository through 2019-10-03 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-31560",
+        "description" : "The uncleYiba/photo_tag repository through 2020-08-31 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-31559",
+        "description" : "The tsileo/flask-yeoman repository through 2013-09-13 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-31558",
+        "description" : "The tooxie/shiva-server repository through 0.10.0 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-31557",
+        "description" : "The seveas/golem repository through 2016-05-17 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-31556",
+        "description" : "The rusyasoft/TrainEnergyServer repository through 2017-08-03 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-31555",
+        "description" : "The romain20100/nursequest repository through 2018-02-22 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-31554",
+        "description" : "The rohitnayak/movie-review-sentiment-analysis repository through 2017-05-07 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-31553",
+        "description" : "The rainsoupah/sleep-learner repository through 2021-02-21 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-31552",
+        "description" : "The project-anuvaad/anuvaad-corpus repository through 2020-11-23 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-31551",
+        "description" : "The pleomax00/flask-mongo-skel repository through 2012-11-01 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-31550",
+        "description" : "The olmax99/pyathenastack repository through 2019-11-08 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-31549",
+        "description" : "The olmax99/helm-flask-celery repository before 2022-05-25 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-31548",
+        "description" : "The nrlakin/homepage repository through 2017-03-06 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-31547",
+        "description" : "The noamezekiel/sphere repository through 2020-05-31 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-31546",
+        "description" : "The nlpweb/glance repository through 2014-06-27 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-31545",
+        "description" : "The ml-inory/ModelConverter repository through 2021-04-26 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-31544",
+        "description" : "The meerstein/rbtm repository through 1.5 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-31543",
+        "description" : "The maxtortime/SetupBox repository through 1.0 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-31542",
+        "description" : "The mandoku/mdweb repository through 2015-05-07 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-31541",
+        "description" : "The lyubolp/Barry-Voice-Assistant repository through 2021-01-18 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2022-31540",
+        "description" : "The kumardeepak/hin-eng-preprocessing repository through 2019-07-16 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2022-31539",
+        "description" : "The kotekan/kotekan repository through 2021.11 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2022-31538",
+        "description" : "The joaopedro-fg/mp-m08-interface repository through 2020-12-10 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2022-31537",
+        "description" : "The jmcginty15/Solar-system-simulator repository through 2021-07-26 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2022-31536",
+        "description" : "The jaygarza1982/ytdl-sync repository through 2021-01-02 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2022-31535",
+        "description" : "The freefood89/Fishtank repository through 2015-06-24 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2022-31534",
+        "description" : "The echoleegroup/PythonWeb repository through 2018-10-31 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2022-31533",
+        "description" : "The decentraminds/umbral repository through 2020-01-15 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2022-31532",
+        "description" : "The dankolbman/travel_blahg repository through 2016-01-16 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2022-31531",
+        "description" : "The dainst/cilantro repository through 0.0.4 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2022-31530",
+        "description" : "The csm-aut/csm repository through 3.5 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2022-31529",
+        "description" : "The cinemaproject/monorepo repository through 2021-03-03 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2022-31528",
+        "description" : "The bonn-activity-maps/bam_annotation_tool repository through 2021-08-31 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2022-31527",
+        "description" : "The Wildog/flask-file-server repository through 2020-02-20 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2022-31526",
+        "description" : "The ThundeRatz/ThunderDocs repository through 2020-05-01 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2022-31525",
+        "description" : "The SummaLabs/DLS repository through 0.1.0 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2022-31524",
+        "description" : "The PureStorage-OpenConnect/swagger repository through 1.1.5 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2022-31523",
+        "description" : "The PaddlePaddle/Anakin repository through 0.1.1 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2022-31522",
+        "description" : "The NotVinay/karaokey repository through 2019-12-11 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2022-31521",
+        "description" : "The Niyaz-Mohamed/mosaic repository through 1.0.0 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2022-31520",
+        "description" : "The Luxas98/logstash-management-api repository through 2020-05-04 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2022-31519",
+        "description" : "The Lukasavicus/WindMill repository through 1.0 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2022-31518",
+        "description" : "The JustAnotherSoftwareDeveloper/Python-Recipe-Database repository through 2021-03-31 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2022-31517",
+        "description" : "The HolgerGraef/MSM repository through 2021-04-20 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2022-31516",
+        "description" : "The Harveyzyh/Python repository through 2022-05-04 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2022-31515",
+        "description" : "The Delor4/CarceresBE repository through 1.0 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2022-31514",
+        "description" : "The Caoyongqi912/Fan_Platform repository through 2021-04-20 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2022-31513",
+        "description" : "The BolunHan/Krypton repository through 2021-06-03 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2022-31512",
+        "description" : "The Atom02/flask-mvc repository through 2020-09-14 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2022-31511",
+        "description" : "The AFDudley/equanimity repository through 2014-04-23 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2022-31510",
+        "description" : "The sergeKashkin/Simple-RAT repository before 2022-05-03 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2022-31509",
+        "description" : "The iedadata/usap-dc-website repository through 1.0.1 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2022-31508",
+        "description" : "The idayrus/evoting repository before 2022-05-08 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2022-31507",
+        "description" : "The ganga-devs/ganga repository before 8.5.10 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2022-31506",
+        "description" : "The cmusatyalab/opendiamond repository through 10.1.1 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2022-31505",
+        "description" : "The cheo0/MercadoEnLineaBack repository through 2022-05-04 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2022-31504",
+        "description" : "The ChangeWeDer/BaiduWenkuSpider_flaskWeb repository before 2021-11-29 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2022-31503",
+        "description" : "The orchest/orchest repository before 2022.05.0 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2022-31502",
+        "description" : "The operatorequals/wormnest repository through 0.4.7 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2022-31501",
+        "description" : "The ChaoticOnyx/OnyxForum repository before 2022-05-04 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2022-31483",
+        "description" : "An authenticated attacker can upload a file with a filename including “..” and “/” to achieve the ability to upload the desired file anywhere on the filesystem. This vulnerability impacts products based on HID Mercury Intelligent Controllers LP1501, LP1502, LP2500, LP4502, and EP4502 which contain firmware versions prior to 1.271. This allows a malicious actor to overwrite sensitive system files and install a startup service to gain remote access to the underlaying Linux operating system with root privileges."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2022-31473",
+        "description" : "In BIG-IP Versions 16.1.x before 16.1.1 and 15.1.x before 15.1.4, when running in Appliance mode, an authenticated attacker may be able to bypass Appliance mode restrictions due to a directory traversal vulnerability in an undisclosed page within iApps. A successful exploit can allow the attacker to cross a security boundary. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2022-31395",
+        "description" : "Algo Communication Products Ltd. 8373 IP Zone Paging Adapter Firmware 1.7.6 allows attackers to perform a directory traversal via a web request sent to /fm-data.lua."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2022-31372",
+        "description" : "Wiris Mathtype v7.28.0 was discovered to contain a path traversal vulnerability in the resourceFile parameter. This vulnerability is exploited via a crafted request to the resource handler."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2022-31268",
+        "description" : "A Path Traversal vulnerability in Gitblit 1.9.3 can lead to reading website files via /resources//../ (e.g., followed by a WEB-INF or META-INF pathname)."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2022-31202",
+        "description" : "The export function in SoftGuard Web (SGW) before 5.1.5 allows directory traversal to read an arbitrary local file via export or man.tcl."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2022-31195",
+        "description" : "DSpace open source software is a repository application which provides durable access to digital resources. In affected versions the ItemImportServiceImpl is vulnerable to a path traversal vulnerability. This means a malicious SAF (simple archive format) package could cause a file/directory to be created anywhere the Tomcat/DSpace user can write to on the server. However, this path traversal vulnerability is only possible by a user with special privileges (either Administrators or someone with command-line access to the server). This vulnerability impacts the XMLUI, JSPUI and command-line. Users are advised to upgrade. As a basic workaround, users may block all access to the following URL paths: If you are using the XMLUI, block all access to /admin/batchimport path (this is the URL of the Admin Batch Import tool). Keep in mind, if your site uses the path \"/xmlui\", then you'd need to block access to /xmlui/admin/batchimport. If you are using the JSPUI, block all access to /dspace-admin/batchimport path (this is the URL of the Admin Batch Import tool). Keep in mind, if your site uses the path \"/jspui\", then you'd need to block access to /jspui/dspace-admin/batchimport. Keep in mind, only an Administrative user or a user with command-line access to the server is able to import/upload SAF packages. Therefore, assuming those users do not blindly upload untrusted SAF packages, then it is unlikely your site could be impacted by this vulnerability."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2022-31194",
+        "description" : "DSpace open source software is a repository application which provides durable access to digital resources. dspace-jspui is a UI component for DSpace. The JSPUI resumable upload implementations in SubmissionController and FileUploadRequest are vulnerable to multiple path traversal attacks, allowing an attacker to create files/directories anywhere on the server writable by the Tomcat/DSpace user, by modifying some request parameters during submission. This path traversal can only be executed by a user with special privileges (submitter rights). This vulnerability only impacts the JSPUI. Users are advised to upgrade. There are no known workarounds. However, this vulnerability cannot be exploited by an anonymous user or a basic user. The user must first have submitter privileges to at least one Collection and be able to determine how to modify the request parameters to exploit the vulnerability."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2022-31163",
+        "description" : "TZInfo is a Ruby library that provides access to time zone data and allows times to be converted using time zone rules. Versions prior to 0.36.1, as well as those prior to 1.2.10 when used with the Ruby data source tzinfo-data, are vulnerable to relative path traversal. With the Ruby data source, time zones are defined in Ruby files. There is one file per time zone. Time zone files are loaded with `require` on demand. In the affected versions, `TZInfo::Timezone.get` fails to validate time zone identifiers correctly, allowing a new line character within the identifier. With Ruby version 1.9.3 and later, `TZInfo::Timezone.get` can be made to load unintended files with `require`, executing them within the Ruby process. Versions 0.3.61 and 1.2.10 include fixes to correctly validate time zone identifiers. Versions 2.0.0 and later are not vulnerable. Version 0.3.61 can still load arbitrary files from the Ruby load path if their name follows the rules for a valid time zone identifier and the file has a prefix of `tzinfo/definition` within a directory in the load path. Applications should ensure that untrusted files are not placed in a directory on the load path. As a workaround, the time zone identifier can be validated before passing to `TZInfo::Timezone.get` by ensuring it matches the regular expression `\\A[A-Za-z0-9+\\-_]+(?:\/[A-Za-z0-9+\\-_]+)*\\z`."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2022-31159",
+        "description" : "The AWS SDK for Java enables Java developers to work with Amazon Web Services. A partial-path traversal issue exists within the `downloadDirectory` method in the AWS S3 TransferManager component of the AWS SDK for Java v1 prior to version 1.12.261. Applications using the SDK control the `destinationDirectory` argument, but S3 object keys are determined by the application that uploaded the objects. The `downloadDirectory` method allows the caller to pass a filesystem object in the object key but contained an issue in the validation logic for the key name. A knowledgeable actor could bypass the validation logic by including a UNIX double-dot in the bucket key. Under certain conditions, this could permit them to retrieve a directory from their S3 bucket that is one level up in the filesystem from their working directory. This issue’s scope is limited to directories whose name prefix matches the destinationDirectory. E.g. for destination directory`/tmp/foo`, the actor can cause a download to `/tmp/foo-bar`, but not `/tmp/bar`. If `com.amazonaws.services.s3.transfer.TransferManager::downloadDirectory` is used to download an untrusted buckets contents, the contents of that bucket can be written outside of the intended destination directory. Version 1.12.261 contains a patch for this issue. As a workaround, when calling `com.amazonaws.services.s3.transfer.TransferManager::downloadDirectory`, pass a `KeyFilter` that forbids `S3ObjectSummary` objects that `getKey` method return a string containing the substring `..` ."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2022-31062",
+        "description" : "### Impact A plugin public script can be used to read content of system files. ### Patches Upgrade to version 1.0.2. ### Workarounds `b/deploy/index.php` file can be deleted if deploy feature is not used."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2022-30572",
+        "description" : "The iWay Service Manager Console component of TIBCO Software Inc.'s TIBCO iWay Service Manager contains an easily exploitable Directory Traversal vulnerability that allows a low privileged attacker with network access to read arbitrary resources on the affected system. Affected releases are TIBCO Software Inc.'s TIBCO iWay Service Manager: versions 8.0.6 and below."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2022-30547",
+        "description" : "A directory traversal vulnerability exists in the unzipDirectory functionality of WWBN AVideo 11.6 and dev master commit 3f7c0364. A specially-crafted HTTP request can lead to arbitrary command execution. An attacker can send an HTTP request to trigger this vulnerability."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2022-30427",
+        "description" : "In ginadmin through 05-10-2022 the incoming path value is not filtered, resulting in directory traversal."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2022-30333",
+        "description" : "RARLAB UnRAR before 6.12 on Linux and UNIX allows directory traversal to write to files during an extract (aka unpack) operation, as demonstrated by creating a ~/.ssh/authorized_keys file. NOTE: WinRAR and Android RAR are unaffected."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2022-30302",
+        "description" : "Multiple relative path traversal vulnerabilities [CWE-23] in FortiDeceptor management interface 1.0.0 through 3.2.x, 3.3.0 through 3.3.2, 4.0.0 through 4.0.1 may allow a remote and authenticated attacker to retrieve and delete arbitrary files from the underlying filesystem via specially crafted web requests."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2022-30301",
+        "description" : "A path traversal vulnerability [CWE-22] in FortiAP-U CLI 6.2.0 through 6.2.3, 6.0.0 through 6.0.4, 5.4.0 through 5.4.6 may allow an admin user to delete and access unauthorized files and data via specifically crafted CLI commands."
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2022-30117",
+        "description" : "Concrete 8.5.7 and below as well as Concrete 9.0 through 9.0.2 allow traversal in /index.php/ccm/system/file/upload which could result in an Arbitrary File Delete exploit. This was remediated by sanitizing /index.php/ccm/system/file/upload to ensure Concrete doesn’t allow traversal and by changing isFullChunkFilePresent to have an early false return when input doesn't match expectations.Concrete CMS Security team ranked this 5.8 with CVSS v3.1 vector AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:N/A:H. Credit to Siebene for reporting."
+    }
+]

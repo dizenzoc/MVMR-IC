@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-43260",
+        "description" : "Tenda AC18 V15.03.05.19(6318) was discovered to contain a stack overflow via the time parameter in the fromSetSysTime function."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-43042",
+        "description" : "GPAC 2.1-DEV-rev368-gfd054169b-master was discovered to contain a heap buffer overflow via the function FixSDTPInTRAF at isomedia/isom_intern.c."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-43038",
+        "description" : "Bento4 v1.6.0-639 was discovered to contain a heap overflow via the AP4_BitReader::ReadCache() function in mp42ts."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-43034",
+        "description" : "An issue was discovered in Bento4 v1.6.0-639. There is a heap buffer overflow vulnerability in the AP4_BitReader::SkipBits(unsigned int) function in mp42ts."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-43029",
+        "description" : "Tenda TX3 US_TX3V1.0br_V16.03.13.11_multi_TDE01 was discovered to contain a stack overflow via the time parameter at /goform/SetSysTimeCfg."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-43028",
+        "description" : "Tenda TX3 US_TX3V1.0br_V16.03.13.11_multi_TDE01 was discovered to contain a stack overflow via the timeZone parameter at /goform/SetSysTimeCfg."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-43027",
+        "description" : "Tenda TX3 US_TX3V1.0br_V16.03.13.11_multi_TDE01 was discovered to contain a stack overflow via the firewallEn parameter at /goform/SetFirewallCfg."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-43026",
+        "description" : "Tenda TX3 US_TX3V1.0br_V16.03.13.11_multi_TDE01 was discovered to contain a stack overflow via the endIp parameter at /goform/SetPptpServerCfg."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-42227",
+        "description" : "jsonlint 1.0 is vulnerable to heap-buffer-overflow via /home/hjsz/jsonlint/src/lexer."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-42171",
+        "description" : "Tenda AC10 V15.03.06.23 contains a Stack overflow vulnerability via /goform/saveParentControlInfo."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-42170",
+        "description" : "Tenda AC10 V15.03.06.23 contains a Stack overflow vulnerability via /goform/formWifiWpsStart."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-42168",
+        "description" : "Tenda AC10 V15.03.06.23 contains a Stack overflow vulnerability via /goform/fromSetIpMacBind."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-42166",
+        "description" : "Tenda AC10 V15.03.06.23 contains a Stack overflow vulnerability via /goform/formSetSpeedWan."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-42081",
+        "description" : "Tenda AC1206 US_AC1206V1.0RTL_V15.03.06.23_multi_TD01 was discovered to contain a stack overflow via sched_end_time parameter."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-41674",
+        "description" : "An issue was discovered in the Linux kernel before 5.19.16. Attackers able to inject WLAN frames could cause a buffer overflow in the ieee80211_bss_info_update function in net/mac80211/scan.c."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-41603",
+        "description" : "The phones have the heap overflow, out-of-bounds read, and null pointer vulnerabilities in the fingerprint trusted application (TA).Successful exploitation of this vulnerability may affect the fingerprint service."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-41550",
+        "description" : "GNU oSIP v5.3.0 was discovered to contain an integer overflow via the component osip_body_parse_header."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-41528",
+        "description" : "TOTOLINK NR1800X V9.1.0u.6279_B20210910 was discovered to contain an authenticated stack overflow via the text parameter in the setSmsCfg function."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-41527",
+        "description" : "TOTOLINK NR1800X V9.1.0u.6279_B20210910 was discovered to contain an authenticated stack overflow via the pppoeUser parameter in the setOpModeCfg function."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-41526",
+        "description" : "TOTOLINK NR1800X V9.1.0u.6279_B20210910 was discovered to contain an authenticated stack overflow via the ip parameter in the setDiagnosisCfg function."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-41524",
+        "description" : "TOTOLINK NR1800X V9.1.0u.6279_B20210910 was discovered to contain an authenticated stack overflow via the week, sTime, and eTime parameters in the setParentalRules function."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-41523",
+        "description" : "TOTOLINK NR1800X V9.1.0u.6279_B20210910 was discovered to contain an authenticated stack overflow via the command parameter in the setTracerouteCfg function."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-41522",
+        "description" : "TOTOLINK NR1800X V9.1.0u.6279_B20210910 was discovered to contain an unauthenticated stack overflow via the \"main\" function."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-41521",
+        "description" : "TOTOLINK NR1800X V9.1.0u.6279_B20210910 was discovered to contain an authenticated stack overflow via the sPort/ePort parameter in the setIpPortFilterRules function."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-41520",
+        "description" : "TOTOLINK NR1800X V9.1.0u.6279_B20210910 was discovered to contain an authenticated stack overflow via the File parameter in the UploadCustomModule function."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-41517",
+        "description" : "TOTOLINK NR1800X V9.1.0u.6279_B20210910 was discovered to contain a stack overflow in the lang parameter in the setLanguageCfg function"
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-41430",
+        "description" : "Bento4 v1.6.0-639 was discovered to contain a heap overflow via the AP4_BitReader::ReadBit function in mp4mux."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-41429",
+        "description" : "Bento4 v1.6.0-639 was discovered to contain a heap overflow via the AP4_Atom::TypeFromString function in mp4tag."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-41428",
+        "description" : "Bento4 v1.6.0-639 was discovered to contain a heap overflow via the AP4_BitReader::ReadBits function in mp4mux."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-41420",
+        "description" : "nasm v2.16 was discovered to contain a stack overflow in the Ndisasm component"
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-41220",
+        "description" : "** DISPUTED ** md2roff 1.9 has a stack-based buffer overflow via a Markdown file, a different vulnerability than CVE-2022-34913. NOTE: the vendor's position is that the product is not intended for untrusted input."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-41197",
+        "description" : "Due to lack of proper memory management, when a victim opens a manipulated VRML Worlds (.wrl, vrml.x3d) file received from untrusted sources in SAP 3D Visual Enterprise Viewer - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-41194",
+        "description" : "Due to lack of proper memory management, when a victim opens a manipulated Encapsulated Postscript (.eps, ai.x3d) file received from untrusted sources in SAP 3D Visual Enterprise Viewer - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-41192",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated Jupiter Tesselation (.jt, JTReader.x3d) file received from untrusted sources in SAP 3D Visual Enterprise Viewer - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-41188",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated Wavefront Object (.obj, ObjTranslator.exe) file received from untrusted sources in SAP 3D Visual Enterprise Viewer - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-41183",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated Windows Cursor File (.cur, ico.x3d) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-41182",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated Parasolid Part and Assembly (.x_b, CoreCadTranslator.exe) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-41181",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated Portable Document Format (.pdf, PDFPublishing.dll) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-41178",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated Iges Part and Assembly (.igs, .iges, CoreCadTranslator.exe) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-41176",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated Enhanced Metafile (.emf, emf.x3d) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-41174",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated Right Hemisphere Material (.rhm, rh.x3d) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-41173",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated AutoCAD (.dxf, TeighaTranslator.exe) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-41171",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated CATIA4 Part (.model, CatiaTranslator.exe) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-41169",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated CATIA5 Part (.catpart, CatiaTranslator.exe) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-41166",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated Wavefront Object (.obj, ObjTranslator.exe) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-40984",
+        "description" : "Stack-based buffer overflow in WTViewerE series WTViewerE 761941 from 1.31 to 1.61 and WTViewerEfree from 1.01 to 1.52 allows an attacker to cause the product to crash by processing a long file name."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-40942",
+        "description" : "Tenda TX3 US_TX3V1.0br_V16.03.13.11 is vulnerable to stack overflow via compare_parentcontrol_time."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-40869",
+        "description" : "Tenda AC15 and AC18 routers V15.03.05.19 contain stack overflow vulnerabilities in the function fromDhcpListClient with a combined parameter \"list*\" (\"%s%d\",\"list\")."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-40868",
+        "description" : "Tenda W20E router V15.11.0.6 (US_W20EV4.0br_V15.11.0.6(1068_1546_841)_CN_TDC) contains a stack overflow vulnerability in the function formDelDhcpRule with the request /goform/delDhcpRules/"
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-40867",
+        "description" : "Tenda W20E router V15.11.0.6 (US_W20EV4.0br_V15.11.0.6(1068_1546_841)_CN_TDC) contains a stack overflow vulnerability in the function formIPMacBindDel with the request /goform/delIpMacBind/"
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-40866",
+        "description" : "Tenda W20E router V15.11.0.6 (US_W20EV4.0br_V15.11.0.6(1068_1546_841)_CN_TDC) contains a stack overflow vulnerability in the function formSetDebugCfg with request /goform/setDebugCfg/"
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-40865",
+        "description" : "Tenda AC15 and AC18 routers V15.03.05.19 contain heap overflow vulnerabilities in the function setSchedWifi with the request /goform/openSchedWifi/"
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-40864",
+        "description" : "Tenda AC15 and AC18 routers V15.03.05.19 contain stack overflow vulnerabilities in the function setSmartPowerManagement with the request /goform/PowerSaveSet"
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-40862",
+        "description" : "Tenda AC15 and AC18 router V15.03.05.19 contains stack overflow vulnerability in the function fromNatStaticSetting with the request /goform/NatStaticSetting"
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-40861",
+        "description" : "Tenda AC18 router V15.03.05.19 contains a stack overflow vulnerability in the formSetQosBand->FUN_0007db78 function with the request /goform/SetNetControlList/"
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-40860",
+        "description" : "Tenda AC15 router V15.03.05.19 contains a stack overflow vulnerability in the function formSetQosBand->FUN_0007dd20 with request /goform/SetNetControlList"
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-40854",
+        "description" : "Tenda AC18 router contained a stack overflow vulnerability in /goform/fast_setting_wifi_set"
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-40853",
+        "description" : "Tenda AC15 router V15.03.05.19 contains a stack overflow via the list parameter at /goform/fast_setting_wifi_set"
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-40851",
+        "description" : "Tenda AC15 V15.03.05.19 contained a stack overflow via the function fromAddressNat."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-40784",
+        "description" : "Unlimited strcpy on user input when setting a locale file leads to stack buffer overflow in mIPC camera firmware 5.3.1.2003161406."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-40112",
+        "description" : "TOTOLINK A3002R TOTOLINK-A3002R-He-V1.1.1-B20200824.0128 is vulnerable Buffer Overflow via the hostname parameter in binary /bin/boa."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-40110",
+        "description" : "TOTOLINK A3002R TOTOLINK-A3002R-He-V1.1.1-B20200824.0128 is vulnerable to Buffer Overflow via /bin/boa."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-40076",
+        "description" : "Tenda AC21 V16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, function: fromSetWifiGusetBasic."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-40075",
+        "description" : "Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, form_fast_setting_wifi_set."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-40074",
+        "description" : "Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, setSchedWifi."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-40073",
+        "description" : "Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, saveParentControlInfo."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-40072",
+        "description" : "Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, function: setSmartPowerManagement."
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-40071",
+        "description" : "Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, formSetDeviceName."
+    },
+    {
+        "pos" : 68,
+        "cve" : "Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, formSetDeviceName.",
+        "description" : "Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via bin/httpd, function: formSetFirewallCfg."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-40069",
+        "description" : "Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, function: fromSetSysTime."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-40068",
+        "description" : "Tenda AC21 V16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, function: formSetQosBand."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-40067",
+        "description" : "Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, function: formSetVirtualSer."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-40008",
+        "description" : "SWFTools commit 772e55a was discovered to contain a heap-buffer overflow via the function readU8 at /lib/ttf.c."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-39807",
+        "description" : "Due to lack of proper memory management, when a victim opens manipulated SolidWorks Drawing (.sldasm, CoreCadTranslator.exe) file received from untrusted sources in SAP 3D Visual Enterprise Author - version 9, it is possible for the application to crash and becomes temporarily unavailable to the user until restart of the application."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-39293",
+        "description" : "Azure RTOS USBX is a high-performance USB host, device, and on-the-go (OTG) embedded stack, that is fully integrated with Azure RTOS ThreadX. The case is, in [_ux_host_class_pima_read](https://github.com/azure-rtos/usbx/blob/master/common/usbx_host_classes/src/ux_host_class_pima_read.c), there is data length from device response, returned in the very first packet, and read by [L165 code](https://github.com/azure-rtos/usbx/blob/082fd9db09a3669eca3358f10b8837a5c1635c0b/common/usbx_host_classes/src/ux_host_class_pima_read.c#L165), as header_length. Then in [L178 code](https://github.com/azure-rtos/usbx/blob/082fd9db09a3669eca3358f10b8837a5c1635c0b/common/usbx_host_classes/src/ux_host_class_pima_read.c#L178), there is a “if” branch, which check the expression of “(header_length - UX_HOST_CLASS_PIMA_DATA_HEADER_SIZE) > data_length” where if header_length is smaller than UX_HOST_CLASS_PIMA_DATA_HEADER_SIZE, calculation could overflow and then [L182 code](https://github.com/azure-rtos/usbx/blob/082fd9db09a3669eca3358f10b8837a5c1635c0b/common/usbx_host_classes/src/ux_host_class_pima_read.c#L182) the calculation of data_length is also overflow, this way the later [while loop start from L192](https://github.com/azure-rtos/usbx/blob/082fd9db09a3669eca3358f10b8837a5c1635c0b/common/usbx_host_classes/src/ux_host_class_pima_read.c#L192) can move data_pointer to unexpected address and cause write buffer overflow. The fix has been included in USBX release [6.1.12](https://github.com/azure-rtos/usbx/releases/tag/v6.1.12_rel). The following can be used as a workaround: Add check of `header_length`: 1. It must be greater than `UX_HOST_CLASS_PIMA_DATA_HEADER_SIZE`. 1. It should be greater or equal to the current returned data length (`transfer_request -> ux_transfer_request_actual_length`)."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-39274",
+        "description" : "LoRaMac-node is a reference implementation and documentation of a LoRa network node. Versions of LoRaMac-node prior to 4.7.0 are vulnerable to a buffer overflow. Improper size validation of the incoming radio frames can lead to an 65280-byte out-of-bounds write. The function `ProcessRadioRxDone` implicitly expects incoming radio frames to have at least a payload of one byte or more. An empty payload leads to a 1-byte out-of-bounds read of user controlled content when the payload buffer is reused. This allows an attacker to craft a FRAME_TYPE_PROPRIETARY frame with size -1 which results in an 65280-byte out-of-bounds memcopy likely with partially controlled attacker data. Corrupting a large part if the data section is likely to cause a DoS. If the large out-of-bounds write does not immediately crash the attacker may gain control over the execution due to now controlling large parts of the data section. Users are advised to upgrade either by updating their package or by manually applying the patch commit `e851b079`."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-39244",
+        "description" : "PJSIP is a free and open source multimedia communication library written in C. In versions of PJSIP prior to 2.13 the PJSIP parser, PJMEDIA RTP decoder, and PJMEDIA SDP parser are affeced by a buffer overflow vulnerability. Users connecting to untrusted clients are at risk. This issue has been patched and is available as commit c4d3498 in the master branch and will be included in releases 2.13 and later. Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-39173",
+        "description" : "In wolfSSL before 5.5.1, malicious clients can cause a buffer overflow during a TLS 1.3 handshake. This occurs when an attacker supposedly resumes a previous TLS session. During the resumption Client Hello a Hello Retry Request must be triggered. Both Client Hellos are required to contain a list of duplicate cipher suites to trigger the buffer overflow. In total, two Client Hellos have to be sent: one in the resumed session, and a second one as a response to a Hello Retry Request message."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-39047",
+        "description" : "Freeciv before 2.6.7 and before 3.0.3 is prone to a buffer overflow vulnerability in the Modpack Installer utility's handling of the modpack URL."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-39003",
+        "description" : "Buffer overflow vulnerability in the video framework. Successful exploitation of this vulnerability will affect the confidentiality and integrity of trusted components."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-38980",
+        "description" : "The HwAirlink module has a heap overflow vulnerability in processing data packets of the proprietary protocol.Successful exploitation of this vulnerability may allow attackers to obtain process control permissions."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-38977",
+        "description" : "The HwAirlink module has a heap overflow vulnerability.Successful exploitation of this vulnerability may cause out-of-bounds writes, resulting in modification of sensitive data."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-38932",
+        "description" : "readelf in ToaruOS 2.0.1 has a global overflow allowing RCE when parsing a crafted ELF file."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-38866",
+        "description" : "Certain The MPlayer Project products are vulnerable to Buffer Overflow via read_avi_header() of libmpdemux/aviheader.c . This affects mplayer SVN-r38374-13.0.1 and mencoder SVN-r38374-13.0.1."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-38864",
+        "description" : "Certain The MPlayer Project products are vulnerable to Buffer Overflow via the function mp_unescape03() of libmpdemux/mpeg_hdr.c. This affects mencoder SVN-r38374-13.0.1 and mplayer SVN-r38374-13.0.1."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-38863",
+        "description" : "Certain The MPlayer Project products are vulnerable to Buffer Overflow via function mp_getbits() of libmpdemux/mpeg_hdr.c which affects mencoder and mplayer. This affects mecoder SVN-r38374-13.0.1 and mplayer SVN-r38374-13.0.1."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-38862",
+        "description" : "Certain The MPlayer Project products are vulnerable to Buffer Overflow via function play() of libaf/af.c:639. This affects mplayer SVN-r38374-13.0.1 and mencoder SVN-r38374-13.0.1."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-38858",
+        "description" : "Certain The MPlayer Project products are vulnerable to Buffer Overflow via function mov_build_index() of libmpdemux/demux_mov.c. This affects mplayer SVN-r38374-13.0.1 and mencoder SVN-r38374-13.0.1."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-38856",
+        "description" : "Certain The MPlayer Project products are vulnerable to Buffer Overflow via function mov_build_index() of libmpdemux/demux_mov.c. This affects mplayer SVN-r38374-13.0.1 and mencoder SVN-r38374-13.0.1."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-38855",
+        "description" : "Certain The MPlayer Project products are vulnerable to Buffer Overflow via function gen_sh_video () of mplayer/libmpdemux/demux_mov.c. This affects mplayer SVN-r38374-13.0.1 and mencoder SVN-r38374-13.0.1."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-38853",
+        "description" : "Certain The MPlayer Project products are vulnerable to Buffer Overflow via function asf_init_audio_stream() of libmpdemux/asfheader.c. This affects mplayer SVN-r38374-13.0.1 and mencoder SVN-r38374-13.0.1."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-38831",
+        "description" : "Tenda RX9_Pro V22.03.02.10 is vulnerable to Buffer Overflow via httpd/SetNetControlList"
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-38830",
+        "description" : "Tenda RX9_Pro V22.03.02.10 is vulnerable to Buffer Overflow via httpd/setIPv6Status."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-38829",
+        "description" : "Tenda RX9_Pro V22.03.02.10 is vulnerable to Buffer Overflow via httpd/setMacFilterCfg."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-38827",
+        "description" : "TOTOLINK T6 V4.1.5cu.709_B20210518 is vulnerable to Buffer Overflow via cstecgi.cgi"
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-38701",
+        "description" : "OpenHarmony-v3.1.2 and prior versions have a heap overflow vulnerability. Local attackers can trigger a heap overflow and get network sensitive information."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-38573",
+        "description" : "10-Strike Network Inventory Explorer v9.3 was discovered to contain a buffer overflow via the Add Computers function."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-38571",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a buffer overflow in the function formSetGuideListItem."
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-38569",
+        "description" : "Tenda M3 V1.0.0.12(4856) was discovered to contain a stack overflow in the function formDelAd."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-38533",
+        "description" : "In GNU Binutils before 2.40, there is a heap-buffer-overflow in the error function bfd_getl32 when called from the strip_main function in strip-new via a crafted file."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-38530",
+        "description" : "GPAC v2.1-DEV-rev232-gfcaa01ebb-master was discovered to contain a stack overflow when processing ISOM_IOD."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-38529",
+        "description" : "tinyexr commit 0647fb3 was discovered to contain a heap-buffer overflow via the component rleUncompress."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-38510",
+        "description" : "Tenda_TX9pro V22.03.02.10 was discovered to contain a buffer overflow via the component httpd/SetNetControlList."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-38495",
+        "description" : "LIEF commit 365a16a was discovered to contain a heap-buffer overflow via the function print_binary at /c/macho_reader.c."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-38334",
+        "description" : "XPDF v4.04 was discovered to contain a stack overflow via the function Catalog::countPageTree() at Catalog.cc."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-38326",
+        "description" : "Tenda AC15 WiFi Router V15.03.05.19_multi and AC18 WiFi Router V15.03.05.19_multi were discovered to contain a buffer overflow via the page parameter at /goform/NatStaticSetting."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-38325",
+        "description" : "Tenda AC15 WiFi Router V15.03.05.19_multi and AC18 WiFi Router V15.03.05.19_multi were discovered to contain a buffer overflow via the filePath parameter at /goform/expandDlnaFile."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-38314",
+        "description" : "Tenda AC18 router v15.03.05.19 and v15.03.05.05 was discovered to contain a stack overflow via the urls parameter at /goform/saveParentControlInfo."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-38313",
+        "description" : "Tenda AC18 router v15.03.05.19 and v15.03.05.05 was discovered to contain a stack overflow via the time parameter at /goform/saveParentControlInfo."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-38312",
+        "description" : "Tenda AC18 router v15.03.05.19 and v15.03.05.05 was discovered to contain a stack overflow via the list parameter at /goform/SetIpMacBind."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-38311",
+        "description" : "Tenda AC18 router v15.03.05.19 and v15.03.05.05 was discovered to contain a stack overflow via the time parameter at /goform/PowerSaveSet."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-38310",
+        "description" : "Tenda AC18 router v15.03.05.19 and v15.03.05.05 was discovered to contain a stack overflow via the list parameter at /goform/SetStaticRouteCfg."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-38309",
+        "description" : "Tenda AC18 router v15.03.05.19 and v15.03.05.05 was discovered to contain a stack overflow via the list parameter at /goform/SetVirtualServerCfg."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-38306",
+        "description" : "LIEF commit 5d1d643 was discovered to contain a heap-buffer overflow in the component /core/CorePrPsInfo.tcc."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-38238",
+        "description" : "XPDF commit ffaf11c was discovered to contain a heap-buffer overflow via DCTStream::lookChar() at /xpdf/Stream.cc."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-38236",
+        "description" : "XPDF commit ffaf11c was discovered to contain a global-buffer overflow via Lexer::getObj(Object*) at /xpdf/Lexer.cc."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-38229",
+        "description" : "XPDF commit ffaf11c was discovered to contain a heap-buffer overflow via DCTStream::readHuffSym(DCTHuffTable*) at /xpdf/Stream.cc."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-38216",
+        "description" : "An integer overflow exists in Mapbox's closed source gl-native library prior to version 10.6.1, which is bundled with multiple Mapbox products including open source libraries. The overflow is caused by large image height and width values when creating a new Image and allows for out of bounds writes, potentially crashing the Mapbox process."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-38161",
+        "description" : "The Gumstix Overo SBC on the VSKS board through 2022-08-09, as used on the Orlan-10 and other platforms, allows unrestricted remapping of the NOR flash memory containing the bitstream for the FPGA."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-37842",
+        "description" : "In TOTOLINK A860R V4.1.2cu.5182_B20201027, the parameters in infostat.cgi are not filtered, causing a buffer overflow vulnerability."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-37840",
+        "description" : "In TOTOLINK A860R V4.1.2cu.5182_B20201027, the main function in downloadfile.cgi has a buffer overflow vulnerability."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-37824",
+        "description" : "Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the shareSpeed parameter in the function fromSetWifiGusetBasic."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-37823",
+        "description" : "Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the list parameter in the function formSetVirtualSer."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-37822",
+        "description" : "Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the function fromSetRouteStatic."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-37821",
+        "description" : "Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the ProvinceCode parameter in the function formSetProvince."
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-37820",
+        "description" : "Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the ddnsEn parameter in the function formSetSysToolDDNS."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-37819",
+        "description" : "Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the timezone parameter in the function fromSetSysTime."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-37818",
+        "description" : "Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the list parameter at the function formSetQosBand."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-37817",
+        "description" : "Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the function fromSetIpMacBind."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-37816",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the function fromSetIpMacBind."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-37815",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the PPPOEPassword parameter in the function formQuickIndex."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-37814",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain multiple stack overflows via the deviceMac and the device_id parameters in the function addWifiMacFilter."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-37813",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the function fromSetSysTime."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-37812",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the firewallEn parameter in the function formSetFirewallCfg."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-37811",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the startIp parameter in the function formSetPPTPServer."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-37809",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the speed_dir parameter in the function formSetSpeedWan."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-37808",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the index parameter in the function formWifiWpsOOB."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-37807",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the function formSetClientState."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-37806",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the page parameter in the function fromDhcpListClient."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-37805",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the function fromWizardHandle."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-37804",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the time parameter in the function saveParentControlInfo."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-37803",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the page parameter in the function fromAddressNat."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2022-37802",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the page parameter in the function fromNatStaticSetting."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2022-37801",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the list parameter at the function formSetQosBand."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2022-37800",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the list parameter at the function fromSetRouteStatic."
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2022-37799",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the time parameter at the function setSmartPowerManagement."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2022-37798",
+        "description" : "Tenda AC1206 V15.03.06.23 was discovered to contain a stack overflow via the list parameter at the function formSetVirtualSer."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2022-37781",
+        "description" : "fdkaac v1.0.3 was discovered to contain a heap buffer overflow via __interceptor_memcpy.part.46 at /sanitizer_common/sanitizer_common_interceptors.inc."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2022-37452",
+        "description" : "Exim before 4.95 has a heap-based buffer overflow for the alias list in host_name_lookup in host.c when sender_host_name is set."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2022-37453",
+        "description" : "An issue was discovered in Softing OPC UA C++ SDK before 6.10. A buffer overflow or an excess allocation happens due to unchecked array and matrix bounds in structure data types."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2022-37434",
+        "description" : "zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference)."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2022-37415",
+        "description" : "The Uniwill SparkIO.sys driver 1.0 is vulnerable to a stack-based buffer overflow via IOCTL 0x40002008."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2022-37398",
+        "description" : "A stack-based buffer overflow vulnerability was found inside ADM when using WebDAV due to the lack of data size validation. An attacker can exploit this vulnerability to run arbitrary code. Affected ADM versions include: 3.5.9.RUE3 and below, 4.0.5.RVI1 and below as well as 4.1.0.RJD1 and below."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2022-37302",
+        "description" : "A CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability exists that could cause a crash of the Control Expert software when an incorrect project file is opened. Affected Products: EcoStruxure Control Expert(V15.1 HF001 and prior)."
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2022-37292",
+        "description" : "Tenda AX12 V22.03.01.21_CN is vulnerable to Buffer Overflow. This overflow is triggered in the sub_42FDE4 function, which satisfies the request of the upper-level interface function sub_430124, that is, handles the post request under /goform/SetIpMacBind."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2022-37235",
+        "description" : "Netgear Nighthawk AC1900 Smart WiFi Dual Band Gigabit Router R7000-V1.0.11.134_10.2.119 is vulnerable to Buffer Overflow via the wl binary in firmware. There is a stack overflow vulnerability caused by strncat"
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2022-37234",
+        "description" : "Netgear Nighthawk AC1900 Smart WiFi Dual Band Gigabit Router R7000-V1.0.11.134_10.2.119 is vulnerable to Buffer Overflow via the wl binary in firmware. There is a stack overflow vulnerability caused by strncpy."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2022-37232",
+        "description" : "Netgear N300 wireless router wnr2000v4-V1.0.0.70 is vulnerable to Buffer Overflow via uhttpd. There is a stack overflow vulnerability caused by strcpy."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2022-37175",
+        "description" : "Tenda ac15 firmware V15.03.05.18 httpd server has stack buffer overflow in /goform/formWifiBasicSet."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2022-37134",
+        "description" : "D-link DIR-816 A2_v1.10CNB04.img is vulnerable to Buffer Overflow via /goform/form2Wan.cgi. When wantype is 3, l2tp_usrname will be decrypted by base64, and the result will be stored in v94, which does not check the size of l2tp_usrname, resulting in stack overflow."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2022-37100",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function UpdateMacClone."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2022-37099",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function UpdateSnat."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2022-37098",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function UpdateIpv6Params."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2022-37097",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function SetAPInfoById."
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2022-37096",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function EnableIpv6."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2022-37095",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function UpdateWanParams."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2022-37094",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function Edit_BasicSSID_5G."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2022-37093",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function AddMacList."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2022-37092",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function SetAPWifiorLedInfoById."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2022-37091",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function EditWlanMacList."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2022-37090",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function Edit_BasicSSID."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2022-37089",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function EditMacList."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2022-37088",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function SetAP5GWifiById."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2022-37087",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function SetMobileAPInfoById."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2022-37086",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the function Asp_SetTimingtimeWifiAndLed."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2022-37085",
+        "description" : "H3C H200 H200V100R004 was discovered to contain a stack overflow via the AddWlanMacList function."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2022-37084",
+        "description" : "TOTOLINK A7000R V9.1.0u.6115_B20201022 was discovered to contain a stack overflow via the sPort parameter at the addEffect function."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2022-37080",
+        "description" : "TOTOLINK A7000R V9.1.0u.6115_B20201022 was discovered to contain a stack overflow via the command parameter at setting/setTracerouteCfg."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2022-37077",
+        "description" : "TOTOLINK A7000R V9.1.0u.6115_B20201022 was discovered to contain a stack overflow via the pppoeUser parameter."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2022-37075",
+        "description" : "TOTOLink A7000R V9.1.0u.6115_B20201022 was discovered to contain a stack overflow via the ip parameter in the function setDiagnosisCfg."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2022-37074",
+        "description" : "H3C GR-1200W MiniGRW1A0V100R006 was discovered to contain a stack overflow via the function switch_debug_info_set."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2022-37073",
+        "description" : "H3C GR-1200W MiniGRW1A0V100R006 was discovered to contain a stack overflow via the function UpdateWanModeMulti."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2022-37072",
+        "description" : "H3C GR-1200W MiniGRW1A0V100R006 was discovered to contain a stack overflow via the function UpdateWanLinkspyMulti."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2022-37071",
+        "description" : "H3C GR-1200W MiniGRW1A0V100R006 was discovered to contain a stack overflow via the function UpdateOne2One."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2022-37069",
+        "description" : "H3C GR-1200W MiniGRW1A0V100R006 was discovered to contain a stack overflow via the function UpdateSnat."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2022-37068",
+        "description" : "H3C GR-1200W MiniGRW1A0V100R006 was discovered to contain a stack overflow via the function UpdateMacCloneFinal."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2022-37067",
+        "description" : "H3C GR-1200W MiniGRW1A0V100R006 was discovered to contain a stack overflow via the function UpdateWanParamsMulti."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2022-37066",
+        "description" : "H3C GR-1200W MiniGRW1A0V100R006 was discovered to contain a stack overflow via the function UpdateDDNS."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2022-37055",
+        "description" : "D-Link Go-RT-AC750 GORTAC750_revA_v101b03 and GO-RT-AC750_revB_FWv200b02 are vulnerable to Buffer Overflow via cgibin, hnap_main,"
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2022-37049",
+        "description" : "The component tcpprep in Tcpreplay v4.4.1 was discovered to contain a heap-based buffer overflow in parse_mpls at common/get.c:150. NOTE: this is different from CVE-2022-27942."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2022-37048",
+        "description" : "The component tcprewrite in Tcpreplay v4.4.1 was discovered to contain a heap-based buffer overflow in get_l2len_protocol at common/get.c:344. NOTE: this is different from CVE-2022-27941."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2022-37047",
+        "description" : "The component tcprewrite in Tcpreplay v4.4.1 was discovered to contain a heap-based buffer overflow in get_ipv6_next at common/get.c:713. NOTE: this is different from CVE-2022-27940."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2022-36947",
+        "description" : "Unsafe Parsing of a PNG tRNS chunk in FastStone Image Viewer through 7.5 results in a stack buffer overflow."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2022-36863",
+        "description" : "A heap-based overflow vulnerability in GetCorrectDbLanguageTypeEsPKc function in libSDKRecognitionText.spensdk.samsung.so library prior to SMR Sep-2022 Release 1 allows attacker to cause memory access fault."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2022-36862",
+        "description" : "A heap-based overflow vulnerability in HWR::EngineCJK::Impl::Construct() in libSDKRecognitionText.spensdk.samsung.so library prior to SMR Sep-2022 Release 1 allows attacker to cause memory access fault."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2022-36860",
+        "description" : "A heap-based overflow vulnerability in LoadEnvironment function in libSDKRecognitionText.spensdk.samsung.so library prior to SMR Sep-2022 Release 1 allows attacker to cause memory access fault."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2022-36858",
+        "description" : "A heap-based overflow vulnerability in GetCorrectDbLanguageTypeEsPKc() function in libSDKRecognitionText.spensdk.samsung.so library prior to SMR Sep-2022 Release 1 allows attacker to cause memory access fault."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2022-36846",
+        "description" : "A heap-based overflow vulnerability in ConstructDictionary function in libSDKRecognitionText.spensdk.samsung.so library prior to SMR Sep-2022 Release 1 allows attacker to cause memory access fault."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2022-36845",
+        "description" : "A heap-based overflow vulnerability in MHW_RECOG_LIB_INFO function in libSDKRecognitionText.spensdk.samsung.so library prior to SMR Sep-2022 Release 1 allows attacker to cause memory access fault."
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2022-36844",
+        "description" : "A heap-based overflow vulnerability in HWR::EngJudgeModel::Construct() in libSDKRecognitionText.spensdk.samsung.so library prior to SMR Sep-2022 Release 1 allows attacker to cause memory access fault."
+    }
+]

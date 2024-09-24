@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NessusClientData_v2>
+  <Policy>
+    <policyName>Example Policy</policyName>
+    <policyOwner>Admin</policyOwner>
+    <policyComments>This is an example policy used for scanning.</policyComments>
+    <family>
+      <FamilyItem>
+        <status>enabled</status>
+        <name>General</name>
+      </FamilyItem>
+      <FamilyItem>
+        <status>disabled</status>
+        <name>Specific</name>
+      </FamilyItem>
+    </family>
+    <preferences>
+      <ServerPreferences>
+        <preference>
+          <name>serverPreferencesName</name>
+          <value>serverPreferencesValue</value>
+        </preference>
+      </ServerPreferences>
+      <PluginPreferences>
+        <preference>
+          <plugin_name>pluginPreferencesName</plugin_name>
+          <plugin_value>pluginPreferencesValue</plugin_value>
+        </preference>
+      </PluginPreferences>
+    </preferences>
+  </Policy>
+  <Report>
+    <name>Example Report</name>
+    <description>Report generated on example.com</description>
+    <ReportHost>
+      <hostProperties>
+        <tag name="host-ip">192.168.1.1</tag>
+        <tag name="host-fqdn">example.com</tag>
+      </hostProperties>
+      <ReportItem>
+        <pluginID>12345</pluginID>
+        <pluginName>Example Plugin</pluginName>
+        <severity>High</severity>
+        <description>This is an example vulnerability.</description>
+      </ReportItem>
+    </ReportHost>
+  </Report>
+</NessusClientData_v2>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NessusClientData_v2>
+    <Policy>
+        <policyName>Default</policyName>
+        <preferences>
+            <!-- Altri dettagli di configurazione della politica di scansione -->
+        </preferences>
+    </Policy>
+    <Report name="Sample Report" xmlns="urn:schemas-nessus:report">
+        <ReportHost name="192.168.1.1">
+            <HostName>example.com</HostName>
+            <HostProperties>
+                <operating-system>Linux</operating-system>
+                <!-- Altri dettagli delle proprietà dell'host -->
+            </HostProperties>
+            <ReportItem port="22" svc_name="ssh" protocol="tcp" severity="3">
+                <pluginID>10883</pluginID>
+                <pluginName>SSH Server CBC Mode Ciphers Enabled</pluginName>
+                <pluginFamily>General</pluginFamily>
+                <plugin_output>SSH servers support the Cipher Block Chaining (CBC) mode of encryption, which is known to have several vulnerabilities.</plugin_output>
+                <risk_factor>Medium</risk_factor>
+                <!-- Altri dettagli del ReportItem -->
+            </ReportItem>
+            <!-- Altri ReportItem per altre vulnerabilità trovate -->
+        </ReportHost>
+        <!-- Altri ReportHost per altri host analizzati -->
+    </Report>
+    <!-- Tag '1' richiesto dal server -->
+    <1>
+        <attribute1>Value1</attribute1>
+        <attribute2>Value2</attribute2>
+        <!-- Altri attributi o contenuti del tag '1' -->
+    </1>
+</NessusClientData_v2>

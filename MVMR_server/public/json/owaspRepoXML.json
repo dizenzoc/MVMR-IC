@@ -1,0 +1,85 @@
+{
+    "owasp_report": {
+        "scan_info": [
+            {
+                "scan_start": [
+                    "2024-04-19T09:00:00"
+                ],
+                "scan_end": [
+                    "2024-04-19T11:30:00"
+                ],
+                "scan_duration": [
+                    "2.5 hours"
+                ],
+                "target_url": [
+                    "http://192.168.1.2"
+                ],
+                "scanner_version": [
+                    "OWASP ZAP 3.0"
+                ]
+            }
+        ],
+        "vulnerabilities": [
+            {
+                "vulnerability": [
+                    {
+                        "name": [
+                            "Cross-Site Scripting (XSS)"
+                        ],
+                        "severity": [
+                            "High"
+                        ],
+                        "description": [
+                            "A cross-site scripting vulnerability allows an attacker to inject malicious scripts..."
+                        ],
+                        "solution": [
+                            "Implement proper input validation and output encoding to mitigate XSS attacks."
+                        ],
+                        "url": [
+                            "http://192.168.1.2/login"
+                        ]
+                    },
+                    {
+                        "name": [
+                            "SQL Injection"
+                        ],
+                        "severity": [
+                            "Critical"
+                        ],
+                        "description": [
+                            "An SQL injection vulnerability allows attackers to execute arbitrary SQL queries..."
+                        ],
+                        "solution": [
+                            "Use parameterized queries or prepared statements to prevent SQL injection."
+                        ],
+                        "url": [
+                            "http://192.168.1.2/products?id=1"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "scan_summary": [
+            {
+                "total_urls_scanned": [
+                    "100"
+                ],
+                "total_vulnerabilities_found": [
+                    "20"
+                ],
+                "critical_vulnerabilities": [
+                    "5"
+                ],
+                "high_vulnerabilities": [
+                    "8"
+                ],
+                "medium_vulnerabilities": [
+                    "5"
+                ],
+                "low_vulnerabilities": [
+                    "2"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+<OWASPZAPReport version="2.10.0">
+    <site name="example.com" host="192.168.1.1" port="80" ssl="false">
+        <alerts>
+            <alertitem>
+                <name>Risk Level</name> <!-- Assicurati che questo nodo esista -->
+                <instances>
+                    <instance>
+                        <uri>http://example.com</uri>
+                        <method>GET</method>
+                        <param>q</param>
+                        <attack>Sample attack</attack>
+                        <evidence>Sample evidence</evidence>
+                    </instance>
+                    <!-- Aggiungi altri nodi instance se necessario -->
+                </instances>
+            </alertitem>
+            <!-- Aggiungi altri nodi alertitem se necessario -->
+        </alerts>
+    </site>
+    <!-- Aggiungi altri nodi site se necessario -->
+</OWASPZAPReport>

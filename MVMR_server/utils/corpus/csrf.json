@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-43418",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Katalon Plugin 1.0.33 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-42975",
+        "description" : "socket/transport.ex in Phoenix before 1.6.14 mishandles check_origin wildcarding. NOTE: LiveView applications are unaffected by default because of the presence of a LiveView CSRF token."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-42199",
+        "description" : "Simple Exam Reviewer Management System v1.0 is vulnerable to Cross Site Request Forgery (CSRF) via the Exam List."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-34817",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Failed Job Deactivator Plugin 1.2.1 and earlier allows attackers to disable jobs."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-34815",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Request Rename Or Delete Plugin 1.1.0 and earlier allows attackers to accept pending requests, thereby renaming or deleting jobs."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-34812",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins XPath Configuration Viewer Plugin 1.1.1 and earlier allows attackers to create and delete XPath expressions."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-34797",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Deployment Dashboard Plugin 1.0.10 and earlier allows attackers to connect to an attacker-specified HTTP URL using attacker-specified credentials."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-34792",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Recipe Plugin 1.2 and earlier allows attackers to send an HTTP request to an attacker-specified URL and parse the response as XML."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-34789",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Matrix Reloaded Plugin 1.1.3 and earlier allows attackers to rebuild previous matrix builds."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-34780",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins XebiaLabs XL Release Plugin 22.0.0 and earlier allows attackers to connect to an attacker-specified HTTP server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-34211",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins vRealize Orchestrator Plugin 3.0 and earlier allows attackers to send an HTTP POST request to an attacker-specified URL."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-34203",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins EasyQA Plugin 1.0 and earlier allows attackers to connect to an attacker-specified HTTP server."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-34200",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Convertigo Mobile Platform Plugin 1.1 and earlier allows attackers to connect to an attacker-specified URL."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-34134",
+        "description" : "Benjamin BALET Jorani v1.0 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component /application/controllers/Users.php."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-31886",
+        "description" : "Marval MSM v14.19.0.12476 is vulnerable to Cross Site Request Forgery (CSRF). An attacker can disable the 2FA by sending the user a malicious form."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-31000",
+        "description" : "solidus_backend is the admin interface for the Solidus e-commerce framework. Versions prior to 3.1.6, 3.0.6, and 2.11.16 contain a cross-site request forgery (CSRF) vulnerability. The vulnerability allows attackers to change the state of an order's adjustments if they hold its number, and the execution happens on a store administrator's computer. Users should upgrade to solidus_backend 3.1.6, 3.0.6, or 2.11.16 to receive a patch."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-30972",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Storable Configs Plugin 1.0 and earlier allows attackers to have Jenkins parse a local XML file (e.g., archived artifacts) that uses external entities for extraction of secrets from the Jenkins controller or server-side request forgery."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-30958",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins SSH Plugin 2.6.1 and earlier allows attackers to connect to an attacker-specified SSH server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-30946",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Script Security Plugin 1158.v7c1b_73a_69a_08 and earlier allows attackers to have Jenkins send an HTTP request to an attacker-specified webserver."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-30898",
+        "description" : "A Cross-site request forgery (CSRF) vulnerability in Cscms music portal system v4.2 allows remote attackers to change the administrator's username and password."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-30327",
+        "description" : "An issue was found on TRENDnet TEW-831DR 1.0 601.130.1.1356 devices. The web interface is vulnerable to CSRF. An attacker can change the pre-shared key of the Wi-Fi router if the interface's IP address is known."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-30014",
+        "description" : "Lumidek Associates Simple Food Website 1.0 is vulnerable to Cross Site Request Forgery (CSRF) which allows anyone to takeover admin/moderater account."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-29903",
+        "description" : "The Private Domains extension for MediaWiki through 1.37.2 (before 1ad65d4c1c199b375ea80988d99ab51ae068f766) allows CSRF for editing pages that store the extension's configuration. The attacker must trigger a POST request to Special:PrivateDomains."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-29647",
+        "description" : "An issue was discovered in MCMS 5.2.7. There is a CSRF vulnerability that can add an administrator account via ms/basic/manager/save.do."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-29451",
+        "description" : "Cross-Site Request Forgery (CSRF) leading to Arbitrary File Upload vulnerability in Rara One Click Demo Import plugin <= 1.2.9 on WordPress allows attackers to trick logged-in admin users into uploading dangerous files into /wp-content/uploads/ directory."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-29450",
+        "description" : "Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in Admin Management Xtended plugin <= 2.4.4 at WordPress."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-29441",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Private Messages For WordPress plugin <= 2.1.10 at WordPress allows attackers to send messages."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-29439",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Image Slider by NextCode plugin <= 1.1.2 at WordPress allows deleting slides."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-29437",
+        "description" : "Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in Image Slider by NextCode plugin <= 1.1.2 at WordPress."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-29435",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Alexander Stokmann's Code Snippets Extended plugin <= 1.4.7 on WordPress allows an attacker to delete or to turn on/off snippets."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-29431",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in KubiQ CPT base plugin <= 5.8 at WordPress allows an attacker to delete the CPT base."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-29427",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Aftab Muni's Disable Right Click For WP plugin <= 1.1.6 at WordPress."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-29414",
+        "description" : "Multiple (13x) Cross-Site Request Forgery (CSRF) vulnerabilities in WPKube's Subscribe To Comments Reloaded plugin <= 211130 on WordPress allows attackers to clean up Log archive, download system info file, plugin system settings, plugin options settings, generate a new key, reset all options, change notifications settings, management page settings, comment form settings, manage subscriptions > mass update settings, manage subscriptions > add a new subscription, update subscription, delete Subscription."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-29412",
+        "description" : "Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in Hermit ????? plugin <= 3.1.6 on WordPress allow attackers to delete cache, delete a source, create source."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-29050",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Publish Over FTP Plugin 1.16 and earlier allows attackers to connect to an FTP server using attacker-specified credentials."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-29048",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Subversion Plugin 2.15.3 and earlier allows attackers to connect to an attacker-specified URL."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-29002",
+        "description" : "A Cross-Site Request Forgery (CSRF) in XXL-Job v2.3.0 allows attackers to arbitrarily create administrator accounts via the component /gaia-job-admin/user/add."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-28992",
+        "description" : "A Cross-Site Request Forgery (CSRF) in Online Banquet Booking System v1.0 allows attackers to change admin credentials via a crafted POST request."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-28921",
+        "description" : "A Cross-Site Request Forgery (CSRF) vulnerability discovered in BlogEngine.Net v3.3.8.0 allows unauthenticated attackers to read arbitrary files on the hosting web server."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-28892",
+        "description" : "Mahara before 20.10.5, 21.04.4, 21.10.2, and 22.04.0 is vulnerable to Cross Site Request Forgery (CSRF) because randomly generated tokens are too easily guessable."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-28152",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Job and Node ownership Plugin 0.13.0 and earlier allows attackers to restore the default ownership of a job."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-28150",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Job and Node ownership Plugin 0.13.0 and earlier allows attackers to change the owners and item-specific permissions of a job."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-28143",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Proxmox Plugin 0.7.0 and earlier allows attackers to connect to an attacker-specified host using attacker-specified username and password (perform a connection test), disable SSL/TLS validation for the entire Jenkins controller JVM as part of the connection test (see CVE-2022-28142), and test a rollback with attacker-specified parameters."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-28138",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins RocketChat Notifier Plugin 1.4.10 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credential."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-28136",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins JiraTestResultReporter Plugin 165.v817928553942 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-28108",
+        "description" : "Selenium Server (Grid) before 4 allows CSRF because it permits non-JSON content types such as application/x-www-form-urlencoded, multipart/form-data, and text/plain."
+    },
+    {
+        "pos" : 46,
+        "cve" : "VE-2022-27847",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Yooslider Yoo Slider <= 2.0.0 on WordPress allows attackers to import templates."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-27851",
+        "description" : "Cross-Site Request Forgery (CSRF) in Use Any Font (WordPress plugin) <= 6.1.7 allows an attacker to deactivate the API key."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-27850",
+        "description" : "Cross-Site Request Forgery (CSRF) in Simple Ajax Chat (WordPress plugin) <= 20220115 allows an attacker to clear the chat log or delete a chat message."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-27846",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Yooslider Yoo Slider <= 2.0.0 on WordPress allows attackers to create or modify slider."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-27671",
+        "description" : "A CSRF token visible in the URL may possibly lead to information disclosure vulnerability."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-27632",
+        "description" : "Cross-site request forgery (CSRF) vulnerability in Rebooter(WATCH BOOT nino RPC-M2C [End of Sale] all firmware versions, WATCH BOOT light RPC-M5C [End of Sale] all firmware versions, WATCH BOOT L-zero RPC-M4L [End of Sale] all firmware versions, WATCH BOOT mini RPC-M4H [End of Sale] all firmware versions, WATCH BOOT nino RPC-M2CS firmware version 1.00A to 1.00D, WATCH BOOT light RPC-M5CS firmware version 1.00A to 1.00D, WATCH BOOT L-zero RPC-M4LS firmware version 1.00A to 1.20A, and Signage Rebooter RPC-M4HSi firmware version 1.00A), PoE Rebooter(PoE BOOT nino PoE8M2 firmware version 1.00A to 1.20A), Scheduler(TIME BOOT mini RSC-MT4H [End of Sale] all firmware versions, TIME BOOT RSC-MT8F [End of Sale] all firmware versions, TIME BOOT RSC-MT8FP [End of Sale] all firmware versions, TIME BOOT mini RSC-MT4HS firmware version 1.00A to 1.10A, and TIME BOOT RSC-MT8FS firmware version 1.00A to 1.00E), and Contact Converter(POSE SE10-8A7B1 firmware version 1.00A to 1.20A) allows a remote attacker to hijack the authentication of an administrator and conduct arbitrary operations by having a user to view a specially crafted page."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-27629",
+        "description" : "Cross-site request forgery (CSRF) vulnerability in 'MicroPayments - Paid Author Subscriptions, Content, Downloads, Membership' versions prior to 1.9.6 allows a remote unauthenticated attacker to hijack the authentication of an administrator and perform unintended operation via unspecified vectors."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-27432",
+        "description" : "A Cross-Site Request Forgery (CSRF) in Pluck CMS v4.7.15 allows attackers to change the password of any given user by exploiting this feature leading to account takeover."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-27375",
+        "description" : "Tenda AX12 V22.03.01.21_CN was discovered to contain a Cross-Site Request Forgery (CSRF) via the function sub_422168 at /goform/WifiExtraSet."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-27374",
+        "description" : "Tenda AX12 V22.03.01.21_CN was discovered to contain a Cross-Site Request Forgery (CSRF) via the function sub_42E328 at /goform/SysToolReboot."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-27340",
+        "description" : "MCMS v5.2.7 contains a Cross-Site Request Forgery (CSRF) via /role/saveOrUpdateRole.do. This vulnerability allows attackers to escalate privileges and modify data."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-27214",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Release Helper Plugin 1.3.3 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-27210",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Kubernetes Continuous Deploy Plugin 2.3.1 and earlier allows attackers to connect to an attacker-specified SSH server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-27204",
+        "description" : "A cross-site request forgery vulnerability in Jenkins Extended Choice Parameter Plugin 346.vd87693c5a_86c and earlier allows attackers to connect to an attacker-specified URL."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-27198",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins CloudBees AWS Credentials Plugin 189.v3551d5642995 and earlier allows attackers with Overall/Read permission to connect to an AWS service using an attacker-specified token."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-27174",
+        "description" : "Cross-site request forgery (CSRF) vulnerability in Easy Blog for EC-CUBE4 Ver.1.0.1 and earlier allows a remote unauthenticated attacker to hijack the authentication of the administrator and delete a blog article or a category via a specially crafted page."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-26589",
+        "description" : "A Cross-Site Request Forgery (CSRF) in Pluck CMS v4.7.15 allows attackers to delete arbitrary pages."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-26588",
+        "description" : "A Cross-Site Request Forgery (CSRF) in IceHrm 31.0.0.OS allows attackers to delete arbitrary users or achieve account takeover via the app/service.php URI."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-26173",
+        "description" : "JForum v2.8.0 was discovered to contain a Cross-Site Request Forgery (CSRF) via http://target_host:port/jforum-2.8.0/jforum.page, which allows attackers to arbitrarily add admin accounts."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-25778",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Web UI of Secomea GateManager allows phishing attacker to issue get request in logged in user session."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-25615",
+        "description" : "Cross-Site Request Forgery (CSRF) in StylemixThemes eRoom – Zoom Meetings & Webinar (WordPress plugin) <= 1.3.8 allows cache deletion."
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-25614",
+        "description" : "Cross-Site Request Forgery (CSRF) in StylemixThemes eRoom – Zoom Meetings & Webinar (WordPress plugin) <= 1.3.7 allows an attacker to Sync with Zoom Meetings."
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-25608",
+        "description" : "Cross-Site Request Forgery (CSRF) in Yoo Slider – Image Slider & Video Slider (WordPress plugin) allows attackers to trick authenticated users into unwanted slider duplicate or delete action."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-25600",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability affecting Delete Marker Category, Delete Map, and Copy Map functions in WP Google Map plugin (versions <= 4.2.3)."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-25599",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability leading to event deletion was discovered in Spiffy Calendar WordPress plugin (versions <= 4.9.0)."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-25576",
+        "description" : "Anchor CMS v0.12.7 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component anchor/routes/posts.php. This vulnerability allows attackers to arbitrarily delete posts."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-25523",
+        "description" : "TypesetterCMS v5.1 was discovered to contain a Cross-Site Request Forgery (CSRF) which is exploited via a crafted POST request."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-25268",
+        "description" : "Passwork On-Premise Edition before 4.6.13 allows CSRF via the groups, password, and history subsystems."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-25242",
+        "description" : "In FileCloud before 21.3, file upload is not protected against Cross-Site Request Forgery (CSRF)."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-25241",
+        "description" : "In FileCloud before 21.3, the CSV user import functionality is vulnerable to Cross-Site Request Forgery (CSRF)."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-25212",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins SWAMP Plugin 1.2.6 and earlier allows attackers to connect to an attacker-specified web server using attacker-specified credentials."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-25207",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Chef Sinatra Plugin 1.20 and earlier allows attackers to have Jenkins send an HTTP request to an attacker-controlled URL and have it parse an XML response."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-25205",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins dbCharts Plugin 0.5.2 and earlier allows attackers to connect to an attacker-specified database via JDBC using attacker-specified credentials and to determine if a class is available in the Jenkins instance."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-25200",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Checkmarx Plugin 2022.1.2 and earlier allows attackers to connect to an attacker-specified webserver using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-25198",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins SCP publisher Plugin 1.8 and earlier allows attackers to connect to an attacker-specified SSH server using attacker-specified credentials."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-25194",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins autonomiq Plugin 1.15 and earlier allows attackers to connect to an attacker-specified URL server using attacker-specified credentials."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-25192",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Snow Commander Plugin 1.10 and earlier allows attackers to connect to an attacker-specified webserver using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-25146",
+        "description" : "The Remote App module in Liferay Portal Liferay Portal v7.4.3.4 through v7.4.3.8 and Liferay DXP 7.4 before update 5 does not check if the origin of event messages it receives matches the origin of the Remote App, allowing attackers to exfiltrate the CSRF token via a crafted event message."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-24947",
+        "description" : "Apache JSPWiki user preferences form is vulnerable to CSRF attacks, which can lead to account takeover. Apache JSPWiki users should upgrade to 2.11.2 or later."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-24879",
+        "description" : "Shopware is an open source e-commerce software platform. Versions prior to 5.7.9 are vulnerable to malfunction of cross-site request forgery (CSRF) token validation. Under certain circumstances, the CSRF tokens were not generated anew and not validated correctly. This issue is fixed in version 5.7.9. Users of older versions may attempt to mitigate the vulnerability by using the Shopware security plugin."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-24342",
+        "description" : "In JetBrains TeamCity before 2021.2.1, URL injection leading to CSRF was possible."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-23983",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability leading to plugin Settings Update discovered in WP Content Copy Protection & No Right Click WordPress plugin (versions <= 3.4.4)."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-23904",
+        "description" : "Rainworx Auctionworx < 3.1R2 is vulnerable to a Cross-Site Request Forgery (CSRF) attack that allows an authenticated user to upgrade his account to admin and gain access to the auctionworx admin control panel. This vulnerability affects AuctionWorx Enterprise and AuctionWorx: Events Edition."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-23888",
+        "description" : "YzmCMS v6.3 was discovered to contain a Cross-Site Request Forgey (CSRF) via the component /yzmcms/comment/index/init.html."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-23601",
+        "description" : "Symfony is a PHP framework for web and console applications and a set of reusable PHP components. The Symfony form component provides a CSRF protection mechanism by using a random token injected in the form and using the session to store and control the token submitted by the user. When using the FrameworkBundle, this protection can be enabled or disabled with the configuration. If the configuration is not specified, by default, the mechanism is enabled as long as the session is enabled. In a recent change in the way the configuration is loaded, the default behavior has been dropped and, as a result, the CSRF protection is not enabled in form when not explicitly enabled, which makes the application sensible to CSRF attacks. This issue has been resolved in the patch versions listed and users are advised to update. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-23384",
+        "description" : "YzmCMS v6.3 is affected by Cross Site Request Forgery (CSRF) in /admin.add"
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-23349",
+        "description" : "BigAnt Software BigAnt Server v5.6.06 was discovered to contain a Cross-Site Request Forgery (CSRF)."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-23115",
+        "description" : "Cross-site request forgery (CSRF) vulnerabilities in Jenkins batch task Plugin 1.19 and earlier allows attackers with Overall/Read access to retrieve logs, build or delete a batch task."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-23111",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Publish Over SSH Plugin 1.22 and earlier allows attackers to connect to an attacker-specified SSH server using attacker-specified credentials."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-23052",
+        "description" : "PeteReport Version 0.5 contains a Cross Site Request Forgery (CSRF) vulnerability allowing an attacker to trick users into deleting users, products, reports and findings on the application."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-22959",
+        "description" : "VMware Workspace ONE Access, Identity Manager and vRealize Automation contain a cross site request forgery vulnerability. A malicious actor can trick a user through a cross site request forgery to unintentionally validate a malicious JDBC URI."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-22811",
+        "description" : "A CWE-352: Cross-Site Request Forgery (CSRF) vulnerability exists that could induce users to perform unintended actions, leading to the override of the system?s configurations when an attacker persuades a user to visit a rogue website. Affected Product: spaceLYnk (V2.6.2 and prior), Wiser for KNX (formerly homeLYnk) (V2.6.2 and prior), fellerLYnk (V2.6.2 and prior)"
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-22778",
+        "description" : "The Web Server component of TIBCO Software Inc.'s TIBCO BusinessConnect Trading Community Management contains an easily exploitable vulnerability that allows an unauthenticated attacker with network access to execute Cross-Site Request Forgery (CSRF) on the affected system. A successful attack using this vulnerability requires human interaction from a person other than the attacker. Affected releases are TIBCO Software Inc.'s TIBCO BusinessConnect Trading Community Management: versions 6.1.0 and below."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-22479",
+        "description" : "IBM Spectrum Copy Data Management 2.2.0.0through 2.2.15.0 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts. IBM X-Force ID: 225887."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-22361",
+        "description" : "IBM Business Automation Workflow traditional 21.0.1 through 21.0.3, 20.0.0.1 through 20.0.0.2, 19.0.0.1 through 19.0.0.3, 18.0.0.0 through 18.0.0.1, IBM Business Automation Workflow containers V21.0.1 - V21.0.3 20.0.0.1 through 20.0.0.2, IBM Business Process Manager 8.6.0.0 through 8.6.0.201803, and 8.5.0.0 through 8.5.0.201706 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-22346",
+        "description" : "IBM Spectrum Protect Operations Center 8.1.0.000 through 8.1.13.xxx is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts. IBM X-Force ID: 220048."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-21179",
+        "description" : "Cross-site request forgery (CSRF) vulnerability in EC-CUBE plugin 'Mail Magazine Management Plugin' ver4.0.0 to 4.1.1 (for EC-CUBE 4 series) and ver1.0.0 to 1.0.4 (for EC-CUBE 3 series) allows a remote unauthenticated attacker to hijack the authentication of an administrator via a specially crafted page, and Mail Magazine Templates and/or transmitted history information may be deleted unintendedly."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-20787",
+        "description" : "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) Software and Cisco Unified CM Session Management Edition (SME) Software could allow an authenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack on an affected device. This vulnerability is due to insufficient CSRF protections for the web-based management interface on an affected device. An attacker could exploit this vulnerability by persuading a user of the interface to click a malicious link. A successful exploit could allow the attacker to perform arbitrary actions with the privilege level of the affected user."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-20619",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Bitbucket Branch Source Plugin 737.vdf9dc06105be and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-20613",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Mailer Plugin 391.ve4a_38c1b_cf4b_ and earlier allows attackers to use the DNS used by the Jenkins instance to resolve an attacker-specified hostname."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-2144",
+        "description" : "The Jquery Validation For Contact Form 7 WordPress plugin before 5.3 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change Blog options like default_role, users_can_register via a CSRF attack"
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-2123",
+        "description" : "The WP Opt-in WordPress plugin through 1.4.1 is vulnerable to CSRF which allows changed plugin settings and can be used for sending spam emails."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-2091",
+        "description" : "The Cache Images WordPress plugin before 3.2.1 does not implement nonce checks, which could allow attackers to make any logged user upload images via a CSRF attack."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-1969",
+        "description" : "The Mobile browser color select plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.0.1. This is due to missing or incorrect nonce validation on the admin_update_data() function. This makes it possible for unauthenticated attackers to inject malicious web scripts via forged request granted they can trick a site administrator into performing an action such as clicking on a link."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-1960",
+        "description" : "The MyCSS WordPress plugin through 1.1 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-1957",
+        "description" : "The Comment License WordPress plugin before 1.4.0 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-1956",
+        "description" : "The Shortcut Macros WordPress plugin through 1.3 does not have authorisation and CSRF checks in place when updating its settings, which could allow any authenticated users, such as subscriber, to update them."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-1918",
+        "description" : "The ToolBar to Share plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.0. This is due to missing nonce validation on the plugin_toolbar_comparte page. This makes it possible for unauthenticated attackers to update the plugins settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-1900",
+        "description" : "The Copify plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.3.0. This is due to missing nonce validation on the CopifySettings page. This makes it possible for unauthenticated attackers to update the plugins settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-1895",
+        "description" : "The underConstruction WordPress plugin before 1.20 does not have CSRF check in place when deactivating the construction mode, which could allow attackers to make a logged in admin perform such action via a CSRF attack"
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-1885",
+        "description" : "The Cimy Header Image Rotator WordPress plugin through 6.1.1 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-1847",
+        "description" : "The Rotating Posts WordPress plugin through 1.11 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-1846",
+        "description" : "The Tiny Contact Form WordPress plugin through 0.7 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-1845",
+        "description" : "The WP Post Styling WordPress plugin before 1.3.1 does not have CSRF checks in various actions, which could allow attackers to make a logged in admin delete plugin's data, update the settings, add new entries and more via CSRF attacks"
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-1843",
+        "description" : "The MailPress WordPress plugin through 7.2.1 does not have CSRF checks in various places, which could allow attackers to make a logged in admin change the settings, purge log files and more via CSRF attacks"
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-1832",
+        "description" : "The CaPa Protect WordPress plugin through 0.5.8.2 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack and disable the applied protection."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-1831",
+        "description" : "The WPlite WordPress plugin through 1.3.1 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-1828",
+        "description" : "The PDF24 Articles To PDF WordPress plugin through 4.2.2 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-1827",
+        "description" : "The PDF24 Article To PDF WordPress plugin through 4.2.2 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-1826",
+        "description" : "The Cross-Linker WordPress plugin through 3.0.1.9 does not have CSRF check in place when creating Cross-Links, which could allow attackers to make a logged in admin perform such action via a CSRF attack"
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-1793",
+        "description" : "The Private Files WordPress plugin through 0.40 is missing CSRF check when disabling the protection, which could allow attackers to make a logged in admin perform such action via a CSRF attack and make the blog public"
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-1791",
+        "description" : "The One Click Plugin Updater WordPress plugin through 2.4.14 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack and disable / hide the badge of the available updates and the related check."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-1790",
+        "description" : "The New User Email Set Up WordPress plugin through 0.5.2 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-1788",
+        "description" : "Due to missing checks the Change Uploaded File Permissions WordPress plugin through 4.0.0 is vulnerable to CSRF attacks. This can be used to change the file and folder permissions of any folder. This could be problematic when specific files like ini files are made readable for everyone due to this."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-1779",
+        "description" : "The Auto Delete Posts WordPress plugin through 1.3.0 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack and delete specific posts, categories and attachments at once."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-1765",
+        "description" : "The Hot Linked Image Cacher WordPress plugin through 1.16 is vulnerable to CSRF. This can be used to store / cache images from external domains on the server, which could lead to legal risks (due to copyright violations or licensing rules)."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-1761",
+        "description" : "The Peterâ€™s Collaboration E-mails WordPress plugin through 2.2.0 is vulnerable to CSRF due to missing nonce checks. This allows the change of its settings, which can be used to lower the required user level, change texts, the used email address and more."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-1749",
+        "description" : "The WPMK Ajax Finder WordPress plugin is vulnerable to Cross-Site Request Forgery via the createplugin_atf_admin_setting_page() function found in the ~/inc/config/create-plugin-config.php file due to a missing nonce check which allows attackers to inject arbitrary web scripts, in versions up to and including 1.0.1."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-1732",
+        "description" : "The Rename wp-login.php WordPress plugin through 2.6.0 does not have CSRF check in place when updating the secret login URL, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-1712",
+        "description" : "The LiveSync for WordPress plugin through 1.0 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-1709",
+        "description" : "The Throws SPAM Away WordPress plugin before 3.3.1 does not have CSRF checks in place when deleting comments (either all, spam, or pending), allowing attackers to make a logged in admin delete comments via a CSRF attack"
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-1695",
+        "description" : "The WP Simple Adsense Insertion WordPress plugin before 2.1 does not perform CSRF checks on updates to its admin page, allowing an attacker to trick a logged in user to manipulate ads and inject arbitrary javascript via submitting a form."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-1694",
+        "description" : "The Useful Banner Manager WordPress plugin through 1.6.1 does not perform CSRF checks on POST requests to its admin page, allowing an attacker to trick a logged in admin to add, modify or delete banners from the plugin by submitting a form."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-1672",
+        "description" : "The Insights from Google PageSpeed WordPress plugin before 4.0.7 does not verify for CSRF before doing various actions such as deleting Custom URLs, which could allow attackers to make a logged in admin perform such actions via CSRF attacks"
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-1653",
+        "description" : "The Social Share Buttons by Supsystic WordPress plugin before 2.2.4 does not perform CSRF checks in it's ajax endpoints and admin pages, allowing an attacker to trick any logged in user to manipulate or change the plugin settings, as well as create, delete and rename projects and networks."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-1630",
+        "description" : "The WP-EMail WordPress plugin before 2.69.0 does not protect its log deletion functionality with nonce checks, allowing attacker to make a logged in admin delete logs via a CSRF attack"
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2022-1627",
+        "description" : "The My Private Site WordPress plugin before 3.0.8 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2022-1624",
+        "description" : "The Latest Tweets Widget WordPress plugin through 1.1.4 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2022-1612",
+        "description" : "The Webriti SMTP Mail WordPress plugin through 1.0 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2022-1611",
+        "description" : "The Bulk Page Creator WordPress plugin before 1.1.4 does not protect its page creation functionalities with nonce checks, which makes them vulnerable to CSRF."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2022-1610",
+        "description" : "The Seamless Donations WordPress plugin before 5.1.9 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2022-1608",
+        "description" : "The OnePress Social Locker WordPress plugin through 5.6.2 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack"
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2022-1605",
+        "description" : "The Email Users WordPress plugin through 4.8.8 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack and change the notification settings of arbitrary users"
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2022-1603",
+        "description" : "The Mail Subscribe List WordPress plugin before 2.1.4 does not have CSRF check in place when deleting subscribed users, which could allow attackers to make a logged in admin perform such action and delete arbitrary users from the subscribed list"
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2022-38139",
+        "description" : "Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in RD Station plugin <= 5.1.3 at WordPress."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2022-38095",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in AlgolPlus Advanced Dynamic Pricing for WooCommerce plugin <= 4.1.3 at WordPress."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2022-38093",
+        "description" : "Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in All in One SEO plugin <= 4.2.3.1 at WordPress."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2022-38079",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability Backup Scheduler plugin <= 1.5.13 at WordPress."
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2022-38059",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Alexey Trofimov's Access Code Feeder plugin <= 1.0.3 at WordPress."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2022-37730",
+        "description" : "In ftcms 2.1, there is a Cross Site Request Forgery (CSRF) vulnerability in the PHP page, which causes the attacker to forge a link to trick him to click on a malicious link or visit a page containing attack code, and send a request to the server (corresponding to the identity authentication information) as the victim without the victim's knowledge."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2022-37043",
+        "description" : "An issue was discovered in the webmail component in Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0. When using preauth, CSRF tokens are not checked on some POST endpoints. Thus, when an authenticated user views an attacker-controlled page, a request will be sent to the application that appears to be intended. The CSRF token is omitted from the request, but the request still succeeds."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2022-36920",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Coverity Plugin 1.11.4 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2022-36911",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Openstack Heat Plugin 1.5 and earlier allows attackers to connect to an attacker-specified URL."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2022-36908",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins OpenShift Deployer Plugin 1.2.0 and earlier allows attackers to check for the existence of an attacker-specified file path on the Jenkins controller file system and to upload a SSH key file from the Jenkins controller file system to an attacker-specified URL."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2022-36906",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins OpenShift Deployer Plugin 1.2.0 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified username and password."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2022-36886",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins External Monitor Job Type Plugin 191.v363d0d1efdf8 and earlier allows attackers to create runs of an external job."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2022-36882",
+        "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins Git Plugin 4.11.3 and earlier allows attackers to trigger builds of jobs configured to use an attacker-specified Git repository and to cause them to check out an attacker-specified commit."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2022-36798",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Topdigitaltrends Mega Addons For WPBakery Page Builder plugin <= 4.2.7 at WordPress."
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2022-36579",
+        "description" : "Wellcms 2.2.0 is vulnerable to Cross Site Request Forgery (CSRF)."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2022-36577",
+        "description" : "An issue was discovered in jizhicms v2.3.1. There is a CSRF vulnerability that can add a admin."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2022-36546",
+        "description" : "Edoc-doctor-appointment-system v1.0.1 was discovered to contain a Cross-Site Request Forgery (CSRF) via /patient/settings.php."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2022-36417",
+        "description" : "Multiple Stored Cross-Site Scripting (XSS) via Cross-Site Request Forgery (CSRF) vulnerability in 3D Tag Cloud plugin <= 3.8 at WordPress."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2022-36358",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in SEO Scout plugin <= 0.9.83 at WordPress allows attackers to trick users with administrative rights to unintentionally change the plugin settings."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2022-36312",
+        "description" : "Airspan AirVelocity 1500 software version 15.18.00.2511 lacks CSRF protections in the eNodeB's web management UI. This issue may affect other AirVelocity and AirSpeed models."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2022-36225",
+        "description" : "EyouCMS V1.5.8-UTF8-SP1 is vulnerable to Cross Site Request Forgery (CSRF) via the background, column management function and add."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2022-36224",
+        "description" : "XunRuiCMS V4.5.6 is vulnerable to Cross Site Request Forgery (CSRF)."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2022-36095",
+        "description" : "XWiki Platform is a generic wiki platform. Prior to versions 13.10.5 and 14.3, it is possible to perform a Cross-Site Request Forgery (CSRF) attack for adding or removing tags on XWiki pages. The problem has been patched in XWiki 13.10.5 and 14.3. As a workaround, one may locally modify the `documentTags.vm` template in one's filesystem, to apply the changes exposed there."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2022-35656",
+        "description" : "Pega Platform from 8.3 to 8.7.3 vulnerability may allow authenticated security administrators to alter CSRF settings directly."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2022-35611",
+        "description" : "A Cross-Site Request Forgery (CSRF) in MQTTRoute v3.3 and below allows attackers to create and remove dashboards."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2022-35286",
+        "description" : "IBM Security Verify Information Queue 10.0.2 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts. IBM X-Force ID: 230814."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2022-35285",
+        "description" : "IBM Security Verify Information Queue 10.0.2 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts. IBM X-Force ID: 230812."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2022-35277",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in GetResponse plugin <= 5.5.20 at WordPress."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2022-35196",
+        "description" : "TestLink v1.9.20 was discovered to contain a Cross-Site Request Forgery (CSRF) via /lib/plan/planView.php."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2022-34367",
+        "description" : "Dell EMC Data Protection Central versions 19.1, 19.2, 19.3, 19.4, 19.5, 19.6, contain(s) a Cross-Site Request Forgery Vulnerability. A(n) remote unauthenticated attacker could potentially exploit this vulnerability, leading to processing of unintended server operations."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2022-34347",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in W3 Eden Download Manager plugin <= 3.2.48 at WordPress."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2022-34161",
+        "description" : "IBM CICS TX 11.1 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts. IBM X-Force ID: 229331."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2022-34158",
+        "description" : "A carefully crafted invocation on the Image plugin could trigger an CSRF vulnerability on Apache JSPWiki before 2.11.3, which could allow a group privilege escalation of the attacker's account. Further examination of this issue established that it could also be used to modify the email associated with the attacked account, and then a reset password request from the login page."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2022-34020",
+        "description" : "Cross Site Request Forgery (CSRF) vulnerability in ResIOT ResIOT IOT Platform + LoRaWAN Network Server through 4.1.1000114 allows attackers to add new admin users to the platform or other unspecified impacts."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2022-33201",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in MailerLite – Signup forms (official) plugin <= 1.5.7 at WordPress allows an attacker to change the API key."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2022-33177",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in WPdevelop/Oplugins Booking Calendar plugin <= 9.2.1 at WordPress leading to Translations Update."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2022-32555",
+        "description" : "Unisys Data Exchange Management Studio before 6.0.IC2 and 7.x before 7.0.IC1 doesn't have an Anti-CSRF token to authenticate the POST request. Thus, a cross-site request forgery attack could occur."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2022-32320",
+        "description" : "A Cross-Site Request Forgery (CSRF) in Ferdi through 5.8.1 and Ferdium through 6.0.0-nightly.98 allows attackers to read files via an uploaded file such as a settings/preferences file."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2022-32289",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Sygnoos Popup Builder plugin <= 4.1.0 at WordPress leading to popup status change."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2022-32175",
+        "description" : "In AdGuardHome, versions v0.95 through v0.108.0-b.13 are vulnerable to Cross-Site Request Forgery (CSRF), in the custom filtering rules functionality. An attacker can persuade an authorized user to follow a malicious link, resulting in deleting/modifying the custom filtering rules."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2022-31773",
+        "description" : "IBM DataPower Gateway V10CD, 10.0.1, and 2018.4.1 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts. IBM X-Force ID: 228357."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2022-30337",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in JoomUnited WP Meta SEO plugin <= 4.4.8 at WordPress allows an attacker to update the social settings."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2022-29495",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Sygnoos Popup Builder plugin <= 4.1.11 at WordPress allows an attacker to update plugin settings."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2022-29489",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in Sucuri Security plugin <= 1.8.33 at WordPress leading to Event log entry creation."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2022-29468",
+        "description" : "A cross-site request forgery (CSRF) vulnerability exists in WWBN AVideo 11.6 and dev master commit 3f7c0364. A specially-crafted HTTP request can lead to increased privileges. An attacker can get an authenticated user to send a crafted HTTP request to trigger this vulnerability."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2022-29454",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in WordPlus Better Messages plugin <= 1.9.9.148 at WordPress allows attackers to upload files. File attachment to messages must be activated."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2022-28731",
+        "description" : "A carefully crafted request on UserPreferences.jsp could trigger an CSRF vulnerability on Apache JSPWiki before 2.11.3, which could allow the attacker to modify the email associated with the attacked account, and then a reset password request from the login page."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2022-26309",
+        "description" : "Pandora FMS v7.0NG.759 allows Cross-Site Request Forgery in Bulk operation (User operation) resulting in elevation of privilege to Administrator group."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2022-23685",
+        "description" : "A vulnerability in the ClearPass Policy Manager web-based management interface exists which exposes some endpoints to a lack of Cross-Site Request Forgery (CSRF) protection. This could allow a remote unauthenticated attacker to execute arbitrary input against these endpoints if the attacker can convince an authenticated user of the interface to interact with a specially crafted URL in Aruba ClearPass Policy Manager version(s): 6.10.x: 6.10.6 and below; 6.9.x: 6.9.11 and below. Aruba has released upgrades for Aruba ClearPass Policy Manager that address this security vulnerability."
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2022-22686",
+        "description" : "Cross-Site Request Forgery (CSRF) vulnerability in webapi component in Synology Calendar before 2.3.4-0631 allows remote authenticated users to hijack the authentication of administrators via unspecified vectors."
+    }
+]

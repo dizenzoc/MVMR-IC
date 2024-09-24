@@ -1,0 +1,74 @@
+{
+    "NessusClientData_v2": {
+        "Policy": [
+            {
+                "policyName": [
+                    "Default"
+                ],
+                "preferences": [
+                    "\r\n            \r\n        "
+                ]
+            }
+        ],
+        "Report": [
+            {
+                "$": {
+                    "name": "Sample Report",
+                    "xmlns": "urn:schemas-nessus:report"
+                },
+                "ReportHost": [
+                    {
+                        "$": {
+                            "name": "192.168.1.1"
+                        },
+                        "HostName": [
+                            "example.com"
+                        ],
+                        "HostProperties": [
+                            {
+                                "operating-system": [
+                                    "Linux"
+                                ]
+                            }
+                        ],
+                        "ReportItem": [
+                            {
+                                "$": {
+                                    "port": "22",
+                                    "svc_name": "ssh",
+                                    "protocol": "tcp",
+                                    "severity": "3"
+                                },
+                                "pluginID": [
+                                    "10883"
+                                ],
+                                "pluginName": [
+                                    "SSH Server CBC Mode Ciphers Enabled"
+                                ],
+                                "pluginFamily": [
+                                    "General"
+                                ],
+                                "plugin_output": [
+                                    "SSH servers support the Cipher Block Chaining (CBC) mode of encryption, which is known to have several vulnerabilities."
+                                ],
+                                "risk_factor": [
+                                    "Medium"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "tag1": [
+            {
+                "attribute1": [
+                    "Value1"
+                ],
+                "attribute2": [
+                    "Value2"
+                ]
+            }
+        ]
+    }
+}

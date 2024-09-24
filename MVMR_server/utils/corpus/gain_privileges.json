@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-40299",
+        "description" : "In Singular before 4.3.1, a predictable /tmp pathname is used (e.g., by sdb.cc), which allows local users to gain the privileges of other users via a procedure in a file under /tmp. NOTE: this CVE Record is about sdb.cc and similar files in the Singular interface that have predictable /tmp pathnames; this CVE Record is not about the lack of a safe temporary-file creation capability in the Singular language."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-40298",
+        "description" : "Crestron AirMedia for Windows before 5.5.1.84 has insecure inherited permissions, which leads to a privilege escalation vulnerability found in the AirMedia Windows Application, version 4.3.1.39. A low privileged user can initiate a repair of the system and gain a SYSTEM level shell."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-39206",
+        "description" : "Onedev is an open source, self-hosted Git Server with CI/CD and Kanban. When using Docker-based job executors, the Docker socket (e.g. /var/run/docker.sock on Linux) is mounted into each Docker step. Users that can define and trigger CI/CD jobs on a project could use this to control the Docker daemon on the host machine. This is a known dangerous pattern, as it can be used to break out of Docker containers and, in most cases, gain root privileges on the host system. This issue allows regular (non-admin) users to potentially take over the build infrastructure of a OneDev instance. Attackers need to have an account (or be able to register one) and need permission to create a project. Since code.onedev.io has the right preconditions for this to be exploited by remote attackers, it could have been used to hijack builds of OneDev itself, e.g. by injecting malware into the docker images that are built and pushed to Docker Hub. The impact is increased by this as described before. Users are advised to upgrade to 7.3.0 or higher. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-38069",
+        "description" : "Multiple globally default credentials exist across all CMS8000 devices, that once exposed, allow a threat actor with momentary physical access to gain privileged access to any device. Privileged credential access enables the extraction of sensitive patient information or modification of device parameters"
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-36642",
+        "description" : "A local file disclosure vulnerability in /appConfig/userDB.json of Telos Alliance Omnia MPX Node through 1.0.0-1.4.9 allows attackers to access users credentials which makes him able to gain initial access to the control panel with high privilege because the cleartext storage of sensitive information which can be unlatched by exploiting the LFD vulnerability."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-36449",
+        "description" : "An issue was discovered in the Arm Mali GPU Kernel Driver. A non-privileged user can make improper GPU processing operations to gain access to already freed memory, write a limited amount outside of buffer bounds, or to disclose details of memory mappings. This affects Midgard r4p0 through r32p0, Bifrost r0p0 through r38p0 and r39p0 before r38p1, and Valhall r19p0 through r38p0 and r39p0 before r38p1."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-36403",
+        "description" : "Untrusted search path vulnerability in the installer of Device Software Manager prior to Ver.2.20.3.0 allows an attacker to gain privileges via a Trojan horse DLL in an unspecified directory."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-35582",
+        "description" : "Penta Security Systems Inc WAPPLES 4.0.*, 5.0.0.*, 5.0.12.* are vulnerable to Incorrect Access Control. The operating system that WAPPLES runs on has a built-in non-privileged user penta with a predefined password. The password for this user, as well as its existence, is not disclosed in the documentation. Knowing the credentials, attackers can use this feature to gain uncontrolled access to the device and therefore are considered an undocumented possibility for remote control."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-35490",
+        "description" : "Zammad 5.2.0 is vulnerable to privilege escalation. Zammad has a prevention against brute-force attacks trying to guess login credentials. After a configurable amount of attempts, users are invalidated and logins prevented. An attacker might work around this prevention, enabling them to send more than the configured amount of requests before the user invalidation takes place."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-35292",
+        "description" : "In SAP Business One application when a service is created, the executable path contains spaces and isn’t enclosed within quotes, leading to a vulnerability known as Unquoted Service Path which allows a user to gain SYSTEM privileges. If the service is exploited by adversaries, it can be used to gain privileged permissions on a system or network leading to high impact on Confidentiality, Integrity, and Availability."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-34368",
+        "description" : "Dell EMC NetWorker 19.2.1.x 19.3.x, 19.4.x, 19.5.x, 19.6.x and 19.7.0.0 contain an Improper Handling of Insufficient Permissions or Privileges vulnerability. Authenticated non admin user could exploit this vulnerability and gain access to restricted resources."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-34100",
+        "description" : "A vulnerability was discovered in the Crestron AirMedia Windows Application, version 4.3.1.39, in which a low-privileged user can gain a SYSTEM level command prompt by pre-staging a file structure prior to the installation of a trusted service executable and change permissions on that file structure during a repair operation."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-33917",
+        "description" : "An issue was discovered in the Arm Mali GPU Kernel Driver (Valhall r29p0 through r38p0). A non-privileged user can make improper GPU processing operations to gain access to already freed memory."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-32842",
+        "description" : "An out-of-bounds read issue was addressed with improved input validation. This issue is fixed in Security Update 2022-005 Catalina, macOS Monterey 12.5. An app may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-32826",
+        "description" : "An authorization issue was addressed with improved state management. This issue is fixed in iOS 15.6 and iPadOS 15.6, macOS Big Sur 11.6.8, watchOS 8.7, tvOS 15.6, macOS Monterey 12.5, Security Update 2022-005 Catalina. An app may be able to gain root privileges."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-32819",
+        "description" : "A logic issue was addressed with improved state management. This issue is fixed in iOS 15.6 and iPadOS 15.6, macOS Big Sur 11.6.8, watchOS 8.7, tvOS 15.6, macOS Monterey 12.5, Security Update 2022-005 Catalina. An app may be able to gain root privileges."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-32801",
+        "description" : "This issue was addressed with improved checks. This issue is fixed in macOS Monterey 12.5. An app may be able to gain root privileges."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-32798",
+        "description" : "An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in macOS Monterey 12.5. An app may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-32450",
+        "description" : "AnyDesk 7.0.9 allows a local user to gain SYSTEM privileges via a symbolic link because the user can write to their own %APPDATA% folder (used for ad.trace and chat) but the product runs as SYSTEM when writing chat-room data there."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-32251",
+        "description" : "A vulnerability has been identified in SINEMA Remote Connect Server (All versions < V3.1). There is a missing authentication verification for a resource used to change the roles and permissions of a user. This could allow an attacker to change the permissions of any user and gain the privileges of an administrative user."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-32249",
+        "description" : "Under special integration scenario of SAP Business one and SAP HANA - version 10.0, an attacker can exploit HANA cockpit?s data volume to gain access to highly sensitive information (e.g., high privileged account credentials)"
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-31591",
+        "description" : "SAP BusinessObjects BW Publisher Service - versions 420, 430, uses a search path that contains an unquoted element. A local attacker can gain elevated privileges by inserting an executable file in the path of the affected service"
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-31214",
+        "description" : "A Privilege Context Switching issue was discovered in join.c in Firejail 0.9.68. By crafting a bogus Firejail container that is accepted by the Firejail setuid-root program as a join target, a local attacker can enter an environment in which the Linux user namespace is still the initial user namespace, the NO_NEW_PRIVS prctl is not activated, and the entered mount namespace is under the attacker's control. In this way, the filesystem layout can be adjusted to gain root privileges through execution of available setuid-root binaries such as su or sudo."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-31081",
+        "description" : "HTTP::Daemon is a simple http server class written in perl. Versions prior to 6.15 are subject to a vulnerability which could potentially be exploited to gain privileged access to APIs or poison intermediate caches. It is uncertain how large the risks are, most Perl based applications are served on top of Nginx or Apache, not on the `HTTP::Daemon`. This library is commonly used for local development and tests. Users are advised to update to resolve this issue. Users unable to upgrade may add additional request handling logic as a mitigation. After calling `my $rqst = $conn->get_request()` one could inspect the returned `HTTP::Request` object. Querying the 'Content-Length' (`my $cl = $rqst->header('Content-Length')`) will show any abnormalities that should be dealt with by a `400` response. Expected strings of 'Content-Length' SHOULD consist of either a single non-negative integer, or, a comma separated repetition of that number. (that is `42` or `42, 42, 42`). Anything else MUST be rejected."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-31007",
+        "description" : "eLabFTW is an electronic lab notebook manager for research teams. Prior to version 4.3.0, a vulnerability allows an authenticated user with an administrator role in a team to assign itself system administrator privileges within the application, or create a new system administrator account. The issue has been corrected in eLabFTW version 4.3.0. In the context of eLabFTW, an administrator is a user account with certain privileges to manage users and content in their assigned team/teams. A system administrator account can manage all accounts, teams and edit system-wide settings within the application. The impact is not deemed as high, as it requires the attacker to have access to an administrator account. Regular user accounts cannot exploit this to gain admin rights. A workaround for one if the issues is removing the ability of administrators to create accounts."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-30550",
+        "description" : "An issue was discovered in the auth component in Dovecot 2.2 and 2.3 before 2.3.20. When two passdb configuration entries exist with the same driver and args settings, incorrect username_filter and mechanism settings can be applied to passdb definitions. These incorrectly applied settings can lead to an unintended security configuration and can permit privilege escalation in certain configurations. The documentation does not advise against the use of passdb definitions that have the same driver and args settings. One such configuration would be where an administrator wishes to use the same PAM configuration or passwd file for both normal and master users but use the username_filter setting to restrict which of the users is able to be a master user."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-29965",
+        "description" : "The Emerson DeltaV Distributed Control System (DCS) controllers and IO cards through 2022-04-29 misuse passwords. Access to privileged operations on the maintenance port TELNET interface (23/TCP) on M-series and SIS (CSLS/LSNB/LSNG) nodes is controlled by means of utility passwords. These passwords are generated using a deterministic, insecure algorithm using a single seed value composed of a day/hour/minute timestamp with less than 16 bits of entropy. The seed value is fed through a lookup table and a series of permutation operations resulting in three different four-character passwords corresponding to different privilege levels. An attacker can easily reconstruct these passwords and thus gain access to privileged maintenance operations. NOTE: this is different from CVE-2014-2350."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-29549",
+        "description" : "An issue was discovered in Qualys Cloud Agent 4.8.0-49. It executes programs at various full pathnames without first making ownership and permission checks (e.g., to help ensure that a program was installed by root) and without integrity checks (e.g., a checksum comparison against known legitimate programs). Also, the vendor recommendation is to install this agent software with root privileges. Thus, privilege escalation is possible on systems where any of these pathnames is controlled by a non-root user. An example is /opt/firebird/bin/isql, where the /opt/firebird directory is often owned by the firebird user."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-29092",
+        "description" : "Dell SupportAssist Client Consumer versions (3.11.0 and versions prior) and Dell SupportAssist Client Commercial versions (3.2.0 and versions prior) contain a privilege escalation vulnerability. A non-admin user can exploit the vulnerability and gain admin access to the system."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-29085",
+        "description" : "Dell Unity, Dell UnityVSA, and Dell Unity XT versions prior to 5.2.0.0.5.173 contain a plain-text password storage vulnerability when certain off-array tools are run on the system. The credentials of a user with high privileges are stored in plain text. A local malicious user with high privileges may use the exposed password to gain access with the privileges of the compromised user."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-28605",
+        "description" : "Hardcoded admin token in SoundBar apps in Linkplay SDK 1.00 allows remote attackers to gain admin privilege access in linkplay antifactory"
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-26949",
+        "description" : "Archer 6.x through 6.9 SP2 P1 (6.9.2.1) contains an improper access control vulnerability on attachments. A remote authenticated malicious user could potentially exploit this vulnerability to gain access to files that should only be allowed by extra privileges."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-26747",
+        "description" : "This issue was addressed with improved checks. This issue is fixed in Xcode 13.4. An app may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-26722",
+        "description" : "A memory initialization issue was addressed. This issue is fixed in Security Update 2022-004 Catalina, macOS Monterey 12.4, macOS Big Sur 11.6.6. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-26721",
+        "description" : "A memory initialization issue was addressed. This issue is fixed in Security Update 2022-004 Catalina, macOS Monterey 12.4, macOS Big Sur 11.6.6. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-26718",
+        "description" : "An out-of-bounds read issue was addressed with improved input validation. This issue is fixed in macOS Monterey 12.4, macOS Big Sur 11.6.6. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-26715",
+        "description" : "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Security Update 2022-004 Catalina, macOS Monterey 12.4, macOS Big Sur 11.6.6. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-26704",
+        "description" : "A validation issue existed in the handling of symlinks and was addressed with improved validation of symlinks. This issue is fixed in macOS Monterey 12.4. An app may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-26691",
+        "description" : "A logic issue was addressed with improved state management. This issue is fixed in Security Update 2022-003 Catalina, macOS Monterey 12.3, macOS Big Sur 11.6.5. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-26526",
+        "description" : "Anaconda Anaconda3 (Anaconda Distribution) through 2021.11.0.0 and Miniconda3 through 4.11.0.0 can create a world-writable directory under %PROGRAMDATA% and place that directory into the system PATH environment variable. Thus, for example, local users can gain privileges by placing a Trojan horse file into that directory. (This problem can only happen in a non-default installation. The person who installs the product must specify that it is being installed for all users. Also, the person who installs the product must specify that the system PATH should be changed."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-26488",
+        "description" : "In Python before 3.10.3 on Windows, local users can gain privileges because the search path is inadequately secured. The installer may allow a local attacker to add user-writable directories to the system search path. To exploit, an administrator must have installed Python for all users and enabled PATH entries. A non-administrative user can trigger a repair that incorrectly adds user-writable paths into PATH, enabling search-path hijacking of other users and system services. This affects Python (CPython) through 3.7.12, 3.8.x through 3.8.12, 3.9.x through 3.9.10, and 3.10.x through 3.10.2."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-25636",
+        "description" : "net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows local users to gain privileges because of a heap out-of-bounds write. This is related to nf_tables_offload."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-24769",
+        "description" : "Moby is an open-source project created by Docker to enable and accelerate software containerization. A bug was found in Moby (Docker Engine) prior to version 20.10.14 where containers were incorrectly started with non-empty inheritable Linux process capabilities, creating an atypical Linux environment and enabling programs with inheritable file capabilities to elevate those capabilities to the permitted set during `execve(2)`. Normally, when executable programs have specified permitted file capabilities, otherwise unprivileged users and processes can execute those programs and gain the specified file capabilities up to the bounding set. Due to this bug, containers which included executable programs with inheritable file capabilities allowed otherwise unprivileged users and processes to additionally gain these inheritable file capabilities up to the container's bounding set. Containers which use Linux users and groups to perform privilege separation inside the container are most directly impacted. This bug did not affect the container security sandbox as the inheritable set never contained more capabilities than were included in the container's bounding set. This bug has been fixed in Moby (Docker Engine) 20.10.14. Running containers should be stopped, deleted, and recreated for the inheritable capabilities to be reset. This fix changes Moby (Docker Engine) behavior such that containers are started with a more typical Linux environment. As a workaround, the entry point of a container can be modified to use a utility like `capsh(1)` to drop inheritable capabilities prior to the primary process starting."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-24706",
+        "description" : "In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The CouchDB documentation has always made recommendations for properly securing an installation, including recommending using a firewall in front of all CouchDB installations."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-24255",
+        "description" : "Extensis Portfolio v4.0 was discovered to contain hardcoded credentials which allows attackers to gain administrator privileges."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-23720",
+        "description" : "PingID Windows Login prior to 2.8 does not alert or halt operation if it has been provisioned with the full permissions PingID properties file. An IT administrator could mistakenly deploy administrator privileged PingID API credentials, such as those typically used by PingFederate, into PingID Windows Login user endpoints. Using sensitive full permissions properties file outside of a privileged trust boundary leads to an increased risk of exposure or discovery, and an attacker could leverage these credentials to perform administrative actions against PingID APIs or endpoints."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-23222",
+        "description" : "kernel/bpf/verifier.c in the Linux kernel through 5.15.14 allows local users to gain privileges because of the availability of pointer arithmetic via certain *_OR_NULL pointer types."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-23171",
+        "description" : "AtlasVPN - Privilege Escalation Lack of proper security controls on named pipe messages can allow an attacker with low privileges to send a malicious payload and gain SYSTEM permissions on a windows computer where the AtlasVPN client is installed."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-23131",
+        "description" : "In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login stored in the session was not verified. Malicious unauthenticated actor may exploit this issue to escalate privileges and gain admin access to Zabbix Frontend. To perform the attack, SAML authentication is required to be enabled and the actor has to know the username of Zabbix user (or use the guest account, which is disabled by default)."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-22922",
+        "description" : "TP-Link TL-WA850RE Wi-Fi Range Extender before v6_200923 was discovered to use highly predictable and easily detectable session keys, allowing attackers to gain administrative privileges."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-22767",
+        "description" : "Specific BD Pyxis™ products were installed with default credentials and may presently still operate with these credentials. There may be scenarios where BD Pyxis™ products are installed with the same default local operating system credentials or domain-joined server(s) credentials that may be shared across product types. If exploited, threat actors may be able to gain privileged access to the underlying file system and could potentially exploit or gain access to ePHI or other sensitive information."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-22665",
+        "description" : "A logic issue was addressed with improved validation. This issue is fixed in macOS Monterey 12.3. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-22641",
+        "description" : "A use after free issue was addressed with improved memory management. This issue is fixed in tvOS 15.4, iOS 15.4 and iPadOS 15.4, macOS Monterey 12.3. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-22639",
+        "description" : "A logic issue was addressed with improved state management. This issue is fixed in iOS 15.4 and iPadOS 15.4, macOS Monterey 12.3. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-22635",
+        "description" : "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in tvOS 15.4, iOS 15.4 and iPadOS 15.4. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-22631",
+        "description" : "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in macOS Big Sur 11.6.5, macOS Monterey 12.3, Security Update 2022-003 Catalina. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-22617",
+        "description" : "A logic issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.6.5, macOS Monterey 12.3, Security Update 2022-003 Catalina. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-22578",
+        "description" : "A logic issue was addressed with improved validation. This issue is fixed in tvOS 15.3, iOS 15.3 and iPadOS 15.3, watchOS 8.4, macOS Monterey 12.2. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-22111",
+        "description" : "In DayByDay CRM, version 2.2.0 is vulnerable to missing authorization. Any application user in the application who has update user permission enabled is able to change the password of other users, including the administrator’s. This allows the attacker to gain access to the highest privileged user in the application."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-21949",
+        "description" : "A Improper Restriction of XML External Entity Reference vulnerability in SUSE Open Build Service allows remote attackers to reference external entities in certain operations. This can be used to gain information from the server that can be abused to escalate to Admin privileges on OBS. This issue affects: SUSE Open Build Service Open Build Service versions prior to 2.10.13."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-21946",
+        "description" : "A Improper Privilege Management vulnerability in the sudoers configuration in cscreen of openSUSE Factory allows any local users to gain the privileges of the tty and dialout groups and access and manipulate any running cscreen seesion. This issue affects: openSUSE Factory cscreen version 1.2-1.3 and prior versions."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-21827",
+        "description" : "An improper privilege vulnerability has been discovered in Citrix Gateway Plug-in for Windows (Citrix Secure Access for Windows) <21.9.1.2 what could allow an attacker who has gained local access to a computer with Citrix Gateway Plug-in installed, to corrupt or delete files as SYSTEM."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-21818",
+        "description" : "NVIDIA License System contains a vulnerability in the installation scripts for the DLS virtual appliance, where a user on a network after signing in to the portal can access other users’ credentials, allowing them to gain escalated privileges, resulting in limited impact to both confidentiality and integrity."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-20759",
+        "description" : "A vulnerability in the web services interface for remote access VPN features of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an authenticated, but unprivileged, remote attacker to elevate privileges to level 15. This vulnerability is due to improper separation of authentication and authorization scopes. An attacker could exploit this vulnerability by sending crafted HTTPS messages to the web services interface of an affected device. A successful exploit could allow the attacker to gain privilege level 15 access to the web management interface of the device. This includes privilege level 15 access to the device using management tools like the Cisco Adaptive Security Device Manager (ASDM) or the Cisco Security Manager (CSM). Note: With Cisco FTD Software, the impact is lower than the CVSS score suggests because the affected web management interface allows for read access only."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-20747",
+        "description" : "A vulnerability in the History API of Cisco SD-WAN vManage Software could allow an authenticated, remote attacker to gain access to sensitive information on an affected system. This vulnerability is due to insufficient API authorization checking on the underlying operating system. An attacker could exploit this vulnerability by sending a crafted API request to Cisco vManage as a lower-privileged user and gaining access to sensitive information that they would not normally be authorized to access."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-20716",
+        "description" : "A vulnerability in the CLI of Cisco SD-WAN Software could allow an authenticated, local attacker to gain escalated privileges. This vulnerability is due to improper access control on files within the affected system. A local attacker could exploit this vulnerability by modifying certain files on the vulnerable device. If successful, the attacker could gain escalated privileges and take actions on the system with the privileges of the root user."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-20693",
+        "description" : "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to perform an injection attack against an affected device. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI API. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges."
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-2921",
+        "description" : "Exposure of Private Personal Information to an Unauthorized Actor in GitHub repository notrinos/notrinoserp prior to v0.7. This results in privilege escalation to a system administrator account. An attacker can gain access to protected functionality such as create/update companies, install/update languages, install/activate extensions, install/activate themes and other permissive actions."
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-2590",
+        "description" : "A race condition was found in the way the Linux kernel's memory subsystem handled the copy-on-write (COW) breakage of private read-only shared memory mappings. This flaw allows an unprivileged, local user to gain write access to read-only memory mappings, increasing their privileges on the system."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-2052",
+        "description" : "Multiple Trumpf Products in multiple versions use default privileged Windows users and passwords. An adversary may use these accounts to remotely gain full access to the system."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-1746",
+        "description" : "The authentication mechanism used by poll workers to administer voting using the tested version of Dominion Voting Systems ImageCast X can expose cryptographic secrets used to protect election information. An attacker could leverage this vulnerability to gain access to sensitive information and perform privileged actions, potentially affecting other election equipment."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-1745",
+        "description" : "The authentication mechanism used by technicians on the tested version of Dominion Voting Systems ImageCast X is susceptible to forgery. An attacker with physical access may use this to gain administrative privileges on a device and install malicious code or perform arbitrary administrative actions."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-1741",
+        "description" : "The tested version of Dominion Voting Systems ImageCast X has a Terminal Emulator application which could be leveraged by an attacker to gain elevated privileges on a device and/or install malicious code."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-1654",
+        "description" : "Jupiter Theme <= 6.10.1 and JupiterX Core Plugin <= 2.0.7 allow any authenticated attacker, including a subscriber or customer-level attacker, to gain administrative privileges via the \"abb_uninstall_template\" (both) and \"jupiterx_core_cp_uninstall_template\" (JupiterX Core Only) AJAX actions"
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-1356",
+        "description" : "cnMaestro is vulnerable to a local privilege escalation. By default, a user does not have root privileges. However, a user can run scripts as sudo, which could allow an attacker to gain root privileges when running user scripts outside allowed commands."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-1256",
+        "description" : "A local privilege escalation vulnerability in MA for Windows prior to 5.7.6 allows a local low privileged user to gain system privileges through running the repair functionality. Temporary file actions were performed on the local user's %TEMP% directory with System privileges through manipulation of symbolic links."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-1055",
+        "description" : "A use-after-free exists in the Linux Kernel in tc_new_tfilter that could allow a local attacker to gain privilege escalation. The exploit requires unprivileged user namespaces. We recommend upgrading past commit 04c2a47ffb13c29778e2a14e414ad4cb5a5db4b5"
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-1011",
+        "description" : "A use-after-free flaw was found in the Linux kernel’s FUSE filesystem in the way a user triggers write(). This flaw allows a local user to gain unauthorized access to data from the FUSE filesystem, resulting in privilege escalation."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-0358",
+        "description" : "A flaw was found in the QEMU virtio-fs shared file system daemon (virtiofsd) implementation. This flaw is strictly related to CVE-2018-13405. A local guest user can create files in the directories shared by virtio-fs with unintended group ownership in a scenario where a directory is SGID to a certain group and is writable by a user who is not a member of the group. This could allow a malicious unprivileged user inside the guest to gain access to resources accessible to the root group, potentially escalating their privileges within the guest. A malicious local user in the host might also leverage this unexpected executable file created by the guest to escalate their privileges on the host system."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-0129",
+        "description" : "Uncontrolled search path element vulnerability in McAfee TechCheck prior to 4.0.0.2 allows a local administrator to load their own Dynamic Link Library (DLL) gaining elevation of privileges to system user. This was achieved through placing the malicious DLL in the same directory that the process was run from."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2021-45786",
+        "description" : "In maccms v10, an attacker can log in through /index.php/user/login in the \"col\" and \"openid\" parameters to gain privileges."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2021-45492",
+        "description" : "In Sage 300 ERP (formerly accpac) through 6.8.x, the installer configures the C:\\Sage\\Sage300\\Runtime directory to be the first entry in the system-wide PATH environment variable. However, this directory is writable by unprivileged users because the Sage installer fails to set explicit permissions and therefore inherits weak permissions from the C:\\ folder. Because entries in the system-wide PATH variable are included in the search order for DLLs, an attacker could perform DLL search-order hijacking to escalate their privileges to SYSTEM. Furthermore, if the Global Search or Web Screens functionality is enabled, then privilege escalation is possible via the GlobalSearchService and Sage.CNA.WindowsService services, again via DLL search-order hijacking because unprivileged users would have modify permissions on the application directory. Note that while older versions of the software default to installing in %PROGRAMFILES(X86)% (which would allow the Sage folder to inherit strong permissions, making the installation not vulnerable), the official Sage 300 installation guides for those versions recommend installing in C:\\Sage, which would make the installation vulnerable."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2021-45338",
+        "description" : "Multiple privilege escalation vulnerabilities in Avast Antivirus prior to 20.4 allow a local user to gain elevated privileges by calling unnecessarily powerful internal methods of the main antivirus service which could lead to the (1) arbitrary file delete, (2) write and (3) reset security."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2021-45337",
+        "description" : "Privilege escalation vulnerability in the Self-Defense driver of Avast Antivirus prior to 20.8 allows a local user with SYSTEM privileges to gain elevated privileges by \"hollowing\" process wsc_proxy.exe which could lead to acquire antimalware (AM-PPL) protection."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2021-45336",
+        "description" : "Privilege escalation vulnerability in the Sandbox component of Avast Antivirus prior to 20.4 allows a local sandboxed code to gain elevated privileges by using system IPC interfaces which could lead to exit the sandbox and acquire SYSTEM privileges."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2021-45330",
+        "description" : "An issue exsits in Gitea through 1.15.7, which could let a malicious user gain privileges due to client side cookies not being deleted and the session remains valid on the server side for reuse."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2021-44730",
+        "description" : "snapd 2.54.2 did not properly validate the location of the snap-confine binary. A local attacker who can hardlink this binary to another location to cause snap-confine to execute other arbitrary binaries and hence gain privilege escalation. Fixed in snapd versions 2.54.3+18.04, 2.54.3+20.04 and 2.54.3+21.10.1"
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2021-44582",
+        "description" : "A Privilege Escalation vulnerability exists in Sourcecodester Money Transfer Management System 1.0, which allows a remote malicious user to gain elevated privileges to the Admin role via any URL."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2021-44464",
+        "description" : "Vigilant Software Suite (Mastermed Dashboard) version 2.0.1.3 contains service credentials likely to be common across all instances. An attacker in possession of the password may gain privileges on all installations of this software."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2021-44169",
+        "description" : "A improper initialization in Fortinet FortiClient (Windows) version 6.0.10 and below, version 6.2.9 and below, version 6.4.7 and below, version 7.0.3 and below allows attacker to gain administrative privileges via placing a malicious executable inside the FortiClient installer's directory."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2021-44049",
+        "description" : "CyberArk Endpoint Privilege Manager (EPM) through 11.5.3.328 before 2021-12-20 allows a local user to gain elevated privileges via a Trojan horse Procmon64.exe in the user's Temp directory."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2021-43858",
+        "description" : "MinIO is a Kubernetes native application for cloud storage. Prior to version `RELEASE.2021-12-27T07-23-18Z`, a malicious client can hand-craft an HTTP API call that allows for updating policy for a user and gaining higher privileges. The patch in version `RELEASE.2021-12-27T07-23-18Z` changes the accepted request body type and removes the ability to apply policy changes through this API. There is a workaround for this vulnerability: Changing passwords can be disabled by adding an explicit `Deny` rule to disable the API for users."
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2021-43587",
+        "description" : "Dell PowerPath Management Appliance, versions 3.2, 3.1, 3.0 P01, 3.0, and 2.6, use hard-coded cryptographic key. A local high-privileged malicious user may potentially exploit this vulnerability to gain access to secrets and elevate to gain higher privileges."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2021-43065",
+        "description" : "A incorrect permission assignment for critical resource in Fortinet FortiNAC version 9.2.0, version 9.1.3 and below, version 8.8.9 and below allows attacker to gain higher privileges via the access to sensitive system data."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2021-42544",
+        "description" : "Missing Rate Limiting in Web Applications operating on Business-DNA Solutions GmbHâ€™s TopEaseÂ® Platform Version <= 7.1.27 on the Login Form allows an unauthenticated remote attacker to perform multiple login attempts, which facilitates gaining privileges."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2021-42255",
+        "description" : "AppGuard Enterprise before 6.7.100.1 creates a Temporary File in a Directory with Insecure Permissions. Local users can gain SYSTEM privileges because a repair operation relies on the %TEMP% directory of an unprivileged user."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2021-42114",
+        "description" : "Modern DRAM devices (PC-DDR4, LPDDR4X) are affected by a vulnerability in their internal Target Row Refresh (TRR) mitigation against Rowhammer attacks. Novel non-uniform Rowhammer access patterns, consisting of aggressors with different frequencies, phases, and amplitudes allow triggering bit flips on affected memory modules using our Blacksmith fuzzer. The patterns generated by Blacksmith were able to trigger bitflips on all 40 PC-DDR4 DRAM devices in our test pool, which cover the three major DRAM manufacturers: Samsung, SK Hynix, and Micron. This means that, even when chips advertised as Rowhammer-free are used, attackers may still be able to exploit Rowhammer. For example, this enables privilege-escalation attacks against the kernel or binaries such as the sudo binary, and also triggering bit flips in RSA-2048 keys (e.g., SSH keys) to gain cross-tenant virtual-machine access. We can confirm that DRAM devices acquired in July 2020 with DRAM chips from all three major DRAM vendors (Samsung, SK Hynix, Micron) are affected by this vulnerability. For more details, please refer to our publication."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2021-41314",
+        "description" : "Certain NETGEAR smart switches are affected by a \n injection in the web UI's password field, which - due to several faulty aspects of the authentication scheme - allows the attacker to create (or overwrite) a file with specific content (e.g., the \"2\" string). This leads to admin session crafting and therefore gaining full web UI admin privileges by an unauthenticated attacker. This affects GC108P before 1.0.8.2, GC108PP before 1.0.8.2, GS108Tv3 before 7.0.7.2, GS110TPP before 7.0.7.2, GS110TPv3 before 7.0.7.2, GS110TUP before 1.0.5.3, GS308T before 1.0.3.2, GS310TP before 1.0.3.2, GS710TUP before 1.0.5.3, GS716TP before 1.0.4.2, GS716TPP before 1.0.4.2, GS724TPP before 2.0.6.3, GS724TPv2 before 2.0.6.3, GS728TPPv2 before 6.0.8.2, GS728TPv2 before 6.0.8.2, GS750E before 1.0.1.10, GS752TPP before 6.0.8.2, GS752TPv2 before 6.0.8.2, MS510TXM before 1.0.4.2, and MS510TXUP before 1.0.4.2."
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2021-41073",
+        "description" : "loop_rw_iter in fs/io_uring.c in the Linux kernel 5.10 through 5.14.6 allows local users to gain privileges by using IORING_OP_PROVIDE_BUFFERS to trigger a free of a kernel buffer, as demonstrated by using /proc/<pid>/maps for exploitation."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2021-40981",
+        "description" : "ASUS ROG Armoury Crate Lite before 4.2.10 allows local users to gain privileges by placing a Trojan horse file in the publicly writable %PROGRAMDATA%\\ASUS\\GamingCenterLib directory."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2021-40579",
+        "description" : "https://www.sourcecodester.com/ Online Enrollment Management System in PHP and PayPal Free Source Code 1.0 is affected by: Incorrect Access Control. The impact is: gain privileges (remote)."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2021-39662",
+        "description" : "In checkUriPermission of MediaProvider.java , there is a possible way to gain access to the content of media provider collections due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12Android ID: A-197302116"
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2021-39625",
+        "description" : "In showCarrierAppInstallationNotification of EuiccNotificationManager.java, there is a possible way to gain an access to MediaProvider content due to an unsafe PendingIntent. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-9Android ID: A-194695347"
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2021-38926",
+        "description" : "IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 9.7, 10.1, 10.5, 11.1, and 11.5 could allow a local user to gain privileges due to allowing modification of columns of existing tasks. IBM X-Force ID: 210321."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2021-38923",
+        "description" : "IBM PowerVM Hypervisor FW1010 could allow a privileged user to gain access to another VM due to assigning duplicate WWPNs. IBM X-Force ID: 210162."
+    },
+    {
+        "pos" : 105,
+        "cve" : "VE-2021-38759",
+        "description" : "Raspberry Pi OS through 5.10 has the raspberry default password for the pi account. If not changed, attackers can gain administrator privileges."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2021-38483",
+        "description" : "The affected product is vulnerable to misconfigured binaries, allowing users on the target PC with SYSTEM level privileges access to overwrite the binary and modify files to gain privilege escalation."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2021-38475",
+        "description" : "The database connection to the server is performed by calling a specific API, which could allow an unprivileged user to gain SYSDBA permissions."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2021-37627",
+        "description" : "Contao is an open source CMS that allows creation of websites and scalable web applications. In affected versions it is possible to gain privileged rights in the Contao back end. Installations are only affected if they have untrusted back end users who have access to the form generator. All users are advised to update to Contao 4.4.56, 4.9.18 or 4.11.7. As a workaround users may disable the form generator or disable the login for untrusted back end users."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2021-37274",
+        "description" : "Kingdee KIS Professional Edition has a privilege escalation vulnerability. Attackers can use the vulnerability to gain computer administrator rights via unspecified loopholes."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2021-37174",
+        "description" : "A vulnerability has been identified in RUGGEDCOM ROX MX5000 (All versions < V2.14.1), RUGGEDCOM ROX RX1400 (All versions < V2.14.1), RUGGEDCOM ROX RX1500 (All versions < V2.14.1), RUGGEDCOM ROX RX1501 (All versions < V2.14.1), RUGGEDCOM ROX RX1510 (All versions < V2.14.1), RUGGEDCOM ROX RX1511 (All versions < V2.14.1), RUGGEDCOM ROX RX1512 (All versions < V2.14.1), RUGGEDCOM ROX RX1524 (All versions < V2.14.1), RUGGEDCOM ROX RX1536 (All versions < V2.14.1), RUGGEDCOM ROX RX5000 (All versions < V2.14.1). The affected devices have a privilege escalation vulnerability, if exploited, an attacker could gain root user access."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2021-37173",
+        "description" : "A vulnerability has been identified in RUGGEDCOM ROX MX5000 (All versions < V2.14.1), RUGGEDCOM ROX RX1400 (All versions < V2.14.1), RUGGEDCOM ROX RX1500 (All versions < V2.14.1), RUGGEDCOM ROX RX1501 (All versions < V2.14.1), RUGGEDCOM ROX RX1510 (All versions < V2.14.1), RUGGEDCOM ROX RX1511 (All versions < V2.14.1), RUGGEDCOM ROX RX1512 (All versions < V2.14.1), RUGGEDCOM ROX RX1524 (All versions < V2.14.1), RUGGEDCOM ROX RX1536 (All versions < V2.14.1), RUGGEDCOM ROX RX5000 (All versions < V2.14.1). The command line interface of affected devices insufficiently restrict file read and write operations for low privileged users. This could allow an authenticated remote attacker to escalate privileges and gain root access to the device."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2021-36983",
+        "description" : "replay-sorcery-kms in Replay Sorcery 0.6.0 allows a local attacker to gain root privileges via a symlink attack on /tmp/replay-sorcery or /tmp/replay-sorcery/device.sock."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2021-36795",
+        "description" : "A permission issue in the Cohesity Linux agent may allow privilege escalation in version 6.5.1b to 6.5.1d-hotfix10, 6.6.0a to 6.6.0b-hotfix1. An underprivileged linux user, if certain environment criteria are met, can gain additional privileges."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2021-36770",
+        "description" : "Encode.pm, as distributed in Perl through 5.34.0, allows local users to gain privileges via a Trojan horse Encode::ConfigLocal library (in the current working directory) that preempts dynamic module loading. Exploitation requires an unusual configuration, and certain 2021 versions of Encode.pm (3.05 through 3.11). This issue occurs because the || operator evaluates @INC in a scalar context, and thus @INC has only an integer value."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2021-36666",
+        "description" : "An issue was discovered in Druva 6.9.0 for MacOS, allows attackers to gain escalated local privileges via the inSyncDecommission."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2021-36665",
+        "description" : "An issue was discovered in Druva 6.9.0 for macOS, allows attackers to gain escalated local privileges via the inSyncUpgradeDaemon."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2021-36319",
+        "description" : "Dell Networking OS10 versions 10.4.3.x, 10.5.0.x and 10.5.1.x contain an information exposure vulnerability. A low privileged authenticated malicious user can gain access to SNMP authentication failure messages."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2021-36312",
+        "description" : "Dell EMC CloudLink 7.1 and all prior versions contain a Hard-coded Password Vulnerability. A remote high privileged attacker, with the knowledge of the hard-coded credentials, may potentially exploit this vulnerability to gain unauthorized access to the system."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2021-36307",
+        "description" : "Networking OS10, versions prior to October 2021 with RESTCONF API enabled, contains a privilege escalation vulnerability. A malicious low privileged user with specific access to the API could potentially exploit this vulnerability to gain admin privileges on the affected system."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2021-36293",
+        "description" : "Dell VNX2 for File version 8.1.21.266 and earlier, contain a privilege escalation vulnerability. A local malicious admin may potentially exploit vulnerability and gain elevated privileges."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2021-36290",
+        "description" : "Dell VNX2 for File version 8.1.21.266 and earlier, contain a privilege escalation vulnerability. A local malicious admin may potentially exploit vulnerability and gain privileges."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2021-36282",
+        "description" : "Dell EMC PowerScale OneFS versions 8.2.x - 9.1.0.x contain a use of uninitialized resource vulnerability. This can potentially allow an authenticated user with ISI_PRIV_LOGIN_CONSOLE or ISI_PRIV_LOGIN_SSH privileges to gain access up to 24 bytes of data within the /ifs kernel stack under certain conditions."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2021-35939",
+        "description" : "It was found that the fix for CVE-2017-7500 and CVE-2017-7501 was incomplete: the check was only implemented for the parent directory of the file to be created. A local unprivileged user who owns another ancestor directory could potentially use this flaw to gain root privileges. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2021-35532",
+        "description" : "A vulnerability exists in the file upload validation part of Hitachi Energy TXpert Hub CoreTec 4 product. The vulnerability allows an attacker or malicious agent who manages to gain access to the system and obtain an account with sufficient privilege to upload a malicious firmware to the product. This issue affects: Hitachi Energy TXpert Hub CoreTec 4 version 2.0.0; 2.0.1; 2.1.0; 2.1.1; 2.1.2; 2.1.3; 2.2.0; 2.2.1."
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2021-35231",
+        "description" : "As a result of an unquoted service path vulnerability present in the Kiwi Syslog Server Installation Wizard, a local attacker could gain escalated privileges by inserting an executable into the path of the affected service or uninstall entry. Example vulnerable path: \"Computer\\HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Services\\Kiwi Syslog Server\\Parameters\\Application\"."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2021-34786",
+        "description" : "Multiple vulnerabilities in Cisco BroadWorks CommPilot Application Software could allow an authenticated, remote attacker to delete arbitrary user accounts or gain elevated privileges on an affected system."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2021-34785",
+        "description" : "Multiple vulnerabilities in Cisco BroadWorks CommPilot Application Software could allow an authenticated, remote attacker to delete arbitrary user accounts or gain elevated privileges on an affected system."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2021-34739",
+        "description" : "A vulnerability in the web-based management interface of multiple Cisco Small Business Series Switches could allow an unauthenticated, remote attacker to replay valid user session credentials and gain unauthorized access to the web-based management interface of an affected device. This vulnerability is due to insufficient expiration of session credentials. An attacker could exploit this vulnerability by conducting a man-in-the-middle attack against an affected device to intercept valid session credentials and then replaying the intercepted credentials toward the same device at a later time. A successful exploit could allow the attacker to access the web-based management interface with administrator privileges."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2021-34543",
+        "description" : "The web administration server in Solar-Log 500 before 2.8.2 Build 52 does not require authentication, which allows remote attackers to gain administrative privileges by connecting to the server. As a result, the attacker can modify configuration files and change the system status."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2021-34400",
+        "description" : "NVIDIA GPU and Tegra hardware contain a vulnerability in the internal microcontroller which may allow a user with elevated privileges to gain access to information from unscrubbed memory, which may lead to information disclosure."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2021-34399",
+        "description" : "NVIDIA GPU and Tegra hardware contain a vulnerability in the internal microcontroller which may allow a user with elevated privileges to gain access to information from unscrubbed registers, which may lead to information disclosure."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2021-33205",
+        "description" : "Western Digital EdgeRover before 0.25 has an escalation of privileges vulnerability where a low privileged user could load malicious content into directories with higher privileges, because of how Node.js is used. An attacker can gain admin privileges and carry out malicious activities such as creating a fake library and stealing user credentials."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2021-33031",
+        "description" : "In LabCup before <v2_next_18022, it is possible to use the save API to perform unauthorized actions for users without access to user management in order to, after successful exploitation, gain access to a victim's account. A user without the user-management privilege can change another user's email address if the attacker knows details of the victim such as the exact roles and group roles, ID, and remote authentication ID settings. These must be sent in a modified save API request. It was fixed in 6.3.0.03."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2021-32015",
+        "description" : "In Nuvoton NPCT75x TPM 1.2 firmware 7.4.0.0, a local authenticated malicious user with high privileges could potentially gain unauthorized access to TPM non-volatile memory. NOTE: Upgrading to firmware version 7.4.0.1 will mitigate against the vulnerability, but version 7.4.0.1 is not TCG or Common Criteria (CC) certified. Nuvoton recommends that users apply the NPCT75x TPM 1.2 firmware update."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2021-31836",
+        "description" : "Improper privilege management vulnerability in maconfig for McAfee Agent for Windows prior to 5.7.4 allows a local user to gain access to sensitive information. The utility was able to be run from any location on the file system and by a low privileged user."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2021-31822",
+        "description" : "When Octopus Tentacle is installed on a Linux operating system, the systemd service file permissions are misconfigured. This could lead to a local unprivileged user modifying the contents of the systemd service file to gain privileged access."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2021-31566",
+        "description" : "An improper link resolution flaw can occur while extracting an archive leading to changing modes, times, access control lists, and flags of a file outside of the archive. An attacker may provide a malicious archive to a victim user, who would trigger this flaw when trying to extract the archive. A local attacker may use this flaw to gain more privileges in a system."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2021-31523",
+        "description" : "The Debian xscreensaver 5.42+dfsg1-1 package for XScreenSaver has cap_net_raw enabled for the /usr/libexec/xscreensaver/sonar file, which allows local users to gain privileges because this is arguably incompatible with the design of the Mesa 3D Graphics library dependency."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2021-31154",
+        "description" : "pleaseedit in please before 0.4 uses predictable temporary filenames in /tmp and the target directory. This allows a local attacker to gain full root privileges by staging a symlink attack."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2021-31153",
+        "description" : "please before 0.4 allows a local unprivileged attacker to gain knowledge about the existence of files or directories in privileged locations via the search_path function, the --check option, or the -d option."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2021-31004",
+        "description" : "A race condition was addressed with improved locking. This issue is fixed in macOS Monterey 12.0.1, macOS Big Sur 11.5. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2021-30780",
+        "description" : "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 14.7, macOS Big Sur 11.5, watchOS 7.6, tvOS 14.7, Security Update 2021-005 Mojave, Security Update 2021-004 Catalina. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2021-30777",
+        "description" : "An injection issue was addressed with improved validation. This issue is fixed in macOS Big Sur 11.5, Security Update 2021-004 Catalina, Security Update 2021-005 Mojave. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2021-30774",
+        "description" : "A logic issue was addressed with improved validation. This issue is fixed in iOS 14.7, macOS Big Sur 11.5, watchOS 7.6, tvOS 14.7. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2021-30772",
+        "description" : "This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.5. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2021-30681",
+        "description" : "A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks. This issue is fixed in Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6, Security Update 2021-003 Catalina, macOS Big Sur 11.4, watchOS 7.5. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2021-30679",
+        "description" : "This issue was addressed by removing the vulnerable code. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina, Security Update 2021-004 Mojave. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2021-30652",
+        "description" : "A race condition was addressed with additional validation. This issue is fixed in Security Update 2021-002 Catalina, Security Update 2021-003 Mojave, iOS 14.5 and iPadOS 14.5, watchOS 7.4, tvOS 14.5, macOS Big Sur 11.3. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2021-30463",
+        "description" : "VestaCP through 0.9.8-24 allows attackers to gain privileges by creating symlinks to files for which they lack permissions. After reading the RKEY value from user.conf under the /usr/local/vesta/data/users/admin directory, the admin password can be changed via a /reset/?action=confirm&user=admin&code= URI. This occurs because chmod is used unsafely."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2021-29801",
+        "description" : "IBM AIX 7.1, 7.2, and VIOS 3.1 could allow a non-privileged local user to exploit a vulnerability in the kernel to gain root privileges. IBM X-Force ID: 203977."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2021-29792",
+        "description" : "IBM Event Streams 10.0, 10.1, 10.2, and 10.3 could allow a user the CA private key to create their own certificates and deploy them in the cluster and gain privileges of another user. IBM X-Force ID: 203450."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2021-29741",
+        "description" : "IBM AIX 7.1, 7.2, and VIOS 3.1 could allow a local user to exploit a vulnerability in Korn Shell (ksh) to gain root privileges. IBM X-Force ID: 201478."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2021-29736",
+        "description" : "IBM WebSphere Application Server 7.0, 8.0, 8.5, and 9.0 could allow a remote user to gain elevated privileges on the system. IBM X-Force ID: 201300."
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2021-28962",
+        "description" : "Stormshield Network Security (SNS) before 4.2.2 allows a read-only administrator to gain privileges via CLI commands."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2021-28623",
+        "description" : "Adobe Premiere Elements version 5.2 (and earlier) is affected by an insecure temporary file creation vulnerability. An unauthenticated attacker could leverage this vulnerability to call functions against the installer to perform high privileged actions. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2021-28597",
+        "description" : "Adobe Photoshop Elements version 5.2 (and earlier) is affected by an insecure temporary file creation vulnerability. An unauthenticated attacker could leverage this vulnerability to call functions against the installer to perform high privileged actions. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2021-28174",
+        "description" : "Mitake smart stock selection system contains a broken authentication vulnerability. By manipulating the parameters in the URL, remote attackers can gain the privileged permissions to access transaction record, and fraudulent trading without login."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2021-27394",
+        "description" : "A vulnerability has been identified in Mendix Applications using Mendix 7 (All versions < V7.23.19), Mendix Applications using Mendix 8 (All versions < V8.17.0), Mendix Applications using Mendix 8 (V8.12) (All versions < V8.12.5), Mendix Applications using Mendix 8 (V8.6) (All versions < V8.6.9), Mendix Applications using Mendix 9 (All versions < V9.0.5). Authenticated, non-administrative users could modify their privileges by manipulating the user role under certain circumstances, allowing them to gain administrative privileges."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2021-27192",
+        "description" : "Local privilege escalation vulnerability in Windows clients of Netop Vision Pro up to and including 9.7.1 allows a local user to gain administrator privileges whilst using the clients."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2021-26557",
+        "description" : "When Octopus Tentacle is installed using a custom folder location, folder ACLs are not set correctly and could lead to an unprivileged user using DLL side-loading to gain privileged access."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2021-26556",
+        "description" : "When Octopus Server is installed using a custom folder location, folder ACLs are not set correctly and could lead to an unprivileged user using DLL side-loading to gain privileged access."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2021-26366",
+        "description" : "An attacker, who gained elevated privileges via some other vulnerability, may be able to read data from Boot ROM resulting in a loss of system integrity."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2021-25981",
+        "description" : "In Talkyard, regular versions v0.2021.20 through v0.2021.33 and dev versions v0.2021.20 through v0.2021.34, are vulnerable to Insufficient Session Expiration. This may allow an attacker to reuse the admin’s still-valid session token even when logged-out, to gain admin privileges, given the attacker is able to obtain that token (via other, hypothetical attacks)"
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2021-24019",
+        "description" : "An insufficient session expiration vulnerability [CWE- 613] in FortiClientEMS versions 6.4.2 and below, 6.2.8 and below may allow an attacker to reuse the unexpired admin user session IDs to gain admin privileges, should the attacker be able to obtain that session ID (via other, hypothetical attacks)"
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2021-23893",
+        "description" : "Privilege Escalation vulnerability in a Windows system driver of McAfee Drive Encryption (DE) prior to 7.3.0 could allow a local non-admin user to gain elevated system privileges via exploiting an unutilized memory buffer."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2021-23872",
+        "description" : "Privilege Escalation vulnerability in the File Lock component of McAfee Total Protection (MTP) prior to 16.0.32 allows a local user to gain elevated privileges by manipulating a symbolic link in the IOCTL interface."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2021-23240",
+        "description" : "selinux_edit_copy_tfiles in sudoedit in Sudo before 1.9.5 allows a local unprivileged user to gain file ownership and escalate privileges by replacing a temporary file with a symlink to an arbitrary file target. This affects SELinux RBAC support in permissive mode. Machines without SELinux are not vulnerable."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2021-23177",
+        "description" : "An improper link resolution flaw while extracting an archive can lead to changing the access control list (ACL) of the target of the link. An attacker may provide a malicious archive to a victim user, who would trigger this flaw when trying to extract the archive. A local attacker may use this flaw to change the ACL of a file on the system and gain more privileges."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2021-22944",
+        "description" : "A vulnerability found in UniFi Protect application V1.18.1 and earlier allows a malicious actor with a view-only role and network access to gain the same privileges as the owner of the UniFi Protect application. This vulnerability is fixed in UniFi Protect application V1.19.0 and later."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2021-22730",
+        "description" : "A CWE-798: Use of Hard-coded Credentials vulnerability exists in EVlink City (EVC1S22P4 / EVC1S7P4 all versions prior to R8 V3.4.0.1), EVlink Parking (EVW2 / EVF2 / EV.2 all versions prior to R8 V3.4.0.1), and EVlink Smart Wallbox (EVB1A all versions prior to R8 V3.4.0.1 ) that could an attacker to gain unauthorized administrative privileges when accessing to the charging station web server."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2021-22729",
+        "description" : "A CWE-259: Use of Hard-coded Password vulnerability exists in EVlink City (EVC1S22P4 / EVC1S7P4 all versions prior to R8 V3.4.0.1), EVlink Parking (EVW2 / EVF2 / EV.2 all versions prior to R8 V3.4.0.1), and EVlink Smart Wallbox (EVB1A all versions prior to R8 V3.4.0.1 ) that could allow an attacker to gain unauthorized administrative privileges when accessing to the charging station web server."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2021-22521",
+        "description" : "A privileged escalation vulnerability has been identified in Micro Focus ZENworks Configuration Management, affecting version 2020 Update 1 and all prior versions. The vulnerability could be exploited to gain unauthorized system privileges."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2021-22148",
+        "description" : "Elastic Enterprise Search App Search versions before 7.14.0 was vulnerable to an issue where API keys were not bound to the same engines as their creator. This could lead to a less privileged user gaining access to unauthorized engines."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2021-22038",
+        "description" : "On Windows, the uninstaller binary copies itself to a fixed temporary location, which is then executed (the originally called uninstaller exits, so it does not block the installation directory). This temporary location is not randomized and does not restrict access to Administrators only so a potential attacker could plant a binary to replace the copied binary right before it gets called, thus gaining Administrator privileges (if the original uninstaller was executed as Administrator). The vulnerability only affects Windows installers."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2021-22007",
+        "description" : "The vCenter Server contains a local information disclosure vulnerability in the Analytics service. An authenticated user with non-administrative privilege may exploit this issue to gain access to sensitive information."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2021-21750",
+        "description" : "ZTE BigVideo Analysis product has a privilege escalation vulnerability. Due to improper management of the timed task modification privilege, an attacker with ordinary user permissions could exploit this vulnerability to gain unauthorized access."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2021-21561",
+        "description" : "Dell PowerScale OneFS version 8.1.2 contains a sensitive information exposure vulnerability. This would allow a malicious user with ISI_PRIV_LOGIN_SSH and/or ISI_PRIV_LOGIN_CONSOLE privileges to gain access to sensitive information in the log files."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2021-21547",
+        "description" : "Dell EMC Unity, UnityVSA, and Unity XT versions prior to 5.0.7.0.5.008 contain a plain-text password storage vulnerability when the Dell Upgrade Readiness Utility is run on the system. The credentials of the Unisphere Administrator are stored in plain text. A local malicious user with high privileges may use the exposed password to gain access with the privileges of the compromised user."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2021-21539",
+        "description" : "Dell EMC iDRAC9 versions prior to 4.40.00.00 contain a Time-of-check Time-of-use (TOCTOU) race condition vulnerability. A remote authenticated attacker could potentially exploit this vulnerability to gain elevated privileges when a user with higher privileges is simultaneously accessing iDRAC through the web interface."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2021-21511",
+        "description" : "Dell EMC Avamar Server, versions 19.3 and 19.4 contain an Improper Authorization vulnerability in the web UI. A remote low privileged attacker could potentially exploit this vulnerability, to gain unauthorized read or modification access to other users' backup data."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2021-21505",
+        "description" : "Dell EMC Integrated System for Microsoft Azure Stack Hub, versions 1906 – 2011, contain an undocumented default iDRAC account. A remote unauthenticated attacker, with the knowledge of the default credentials, could potentially exploit this to log in to the system to gain root privileges."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2021-21485",
+        "description" : "An unauthorized attacker may be able to entice an administrator to invoke telnet commands of an SAP NetWeaver Application Server for Java that allow the attacker to gain NTLM hashes of a privileged user."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2021-21276",
+        "description" : "Polr is an open source URL shortener. in Polr before version 2.3.0, a vulnerability in the setup process allows attackers to gain admin access to site instances, even if they do not possess an existing account. This vulnerability exists regardless of users' settings. If an attacker crafts a request with specific cookie headers to the /setup/finish endpoint, they may be able to obtain admin privileges on the instance. This is caused by a loose comparison (==) in SetupController that is susceptible to attack. The project has been patched to ensure that a strict comparison (===) is used to verify the setup key, and that /setup/finish verifies that no users table exists before performing any migrations or provisioning any new accounts. This is fixed in version 2.3.0. Users can patch this vulnerability without upgrading by adding abort(404) to the very first line of finishSetup in SetupController.php."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2021-21069",
+        "description" : "Adobe Creative Cloud Desktop Application version 5.3 (and earlier) is affected by a local privilege escalation vulnerability that could allow an attacker to call functions against the installer to perform high privileged actions. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2021-20695",
+        "description" : "Improper following of a certificate's chain of trust vulnerability in DAP-1880AC firmware version 1.21 and earlier allows a remote authenticated attacker to gain root privileges via unspecified vectors."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2021-20616",
+        "description" : "Untrusted search path vulnerability in the installer of SKYSEA Client View Ver.1.020.05b to Ver.16.001.01g allows an attacker to gain privileges via a Trojan horse DLL in an unspecified directory."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2021-20182",
+        "description" : "A privilege escalation flaw was found in openshift4/ose-docker-builder. The build container runs with high privileges using a chrooted environment instead of runc. If an attacker can gain access to this build container, they can potentially utilize the raw devices of the underlying node, such as the network and storage devices, to at least escalate their privileges to that of the cluster admin. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2021-20132",
+        "description" : "Quagga Services on D-Link DIR-2640 less than or equal to version 1.11B02 use default hard-coded credentials, which can allow a remote attacker to gain administrative access to the zebra or ripd those services. Both are running with root privileges on the router (i.e., as the \"admin\" user, UID 0)."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2021-20106",
+        "description" : "Nessus Agent versions 8.2.5 and earlier were found to contain a privilege escalation vulnerability which could allow a Nessus administrator user to upload a specially crafted file that could lead to gaining administrator privileges on the Nessus host."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2021-20079",
+        "description" : "Nessus versions 8.13.2 and earlier were found to contain a privilege escalation vulnerability which could allow a Nessus administrator user to upload a specially crafted file that could lead to gaining administrator privileges on the Nessus host."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2021-4090",
+        "description" : "An out-of-bounds (OOB) memory write flaw was found in the NFSD in the Linux kernel. Missing sanity may lead to a write beyond bmval[bmlen-1] in nfsd4_decode_bitmap4 in fs/nfsd/nfs4xdr.c. In this flaw, a local attacker with user privilege may gain access to out-of-bounds memory, leading to a system integrity and confidentiality threat."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2021-3551",
+        "description" : "A flaw was found in the PKI-server, where the spkispawn command, when run in debug mode, stores admin credentials in the installation log file. This flaw allows a local attacker to retrieve the file to obtain the admin password and gain admin privileges to the Dogtag CA manager. The highest threat from this vulnerability is to confidentiality."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2021-3495",
+        "description" : "An incorrect access control flaw was found in the kiali-operator in versions before 1.33.0 and before 1.24.7. This flaw allows an attacker with a basic level of access to the cluster (to deploy a kiali operand) to use this vulnerability and deploy a given image to anywhere in the cluster, potentially gaining access to privileged service account tokens. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2021-3493",
+        "description" : "The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2021-3376",
+        "description" : "An issue was discovered in Cuppa CMS Versions Before 31 Jan 2021 allows authenticated attackers to gain escalated privileges via a crafted POST request using the user_group_id_field parameter."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2021-3146",
+        "description" : "The Dolby Audio X2 (DAX2) API service before 0.8.8.90 on Windows allows local users to gain privileges."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2021-1833",
+        "description" : "This issue was addressed with improved checks. This issue is fixed in iOS 14.5 and iPadOS 14.5. An application may be able to gain elevated privileges."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2021-1813",
+        "description" : "A validation issue was addressed with improved logic. This issue is fixed in Security Update 2021-002 Catalina, Security Update 2021-003 Mojave, iOS 14.5 and iPadOS 14.5, watchOS 7.4, tvOS 14.5, macOS Big Sur 11.3. A malicious application may be able to gain root privileges."
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2021-1528",
+        "description" : "A vulnerability in the CLI of Cisco SD-WAN Software could allow an authenticated, local attacker to gain elevated privileges on an affected system. This vulnerability exists because the affected software does not properly restrict access to privileged processes. An attacker could exploit this vulnerability by invoking a privileged process in the affected system. A successful exploit could allow the attacker to perform actions with the privileges of the root user."
+    }
+]

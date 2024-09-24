@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NessusClientData_v2>
+  <Report>
+    <name>Example Report</name>
+    <description>Report generated on example.com</description>
+    <ReportHost>
+      <hostProperties>
+        <tag name="host-ip">192.168.1.1</tag>
+        <tag name="host-fqdn">example.com</tag>
+      </hostProperties>
+      <ReportItem>
+        <pluginID>12345</pluginID>
+        <pluginName>Example Plugin</pluginName>
+        <severity>High</severity>
+        <description>This is an example vulnerability.</description>
+      </ReportItem>
+    </ReportHost>
+  </Report>
+</NessusClientData_v2>

@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-43408",
+        "description" : "Jenkins Pipeline: Stage View Plugin 2.26 and earlier does not correctly encode the ID of 'input' steps when using it to generate URLs to proceed or abort Pipeline builds, allowing attackers able to configure Pipelines to specify 'input' step IDs resulting in URLs that would bypass the CSRF protection of any target URL in Jenkins."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-43407",
+        "description" : "Jenkins Pipeline: Input Step Plugin 451.vf1a_a_4f405289 and earlier does not restrict or sanitize the optionally specified ID of the 'input' step, which is used for the URLs that process user interactions for the given 'input' step (proceed or abort) and is not correctly encoded, allowing attackers able to configure Pipelines to have Jenkins build URLs from 'input' step IDs that would bypass the CSRF protection of any target URL in Jenkins when the 'input' step is interacted with."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-43406",
+        "description" : "A sandbox bypass vulnerability in Jenkins Pipeline: Deprecated Groovy Libraries Plugin 583.vf3b_454e43966 and earlier allows attackers with permission to define untrusted Pipeline libraries and to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-43405",
+        "description" : "A sandbox bypass vulnerability in Jenkins Pipeline: Groovy Libraries Plugin 612.v84da_9c54906d and earlier allows attackers with permission to define untrusted Pipeline libraries and to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-43404",
+        "description" : "A sandbox bypass vulnerability involving crafted constructor bodies and calls to sandbox-generated synthetic constructors in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-43403",
+        "description" : "A sandbox bypass vulnerability involving casting an array-like value to an array type in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-43402",
+        "description" : "A sandbox bypass vulnerability involving various casts performed implicitly by the Groovy language runtime in Jenkins Pipeline: Groovy Plugin 2802.v5ea_628154b_c2 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-43401",
+        "description" : "A sandbox bypass vulnerability involving various casts performed implicitly by the Groovy language runtime in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-42983",
+        "description" : "anji-plus AJ-Report 0.9.8.6 allows remote attackers to bypass login authentication by spoofing JWT Tokens."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-42463",
+        "description" : "OpenHarmony-v3.1.2 and prior versions have an authenication bypass vulnerability in a callback handler function of Softbus_server in communication subsystem. Attackers can launch attacks on distributed networks by sending Bluetooth rfcomm packets to any remote device and executing arbitrary commands."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-42342",
+        "description" : "Adobe Acrobat Reader versions 22.002.20212 (and earlier) and 20.005.30381 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-42233",
+        "description" : "Tenda 11N with firmware version V5.07.33_cn suffers from an Authentication Bypass vulnerability."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-42064",
+        "description" : "Online Diagnostic Lab Management System version 1.0 remote exploit that bypasses login with SQL injection and then uploads a shell."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-41748",
+        "description" : "A registry permissions vulnerability in the Trend Micro Apex One Data Loss Prevention (DLP) module could allow a local attacker with administrative credentials to bypass certain elements of the product's anti-tampering mechanisms on affected installations. Please note: an attacker must first obtain administrative credentials on the target system in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-41604",
+        "description" : "Check Point ZoneAlarm Extreme Security before 15.8.211.19229 allows local users to escalate privileges. This occurs because of weak permissions for the %PROGRAMDATA%\\CheckPoint\\ZoneAlarm\\Data\\Updates directory, and a self-protection driver bypass that allows creation of a junction directory. This can be leveraged to perform an arbitrary file move as NT AUTHORITY\\SYSTEM."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-40716",
+        "description" : "HashiCorp Consul and Consul Enterprise up to 1.11.8, 1.12.4, and 1.13.1 do not check for multiple SAN URI values in a CSR on the internal RPC endpoint, enabling leverage of privileged access to bypass service mesh intentions. Fixed in 1.11.9, 1.12.5, and 1.13.2."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-40684",
+        "description" : "An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy version 7.2.0 and version 7.0.0 through 7.0.6 and FortiSwitchManager version 7.2.0 and 7.0.0 allows an unauthenticated atttacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-40664",
+        "description" : "Apache Shiro before 1.10.0, Authentication Bypass Vulnerability in Shiro when forwarding or including via RequestDispatcher."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-40635",
+        "description" : "Improper Control of Dynamically-Managed Code Resources vulnerability in Crafter Studio of Crafter CMS allows authenticated developers to execute OS commands via Groovy Sandbox Bypass."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-40616",
+        "description" : "IBM Maximo Asset Management 7.6.1.1, 7.6.1.2, and 7.6.1.3 could allow a user to bypass authentication and obtain sensitive information or perform tasks they should not have access to. IBM X-Force ID: 236311."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-40494",
+        "description" : "NPS before v0.26.10 was discovered to contain an authentication bypass vulnerability via constantly generating and sending the Auth key and Timestamp parameters."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-40262",
+        "description" : "A potential attacker can execute an arbitrary code at the time of the PEI phase and influence the subsequent boot stages. This can lead to the mitigations bypassing, physical memory contents disclosure, discovery of any secrets from any Virtual Machines (VMs) and bypassing memory isolation and confidential computing boundaries. Additionally, an attacker can build a payload which can be injected into the SMRAM memory. This issue affects: Module name: S3Resume2Pei SHA256: 7bb29f05534a8a1e010443213451425098faebd45948a4642db969b19d0253fc Module GUID: 89E549B0-7CFE-449D-9BA3-10D8B2312D71"
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-40261",
+        "description" : "An attacker can exploit this vulnerability to elevate privileges from ring 0 to ring -2, execute arbitrary code in System Management Mode - an environment more privileged than operating system (OS) and completely isolated from it. Running arbitrary code in SMM additionally bypasses SMM-based SPI flash protections against modifications, which can help an attacker to install a firmware backdoor/implant into BIOS. Such a malicious firmware code in BIOS could persist across operating system re-installs. Additionally, this vulnerability potentially could be used by malicious actors to bypass security mechanisms provided by UEFI firmware (for example, Secure Boot and some types of memory isolation for hypervisors). This issue affects: Module name: OverClockSmiHandler SHA256: a204699576e1a48ce915d9d9423380c8e4c197003baf9d17e6504f0265f3039c Module GUID: 4698C2BD-A903-410E-AD1F-5EEF3A1AE422"
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-40250",
+        "description" : "An attacker can exploit this vulnerability to elevate privileges from ring 0 to ring -2, execute arbitrary code in System Management Mode - an environment more privileged than operating system (OS) and completely isolated from it. Running arbitrary code in SMM additionally bypasses SMM-based SPI flash protections against modifications, which can help an attacker to install a firmware backdoor/implant into BIOS. Such a malicious firmware code in BIOS could persist across operating system re-installs. Additionally, this vulnerability potentially could be used by malicious actors to bypass security mechanisms provided by UEFI firmware (for example, Secure Boot and some types of memory isolation for hypervisors). This issue affects: Module name: SmmSmbiosElog SHA256: 3a8acb4f9bddccb19ec3b22b22ad97963711550f76b27b606461cd5073a93b59 Module GUID: 8e61fd6b-7a8b-404f-b83f-aa90a47cabdf This issue affects: AMI Aptio 5.x. This issue affects: AMI Aptio 5.x."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-40246",
+        "description" : "A potential attacker can write one byte by arbitrary address at the time of the PEI phase (only during S3 resume boot mode) and influence the subsequent boot stages. This can lead to the mitigations bypassing, physical memory contents disclosure, discovery of any secrets from any Virtual Machines (VMs) and bypassing memory isolation and confidential computing boundaries. Additionally, an attacker can build a payload which can be injected into the SMRAM memory. This issue affects: Module name: SbPei SHA256: d827182e5f9b7a9ff0b9d3e232f7cfac43b5237e2681e11f005be627a49283a9 Module GUID: c1fbd624-27ea-40d1-aa48-94c3dc5c7e0d"
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-40144",
+        "description" : "A vulnerability in Trend Micro Apex One and Trend Micro Apex One as a Service could allow an attacker to bypass the product’s login authentication by falsifying request parameters on affected installations."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-39958",
+        "description" : "The OWASP ModSecurity Core Rule Set (CRS) is affected by a response body bypass to sequentially exfiltrate small and undetectable sections of data by repeatedly submitting an HTTP Range header field with a small byte range. A restricted resource, access to which would ordinarily be detected, may be exfiltrated from the backend, despite being protected by a web application firewall that uses CRS. Short subsections of a restricted resource may bypass pattern matching techniques and allow undetected access. The legacy CRS versions 3.0.x and 3.1.x are affected, as well as the currently supported versions 3.2.1 and 3.3.2. Integrators and users are advised to upgrade to 3.2.2 and 3.3.3 respectively and to configure a CRS paranoia level of 3 or higher."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-39957",
+        "description" : "The OWASP ModSecurity Core Rule Set (CRS) is affected by a response body bypass. A client can issue an HTTP Accept header field containing an optional \"charset\" parameter in order to receive the response in an encoded form. Depending on the \"charset\", this response can not be decoded by the web application firewall. A restricted resource, access to which would ordinarily be detected, may therefore bypass detection. The legacy CRS versions 3.0.x and 3.1.x are affected, as well as the currently supported versions 3.2.1 and 3.3.2. Integrators and users are advised to upgrade to 3.2.2 and 3.3.3 respectively."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-39956",
+        "description" : "The OWASP ModSecurity Core Rule Set (CRS) is affected by a partial rule set bypass for HTTP multipart requests by submitting a payload that uses a character encoding scheme via the Content-Type or the deprecated Content-Transfer-Encoding multipart MIME header fields that will not be decoded and inspected by the web application firewall engine and the rule set. The multipart payload will therefore bypass detection. A vulnerable backend that supports these encoding schemes can potentially be exploited. The legacy CRS versions 3.0.x and 3.1.x are affected, as well as the currently supported versions 3.2.1 and 3.3.2. Integrators and users are advised upgrade to 3.2.2 and 3.3.3 respectively. The mitigation against these vulnerabilities depends on the installation of the latest ModSecurity version (v2.9.6 / v3.0.8)."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-39955",
+        "description" : "The OWASP ModSecurity Core Rule Set (CRS) is affected by a partial rule set bypass by submitting a specially crafted HTTP Content-Type header field that indicates multiple character encoding schemes. A vulnerable back-end can potentially be exploited by declaring multiple Content-Type \"charset\" names and therefore bypassing the configurable CRS Content-Type header \"charset\" allow list. An encoded payload can bypass CRS detection this way and may then be decoded by the backend. The legacy CRS versions 3.0.x and 3.1.x are affected, as well as the currently supported versions 3.2.1 and 3.3.2. Integrators and users are advised to upgrade to 3.2.2 and 3.3.3 respectively."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-39842",
+        "description" : "An issue was discovered in the Linux kernel before 5.19. In pxa3xx_gcu_write in drivers/video/fbdev/pxa3xx-gcu.c, the count parameter has a type conflict of size_t versus int, causing an integer overflow and bypassing the size check. After that, because it is used as the third argument to copy_from_user(), a heap overflow may occur."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-39302",
+        "description" : "Ree6 is a moderation bot. This vulnerability would allow other server owners to create configurations such as \"Better-Audit-Logging\" which contain a channel from another server as a target. This would mean you could send log messages to another Guild channel and bypass raid and webhook protections. A specifically crafted log message could allow spamming and mass advertisements. This issue has been patched in version 1.9.9. There are currently no known workarounds."
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-39300",
+        "description" : "node SAML is a SAML 2.0 library based on the SAML implementation of passport-saml. A remote attacker may be able to bypass SAML authentication on a website using passport-saml. A successful attack requires that the attacker is in possession of an arbitrary IDP signed XML element. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. Users should upgrade to node-saml version 4.0.0-beta5 or newer. Disabling SAML authentication may be done as a workaround."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-39299",
+        "description" : "Passport-SAML is a SAML 2.0 authentication provider for Passport, the Node.js authentication library. A remote attacker may be able to bypass SAML authentication on a website using passport-saml. A successful attack requires that the attacker is in possession of an arbitrary IDP signed XML element. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. Users should upgrade to passport-saml version 3.2.2 or newer. The issue was also present in the beta releases of `node-saml` before version 4.0.0-beta.5. If you cannot upgrade, disabling SAML authentication may be done as a workaround."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-39295",
+        "description" : "Knowage is an open source suite for modern business analytics alternative over big data systems. KnowageLabs / Knowage-Server starting with the 6.x branch and prior to versions 7.4.22, 8.0.9, and 8.1.0 is vulnerable to cross-site scripting because the `XSSRequestWrapper::stripXSS` method can be bypassed. Versions 7.4.22, 8.0.9, and 8.1.0 contain patches for this issue. There are no known workarounds."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-39290",
+        "description" : "ZoneMinder is a free, open source Closed-circuit television software application. In affected versions authenticated users can bypass CSRF keys by modifying the request supplied to the Zoneminder web application. These modifications include replacing HTTP POST with an HTTP GET and removing the CSRF key from the request. An attacker can take advantage of this by using an HTTP GET request to perform actions with no CSRF protection. This could allow an attacker to cause an authenticated user to perform unexpected actions on the web application. Users are advised to upgrade as soon as possible. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-39267",
+        "description" : "Bifrost is a heterogeneous middleware that synchronizes MySQL, MariaDB to Redis, MongoDB, ClickHouse, MySQL and other services for production environments. Versions prior to 1.8.8-release are subject to authentication bypass in the admin and monitor user groups by deleting the X-Requested-With: XMLHttpRequest field in the request header. This issue has been patched in 1.8.8-release. There are no known workarounds."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-39266",
+        "description" : "isolated-vm is a library for nodejs which gives the user access to v8's Isolate interface. In versions 4.3.6 and prior, if the untrusted v8 cached data is passed to the API through CachedDataOptions, attackers can bypass the sandbox and run arbitrary code in the nodejs process. As of time of publication, there are no known fixed versions or workarounds."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-39261",
+        "description" : "Twig is a template language for PHP. Versions 1.x prior to 1.44.7, 2.x prior to 2.15.3, and 3.x prior to 3.4.3 encounter an issue when the filesystem loader loads templates for which the name is a user input. It is possible to use the `source` or `include` statement to read arbitrary files from outside the templates' directory when using a namespace like `@somewhere/../some.file`. In such a case, validation is bypassed. Versions 1.44.7, 2.15.3, and 3.4.3 contain a fix for validation of such template names. There are no known workarounds aside from upgrading."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-39253",
+        "description" : "Git is an open source, scalable, distributed revision control system. Versions prior to 2.30.6, 2.31.5, 2.32.4, 2.33.5, 2.34.5, 2.35.5, 2.36.3, and 2.37.4 are subject to exposure of sensitive information to a malicious actor. When performing a local clone (where the source and target of the clone are on the same volume), Git copies the contents of the source's `$GIT_DIR/objects` directory into the destination by either creating hardlinks to the source contents, or copying them (if hardlinks are disabled via `--no-hardlinks`). A malicious actor could convince a victim to clone a repository with a symbolic link pointing at sensitive information on the victim's machine. This can be done either by having the victim clone a malicious repository on the same machine, or having them clone a malicious repository embedded as a bare repository via a submodule from any source, provided they clone with the `--recurse-submodules` option. Git does not create symbolic links in the `$GIT_DIR/objects` directory. The problem has been patched in the versions published on 2022-10-18, and backported to v2.30.x. Potential workarounds: Avoid cloning untrusted repositories using the `--local` optimization when on a shared machine, either by passing the `--no-local` option to `git clone` or cloning from a URL that uses the `file://` scheme. Alternatively, avoid cloning repositories from untrusted sources with `--recurse-submodules` or run `git config --global protocol.file.allow user`."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-39239",
+        "description" : "netlify-ipx is an on-Demand image optimization for Netlify using ipx. In versions prior to 1.2.3, an attacker can bypass the source image domain allowlist by sending specially crafted headers, causing the handler to load and return arbitrary images. Because the response is cached globally, this image will then be served to visitors without requiring those headers to be set. XSS can be achieved by requesting a malicious SVG with embedded scripts, which would then be served from the site domain. Note that this does not apply to images loaded in `<img>` tags, as scripts do not execute in this context. The image URL can be set in the header independently of the request URL, meaning any site images that have not previously been cached can have their cache poisoned. This problem has been fixed in version 1.2.3. As a workaround, cached content can be cleared by re-deploying the site."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-39227",
+        "description" : "python-jwt is a module for generating and verifying JSON Web Tokens. Versions prior to 3.3.4 are subject to Authentication Bypass by Spoofing, resulting in identity spoofing, session hijacking or authentication bypass. An attacker who obtains a JWT can arbitrarily forge its contents without knowing the secret key. Depending on the application, this may for example enable the attacker to spoof other user's identities, hijack their sessions, or bypass authentication. Users should upgrade to version 3.3.4. There are no known workarounds."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-39219",
+        "description" : "Bifrost is a middleware package which can synchronize MySQL/MariaDB binlog data to other types of databases. Versions 1.8.6-release and prior are vulnerable to authentication bypass when using HTTP basic authentication. This may allow group members who only have read permissions to write requests when they are normally forbidden from doing so. Version 1.8.7-release contains a patch. There are currently no known workarounds."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-39218",
+        "description" : "The JS Compute Runtime for Fastly's Compute@Edge platform provides the environment JavaScript is executed in when using the Compute@Edge JavaScript SDK. In versions prior to 0.5.3, the `Math.random` and `crypto.getRandomValues` methods fail to use sufficiently random values. The initial value to seed the PRNG (pseudorandom number generator) is baked-in to the final WebAssembly module, making the sequence of random values for that specific WebAssembly module predictable. An attacker can use the fixed seed to predict random numbers generated by these functions and bypass cryptographic security controls, for example to disclose sensitive data encrypted by functions that use these generators. The problem has been patched in version 0.5.3. No known workarounds exist."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-39058",
+        "description" : "RAVA certification validation system has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to bypass authentication and access arbitrary system files."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-39034",
+        "description" : "Smart eVision has a path traversal vulnerability in the Report API function due to insufficient filtering for special characters in URLs. A remote attacker with general user privilege can exploit this vulnerability to bypass authentication, access restricted paths and download system files."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-39033",
+        "description" : "Smart eVision’s file acquisition function has a path traversal vulnerability due to insufficient filtering for special characters in the URL parameter. An unauthenticated remote attacker can exploit this vulnerability to bypass authentication, access restricted paths to download and delete arbitrary system files to disrupt service."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-39011",
+        "description" : "The HISP module has a vulnerability of bypassing the check of the data transferred in the kernel space.Successful exploitation of this vulnerability may cause unauthorized access to the HISP module."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-39007",
+        "description" : "The location module has a vulnerability of bypassing permission verification.Successful exploitation of this vulnerability may cause privilege escalation."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-38986",
+        "description" : "The HIPP module has a vulnerability of bypassing the check of the data transferred in the kernel space.Successful exploitation of this vulnerability may cause out-of-bounds access to the HIPP module and page table tampering, affecting device confidentiality and availability."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-38955",
+        "description" : "An exploitable firmware modification vulnerability was discovered on the Netgear WPN824EXT WiFi Range Extender. An attacker can conduct a MITM attack to modify the user-uploaded firmware image and bypass the CRC check. A successful attack can either introduce a backdoor to the device or make the device DoS. This affects Firmware Version: 1.1.1_1.1.9."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-38768",
+        "description" : "The mobile application in Transtek Mojodat FAM (Fixed Asset Management) 2.4.6 allows remote attackers to bypass authorization."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-38700",
+        "description" : "OpenHarmony-v3.1.1 and prior versions have a permission bypass vulnerability. LAN attackers can bypass permission control and get control of camera service."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-38449",
+        "description" : "Adobe Acrobat Reader versions 22.002.20212 (and earlier) and 20.005.30381 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-38443",
+        "description" : "Adobe Dimension versions 3.4.5 is affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-38437",
+        "description" : "Adobe Acrobat Reader versions 22.002.20212 (and earlier) and 20.005.30381 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-38428",
+        "description" : "Adobe Photoshop versions 22.5.8 (and earlier) and 23.4.2 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-38425",
+        "description" : "Adobe Bridge version 12.0.2 (and earlier) and 11.1.3 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-38410",
+        "description" : "Adobe Illustrator versions 26.4 (and earlier) and 25.4.7 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-38409",
+        "description" : "Adobe Illustrator versions 26.4 (and earlier) and 25.4.7 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-38407",
+        "description" : "Adobe InCopy version 17.3 (and earlier) and 16.4.2 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-38406",
+        "description" : "Adobe InCopy version 17.3 (and earlier) and 16.4.2 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-38297",
+        "description" : "UCMS v1.6.0 contains an authentication bypass vulnerability which is exploited via cookie poisoning."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-38081",
+        "description" : "OpenHarmony-v3.1.2 and prior versions have a permission bypass vulnerability. LAN attackers can bypass the distributed permission control.To take advantage of this weakness, attackers need another vulnerability to obtain system."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-38064",
+        "description" : "OpenHarmony-v3.1.2 and prior versions have a permission bypass vulnerability. Local attackers can bypass permission control and get sensitive information."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-38032",
+        "description" : "Windows Portable Device Enumerator Service Security Feature Bypass Vulnerability."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-37978",
+        "description" : "Windows Active Directory Certificate Services Security Feature Bypass."
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-37959",
+        "description" : "Network Device Enrollment Service (NDES) Security Feature Bypass Vulnerability."
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-37767",
+        "description" : "** DISPUTED ** Pebble Templates 3.1.5 allows attackers to bypass a protection mechanism and implement arbitrary code execution with springbok. NOTE: the vendor disputes this because input to the Pebble templating engine is intended to include arbitrary Java code, and thus either the input should not arrive from an untrusted source, or else the application using the engine should apply restrictions to the input. The engine is not responsible for validating the input."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-37709",
+        "description" : "Tesla Model 3 V11.0(2022.4.5.1 6b701552d7a6) Tesla mobile app v4.23 is vulnerable to Authentication Bypass by spoofing. Tesla Model 3's Phone Key authentication is vulnerable to Man-in-the-middle attacks in the BLE channel. It allows attackers to open a door and drive the car away by leveraging access to a legitimate Phone Key."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-37397",
+        "description" : "An issue was discovered in the YugabyteDB 2.6.1 when using LDAP-based authentication in YCQL with Microsoft’s Active Directory. When anonymous or unauthenticated LDAP binding is enabled, it allows bypass of authentication with an empty password."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-37396",
+        "description" : "In JetBrains Rider before 2022.2 Trust and Open Project dialog could be bypassed, leading to local code execution"
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-37042",
+        "description" : "Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authentication (i.e., not having an authtoken), an attacker can upload arbitrary files to the system, leading to directory traversal and remote code execution. NOTE: this issue exists because of an incomplete fix for CVE-2022-27925."
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-37026",
+        "description" : "In Erlang/OTP before 23.3.4.15, 24.x before 24.3.4.2, and 25.x before 25.0.2, there is a Client Authentication Bypass in certain client-certification situations for SSL, TLS, and DTLS."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-37011",
+        "description" : "A vulnerability has been identified in Mendix SAML Module (Mendix 7 compatible) (All versions < V1.17.0), Mendix SAML Module (Mendix 8 compatible) (All versions < V2.3.0), Mendix SAML Module (Mendix 9 compatible) (All versions < V3.3.1). Affected versions of the module insufficiently protect from packet capture replay. This could allow unauthorized remote attackers to bypass authentication and get access to the application. For compatibility reasons, fix versions still contain this issue, but only when the not recommended, non default configuration option `'Allow Idp Initiated Authentication'` is enabled."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-37008",
+        "description" : "The recovery module has a vulnerability of bypassing the verification of an update package before use. Successful exploitation of this vulnerability may affect system stability."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-37004",
+        "description" : "The Settings application has a vulnerability of bypassing the out-of-box experience (OOBE). Successful exploitation of this vulnerability may affect the availability."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-36781",
+        "description" : "WiseConnect - ScreenConnect Session Code Bypass. An attacker would have to use a proxy to monitor the traffic, and perform a brute force on the session code in order to get in. Sensitive data about the company , get in a session."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-36669",
+        "description" : "Hospital Information System version 1.0 suffers from a remote SQL injection vulnerability that allows for authentication bypass."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-36526",
+        "description" : "D-Link GO-RT-AC750 GORTAC750_revA_v101b03 & GO-RT-AC750_revB_FWv200b02 is vulnerable to Authentication Bypass via function phpcgi_main in cgibin."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-36436",
+        "description" : "OSU Open Source Lab VNCAuthProxy through 1.1.1 is affected by an vncap/vnc/protocol.py VNCServerAuthenticator authentication-bypass vulnerability that could allow a malicious actor to gain unauthorized access to a VNC session or to disconnect a legitimate user from a VNC session. A remote attacker with network access to the proxy server could leverage this vulnerability to connect to VNC servers protected by the proxy server without providing any authentication credentials. Exploitation of this issue requires that the proxy server is currently accepting connections for the target VNC server."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-36412",
+        "description" : "In Zoho ManageEngine SupportCenter Plus before 11023, V3 API requests are vulnerable to authentication bypass. (An API request may, in effect, be executed with the credentials of a user who authenticated in the past.)"
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-36324",
+        "description" : "Affected devices do not properly handle the renegotiation of SSL/TLS parameters. This could allow an unauthenticated remote attacker to bypass the TCP brute force prevention and lead to a denial of service condition for the duration of the attack."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-36109",
+        "description" : "Moby is an open-source project created by Docker to enable software containerization. A bug was found in Moby (Docker Engine) where supplementary groups are not set up properly. If an attacker has direct access to a container and manipulates their supplementary group access, they may be able to use supplementary group access to bypass primary group restrictions in some cases, potentially gaining access to sensitive information or gaining the ability to execute code in that container. This bug is fixed in Moby (Docker Engine) 20.10.18. Running containers should be stopped and restarted for the permissions to be fixed. For users unable to upgrade, this problem can be worked around by not using the `\"USER $USERNAME\"` Dockerfile instruction. Instead by calling `ENTRYPOINT [\"su\", \"-\", \"user\"]` the supplementary groups will be set up properly."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-36102",
+        "description" : "Shopware is an open source e-commerce software. In affected versions if backend admin controllers are called with a certain notation, the ACL could be bypassed. Users could execute actions, which they are normally not able to do. Users are advised to update to the current version (5.7.15). Users can get the update via the Auto-Updater or directly via the download overview. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-36100",
+        "description" : "XWiki Platform Applications Tag and XWiki Platform Tag UI are tag applications for XWiki, a generic wiki platform. Starting with version 1.7 in XWiki Platform Applications Tag and prior to 13.10.6 and 14.4 in XWiki Platform Tag UI, the tags document `Main.Tags` in XWiki didn't sanitize user inputs properly. This allowed users with view rights on the document (default in a public wiki or for authenticated users on private wikis) to execute arbitrary Groovy, Python and Velocity code with programming rights. This also allowed bypassing all rights checks and thus both modification and disclosure of all content stored in the XWiki installation. The vulnerability could be used to impact the availability of the wiki. On XWiki versions before 13.10.4 and 14.2, this can be combined with CVE-2022-36092, meaning that no rights are required to perform the attack. The vulnerability has been patched in versions 13.10.6 and 14.4. As a workaround, the patch that fixes the issue can be manually applied to the document `Main.Tags` or the updated version of that document can be imported from version 14.4 of xwiki-platform-tag-ui using the import feature in the administration UI on XWiki 10.9 and later."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-36099",
+        "description" : "XWiki Platform Wiki UI Main Wiki is software for managing subwikis on XWiki Platform, a generic wiki platform. Starting with version 5.3-milestone-2 and prior to versions 13.10.6 and 14.4, it's possible to inject arbitrary wiki syntax including Groovy, Python and Velocity script macros via the request (URL parameter) using the `XWikiServerClassSheet` if the user has view access to this sheet and another page that has been saved with programming rights, a standard condition on a public read-only XWiki installation or a private XWiki installation where the user has an account. This allows arbitrary Groovy/Python/Velocity code execution which allows bypassing all rights checks and thus both modification and disclosure of all content stored in the XWiki installation. Also, this could be used to impact the availability of the wiki. This has been patched in versions 13.10.6 and 14.4. As a workaround, edit the affected document `XWiki.XWikiServerClassSheet` or `WikiManager.XWikiServerClassSheet` and manually perform the changes from the patch fixing the issue. On XWiki versions 12.0 and later, it is also possible to import the document `XWiki.XWikiServerClassSheet` from the xwiki-platform-wiki-ui-mainwiki package version 14.4 using the import feature of the administration application as there have been no other changes to this document since XWiki 12.0."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-36093",
+        "description" : "XWiki Platform Web Templates are templates for XWiki Platform, a generic wiki platform. By passing a template of the distribution wizard to the xpart template, user accounts can be created even when user registration is disabled. This also circumvents any email verification. Before versions 14.2 and 13.10.4, this can also be exploited on a private wiki, thus potentially giving the attacker access to the wiki. Depending on the configured default rights of users, this could also give attackers write access to an otherwise read-only public wiki. Users can also be created when an external authentication system like LDAP is configured, but authentication fails unless the authentication system supports a bypass/local accounts are enabled in addition to the external authentication system. This issue has been patched in XWiki 13.10.5 and 14.3RC1. As a workaround, one may replace `xpart.vm`, the entry point for this attack, by a patched version from the patch without updating XWiki."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-36092",
+        "description" : "XWiki Platform Old Core is a core package for XWiki Platform, a generic wiki platform. Prior to versions 14.2 and 13.10.4, all rights checks that would normally prevent a user from viewing a document on a wiki can be bypassed using the login action and directly specified templates. This exposes title, content and comments of any document and properties of objects, though class and property name must be known. This is also exploitable on private wikis. This has been patched in versions 14.2 and 13.10.4 by properly checking view rights before loading documents and disallowing non-default templates in the login, registration and skin action. As a workaround, it would be possible to protect all templates individually by adding code to check access rights first."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-36089",
+        "description" : "KubeVela is an application delivery platform Users using KubeVela's VelaUX APIServer could be affected by an authentication bypass vulnerability. In KubeVela prior to versions 1.4.11 and 1.5.4, VelaUX APIServer uses the `PlatformID` as the signed key to generate the JWT tokens for users. Another API called `getSystemInfo` exposes the platformID. This vulnerability allows users to use the platformID to re-generate the JWT tokens to bypass the authentication. Versions 1.4.11 and 1.5.4 contain a patch for this issue."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-36085",
+        "description" : "Open Policy Agent (OPA) is an open source, general-purpose policy engine. The Rego compiler provides a (deprecated) `WithUnsafeBuiltins` function, which allows users to provide a set of built-in functions that should be deemed unsafe â€” and as such rejected â€” by the compiler if encountered in the policy compilation stage. A bypass of this protection has been found, where the use of the `with` keyword to mock such a built-in function (a feature introduced in OPA v0.40.0), isnâ€™t taken into account by `WithUnsafeBuiltins`. Multiple conditions need to be met in order to create an adverse effect. Version 0.43.1 contains a patch for this issue. As a workaround, avoid using the `WithUnsafeBuiltins` function and use the `capabilities` feature instead."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-36071",
+        "description" : "SFTPGo is configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support. SFTPGo WebAdmin and WebClient support login using TOTP (Time-based One Time Passwords) as a secondary authentication factor. Because TOTPs are often configured on mobile devices that can be lost, stolen or damaged, SFTPGo also supports recovery codes. These are a set of one time use codes that can be used instead of the TOTP. In SFTPGo versions from version 2.2.0 to 2.3.3 recovery codes can be generated before enabling two-factor authentication. An attacker who knows the user's password could potentially generate some recovery codes and then bypass two-factor authentication after it is enabled on the account at a later time. This issue has been fixed in version 2.3.4. Recovery codes can now only be generated after enabling two-factor authentication and are deleted after disabling it."
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-36069",
+        "description" : "Poetry is a dependency manager for Python. When handling dependencies that come from a Git repository instead of a registry, Poetry uses various commands, such as `git clone`. These commands are constructed using user input (e.g. the repository URL). When building the commands, Poetry correctly avoids Command Injection vulnerabilities by passing an array of arguments instead of a command string. However, there is the possibility that a user input starts with a dash (`-`) and is therefore treated as an optional argument instead of a positional one. This can lead to Code Execution because some of the commands have options that can be leveraged to run arbitrary executables. If a developer is exploited, the attacker could steal credentials or persist their access. If the exploit happens on a server, the attackers could use their access to attack other internal systems. Since this vulnerability requires a fair amount of user interaction, it is not as dangerous as a remotely exploitable one. However, it still puts developers at risk when dealing with untrusted files in a way they think is safe, because the exploit still works when the victim tries to make sure nothing can happen, e.g. by vetting any Git or Poetry config files that might be present in the directory. Versions 1.1.9 and 1.2.0b1 contain patches for this issue."
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-36067",
+        "description" : "vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. In versions prior to version 3.9.11, a threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.11 of vm2. There are no known workarounds."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-36020",
+        "description" : "The typo3/html-sanitizer package is an HTML sanitizer, written in PHP, aiming to provide XSS-safe markup based on explicitly allowed tags, attributes and values. Due to a parsing issue in the upstream package `masterminds/html5`, malicious markup used in a sequence with special HTML comments cannot be filtered and sanitized. This allows for a bypass of the cross-site scripting mechanism of `typo3/html-sanitizer`. This issue has been addressed in versions 1.0.7 and 2.0.16 of the `typo3/html-sanitizer` package. Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-35961",
+        "description" : "OpenZeppelin Contracts is a library for secure smart contract development. The functions `ECDSA.recover` and `ECDSA.tryRecover` are vulnerable to a kind of signature malleability due to accepting EIP-2098 compact signatures in addition to the traditional 65 byte signature format. This is only an issue for the functions that take a single `bytes` argument, and not the functions that take `r, v, s` or `r, vs` as separate arguments. The potentially affected contracts are those that implement signature reuse or replay protection by marking the signature itself as used rather than the signed message or a nonce included in it. A user may take a signature that has already been submitted, submit it again in a different form, and bypass this protection. The issue has been patched in 4.7.3."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-35944",
+        "description" : "October is a self-hosted Content Management System (CMS) platform based on the Laravel PHP Framework. This vulnerability only affects installations that rely on the safe mode restriction, commonly used when providing public access to the admin panel. Assuming an attacker has access to the admin panel and permission to open the \"Editor\" section, they can bypass the Safe Mode (`cms.safe_mode`) restriction to introduce new PHP code in a CMS template using a specially crafted request. The issue has been patched in versions 2.2.34 and 3.0.66."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-35943",
+        "description" : "Shield is an authentication and authorization framework for CodeIgniter 4. This vulnerability may allow [SameSite Attackers](https://canitakeyoursubdomain.name/) to bypass the [CodeIgniter4 CSRF protection](https://codeigniter4.github.io/userguide/libraries/security.html) mechanism with CodeIgniter Shield. For this attack to succeed, the attacker must have direct (or indirect, e.g., XSS) control over a subdomain site (e.g., `https://a.example.com/`) of the target site (e.g., `http://example.com/`). Upgrade to **CodeIgniter v4.2.3 or later** and **Shield v1.0.0-beta.2 or later**. As a workaround: set `Config\\Security::$csrfProtection` to `'session,'`remove old session data right after login (immediately after ID and password match) and regenerate CSRF token right after login (immediately after ID and password match)"
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-35924",
+        "description" : "NextAuth.js is a complete open source authentication solution for Next.js applications. `next-auth` users who are using the `EmailProvider` either in versions before `4.10.3` or `3.29.10` are affected. If an attacker could forge a request that sent a comma-separated list of emails (eg.: `attacker@attacker.com,victim@victim.com`) to the sign-in endpoint, NextAuth.js would send emails to both the attacker and the victim's e-mail addresses. The attacker could then login as a newly created user with the email being `attacker@attacker.com,victim@victim.com`. This means that basic authorization like `email.endsWith(\"@victim.com\")` in the `signIn` callback would fail to communicate a threat to the developer and would let the attacker bypass authorization, even with an `@attacker.com` address. This vulnerability has been patched in `v4.10.3` and `v3.29.10` by normalizing the email value that is sent to the sign-in endpoint before accessing it anywhere else. We also added a `normalizeIdentifier` callback on the `EmailProvider` configuration, where you can further tweak your requirements for what your system considers a valid e-mail address. (E.g.: strict RFC2821 compliance). Users are advised to upgrade. There are no known workarounds for this vulnerability. If for some reason you cannot upgrade, you can normalize the incoming request using Advanced Initialization."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-35870",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Inductive Automation Ignition 8.1.15 (b2022030114). Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within com.inductiveautomation.metro.impl. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-17265."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-35869",
+        "description" : "This vulnerability allows remote attackers to bypass authentication on affected installations of Inductive Automation Ignition 8.1.15 (b2022030114). Authentication is not required to exploit this vulnerability. The specific flaw exists within com.inductiveautomation.ignition.gateway.web.pages. The issue results from the lack of proper authentication prior to access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-17211."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-35866",
+        "description" : "This vulnerability allows remote attackers to bypass authentication on affected installations of Vinchin Backup and Recovery 6.5.0.17561. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the MySQL server. The server uses a hard-coded password for the administrator user. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-17139."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-35822",
+        "description" : "Windows Defender Credential Guard Security Feature Bypass Vulnerability. This CVE ID is unique from CVE-2022-34709."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-35797",
+        "description" : "Windows Hello Security Feature Bypass Vulnerability."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-35709",
+        "description" : "Adobe Bridge version 12.0.2 (and earlier) and 11.1.3 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-35692",
+        "description" : "Adobe Commerce versions 2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4 (and earlier) are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to leak minor information of another user's account detials. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-35689",
+        "description" : "Adobe Commerce versions 2.4.4-p1 (and earlier) and 2.4.5 (and earlier) are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to impact the availability of a user's minor feature. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-35678",
+        "description" : "Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-35671",
+        "description" : "Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-35670",
+        "description" : "Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-35669",
+        "description" : "Acrobat Reader versions 22.001.20142 (and earlier), 20.005.30334 (and earlier) and 20.005.30334 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-35668",
+        "description" : "Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by an Improper Input Validation vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-35248",
+        "description" : "A improper authentication vulnerability exists in Rocket.Chat <v5, <v4.8.2 and <v4.7.5 that allowed two factor authentication can be bypassed when telling the server to use CAS during login."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-35243",
+        "description" : "In BIG-IP Versions 16.1.x before 16.1.3, 15.1.x before 15.1.5.1, 14.1.x before 14.1.5, and all versions of 13.1.x, when running in Appliance mode, an authenticated user assigned the Administrator role may be able to bypass Appliance mode restrictions, using an undisclosed iControl REST endpoint. A successful exploit can allow the attacker to cross a security boundary. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-35216",
+        "description" : "OMICARD EDM’s mail image relay function has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to by-pass authentication and access arbitrary system files."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-35147",
+        "description" : "DoraCMS v2.18 and earlier allows attackers to bypass login authentication via a crafted HTTP request."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-34907",
+        "description" : "An authentication bypass vulnerability exists in FileWave before 14.6.3 and 14.7.x before 14.7.2. Exploitation could allow an unauthenticated actor to gain access to the system with the highest authority possible and gain full control over the FileWave platform."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-34858",
+        "description" : "Authentication Bypass vulnerability in miniOrange OAuth 2.0 client for SSO plugin <= 1.11.3 at WordPress."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-34839",
+        "description" : "Authentication Bypass vulnerability in CodexShaper's WP OAuth2 Server plugin <= 1.0.1 at WordPress."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-34767",
+        "description" : "Web page which \"wizardpwd.asp\" ALLNET Router model WR0500AC is prone to Authorization bypass vulnerability – the password, located at \"admin\" allows changing the http[s]://wizardpwd.asp/cgi-bin. Does not validate the user's identity and can be accessed publicly."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-34709",
+        "description" : "Windows Defender Credential Guard Security Feature Bypass Vulnerability."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-34383",
+        "description" : "Dell Edge Gateway 5200 (EGW) versions before 1.03.10 contain an operating system command injection vulnerability. A local malicious user may potentially exploit this vulnerability by using an SMI to bypass PMC mitigation and gain arbitrary code execution during SMM."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-34380",
+        "description" : "Dell CloudLink 7.1.3 and all earlier versions contain an Authentication Bypass Using an Alternate Path or Channel Vulnerability. A high privileged local attacker may potentially exploit this vulnerability leading to authentication bypass and access the CloudLink system console. This is critical severity vulnerability as it allows attacker to take control of the system."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-34379",
+        "description" : "Dell EMC CloudLink 7.1.2 and all prior versions contain an Authentication Bypass Vulnerability. A remote attacker, with the knowledge of the active directory usernames, could potentially exploit this vulnerability to gain unauthorized access to the system."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-34372",
+        "description" : "Dell PowerProtect Cyber Recovery versions before 19.11.0.2 contain an authentication bypass vulnerability. A remote unauthenticated attacker may potentially access and interact with the docker registry API leading to an authentication bypass. The attacker may potentially alter the docker images leading to a loss of integrity and confidentiality"
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-34303",
+        "description" : "A flaw was found in Eurosoft bootloaders before 2022-06-01. An attacker may use this bootloader to bypass or tamper with Secure Boot protections. In order to load and execute arbitrary code in the pre-boot stage, an attacker simply needs to replace the existing signed bootloader currently in use with this bootloader. Access to the EFI System Partition is required for booting using external media."
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-34302",
+        "description" : "A flaw was found in New Horizon Datasys bootloaders before 2022-06-01. An attacker may use this bootloader to bypass or tamper with Secure Boot protections. In order to load and execute arbitrary code in the pre-boot stage, an attacker simply needs to replace the existing signed bootloader currently in use with this bootloader. Access to the EFI System Partition is required for booting using external media."
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-34301",
+        "description" : "A flaw was found in CryptoPro Secure Disk bootloaders before 2022-06-01. An attacker may use this bootloader to bypass or tamper with Secure Boot protections. In order to load and execute arbitrary code in the pre-boot stage, an attacker simply needs to replace the existing signed bootloader currently in use with this bootloader. Access to the EFI System Partition is required for booting using external media."
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-34296",
+        "description" : "In Zalando Skipper before 0.13.218, a query predicate could be bypassed via a prepared request."
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-34264",
+        "description" : "Adobe FrameMaker versions 2019 Update 8 (and earlier) and 2020 Update 4 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-34262",
+        "description" : "Adobe Illustrator versions 26.3.1 (and earlier) and 25.4.6 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-34261",
+        "description" : "Adobe Illustrator versions 26.3.1 (and earlier) and 25.4.6 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-34259",
+        "description" : "Adobe Commerce versions 2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4 (and earlier) are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to impact the availability of a user's minor feature. Exploitation of this issue does not require user interaction."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-34252",
+        "description" : "Adobe InCopy versions 17.2 (and earlier) and 16.4.1 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-34244",
+        "description" : "Adobe Photoshop versions 22.5.7 (and earlier) and 23.3.2 (and earlier) are affected by an Access of Uninitialized Pointer vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-34239",
+        "description" : "Adobe Acrobat Reader versions 22.001.20142 (and earlier), 20.005.30334 (and earlier) and 17.012.30229 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-34237",
+        "description" : "Adobe Acrobat Reader versions 22.001.20142 (and earlier), 20.005.30334 (and earlier) and 17.012.30229 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-34236",
+        "description" : "Adobe Acrobat Reader versions 22.001.20142 (and earlier), 20.005.30334 (and earlier) and 17.012.30229 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-34234",
+        "description" : "Adobe Acrobat Reader versions 22.001.20142 (and earlier), 20.005.30334 (and earlier) and 17.012.30229 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-34233",
+        "description" : "Adobe Acrobat Reader versions 22.001.20142 (and earlier), 20.005.30334 (and earlier) and 17.012.30229 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-34232",
+        "description" : "Adobe Acrobat Reader versions 22.001.20142 (and earlier), 20.005.30334 (and earlier) and 17.012.30229 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-34175",
+        "description" : "Jenkins 2.335 through 2.355 (both inclusive) allows attackers in some cases to bypass a protection mechanism, thereby directly accessing some view fragments containing sensitive information, bypassing any permission checks in the corresponding view."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2022-34149",
+        "description" : "Authentication Bypass vulnerability in miniOrange WP OAuth Server plugin <= 3.0.4 at WordPress."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2022-33971",
+        "description" : "Authentication bypass by capture-replay vulnerability exists in Machine automation controller NX7 series all models V1.28 and earlier, Machine automation controller NX1 series all models V1.48 and earlier, and Machine automation controller NJ series all models V 1.48 and earlier, which may allow an adjacent attacker who can analyze the communication between the controller and the specific software used by OMRON internally to cause a denial-of-service (DoS) condition or execute a malicious program."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2022-33962",
+        "description" : "In BIG-IP Versions 17.0.x before 17.0.0.1, 16.1.x before 16.1.3.1, 15.1.x before 15.1.6.1, 14.1.x before 14.1.5.1, and all versions of 13.1.x, certain iRules commands may allow an attacker to bypass the access control restrictions for a self IP address, regardless of the port lockdown settings. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2022-33925",
+        "description" : "Dell Wyse Management Suite 3.6.1 and below contains an Improper Access control vulnerability in UI. An remote authenticated attacker could potentially exploit this vulnerability by bypassing access controls in order to download reports containing sensitive information."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2022-33702",
+        "description" : "Improper authorization vulnerability in Knoxguard prior to SMR Jul-2022 Release 1 allows local attacker to disable keyguard and bypass Knoxguard lock by factory reset."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2022-33649",
+        "description" : "Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2022-33632",
+        "description" : "Microsoft Office Security Feature Bypass Vulnerability."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2022-33631",
+        "description" : "Microsoft Excel Security Feature Bypass Vulnerability."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2022-33311",
+        "description" : "Browse restriction bypass vulnerability in Address Book of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to obtain the data of Address Book via unspecified vectors."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2022-33208",
+        "description" : "Authentication bypass by capture-replay vulnerability exists in Machine automation controller NJ series all models V 1.48 and earlier, Machine automation controller NX7 series all models V1.28 and earlier, Machine automation controller NX1 series all models V1.48 and earlier, Automation software 'Sysmac Studio' all models V1.49 and earlier, and Programmable Terminal (PT) NA series NA5-15W/NA5-12W/NA5-9W/NA5-7W models Runtime V1.15 and earlier, which may allow a remote attacker who can analyze the communication between the affected controller and automation software 'Sysmac Studio' and/or a Programmable Terminal (PT) to access the controller."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2022-33202",
+        "description" : "uthentication bypass vulnerability in the setup screen of L2Blocker(on-premise) Ver4.8.5 and earlier and L2Blocker(Cloud) Ver4.8.5 and earlier allows an adjacent attacker to perform an unauthorized login and obtain the stored information or cause a malfunction of the device by using alternative paths or channels for Sensor."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2022-33174",
+        "description" : "Power Distribution Units running on Powertek firmware (multiple brands) before 3.30.30 allows remote authorization bypass in the web interface. To exploit the vulnerability, an attacker must send an HTTP packet to the data retrieval interface (/cgi/get_param.cgi) with the tmpToken cookie set to an empty string followed by a semicolon. This bypasses an active session authorization check. This can be then used to fetch the values of protected sys.passwd and sys.su.name fields that contain the username and password in cleartext."
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2022-33172",
+        "description" : "de.fac2 1.34 allows bypassing the User Presence protection mechanism when there is malware on the victim's PC."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2022-32973",
+        "description" : "An authenticated attacker could create an audit file that bypasses PowerShell cmdlet checks and executes commands with administrator privileges."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2022-32963",
+        "description" : "OMICARD EDM’s mail file relay function has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to by-pass authentication and access arbitrary system files."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2022-32882",
+        "description" : "This issue was addressed with improved checks. This issue is fixed in macOS Monterey 12.4, macOS Big Sur 11.6.6. An app may be able to bypass Privacy preferences."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2022-32854",
+        "description" : "This issue was addressed with improved checks. This issue is fixed in iOS 15.7 and iPadOS 15.7, iOS 16, macOS Big Sur 11.7. An app may be able to bypass Privacy preferences."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2022-32789",
+        "description" : "A logic issue was addressed with improved checks. This issue is fixed in macOS Monterey 12.5. An app may be able to bypass Privacy preferences."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2022-32769",
+        "description" : "Multiple authentication bypass vulnerabilities exist in the objects id handling functionality of WWBN AVideo 11.6 and dev master commit 3f7c0364. A specially-crafted HTTP request by an authenticated user can lead to unauthorized access and takeover of resources. An attacker can send an HTTP request to trigger this vulnerability.This vulnerability exists in the Playlists plugin, allowing an attacker to bypass authentication by guessing a sequential ID, allowing them to take over the another user's playlists."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2022-32768",
+        "description" : "Multiple authentication bypass vulnerabilities exist in the objects id handling functionality of WWBN AVideo 11.6 and dev master commit 3f7c0364. A specially-crafted HTTP request by an authenticated user can lead to unauthorized access and takeover of resources. An attacker can send an HTTP request to trigger this vulnerability.This vulnerability exists in the Live Schedules plugin, allowing an attacker to bypass authentication by guessing a sequential ID, allowing them to take over the another user's streams."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2022-32583",
+        "description" : "Operation restriction bypass vulnerability in Scheduler of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to alter the data of Scheduler via unspecified vectors."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2022-32544",
+        "description" : "Operation restriction bypass vulnerability in Project of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to alter the data of Project via unspecified vectors."
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2022-32532",
+        "description" : "Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypassed on some servlet containers. Applications using RegExPatternMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2022-32498",
+        "description" : "Dell EMC PowerStore, Versions prior to v3.0.0.0 contain a DLL Hijacking vulnerability in PSTCLI. A local attacker can potentially exploit this vulnerability to execute arbitrary code, escalate privileges, and bypass software allow list solutions, leading to system takeover or IP exposure."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2022-32429",
+        "description" : "An authentication-bypass issue in the component http://MYDEVICEIP/cgi-bin-sdb/ExportSettings.sh of Mega System Technologies Inc MSNSwitch MNT.2408 allows unauthenticated attackers to arbitrarily configure settings within the application, leading to remote code execution."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2022-32290",
+        "description" : "The client in Northern.tech Mender 3.2.0, 3.2.1, and 3.2.2 has Incorrect Access Control. It listens on a random, unprivileged TCP port and exposes an HTTP proxy to facilitate API calls from additional client components running on the device. However, it listens on all network interfaces instead of only the localhost interface. Therefore, any client on the same network can connect to this TCP port and send HTTP requests. The Mender Client will forward these requests to the Mender Server. Additionally, if mTLS is set up, the Mender Client will connect to the Mender Server using the device's client certificate, making it possible for the attacker to bypass mTLS authentication and send requests to the Mender Server without direct access to the client certificate and related private key. Accessing the HTTP proxy from the local network doesn't represent a direct threat, because it doesn't expose any device or server-specific data. However, it increases the attack surface and can be a potential vector to exploit other vulnerabilities both on the Client and the Server."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2022-32283",
+        "description" : "Browse restriction bypass vulnerability in Cabinet of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to obtain the data of Cabinet via unspecified vectors."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2022-32260",
+        "description" : "A vulnerability has been identified in SINEMA Remote Connect Server (All versions < V3.1). The affected application creates temporary user credentials for UMC (User Management Component) users. An attacker could use these temporary credentials for authentication bypass in certain scenarios."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2022-32226",
+        "description" : "An improper access control vulnerability exists in Rocket.Chat <v5, <v4.8.2 and <v4.7.5 due to input data in the getUsersOfRoom Meteor server method is not type validated, so that MongoDB query operator objects are accepted by the server, so that instead of a matching rid String a$regex query can be executed, bypassing the room access permission check for every but the first matching room."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2022-32212",
+        "description" : "A OS Command Injection vulnerability exists in Node.js versions <14.20.0, <16.16.0, <18.5.0 due to an insufficient IsAllowedHost check that can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid before making DBS requests allowing rebinding attacks."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2022-32154",
+        "description" : "Dashboards in Splunk Enterprise versions before 9.0 might let an attacker inject risky search commands into a form token when the token is used in a query in a cross-origin request. The result bypasses SPL safeguards for risky commands. See New capabilities can limit access to some custom and potentially risky commands (https://docs.splunk.com/Documentation/Splunk/9.0.0/Security/SPLsafeguards#New_capabilities_can_limit_access_to_some_custom_and_potentially_risky_commands) for more information. Note that the attack is browser-based and an attacker cannot exploit it at will."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2022-31813",
+        "description" : "Apache HTTP Server 2.4.53 and earlier may not send the X-Forwarded-* headers to the origin server based on client side Connection header hop-by-hop mechanism. This may be used to bypass IP based authentication on the origin server/application."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2022-31675",
+        "description" : "VMware vRealize Operations contains an authentication bypass vulnerability. An unauthenticated malicious actor with network access may be able to create a user with administrative privileges."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2022-31656",
+        "description" : "VMware Workspace ONE Access, Identity Manager and vRealize Automation contain an authentication bypass vulnerability affecting local domain users. A malicious actor with network access to the UI may be able to obtain administrative access without the need to authenticate."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2022-31473",
+        "description" : "In BIG-IP Versions 16.1.x before 16.1.1 and 15.1.x before 15.1.4, when running in Appliance mode, an authenticated attacker may be able to bypass Appliance mode restrictions due to a directory traversal vulnerability in an undisclosed page within iApps. A successful exploit can allow the attacker to cross a security boundary. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2022-31472",
+        "description" : "Browse restriction bypass vulnerability in Cabinet of Cybozu Garoon 4.0.0 to 5.5.1 allows a remote authenticated attacker to obtain the data of Cabinet."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2022-31289",
+        "description" : "** DISPUTED ** https://ossindex.sonatype.org/ Sonatype Nexus Repository Manager OSS 3.37.3-02 is affected by: Incorrect Access Control. The impact is: Authentication Bypass (remote). The component is: Admin Panel. The attack vector is: With the help of response manipulation Attacker can bypass the login panel and view the dashboard menus, No user interaction is required. 1. Go to https://nexus.e-goi.com 2. Click on the Sign In button. 3. Enter the password as admin:admin. 4. Intercept the request in Burp Suite. 5. Capture the Response of the Request. 6. Change the Status Code from 403 Forbidden to 200 OK. 7. You will see the dashboard which provides the admin access. NOTE: third parties claim that the server application has not actually authenticated the request and no administrative actions are permitted which would not make this issue a vulnerability."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2022-31277",
+        "description" : "Xiaomi Lamp 1 v2.0.4_0066 was discovered to be vulnerable to replay attacks. This allows attackers to to bypass the expected access restrictions and gain control of the switch and other functions via a crafted POST request."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2022-31263",
+        "description" : "app/models/user.rb in Mastodon before 3.5.0 allows a bypass of e-mail restrictions."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2022-31259",
+        "description" : "The route lookup process in beego through 1.12.4 and 2.x through 2.0.2 allows attackers to bypass access control. When a /p1/p2/:name route is configured, attackers can access it by appending .xml in various places (e.g., p1.xml instead of p1)."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2022-31257",
+        "description" : "A vulnerability has been identified in Mendix Applications using Mendix 7 (All versions < V7.23.31), Mendix Applications using Mendix 8 (All versions < V8.18.18), Mendix Applications using Mendix 9 (All versions < V9.14.0), Mendix Applications using Mendix 9 (V9.12) (All versions < V9.12.2), Mendix Applications using Mendix 9 (V9.6) (All versions < V9.6.12). In case of access to an active user session in an application that is built with an affected version, it’s possible to change that user’s password bypassing password validations within a Mendix application. This could allow to set weak passwords."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2022-31215",
+        "description" : "In certain Goverlan products, the Windows Firewall is temporarily turned off upon a Goverlan agent update operation. This allows remote attackers to bypass firewall blocking rules for a time period of up to 30 seconds. This affects Goverlan Reach Console before 10.5.1, Reach Server before 3.70.1, and Reach Client Agents before 10.1.11."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2022-31159",
+        "description" : "The AWS SDK for Java enables Java developers to work with Amazon Web Services. A partial-path traversal issue exists within the `downloadDirectory` method in the AWS S3 TransferManager component of the AWS SDK for Java v1 prior to version 1.12.261. Applications using the SDK control the `destinationDirectory` argument, but S3 object keys are determined by the application that uploaded the objects. The `downloadDirectory` method allows the caller to pass a filesystem object in the object key but contained an issue in the validation logic for the key name. A knowledgeable actor could bypass the validation logic by including a UNIX double-dot in the bucket key. Under certain conditions, this could permit them to retrieve a directory from their S3 bucket that is one level up in the filesystem from their working directory. This issue’s scope is limited to directories whose name prefix matches the destinationDirectory. E.g. for destination directory`/tmp/foo`, the actor can cause a download to `/tmp/foo-bar`, but not `/tmp/bar`. If `com.amazonaws.services.s3.transfer.TransferManager::downloadDirectory` is used to download an untrusted buckets contents, the contents of that bucket can be written outside of the intended destination directory. Version 1.12.261 contains a patch for this issue. As a workaround, when calling `com.amazonaws.services.s3.transfer.TransferManager::downloadDirectory`, pass a `KeyFilter` that forbids `S3ObjectSummary` objects that `getKey` method return a string containing the substring `..` ."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2022-31146",
+        "description" : "Wasmtime is a standalone runtime for WebAssembly. There is a bug in the Wasmtime's code generator, Cranelift, where functions using reference types may be incorrectly missing metadata required for runtime garbage collection. This means that if a GC happens at runtime then the GC pass will mistakenly think these functions do not have live references to GC'd values, reclaiming them and deallocating them. The function will then subsequently continue to use the values assuming they had not been GC'd, leading later to a use-after-free. This bug was introduced in the migration to the `regalloc2` register allocator that occurred in the Wasmtime 0.37.0 release on 2022-05-20. This bug has been patched and users should upgrade to Wasmtime version 0.38.2. Mitigations for this issue can be achieved by disabling the reference types proposal by passing `false` to `wasmtime::Config::wasm_reference_types` or downgrading to Wasmtime 0.36.0 or prior."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2022-31125",
+        "description" : "Roxy-wi is an open source web interface for managing Haproxy, Nginx, Apache and Keepalived servers. A vulnerability in Roxy-wi allows a remote, unauthenticated attacker to bypass authentication and access admin functionality by sending a specially crafted HTTP request. This affects Roxywi versions before 6.1.1.0. Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2022-31123",
+        "description" : "Grafana is an open source observability and data visualization platform. Versions prior to 9.1.8 and 8.5.14 are vulnerable to a bypass in the plugin signature verification. An attacker can convince a server admin to download and successfully run a malicious plugin even though unsigned plugins are not allowed. Versions 9.1.8 and 8.5.14 contain a patch for this issue. As a workaround, do not install plugins downloaded from untrusted sources."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2022-31083",
+        "description" : "Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Prior to versions 4.10.11 and 5.2.2, the certificate in the Parse Server Apple Game Center auth adapter not validated. As a result, authentication could potentially be bypassed by making a fake certificate accessible via certain Apple domains and providing the URL to that certificate in an authData object. Versions 4.0.11 and 5.2.2 prevent this by introducing a new `rootCertificateUrl` property to the Parse Server Apple Game Center auth adapter which takes the URL to the root certificate of Apple's Game Center authentication certificate. If no value is set, the `rootCertificateUrl` property defaults to the URL of the current root certificate as of May 27, 2022. Keep in mind that the root certificate can change at any time and that it is the developer's responsibility to keep the root certificate URL up-to-date when using the Parse Server Apple Game Center auth adapter. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2022-31066",
+        "description" : "EdgeX Foundry is an open source project for building a common open framework for Internet of Things edge computing. Prior to version 2.1.1, the /api/v2/config endpoint exposes message bus credentials to local unauthenticated users. In security-enabled mode, message bus credentials are supposed to be kept in the EdgeX secret store and require authentication to access. This vulnerability bypasses the access controls on message bus credentials when running in security-enabled mode. (No credentials are required when running in security-disabled mode.) As a result, attackers could intercept data or inject fake data into the EdgeX message bus. Users should upgrade to EdgeXFoundry Kamakura release (2.2.0) or to the June 2022 EdgeXFoundry LTS Jakarta release (2.1.1) to receive a patch. More information about which go modules, docker containers, and snaps contain patches is available in the GitHub Security Advisory. There are currently no known workarounds for this issue."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2022-31041",
+        "description" : "Open Forms is an application for creating and publishing smart forms. Open Forms supports file uploads as one of the form field types. These fields can be configured to allow only certain file extensions to be uploaded by end users (e.g. only PDF / Excel / ...). The input validation of uploaded files is insufficient in versions prior to 1.0.9 and 1.1.1. Users could alter or strip file extensions to bypass this validation. This results in files being uploaded to the server that are of a different file type than indicated by the file name extension. These files may be downloaded (manually or automatically) by staff and/or other applications for further processing. Malicious files can therefore find their way into internal/trusted networks. Versions 1.0.9 and 1.1.1 contain patches for this issue. As a workaround, an API gateway or intrusion detection solution in front of open-forms may be able to scan for and block malicious content before it reaches the Open Forms application."
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2022-31025",
+        "description" : "Discourse is an open source platform for community discussion. Prior to version 2.8.4 on the `stable` branch and 2.9.0beta5 on the `beta` and `tests-passed` branches, inviting users on sites that use single sign-on could bypass the `must_approve_users` check and invites by staff are always approved automatically. The issue is patched in Discourse version 2.8.4 on the `stable` branch and version `2.9.0.beta5` on the `beta` and `tests-passed` branches. As a workaround, disable invites or increase `min_trust_level_to_allow_invite` to reduce the attack surface to more trusted users."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2022-31013",
+        "description" : "Chat Server is the chat server for Vartalap, an open-source messaging application. Versions 2.3.2 until 2.6.0 suffer from a bug in validating the access token, resulting in authentication bypass. The function `this.authProvider.verifyAccessKey` is an async function, as the code is not using `await` to wait for the verification result. Every time the function responds back with success, along with an unhandled exception if the token is invalid. A patch is available in version 2.6.0."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2022-31011",
+        "description" : "TiDB is an open-source NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads. Under certain conditions, an attacker can construct malicious authentication requests to bypass the authentication process, resulting in privilege escalation or unauthorized access. Only users using TiDB 5.3.0 are affected by this vulnerability. TiDB version 5.3.1 contains a patch for this issue. Other mitigation strategies include turning off Security Enhanced Mode (SEM), disabling local login for non-root accounts, and ensuring that the same IP cannot be logged in as root and normal user at the same time."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2022-30943",
+        "description" : "Browsing restriction bypass vulnerability in Bulletin of Cybozu Garoon 4.0.0 to 5.9.1 allows a remote authenticated attacker to obtain the data of Bulletin."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2022-30935",
+        "description" : "An authorization bypass in b2evolution allows remote, unauthenticated attackers to predict password reset tokens for any user through the use of a bad randomness function. This allows the attacker to get valid sessions for arbitrary users, and optionally reset their password. Tested and confirmed in a default installation of version 7.2.3. Earlier versions are affected, possibly earlier major versions as well."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2022-30755",
+        "description" : "Improper authentication vulnerability in AppLock prior to SMR Jul-2022 Release 1 allows attacker to bypass password confirm activity by hijacking the implicit intent."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2022-30749",
+        "description" : "Improper access control vulnerability in Smart Things prior to 1.7.85.25 allows local attackers to add arbitrary smart devices by bypassing login activity."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2022-30722",
+        "description" : "Implicit Intent hijacking vulnerability in Samsung Account prior to SMR Jun-2022 Release 1 allows attackers to bypass user confirmation of Samsung Account."
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2022-30683",
+        "description" : "Adobe Experience Manager versions 6.5.13.0 (and earlier) is affected by a Violation of Secure Design Principles vulnerability that could lead to bypass the security feature of the encryption mechanism in the backend . An attacker could leverage this vulnerability to decrypt secrets, however, this is a high-complexity attack as the threat actor needs to already possess those secrets. Exploitation of this issue requires low-privilege access to AEM."
+    }
+]

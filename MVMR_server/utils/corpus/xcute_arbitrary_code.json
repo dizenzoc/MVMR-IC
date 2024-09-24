@@ -1,0 +1,1002 @@
+[
+    {
+        "pos" : 0,
+        "cve" : "CVE-2022-43424",
+        "description" : "Jenkins Compuware Xpediter Code Coverage Plugin 1.0.7 and earlier implements an agent/controller message that does not limit where it can be executed, allowing attackers able to control agent processes to obtain the values of Java system properties from the Jenkins controller process."
+    },
+    {
+        "pos" : 1,
+        "cve" : "CVE-2022-43423",
+        "description" : "Jenkins Compuware Source Code Download for Endevor, PDS, and ISPW Plugin 2.0.12 and earlier implements an agent/controller message that does not limit where it can be executed, allowing attackers able to control agent processes to obtain the values of Java system properties from the Jenkins controller process."
+    },
+    {
+        "pos" : 2,
+        "cve" : "CVE-2022-43416",
+        "description" : "Jenkins Katalon Plugin 1.0.32 and earlier implements an agent/controller message that does not limit where it can be executed and allows invoking Katalon with configurable arguments, allowing attackers able to control agent processes to invoke Katalon on the Jenkins controller with attacker-controlled version, install location, and arguments, and attackers additionally able to create files on the Jenkins controller (e.g., attackers with Item/Configure permission could archive artifacts) to invoke arbitrary OS commands."
+    },
+    {
+        "pos" : 3,
+        "cve" : "CVE-2022-43019",
+        "description" : "OpenCATS v0.9.6 was discovered to contain a remote code execution (RCE) vulnerability via the getDataGridPager's ajax functionality."
+    },
+    {
+        "pos" : 4,
+        "cve" : "CVE-2022-42906",
+        "description" : "powerline-gitstatus (aka Powerline Gitstatus) before 1.3.2 allows arbitrary code execution. git repositories can contain per-repository configuration that changes the behavior of git, including running arbitrary commands. When using powerline-gitstatus, changing to a directory automatically runs git commands in order to display information about the current repository in the prompt. If an attacker can convince a user to change their current directory to one controlled by the attacker, such as in a shared filesystem or extracted archive, powerline-gitstatus will run arbitrary commands under the attacker's control. NOTE: this is similar to CVE-2022-20001."
+    },
+    {
+        "pos" : 5,
+        "cve" : "CVE-2022-42902",
+        "description" : "In Linaro Automated Validation Architecture (LAVA) before 2022.10, there is dynamic code execution in lava_server/lavatable.py. Due to improper input sanitization, an anonymous user can force the lava-server-gunicorn service to execute user-provided code on the server."
+    },
+    {
+        "pos" : 6,
+        "cve" : "CVE-2022-42900",
+        "description" : "Bentley MicroStation and MicroStation-based applications may be affected by out-of-bounds read issues when opening crafted FBX files. Exploiting these issues could lead to information disclosure and code execution. The fixed versions are 10.17.01.58* for MicroStation and 10.17.01.19* for Bentley View."
+    },
+    {
+        "pos" : 7,
+        "cve" : "CVE-2022-42889",
+        "description" : "Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is \"${prefix:name}\", where \"prefix\" is used to locate an instance of org.apache.commons.text.lookup.StringLookup that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - \"script\" - execute expressions using the JVM script execution engine (javax.script) - \"dns\" - resolve dns records - \"url\" - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Text 1.10.0, which disables the problematic interpolators by default."
+    },
+    {
+        "pos" : 8,
+        "cve" : "CVE-2022-42721",
+        "description" : "A list management bug in BSS handling in the mac80211 stack in the Linux kernel 5.1 through 5.19.x before 5.19.16 could be used by local attackers (able to inject WLAN frames) to corrupt a linked list and, in turn, potentially execute code."
+    },
+    {
+        "pos" : 9,
+        "cve" : "CVE-2022-42720",
+        "description" : "Various refcounting bugs in the multi-BSS handling in the mac80211 stack in the Linux kernel 5.1 through 5.19.x before 5.19.16 could be used by local attackers (able to inject WLAN frames) to trigger use-after-free conditions to potentially execute code."
+    },
+    {
+        "pos" : 10,
+        "cve" : "CVE-2022-42719",
+        "description" : "A use-after-free in the mac80211 stack when parsing a multi-BSSID element in the Linux kernel 5.2 through 5.19.x before 5.19.16 could be used by attackers (able to inject WLAN frames) to crash the kernel and potentially execute code."
+    },
+    {
+        "pos" : 11,
+        "cve" : "CVE-2022-42717",
+        "description" : "An issue was discovered in Hashicorp Packer before 2.3.1. The recommended sudoers configuration for Vagrant on Linux is insecure. If the host has been configured according to this documentation, non-privileged users on the host can leverage a wildcard in the sudoers configuration to execute arbitrary commands as root."
+    },
+    {
+        "pos" : 12,
+        "cve" : "CVE-2022-42457",
+        "description" : "Generex CS141 through 2.10 allows remote command execution by administrators via a web interface that reaches run_update in /usr/bin/gxserve-update.sh (e.g., command execution can occur via a reverse shell installed by install.sh)."
+    },
+    {
+        "pos" : 13,
+        "cve" : "CVE-2022-42229",
+        "description" : "Wedding Planner v1.0 is vulnerable to Arbitrary code execution via package_edit.php."
+    },
+    {
+        "pos" : 14,
+        "cve" : "CVE-2022-42189",
+        "description" : "Emlog Pro 1.6.0 plugins upload suffers from a remote code execution (RCE) vulnerability."
+    },
+    {
+        "pos" : 15,
+        "cve" : "CVE-2022-42154",
+        "description" : "An arbitrary file upload vulnerability in the component /apiadmin/upload/attach of 74cmsSE v3.13.0 allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 16,
+        "cve" : "CVE-2022-42142",
+        "description" : "Online Tours & Travels Management System v1.0 is vulnerable to Arbitrary code execution via ip/tour/admin/operations/update_settings.php."
+    },
+    {
+        "pos" : 17,
+        "cve" : "CVE-2022-42092",
+        "description" : "Backdrop CMS 1.22.0 has Unrestricted File Upload vulnerability via 'themes' that allows attackers to Remote Code Execution."
+    },
+    {
+        "pos" : 18,
+        "cve" : "CVE-2022-42075",
+        "description" : "Wedding Planner v1.0 is vulnerable to arbitrary code execution."
+    },
+    {
+        "pos" : 19,
+        "cve" : "CVE-2022-42044",
+        "description" : "The d8s-asns package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-html package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 20,
+        "cve" : "CVE-2022-42043",
+        "description" : "The d8s-xml package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-html package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 21,
+        "cve" : "CVE-2022-42042",
+        "description" : "The d8s-networking package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hashes package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 22,
+        "cve" : "CVE-2022-42041",
+        "description" : "The d8s-file-system package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hashes package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 23,
+        "cve" : "CVE-2022-42040",
+        "description" : "The d8s-algorithms package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-dicts package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 24,
+        "cve" : "CVE-2022-42039",
+        "description" : "The d8s-lists package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-dicts package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 25,
+        "cve" : "CVE-2022-42038",
+        "description" : "The d8s-ip-addresses package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-csv package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 26,
+        "cve" : "CVE-2022-42037",
+        "description" : "The d8s-asns package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-csv package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 27,
+        "cve" : "CVE-2022-42036",
+        "description" : "The d8s-urls package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-csv package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 28,
+        "cve" : "CVE-2022-42034",
+        "description" : "Wedding Planner v1.0 is vulnerable to arbitrary code execution via users_profile.php."
+    },
+    {
+        "pos" : 29,
+        "cve" : "CVE-2022-41853",
+        "description" : "Those using java.sql.Statement or java.sql.PreparedStatement in hsqldb (HyperSQL DataBase) to process untrusted input may be vulnerable to a remote code execution attack. By default it is allowed to call any static method of any Java class in the classpath resulting in code execution. The issue can be prevented by updating to 2.7.1 or by setting the system property \"hsqldb.method_class_names\" to classes which are allowed to be called. For example, System.setProperty(\"hsqldb.method_class_names\", \"abc\") or Java argument -Dhsqldb.method_class_names=\"abc\" can be used. From version 2.7.1 all classes by default are not accessible except those in java.lang.Math and need to be manually enabled."
+    },
+    {
+        "pos" : 30,
+        "cve" : "CVE-2022-41852",
+        "description" : "Those using JXPath to interpret untrusted XPath expressions may be vulnerable to a remote code execution attack. All JXPathContext class functions processing a XPath string are vulnerable except compile() and compilePath() function. The XPath expression can be used by an attacker to load any Java class from the classpath resulting in code execution."
+    },
+    {
+        "pos" : 31,
+        "cve" : "CVE-2022-41851",
+        "description" : "A vulnerability has been identified in JTTK (All versions < V11.1.1.0), Simcenter Femap V2022.1 (All versions < V2022.1.3), Simcenter Femap V2022.2 (All versions < V2022.2.2). The JTTK library is vulnerable to an uninitialized pointer reference vulnerability while parsing specially crafted JT files. An attacker could leverage this vulnerability to execute code in the context of the current process. (ZDI-CAN-16973)"
+    },
+    {
+        "pos" : 32,
+        "cve" : "CVE-2022-41835",
+        "description" : "In F5OS-A version 1.x before 1.1.0 and F5OS-C version 1.x before 1.5.0, excessive file permissions in F5OS allows an authenticated local attacker to execute limited set of commands in a container and impact the F5OS controller."
+    },
+    {
+        "pos" : 33,
+        "cve" : "CVE-2022-41751",
+        "description" : "Jhead 3.06.0.1 allows attackers to execute arbitrary OS commands by placing them in a JPEG filename and then using the regeneration -rgt50 option."
+    },
+    {
+        "pos" : 34,
+        "cve" : "CVE-2022-41749",
+        "description" : "An origin validation error vulnerability in Trend Micro Apex One agents could allow a local attacker to escalate privileges on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 35,
+        "cve" : "CVE-2022-41747",
+        "description" : "An improper certification validation vulnerability in Trend Micro Apex One agents could allow a local attacker to load a DLL file with system service privileges on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 36,
+        "cve" : "CVE-2022-41744",
+        "description" : "A Time-of-Check Time-Of-Use vulnerability in the Trend Micro Apex One Vulnerability Protection integrated component could allow a local attacker to escalate privileges and turn a specific working directory into a mount point on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 37,
+        "cve" : "CVE-2022-41711",
+        "description" : "Badaso version 2.6.0 allows an unauthenticated remote attacker to execute arbitrary code remotely on the server. This is possible because the application does not properly validate the data uploaded by users."
+    },
+    {
+        "pos" : 38,
+        "cve" : "CVE-2022-41709",
+        "description" : "Markdownify version 1.4.1 allows an external attacker to execute arbitrary code remotely on any client attempting to view a malicious markdown file through Markdownify. This is possible because the application has the \"nodeIntegration\" option enabled."
+    },
+    {
+        "pos" : 39,
+        "cve" : "CVE-2022-41617",
+        "description" : "In versions 16.1.x before 16.1.3.1, 15.1.x before 15.1.6.1, 14.1.x before 14.1.5.1, and 13.1.x before 13.1.5.1, When the Advanced WAF / ASM module is provisioned, an authenticated remote code execution vulnerability exists in the BIG-IP iControl REST interface."
+    },
+    {
+        "pos" : 40,
+        "cve" : "CVE-2022-41544",
+        "description" : "GetSimple CMS v3.3.16 was discovered to contain a remote code execution (RCE) vulnerability via the edited_file parameter in admin/theme-edit.php."
+    },
+    {
+        "pos" : 41,
+        "cve" : "CVE-2022-41539",
+        "description" : "Wedding Planner v1.0 was discovered to contain an arbitrary file upload vulnerability in the component /admin/users_add.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 42,
+        "cve" : "CVE-2022-41538",
+        "description" : "Wedding Planner v1.0 was discovered to contain an arbitrary file upload vulnerability in the component /Wedding-Management-PHP/admin/photos_add.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 43,
+        "cve" : "CVE-2022-41537",
+        "description" : "Online Tours & Travels Management System v1.0 was discovered to contain an arbitrary file upload vulnerability via the component /user_operations/profile.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 44,
+        "cve" : "CVE-2022-41534",
+        "description" : "Online Diagnostic Lab Management System v1.0 was discovered to contain an arbitrary file upload vulnerability via the component /php_action/createOrder.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 45,
+        "cve" : "CVE-2022-41533",
+        "description" : "Online Diagnostic Lab Management System v1.0 was discovered to contain an arbitrary file upload vulnerability via the component /php_action/editProductImage.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 46,
+        "cve" : "CVE-2022-41512",
+        "description" : "An arbitrary file upload vulnerability in the component /php_action/editFile.php of Online Diagnostic Lab Management System v1.0 allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 47,
+        "cve" : "CVE-2022-41504",
+        "description" : "An arbitrary file upload vulnerability in the component /php_action/editProductImage.php of Billing System Project v1.0 allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 48,
+        "cve" : "CVE-2022-41437",
+        "description" : "Billing System Project v1.0 was discovered to contain a remote code execution (RCE) vulnerability via the component /php_action/createProduct.php."
+    },
+    {
+        "pos" : 49,
+        "cve" : "CVE-2022-41406",
+        "description" : "An arbitrary file upload vulnerability in the /admin/admin_pic.php component of Church Management System v1.0 allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 50,
+        "cve" : "CVE-2022-41387",
+        "description" : "The d8s-pdfs package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-urls package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 51,
+        "cve" : "CVE-2022-41386",
+        "description" : "The d8s-utility package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-urls package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 52,
+        "cve" : "CVE-2022-41384",
+        "description" : "The d8s-domains package for Python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-urls package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 53,
+        "cve" : "CVE-2022-41379",
+        "description" : "An arbitrary file upload vulnerability in the component /leave_system/classes/Users.php?f=save of Online Leave Management System v1.0 allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 54,
+        "cve" : "CVE-2022-41322",
+        "description" : "In Kitty before 0.26.2, insufficient validation in the desktop notification escape sequence can lead to arbitrary code execution. The user must display attacker-controlled content in the terminal, then click on a notification popup."
+    },
+    {
+        "pos" : 55,
+        "cve" : "CVE-2022-41304",
+        "description" : "An Out-Of-Bounds Write Vulnerability in Autodesk FBX SDK 2020 version and prior may lead to code execution through maliciously crafted FBX files or information disclosure."
+    },
+    {
+        "pos" : 56,
+        "cve" : "CVE-2022-41302",
+        "description" : "An Out-Of-Bounds Read Vulnerability in Autodesk FBX SDK version 2020. and prior may lead to code execution or information disclosure through maliciously crafted FBX files. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process."
+    },
+    {
+        "pos" : 57,
+        "cve" : "CVE-2022-41237",
+        "description" : "Jenkins DotCi Plugin 2.40.00 and earlier does not configure its YAML parser to prevent the instantiation of arbitrary types, resulting in a remote code execution vulnerability."
+    },
+    {
+        "pos" : 58,
+        "cve" : "CVE-2022-41138",
+        "description" : "In Zutty before 0.13, DECRQSS in text written to the terminal can achieve arbitrary code execution."
+    },
+    {
+        "pos" : 59,
+        "cve" : "CVE-2022-41082",
+        "description" : "Microsoft Exchange Server Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 60,
+        "cve" : "CVE-2022-41081",
+        "description" : "Windows Point-to-Point Tunneling Protocol Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-22035, CVE-2022-24504, CVE-2022-30198, CVE-2022-33634, CVE-2022-38000, CVE-2022-38047."
+    },
+    {
+        "pos" : 61,
+        "cve" : "CVE-2022-41038",
+        "description" : "Microsoft SharePoint Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-38053, CVE-2022-41036, CVE-2022-41037."
+    },
+    {
+        "pos" : 62,
+        "cve" : "CVE-2022-41037",
+        "description" : "Microsoft SharePoint Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-38053, CVE-2022-41036, CVE-2022-41038."
+    },
+    {
+        "pos" : 63,
+        "cve" : "CVE-2022-41036",
+        "description" : "Microsoft SharePoint Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-38053, CVE-2022-41037, CVE-2022-41038."
+    },
+    {
+        "pos" : 64,
+        "cve" : "CVE-2022-41034",
+        "description" : "Visual Studio Code Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 65,
+        "cve" : "CVE-2022-41031",
+        "description" : "Microsoft Word Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 66,
+        "cve" : "CVE-2022-40955",
+        "description" : "In versions of Apache InLong prior to 1.3.0, an attacker with sufficient privileges to specify MySQL JDBC connection URL parameters and to write arbitrary data to the MySQL database, could cause this data to be deserialized by Apache InLong, potentially leading to Remote Code Execution on the Apache InLong server. Users are advised to upgrade to Apache InLong 1.3.0 or newer."
+    },
+    {
+        "pos" : 67,
+        "cve" : "CVE-2022-40929",
+        "description" : "XXL-JOB 2.2.0 has a Command execution vulnerability in background tasks."
+    },
+    {
+        "pos" : 68,
+        "cve" : "CVE-2022-40878",
+        "description" : "In Exam Reviewer Management System 1.0, an authenticated attacker can upload a web-shell php file in profile page to achieve Remote Code Execution (RCE)."
+    },
+    {
+        "pos" : 69,
+        "cve" : "CVE-2022-40871",
+        "description" : "Dolibarr ERP & CRM <=15.0.3 is vulnerable to Eval injection. By default, any administrator can be added to the installation page of dolibarr, and if successfully added, malicious code can be inserted into the database and then execute it by eval."
+    },
+    {
+        "pos" : 70,
+        "cve" : "CVE-2022-40812",
+        "description" : "The d8s-pdfs for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-file-system package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 71,
+        "cve" : "CVE-2022-40811",
+        "description" : "The d8s-urls for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-file-system package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 72,
+        "cve" : "CVE-2022-40810",
+        "description" : "The d8s-ip-addresses for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0"
+    },
+    {
+        "pos" : 73,
+        "cve" : "CVE-2022-40805",
+        "description" : "The d8s-urls for python 0.1.0, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. A potential code execution backdoor inserted by third parties is the democritus-hypothesis package."
+    },
+    {
+        "pos" : 74,
+        "cve" : "CVE-2022-40785",
+        "description" : "Unsanitized input when setting a locale file leads to shell injection in mIPC camera firmware 5.3.1.2003161406. This allows an attacker to gain remote code execution on cameras running the firmware when a victim logs into a specially crafted mobile app."
+    },
+    {
+        "pos" : 75,
+        "cve" : "CVE-2022-40764",
+        "description" : "Snyk CLI before 1.996.0 allows arbitrary command execution, affecting Snyk IDE plugins and the snyk npm package. Exploitation could follow from the common practice of viewing untrusted files in the Visual Studio Code editor, for example. The original demonstration was with shell metacharacters in the vendor.json ignore field, affecting snyk-go-plugin before 1.19.1. This affects, for example, the Snyk TeamCity plugin (which does not update automatically) before 20220930.142957."
+    },
+    {
+        "pos" : 76,
+        "cve" : "CVE-2022-40710",
+        "description" : "A link following vulnerability in Trend Micro Deep Security 20 and Cloud One - Workload Security Agent for Windows could allow a local attacker to escalate privileges on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 77,
+        "cve" : "CVE-2022-40663",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NIKON NIS-Elements Viewer 1.2100.1483.0. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIF images. Crafted data in a TIF image can trigger a read past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-15697."
+    },
+    {
+        "pos" : 78,
+        "cve" : "CVE-2022-40662",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NIKON NIS-Elements Viewer 1.2100.1483.0. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIF images. Crafted data in a TIF image can trigger a read past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-15351."
+    },
+    {
+        "pos" : 79,
+        "cve" : "CVE-2022-40661",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NIKON NIS-Elements Viewer 1.2100.1483.0. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of BMP images. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-15134."
+    },
+    {
+        "pos" : 80,
+        "cve" : "CVE-2022-40659",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NIKON NIS-Elements Viewer 1.2100.1483.0. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIF images. Crafted data in a TIF file can trigger a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-15214."
+    },
+    {
+        "pos" : 81,
+        "cve" : "CVE-2022-40657",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NIKON NIS-Elements Viewer 1.2100.1483.0. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PSD files. Crafted data in a PSD file can trigger a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-15073."
+    },
+    {
+        "pos" : 82,
+        "cve" : "CVE-2022-40655",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NIKON NIS-Elements Viewer 1.2100.1483.0. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ND2 files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-15071."
+    },
+    {
+        "pos" : 83,
+        "cve" : "CVE-2022-40653",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ansys SpaceClaim 2022 R1. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of X_B files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-18349."
+    },
+    {
+        "pos" : 84,
+        "cve" : "CVE-2022-40650",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ansys SpaceClaim 2022 R1. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of X_B files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-17838."
+    },
+    {
+        "pos" : 85,
+        "cve" : "CVE-2022-40646",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ansys SpaceClaim 2022 R1. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of X_B files. The issue results from the lack of proper initialization of a pointer prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-17541."
+    },
+    {
+        "pos" : 86,
+        "cve" : "CVE-2022-40641",
+        "description" : "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ansys SpaceClaim 2022 R1. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of X_B files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-17317."
+    },
+    {
+        "pos" : 87,
+        "cve" : "CVE-2022-40634",
+        "description" : "Improper Control of Dynamically-Managed Code Resources vulnerability in Crafter Studio of Crafter CMS allows authenticated developers to execute OS commands via FreeMarker SSTI."
+    },
+    {
+        "pos" : 88,
+        "cve" : "CVE-2022-40628",
+        "description" : "This vulnerability exists in Tacitine Firewall, all versions of EN6200-PRIME QUAD-35 and EN6200-PRIME QUAD-100 between 19.1.1 to 22.20.1 (inclusive), due to improper control of code generation in the Tacitine Firewall web-based management interface. An unauthenticated remote attacker could exploit this vulnerability by sending a specially crafted http request on the targeted device. Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to execute arbitrary commands on the targeted device."
+    },
+    {
+        "pos" : 89,
+        "cve" : "CVE-2022-40497",
+        "description" : "Wazuh v3.6.1 - v3.13.5, v4.0.0 - v4.2.7, and v4.3.0 - v4.3.7 were discovered to contain an authenticated remote code execution (RCE) vulnerability via the Active Response endpoint."
+    },
+    {
+        "pos" : 90,
+        "cve" : "CVE-2022-40486",
+        "description" : "TP Link Archer AX10 V1 Firmware Version 1.3.1 Build 20220401 Rel. 57450(5553) was discovered to allow authenticated attackers to execute arbitrary code via a crafted backup file."
+    },
+    {
+        "pos" : 91,
+        "cve" : "CVE-2022-40472",
+        "description" : "ZKTeco Xiamen Information Technology ZKBio Time 8.0.7 Build: 20220721.14829 was discovered to contain a CSV injection vulnerability. This vulnerability allows attackers to execute arbitrary code via a crafted payload injected into the Content text field of the Add New Message module."
+    },
+    {
+        "pos" : 92,
+        "cve" : "CVE-2022-40424",
+        "description" : "The d8s-urls for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. A potential code execution backdoor inserted by third parties is the democritus-networking package. The affected version of d8s-urls is 0.1.0"
+    },
+    {
+        "pos" : 93,
+        "cve" : "CVE-2022-40407",
+        "description" : "A zip slip vulnerability in the file upload function of Chamilo v1.11 allows attackers to execute arbitrary code via a crafted Zip file."
+    },
+    {
+        "pos" : 94,
+        "cve" : "CVE-2022-40341",
+        "description" : "mojoPortal v2.7 was discovered to contain an arbitrary file upload vulnerability which allows attackers to execute arbitrary code via a crafted PNG file."
+    },
+    {
+        "pos" : 95,
+        "cve" : "CVE-2022-40337",
+        "description" : "OASES (aka Open Aviation Strategic Engineering System) 8.8.0.2 allows attackers to execute arbitrary code via the Open Print Folder menu."
+    },
+    {
+        "pos" : 96,
+        "cve" : "CVE-2022-40314",
+        "description" : "A remote code execution risk when restoring backup files originating from Moodle 1.9 was identified."
+    },
+    {
+        "pos" : 97,
+        "cve" : "CVE-2022-40297",
+        "description" : "** DISPUTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states \"The described attack cannot be executed as demonstrated.\""
+    },
+    {
+        "pos" : 98,
+        "cve" : "CVE-2022-40277",
+        "description" : "Joplin version 2.8.8 allows an external attacker to execute arbitrary commands remotely on any client that opens a link in a malicious markdown file, via Joplin. This is possible because the application does not properly validate the schema/protocol of existing links in the markdown file before passing them to the 'shell.openExternal' function."
+    },
+    {
+        "pos" : 99,
+        "cve" : "CVE-2022-40274",
+        "description" : "Gridea version 0.9.3 allows an external attacker to execute arbitrary code remotely on any client attempting to view a malicious markdown file through Gridea. This is possible because the application has the 'nodeIntegration' option enabled."
+    },
+    {
+        "pos" : 100,
+        "cve" : "CVE-2022-40176",
+        "description" : "A vulnerability has been identified in Desigo PXM30-1 (All versions < V02.20.126.11-41), Desigo PXM30.E (All versions < V02.20.126.11-41), Desigo PXM40-1 (All versions < V02.20.126.11-41), Desigo PXM40.E (All versions < V02.20.126.11-41), Desigo PXM50-1 (All versions < V02.20.126.11-41), Desigo PXM50.E (All versions < V02.20.126.11-41), PXG3.W100-1 (All versions < V02.20.126.11-37), PXG3.W100-2 (All versions < V02.20.126.11-41), PXG3.W200-1 (All versions < V02.20.126.11-37), PXG3.W200-2 (All versions < V02.20.126.11-41). There exists an Improper Neutralization of Special Elements used in an OS Command with root privileges during a restore operation due to the missing validation of the names of files included in the input package. By restoring a specifically crafted package, a remote low-privileged attacker can execute arbitrary system commands with root privileges on the device, leading to a full compromise."
+    },
+    {
+        "pos" : 101,
+        "cve" : "CVE-2022-40143",
+        "description" : "A link following local privilege escalation vulnerability in Trend Micro Apex One and Trend Micro Apex One as a Service servers could allow a local attacker to abuse an insecure directory that could allow a low-privileged user to run arbitrary code with elevated privileges. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 102,
+        "cve" : "CVE-2022-40142",
+        "description" : "A security link following local privilege escalation vulnerability in Trend Micro Apex One and Trend Micro Apex One as a Service agents could allow a local attacker to create a writable folder in an arbitrary location and escalate privileges on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 103,
+        "cve" : "CVE-2022-40140",
+        "description" : "An origin validation error vulnerability in Trend Micro Apex One and Apex One as a Service could allow a local attacker to cause a denial-of-service on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 104,
+        "cve" : "CVE-2022-40139",
+        "description" : "Improper validation of some components used by the rollback mechanism in Trend Micro Apex One and Trend Micro Apex One as a Service clients could allow a Apex One server administrator to instruct affected clients to download an unverified rollback package, which could lead to remote code execution. Please note: an attacker must first obtain Apex One server administration console access in order to exploit this vulnerability."
+    },
+    {
+        "pos" : 105,
+        "cve" : "CVE-2022-40138",
+        "description" : "An integer conversion error in Hermes bytecode generation, prior to commit 6aa825e480d48127b480b08d13adf70033237097, could have been used to perform Out-Of-Bounds operations and subsequently execute arbitrary code. Note that this is only exploitable in cases where Hermes is used to execute untrusted JavaScript. Hence, most React Native applications are not affected."
+    },
+    {
+        "pos" : 106,
+        "cve" : "CVE-2022-40126",
+        "description" : "A misconfiguration in the Service Mode profile directory of Clash for Windows v0.19.9 allows attackers to escalate privileges and execute arbitrary commands when Service Mode is activated."
+    },
+    {
+        "pos" : 107,
+        "cve" : "CVE-2022-40087",
+        "description" : "Simple College Website v1.0 was discovered to contain an arbitrary file write vulnerability via the function file_put_contents(). This vulnerability allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 108,
+        "cve" : "CVE-2022-40048",
+        "description" : "Flatpress v1.2.1 was discovered to contain a remote code execution (RCE) vulnerability in the Upload File function."
+    },
+    {
+        "pos" : 109,
+        "cve" : "CVE-2022-39846",
+        "description" : "DLL hijacking vulnerability in Smart Switch PC prior to version 4.3.22083_3 allows attacker to execute arbitrary code."
+    },
+    {
+        "pos" : 110,
+        "cve" : "CVE-2022-39819",
+        "description" : "In NOKIA 1350 OMS R14.2, multiple OS Command Injection vulnerabilities occurs. This allows authenticated users to execute commands on the operating system."
+    },
+    {
+        "pos" : 111,
+        "cve" : "CVE-2022-39354",
+        "description" : "SputnikVM, also called evm, is a Rust implementation of Ethereum Virtual Machine. A custom stateful precompile can use the `is_static` parameter to determine if the call is executed in a static context (via `STATICCALL`), and thus decide if stateful operations should be done. Prior to version 0.36.0, the passed `is_static` parameter was incorrect -- it was only set to `true` if the call came from a direct `STATICCALL` opcode. However, once a static call context is entered, it should stay static. The issue only impacts custom precompiles that actually uses `is_static`. For those affected, the issue can lead to possible incorrect state transitions. Version 0.36.0 contains a patch. There are no known workarounds."
+    },
+    {
+        "pos" : 112,
+        "cve" : "CVE-2022-39326",
+        "description" : "kartverket/github-workflows are shared reusable workflows for GitHub Actions. Prior to version 2.7.5, all users of the `run-terraform` reusable workflow from the kartverket/github-workflows repo are affected by a code injection vulnerability. A malicious actor could potentially send a PR with a malicious payload leading to execution of arbitrary JavaScript code in the context of the workflow. Users should upgrade to at least version 2.7.5 to resolve the issue. As a workaround, review any pull requests from external users for malicious payloads before allowing them to trigger a build."
+    },
+    {
+        "pos" : 113,
+        "cve" : "CVE-2022-39312",
+        "description" : "Dataease is an open source data visualization analysis tool. Dataease prior to 1.15.2 has a deserialization vulnerability. In Dataease, the Mysql data source in the data source function can customize the JDBC connection parameters and the Mysql server target to be connected. In `backend/src/main/java/io/dataease/provider/datasource/JdbcProvider.java`, the `MysqlConfiguration` class does not filter any parameters. If an attacker adds some parameters to a JDBC url and connects to a malicious mysql server, the attacker can trigger the mysql jdbc deserialization vulnerability. Through the deserialization vulnerability, the attacker can execute system commands and obtain server privileges. Version 1.15.2 contains a patch for this issue."
+    },
+    {
+        "pos" : 114,
+        "cve" : "CVE-2022-39311",
+        "description" : "GoCD is a continuous delivery server. GoCD helps you automate and streamline the build-test-release cycle for continuous delivery of your product. GoCD versions prior to 21.1.0 are vulnerable to remote code execution on the server from a malicious or compromised agent. The Spring RemoteInvocation endpoint exposed agent communication and allowed deserialization of arbitrary java objects, as well as subsequent remote code execution. Exploitation requires agent-level authentication, thus an attacker would need to either compromise an existing agent, its network communication or register a new agent to practically exploit this vulnerability. This issue is fixed in GoCD version 21.1.0. There are currently no known workarounds."
+    },
+    {
+        "pos" : 115,
+        "cve" : "CVE-2022-39298",
+        "description" : "MelisFront is the engine that displays website hosted on Melis Platform. It deals with showing pages, plugins, URL rewritting, search optimization and SEO, etc. Attackers can deserialize arbitrary data on affected versions of `melisplatform/melis-front`, and ultimately leads to the execution of arbitrary PHP code on the system. Conducting this attack does not require authentication. Users should immediately upgrade to `melisplatform/melis-front` >= 5.0.1. This issue was addressed by restricting allowed classes when deserializing user-controlled data."
+    },
+    {
+        "pos" : 116,
+        "cve" : "CVE-2022-39297",
+        "description" : "MelisCms provides a full CMS for Melis Platform, including templating system, drag'n'drop of plugins, SEO and many administration tools. Attackers can deserialize arbitrary data on affected versions of `melisplatform/melis-cms`, and ultimately leads to the execution of arbitrary PHP code on the system. Conducting this attack does not require authentication. Users should immediately upgrade to `melisplatform/melis-cms` >= 5.0.1. This issue was addressed by restricting allowed classes when deserializing user-controlled data."
+    },
+    {
+        "pos" : 117,
+        "cve" : "CVE-2022-39265",
+        "description" : "MyBB is a free and open source forum software. The _Mail Settings_ ? Additional Parameters for PHP's mail() function mail_parameters setting value, in connection with the configured mail program's options and behavior, may allow access to sensitive information and Remote Code Execution (RCE). The vulnerable module requires Admin CP access with the `_Can manage settings?_` permission and may depend on configured file permissions. MyBB 1.8.31 resolves this issue with the commit `0cd318136a`. Users are advised to upgrade. There are no known workarounds for this vulnerability."
+    },
+    {
+        "pos" : 118,
+        "cve" : "CVE-2022-39256",
+        "description" : "Orckestra C1 CMS is a .NET based Web Content Management System. A vulnerability in versions prior to 6.13 allows remote attackers to execute arbitrary code on affected installations of Orckestra C1 CMS. Authentication is required to exploit this vulnerability. The authenticated user may perform the actions unknowingly by visiting a specially crafted site. This issue is patched in C1 CMS v6.13. There are no known workarounds."
+    },
+    {
+        "pos" : 119,
+        "cve" : "CVE-2022-39243",
+        "description" : "NuProcess is an external process execution implementation for Java. In all the versions of NuProcess where it forks processes by using the JVM's Java_java_lang_UNIXProcess_forkAndExec method (1.2.0+), attackers can use NUL characters in their strings to perform command line injection. Java's ProcessBuilder isn't vulnerable because of a check in ProcessBuilder.start. NuProcess is missing that check. This vulnerability can only be exploited to inject command line arguments on Linux. Version 2.0.5 contains a patch. As a workaround, users of the library can sanitize command strings to remove NUL characters prior to passing them to NuProcess for execution."
+    },
+    {
+        "pos" : 120,
+        "cve" : "CVE-2022-39224",
+        "description" : "Arr-pm is an RPM reader/writer library written in Ruby. Versions prior to 0.0.12 are subject to OS command injection resulting in shell execution if the RPM contains a malicious \"payload compressor\" field. This vulnerability impacts the `extract` and `files` methods of the `RPM::File` class of this library. Version 0.0.12 patches these issues. A workaround for this issue is to ensure any RPMs being processed contain valid/known payload compressor values such as gzip, bzip2, xz, zstd, and lzma. The payload compressor field in an rpm can be checked by using the rpm command line tool."
+    },
+    {
+        "pos" : 121,
+        "cve" : "CVE-2022-39205",
+        "description" : "Onedev is an open source, self-hosted Git Server with CI/CD and Kanban. In versions of Onedev prior to 7.3.0 unauthenticated users can take over a OneDev instance if there is no properly configured reverse proxy. The /git-prereceive-callback endpoint is used by the pre-receive git hook on the server to check for branch protections during a push event. It is only intended to be accessed from localhost, but the check relies on the X-Forwarded-For header. Invoking this endpoint leads to the execution of one of various git commands. The environment variables of this command execution can be controlled via query parameters. This allows attackers to write to arbitrary files, which can in turn lead to the execution of arbitrary code. Such an attack would be very hard to detect, which increases the potential impact even more. Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "pos" : 122,
+        "cve" : "CVE-2022-39202",
+        "description" : "matrix-appservice-irc is an open source Node.js IRC bridge for Matrix. The Internet Relay Chat (IRC) protocol allows you to specify multiple modes in a single mode command. Due to a bug in the underlying matrix-org/node-irc library, affected versions of matrix-appservice-irc perform parsing of such modes incorrectly, potentially resulting in the wrong user being given permissions. Mode commands can only be executed by privileged users, so this can only be abused if an operator is tricked into running the command on behalf of an attacker. The vulnerability has been patched in matrix-appservice-irc 0.35.0. As a workaround users should refrain from entering mode commands suggested by untrusted users. Avoid using multiple modes in a single command."
+    },
+    {
+        "pos" : 123,
+        "cve" : "CVE-2022-39198",
+        "description" : "A deserialization vulnerability existed in dubbo hessian-lite 3.2.12 and its earlier versions, which could lead to malicious code execution. This issue affects Apache Dubbo 2.7.x version 2.7.17 and prior versions; Apache Dubbo 3.0.x version 3.0.11 and prior versions; Apache Dubbo 3.1.x version 3.1.0 and prior versions."
+    },
+    {
+        "pos" : 124,
+        "cve" : "CVE-2022-39156",
+        "description" : "A vulnerability has been identified in Parasolid V33.1 (All versions < V33.1.262), Parasolid V33.1 (All versions >= V33.1.262 < V33.1.263), Parasolid V34.0 (All versions < V34.0.252), Parasolid V34.1 (All versions < V34.1.242), Parasolid V35.0 (All versions < V35.0.161), Parasolid V35.0 (All versions >= V35.0.161 < V35.0.164), Simcenter Femap V2022.1 (All versions < V2022.1.3), Simcenter Femap V2022.2 (All versions < V2022.2.2). The affected application is vulnerable to out of bounds read past the end of an allocated buffer when parsing X_T files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-18196)"
+    },
+    {
+        "pos" : 125,
+        "cve" : "CVE-2022-39155",
+        "description" : "A vulnerability has been identified in Parasolid V33.1 (All versions < V33.1.262), Parasolid V33.1 (All versions >= V33.1.262 < V33.1.263), Parasolid V34.0 (All versions < V34.0.252), Parasolid V34.1 (All versions < V34.1.242), Parasolid V35.0 (All versions < V35.0.161), Parasolid V35.0 (All versions >= V35.0.161 < V35.0.164), Simcenter Femap V2022.1 (All versions < V2022.1.3), Simcenter Femap V2022.2 (All versions < V2022.2.2). The affected application contains an out of bounds write past the end of an allocated buffer while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-18192)"
+    },
+    {
+        "pos" : 126,
+        "cve" : "CVE-2022-39154",
+        "description" : "A vulnerability has been identified in Parasolid V33.1 (All versions < V33.1.262), Parasolid V33.1 (All versions >= V33.1.262 < V33.1.263), Parasolid V34.0 (All versions < V34.0.252), Parasolid V34.1 (All versions < V34.1.242), Parasolid V35.0 (All versions < V35.0.161), Parasolid V35.0 (All versions >= V35.0.161 < V35.0.164), Simcenter Femap V2022.1 (All versions < V2022.1.3), Simcenter Femap V2022.2 (All versions < V2022.2.2). The affected application contains an out of bounds write past the end of an allocated buffer while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-18188)"
+    },
+    {
+        "pos" : 127,
+        "cve" : "CVE-2022-39153",
+        "description" : "A vulnerability has been identified in Parasolid V33.1 (All versions < V33.1.262), Parasolid V33.1 (All versions >= V33.1.262 < V33.1.263), Parasolid V34.0 (All versions < V34.0.252), Parasolid V34.1 (All versions < V34.1.242), Parasolid V35.0 (All versions < V35.0.161), Parasolid V35.0 (All versions >= V35.0.161 < V35.0.164), Simcenter Femap V2022.1 (All versions < V2022.1.3), Simcenter Femap V2022.2 (All versions < V2022.2.2). The affected application is vulnerable to out of bounds read past the end of an allocated buffer when parsing X_T files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-18187)"
+    },
+    {
+        "pos" : 128,
+        "cve" : "CVE-2022-39152",
+        "description" : "A vulnerability has been identified in Parasolid V33.1 (All versions < V33.1.262), Parasolid V33.1 (All versions >= V33.1.262 < V33.1.263), Parasolid V34.0 (All versions < V34.0.252), Parasolid V34.1 (All versions < V34.1.242), Parasolid V35.0 (All versions < V35.0.161), Parasolid V35.0 (All versions >= V35.0.161 < V35.0.164), Simcenter Femap V2022.1 (All versions < V2022.1.3), Simcenter Femap V2022.2 (All versions < V2022.2.2). The affected application contains an out of bounds write past the end of an allocated buffer while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-17740)"
+    },
+    {
+        "pos" : 129,
+        "cve" : "CVE-2022-39151",
+        "description" : "A vulnerability has been identified in Parasolid V33.1 (All versions < V33.1.262), Parasolid V33.1 (All versions >= V33.1.262 < V33.1.263), Parasolid V34.0 (All versions < V34.0.252), Parasolid V34.1 (All versions < V34.1.242), Parasolid V35.0 (All versions < V35.0.161), Parasolid V35.0 (All versions >= V35.0.161 < V35.0.164), Simcenter Femap V2022.1 (All versions < V2022.1.3), Simcenter Femap V2022.2 (All versions < V2022.2.2). The affected application contains an out of bounds write past the end of an allocated buffer while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-17736)"
+    },
+    {
+        "pos" : 130,
+        "cve" : "CVE-2022-39051",
+        "description" : "Attacker might be able to execute malicious Perl code in the Template toolkit, by having the admin installing an unverified 3th party package"
+    },
+    {
+        "pos" : 131,
+        "cve" : "CVE-2022-38983",
+        "description" : "The BT Hfp Client module has a Use-After-Free (UAF) vulnerability.Successful exploitation of this vulnerability may result in arbitrary code execution."
+    },
+    {
+        "pos" : 132,
+        "cve" : "CVE-2022-38887",
+        "description" : "The d8s-python for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The democritus-strings package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 133,
+        "cve" : "CVE-2022-38886",
+        "description" : "The d8s-xml for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-strings package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 134,
+        "cve" : "CVE-2022-38885",
+        "description" : "The d8s-netstrings for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-strings package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 135,
+        "cve" : "CVE-2022-38884",
+        "description" : "The d8s-grammars for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-strings package. The affected version is 0.1.0."
+    },
+    {
+        "pos" : 136,
+        "cve" : "CVE-2022-38843",
+        "description" : "EspoCRM version 7.1.8 is vulnerable to Unrestricted File Upload allowing attackers to upload malicious file with any extension to the server. Attacker may execute these malicious files to run unintended code on the server to compromise the server."
+    },
+    {
+        "pos" : 137,
+        "cve" : "CVE-2022-38826",
+        "description" : "In TOTOLINK T6 V4.1.5cu.709_B20210518, there is an execute arbitrary command in cstecgi.cgi."
+    },
+    {
+        "pos" : 138,
+        "cve" : "CVE-2022-38792",
+        "description" : "The exotel (aka exotel-py) package in PyPI as of 0.1.6 includes a code execution backdoor inserted by a third party."
+    },
+    {
+        "pos" : 139,
+        "cve" : "CVE-2022-38772",
+        "description" : "Zoho ManageEngine OpManager, OpManager Plus, OpManager MSP, Network Configuration Manager, NetFlow Analyzer, and OpUtils before 125658, 126003, 126105, and 126120 allow authenticated users to make database changes that lead to remote code execution in the NMAP feature."
+    },
+    {
+        "pos" : 140,
+        "cve" : "CVE-2022-38667",
+        "description" : "HTTP applications (servers) based on Crow through 1.0+4 may allow a Use-After-Free and code execution when HTTP pipelining is used. The HTTP parser supports HTTP pipelining, but the asynchronous Connection layer is unaware of HTTP pipelining. Specifically, the Connection layer is unaware that it has begun processing a later request before it has finished processing an earlier request."
+    },
+    {
+        "pos" : 141,
+        "cve" : "CVE-2022-38633",
+        "description" : "Genymotion Desktop v3.2.1 was discovered to contain a DLL hijacking vulnerability which allows attackers to escalate privileges and execute arbitrary code via a crafted binary."
+    },
+    {
+        "pos" : 142,
+        "cve" : "CVE-2022-38621",
+        "description" : "Doufox v0.0.4 was discovered to contain a remote code execution (RCE) vulnerability via the edit file page. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 143,
+        "cve" : "CVE-2022-38611",
+        "description" : "Incorrect access control in Watchdog Anti-Virus v1.4.158 allows attackers to perform a DLL hijacking attack and execute arbitrary code via a crafted binary."
+    },
+    {
+        "pos" : 144,
+        "cve" : "CVE-2022-38535",
+        "description" : "TOTOLINK-720R v4.1.5cu.374 was discovered to contain a remote code execution (RCE) vulnerability via the setTracerouteCfg function."
+    },
+    {
+        "pos" : 145,
+        "cve" : "CVE-2022-38448",
+        "description" : "Adobe Dimension versions 3.4.5 is affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 146,
+        "cve" : "CVE-2022-38447",
+        "description" : "Adobe Dimension versions 3.4.5 is affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 147,
+        "cve" : "CVE-2022-38446",
+        "description" : "Adobe Dimension versions 3.4.5 is affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 148,
+        "cve" : "CVE-2022-38445",
+        "description" : "Adobe Dimension versions 3.4.5 is affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 149,
+        "cve" : "CVE-2022-38444",
+        "description" : "Adobe Dimension versions 3.4.5 is affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 150,
+        "cve" : "CVE-2022-38442",
+        "description" : "Adobe Dimension versions 3.4.5 is affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 151,
+        "cve" : "CVE-2022-38441",
+        "description" : "Adobe Dimension versions 3.4.5 is affected by an out-of-bounds read vulnerability when parsing a crafted file, which could result in a read past the end of an allocated memory structure. An attacker could leverage this vulnerability to execute code in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 152,
+        "cve" : "CVE-2022-38417",
+        "description" : "Adobe InDesign versions 16.4.2 (and earlier) and 17.3 (and earlier) are affected by an out-of-bounds read vulnerability when parsing a crafted file, which could result in a read past the end of an allocated memory structure. An attacker could leverage this vulnerability to execute code in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
+    },
+    {
+        "pos" : 153,
+        "cve" : "CVE-2022-38399",
+        "description" : "Missing protection mechanism for alternate hardware interface in SmaCam CS-QR10 all versions and SmaCam Night Vision CS-QR20 all versions allows an attacker to execute an arbitrary OS command by having the product connect to the product's specific serial connection"
+    },
+    {
+        "pos" : 154,
+        "cve" : "CVE-2022-38394",
+        "description" : "Use of hard-coded credentials for the telnet server of CentreCOM AR260S V2 firmware versions prior to Ver.3.3.7 allows a remote unauthenticated attacker to execute an arbitrary OS command."
+    },
+    {
+        "pos" : 155,
+        "cve" : "CVE-2022-38352",
+        "description" : "ThinkPHP v6.0.13 was discovered to contain a deserialization vulnerability via the component League\\Flysystem\\Cached\\Storage\\Psr6Cache. This vulnerability allows attackers to execute arbitrary code via a crafted payload."
+    },
+    {
+        "pos" : 156,
+        "cve" : "CVE-2022-38323",
+        "description" : "Event Management System v1.0 was discovered to contain an arbitrary file upload vulnerability via the component /Royal_Event/update_image.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 157,
+        "cve" : "CVE-2022-38308",
+        "description" : "TOTOLink A700RU V7.4cu.2313_B20191024 was discovered to contain a command injection vulnerability via the lang parameter in the function cstesystem. This vulnerability allows attackers to execute arbitrary commands via a crafted payload."
+    },
+    {
+        "pos" : 158,
+        "cve" : "CVE-2022-38305",
+        "description" : "AeroCMS v0.0.1 was discovered to contain an arbitrary file upload vulnerability via the component /admin/profile.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file."
+    },
+    {
+        "pos" : 159,
+        "cve" : "CVE-2022-38193",
+        "description" : "There is a code injection vulnerability in Esri Portal for ArcGIS versions 10.8.1 and below that may allow a remote, unauthenticated attacker to pass strings which could potentially cause arbitrary code execution."
+    },
+    {
+        "pos" : 160,
+        "cve" : "CVE-2022-38132",
+        "description" : "Command injection vulnerability in Linksys MR8300 router while Registration to DDNS Service. By specifying username and password, an attacker connected to the router's web interface can execute arbitrary OS commands. The username and password fields are not sanitized correctly and are used as URL construction arguments, allowing URL redirection to an arbitrary server, downloading an arbitrary script file, and eventually executing the file in the device. This issue affects: Linksys MR8300 Router 1.0."
+    },
+    {
+        "pos" : 161,
+        "cve" : "CVE-2022-38108",
+        "description" : "SolarWinds Platform was susceptible to the Deserialization of Untrusted Data. This vulnerability allows a remote adversary with Orion admin-level account access to SolarWinds Web Console to execute arbitrary commands."
+    },
+    {
+        "pos" : 162,
+        "cve" : "CVE-2022-38094",
+        "description" : "OS command injection vulnerability in the telnet function of CentreCOM AR260S V2 firmware versions prior to Ver.3.3.7 allows a remote authenticated attacker to execute an arbitrary OS command."
+    },
+    {
+        "pos" : 163,
+        "cve" : "CVE-2022-38078",
+        "description" : "Movable Type XMLRPC API provided by Six Apart Ltd. contains a command injection vulnerability. Sending a specially crafted message by POST method to Movable Type XMLRPC API may allow arbitrary Perl script execution, and an arbitrary OS command may be executed through it. Affected products and versions are as follows: Movable Type 7 r.5202 and earlier, Movable Type Advanced 7 r.5202 and earlier, Movable Type 6.8.6 and earlier, Movable Type Advanced 6.8.6 and earlier, Movable Type Premium 1.52 and earlier, and Movable Type Premium Advanced 1.52 and earlier. Note that all versions of Movable Type 4.0 or later including unsupported (End-of-Life, EOL) versions are also affected by this vulnerability."
+    },
+    {
+        "pos" : 164,
+        "cve" : "CVE-2022-38053",
+        "description" : "Microsoft SharePoint Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41036, CVE-2022-41037, CVE-2022-41038."
+    },
+    {
+        "pos" : 165,
+        "cve" : "CVE-2022-38049",
+        "description" : "Microsoft Office Graphics Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 166,
+        "cve" : "CVE-2022-38048",
+        "description" : "Microsoft Office Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 167,
+        "cve" : "CVE-2022-38044",
+        "description" : "Windows CD-ROM File System Driver Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 168,
+        "cve" : "CVE-2022-38040",
+        "description" : "Microsoft ODBC Driver Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 169,
+        "cve" : "CVE-2022-38019",
+        "description" : "AV1 Video Extension Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 170,
+        "cve" : "CVE-2022-38012",
+        "description" : "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 171,
+        "cve" : "CVE-2022-38011",
+        "description" : "Raw Image Extension Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 172,
+        "cve" : "CVE-2022-38004",
+        "description" : "Windows Fax Service Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 173,
+        "cve" : "CVE-2022-38000",
+        "description" : "Windows Point-to-Point Tunneling Protocol Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-22035, CVE-2022-24504, CVE-2022-30198, CVE-2022-33634, CVE-2022-38047, CVE-2022-41081."
+    },
+    {
+        "pos" : 174,
+        "cve" : "CVE-2022-37982",
+        "description" : "Microsoft WDAC OLE DB provider for SQL Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-38031."
+    },
+    {
+        "pos" : 175,
+        "cve" : "CVE-2022-37963",
+        "description" : "Microsoft Office Visio Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-38010."
+    },
+    {
+        "pos" : 176,
+        "cve" : "CVE-2022-37962",
+        "description" : "Microsoft PowerPoint Remote Code Execution Vulnerability."
+    },
+    {
+        "pos" : 177,
+        "cve" : "CVE-2022-37893",
+        "description" : "An authenticated command injection vulnerability exists in the Aruba InstantOS and ArubaOS 10 command line interface. Successful exploitation of this vulnerability results in the ability to execute arbitrary commands as a privileged user on the underlying operating system of Aruba InstantOS 6.4.x: 6.4.4.8-4.2.4.20 and below; Aruba InstantOS 6.5.x: 6.5.4.23 and below; Aruba InstantOS 8.6.x: 8.6.0.18 and below; Aruba InstantOS 8.7.x: 8.7.1.9 and below; Aruba InstantOS 8.10.x: 8.10.0.1 and below; ArubaOS 10.3.x: 10.3.1.0 and below; Aruba has released upgrades for Aruba InstantOS that address this security vulnerability."
+    },
+    {
+        "pos" : 178,
+        "cve" : "CVE-2022-37883",
+        "description" : "Vulnerabilities in the ClearPass Policy Manager web-based management interface allow remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba ClearPass Policy Manager version(s): 6.10.x: 6.10.6 and below; 6.9.x: 6.9.11 and below. Aruba has released upgrades for Aruba ClearPass Policy Manager that address these security vulnerabilities."
+    },
+    {
+        "pos" : 179,
+        "cve" : "CVE-2022-37877",
+        "description" : "A vulnerability in the ClearPass OnGuard macOS agent could allow malicious users on a macOS instance to elevate their user privileges. A successful exploit could allow these users to execute arbitrary code with root level privileges on the macOS instance in Aruba ClearPass Policy Manager version(s): 6.10.x: 6.10.6 and below; 6.9.x: 6.9.11 and below. Aruba has released upgrades for Aruba ClearPass Policy Manager that address this security vulnerability."
+    },
+    {
+        "pos" : 180,
+        "cve" : "CVE-2022-37861",
+        "description" : "There is a remote code execution (RCE) vulnerability in Tenhot TWS-100 V4.0-201809201424 router device. It is necessary to know that the device account password is allowed to escape the execution system command through the network tools in the network diagnostic component."
+    },
+    {
+        "pos" : 181,
+        "cve" : "CVE-2022-37780",
+        "description" : "Phicomm FIR151B A2, FIR302E A2, FIR300B A2, FIR303B A2 routers V3.0.1.17 were discovered to contain a remote command execution (RCE) vulnerability via the pingAddr parameter of the tracert function."
+    },
+    {
+        "pos" : 182,
+        "cve" : "CVE-2022-37661",
+        "description" : "SmartRG SR506n 2.5.15 and SR510n 2.6.13 routers are vulnerable to Remote Code Execution (RCE) via the ping host feature."
+    },
+    {
+        "pos" : 183,
+        "cve" : "CVE-2022-37459",
+        "description" : "Ampere Altra devices before 1.08g and Ampere Altra Max devices before 2.05a allow attackers to control the predictions for return addresses and potentially hijack code flow to execute arbitrary code via a side-channel attack, aka a \"Retbleed\" issue."
+    },
+    {
+        "pos" : 184,
+        "cve" : "CVE-2022-37190",
+        "description" : "CuppaCMS 1.0 is vulnerable to Remote Code Execution (RCE). An authenticated user can control both parameters (action and function) from \"/api/index.php."
+    },
+    {
+        "pos" : 185,
+        "cve" : "CVE-2022-37173",
+        "description" : "An issue in the installer of gvim 9.0.0000 allows authenticated attackers to execute arbitrary code via a binary hijacking attack on C:\\Program.exe."
+    },
+    {
+        "pos" : 186,
+        "cve" : "CVE-2022-37172",
+        "description" : "Incorrect access control in the install directory (C:\\msys64) of Msys2 v20220603 and below allows authenticated attackers to execute arbitrary code via overwriting binaries located in the directory."
+    },
+    {
+        "pos" : 187,
+        "cve" : "CVE-2022-37159",
+        "description" : "Claroline 13.5.7 and prior is vulnerable to Remote code execution via arbitrary file upload."
+    },
+    {
+        "pos" : 188,
+        "cve" : "CVE-2022-37149",
+        "description" : "WAVLINK WL-WN575A3 RPT75A3.V4300.201217 was discovered to contain a command injection vulnerability when operating the file adm.cgi. This vulnerability allows attackers to execute arbitrary commands via the username parameter."
+    },
+    {
+        "pos" : 189,
+        "cve" : "CVE-2022-37140",
+        "description" : "PayMoney 3.3 is vulnerable to Client Side Remote Code Execution (RCE). The vulnerability exists on the reply ticket function and upload the malicious file. A calculator will open when the victim who download the file open the RTF file."
+    },
+    {
+        "pos" : 190,
+        "cve" : "CVE-2022-37130",
+        "description" : "In D-Link DIR-816 A2_v1.10CNB04.img a command injection vulnerability occurs in /goform/Diagnosis, after the condition is met, setnum will be spliced into v10 by snprintf, and the system will be executed, resulting in a command injection vulnerability"
+    },
+    {
+        "pos" : 191,
+        "cve" : "CVE-2022-37129",
+        "description" : "D-Link DIR-816 A2_v1.10CNB04.img is vulnerable to Command Injection via /goform/SystemCommand. After the user passes in the command parameter, it will be spliced into byte_4836B0 by snprintf, and finally doSystem(&byte_4836B0); will be executed, resulting in a command injection."
+    },
+    {
+        "pos" : 192,
+        "cve" : "CVE-2022-37108",
+        "description" : "An injection vulnerability in the syslog-ng configuration wizard in Securonix Snypr 6.4 allows an application user with the \"Manage Ingesters\" permission to execute arbitrary code on remote ingesters by appending arbitrary text to text files that are executed by the system, such as users' crontab files. The patch for this was present in SNYPR version 6.4 Jun 2022 R3_[06170871], but may have been introduced sooner."
+    },
+    {
+        "pos" : 193,
+        "cve" : "CVE-2022-37061",
+        "description" : "All FLIR AX8 thermal sensor cameras version up to and including 1.46.16 are vulnerable to Remote Command Injection. This can be exploited to inject and execute arbitrary shell commands as the root user through the id HTTP POST parameter in the res.php endpoint. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with the root privileges."
+    },
+    {
+        "pos" : 194,
+        "cve" : "CVE-2022-37035",
+        "description" : "An issue was discovered in bgpd in FRRouting (FRR) 8.3. In bgp_notify_send_with_data() and bgp_process_packet() in bgp_packet.c, there is a possible use-after-free due to a race condition. This could lead to Remote Code Execution or Information Disclosure by sending crafted BGP packets. User interaction is not needed for exploitation."
+    },
+    {
+        "pos" : 195,
+        "cve" : "CVE-2022-37030",
+        "description" : "Weak permissions on the configuration file in the PAM module in Grommunio Gromox 0.5 through 1.x before 1.28 allow a local unprivileged user in the gromox group to have the PAM stack execute arbitrary code upon loading the Gromox PAM module."
+    },
+    {
+        "pos" : 196,
+        "cve" : "CVE-2022-37027",
+        "description" : "Ahsay AhsayCBS 9.1.4.0 allows an authenticated system user to inject arbitrary Java JVM options. Administrators that can modify the Runtime Options in the web interface can inject Java Runtime Options. These take effect after a restart. For example, an attacker can enable JMX services and consequently achieve remote code execution as the system user."
+    },
+    {
+        "pos" : 197,
+        "cve" : "CVE-2022-37024",
+        "description" : "Zoho ManageEngine OpManager, OpManager Plus, OpManager MSP, Network Configuration Manager, NetFlow Analyzer, and OpUtils before 2022-07-29 through 2022-07-30 ( 125658, 126003, 126105, and 126120) allow authenticated users to make database changes that lead to remote code execution."
+    },
+    {
+        "pos" : 198,
+        "cve" : "CVE-2022-37009",
+        "description" : "In JetBrains IntelliJ IDEA before 2022.2 local code execution via a Vagrant executable was possible"
+    },
+    {
+        "pos" : 199,
+        "cve" : "CVE-2022-36993",
+        "description" : "An issue was discovered in Veritas NetBackup 8.1.x through 8.1.2, 8.2, 8.3.x through 8.3.0.2, 9.x through 9.0.0.1, and 9.1.x through 9.1.0.1 (and related NetBackup products). An attacker with authenticated access to a NetBackup Client could remotely execute arbitrary commands on a NetBackup Primary server."
+    }
+]

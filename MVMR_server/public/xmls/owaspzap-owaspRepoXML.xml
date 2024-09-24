@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<owasp_report>
+    <scan_info>
+        <scan_start>2024-04-19T09:00:00</scan_start>
+        <scan_end>2024-04-19T11:30:00</scan_end>
+        <scan_duration>2.5 hours</scan_duration>
+        <target_url>http://192.168.1.2</target_url>
+        <scanner_version>OWASP ZAP 3.0</scanner_version>
+    </scan_info>
+    <vulnerabilities>
+        <vulnerability>
+            <name>Cross-Site Scripting (XSS)</name>
+            <severity>High</severity>
+            <description>A cross-site scripting vulnerability allows an attacker to inject malicious scripts...</description>
+            <solution>Implement proper input validation and output encoding to mitigate XSS attacks.</solution>
+            <url>http://192.168.1.2/login</url>
+        </vulnerability>
+        <vulnerability>
+            <name>SQL Injection</name>
+            <severity>Critical</severity>
+            <description>An SQL injection vulnerability allows attackers to execute arbitrary SQL queries...</description>
+            <solution>Use parameterized queries or prepared statements to prevent SQL injection.</solution>
+            <url>http://192.168.1.2/products?id=1</url>
+        </vulnerability>
+    </vulnerabilities>
+    <scan_summary>
+        <total_urls_scanned>100</total_urls_scanned>
+        <total_vulnerabilities_found>20</total_vulnerabilities_found>
+        <critical_vulnerabilities>5</critical_vulnerabilities>
+        <high_vulnerabilities>8</high_vulnerabilities>
+        <medium_vulnerabilities>5</medium_vulnerabilities>
+        <low_vulnerabilities>2</low_vulnerabilities>
+    </scan_summary>
+</owasp_report>

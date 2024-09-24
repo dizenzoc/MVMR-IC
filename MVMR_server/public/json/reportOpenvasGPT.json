@@ -1,0 +1,69 @@
+{
+    "report": {
+        "generator": [
+            "OpenVAS"
+        ],
+        "timestamp": [
+            "2024-07-08T12:00:00Z"
+        ],
+        "target": [
+            "192.168.1.1"
+        ],
+        "results": [
+            {
+                "result": [
+                    {
+                        "host": [
+                            {
+                                "$": {
+                                    "ip": "192.168.1.1"
+                                },
+                                "hostname": [
+                                    "example.com"
+                                ],
+                                "port": [
+                                    {
+                                        "$": {
+                                            "port": "22"
+                                        },
+                                        "name": [
+                                            "SSH Server CBC Mode Ciphers Enabled"
+                                        ],
+                                        "severity": [
+                                            "Medium"
+                                        ],
+                                        "description": [
+                                            "SSH servers support the Cipher Block Chaining (CBC) mode of encryption, which is known to have several vulnerabilities."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "summaryparams": [
+            {
+                "param": [
+                    {
+                        "name": [
+                            "Scan Type"
+                        ],
+                        "value": [
+                            "Full Scan"
+                        ]
+                    },
+                    {
+                        "name": [
+                            "Scan Duration"
+                        ],
+                        "value": [
+                            "2 hours"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
