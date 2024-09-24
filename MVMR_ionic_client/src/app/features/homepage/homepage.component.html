@@ -1,0 +1,1630 @@
+<ion-content>
+  <div class="containerHomepage">
+
+    <!--<div id="divLogo" *ngIf="!this.flag_show_report">
+      <img id="logo" src="./assets/img/l5w.png" />
+    </div>-->
+
+    <div class="row justify-content-center align-items-center">
+
+      <div class="container">
+        <div class="row justify-content-md-center coco">
+
+          <div class="col col-lg-1 d-none d-md-block">
+            <!-- 1 of 3 / PRIMA COLONNA TEXT AREA -->
+          </div>
+
+          <!-- 2 of 3 / SECONDA COLONNA TEXT AREA (CONTENUTO) -->
+          <div class="col col-lg-10">
+            <div class="input-card">
+
+              <div mat-card-avatar class="example-header-image"></div>
+              <!--<h1 class="pb-2">Merging of Vulnerability Mapping Results</h1>-->
+              <p class="infoUpload" *ngIf="!this.flag_show_report">Carica i files XML.</p>
+
+              <!-- FORM PER XMLs UPLOAD-->
+              <div *ngIf="!this.flag_show_report">
+
+                <form #formReference="ngForm" enctype="multipart/form-data">
+
+                  <div class="container-fluid mt-3 px-1">
+                    <div class="row g-4 m-3">
+                      <!-- CARD NMAP -->
+                      <div class="col-6 p-1 d-flex justify-content-center align-items-center">
+                        <button class="square button-23 toolButton position-relative w-100" role="button"
+                          (click)="simulateClick('Nmap')" [disabled]="this.flag_nmap"
+                          [ngClass]="{'disabledButton': this.flag_nmap}">
+                          <div class="d-flex flex-column align-items-center">
+                            <img *ngIf="!this.flag_nmap" src="./assets/img/nmap_only_logo.png" height="64" alt="Home"
+                              style="opacity: 100%;" />
+                            <img *ngIf="this.flag_nmap" src="./assets/img/nmap_only_logo.png" height="64" alt="Home"
+                              style="opacity: 30%;" />
+                            <div class="caption text-center mt-2">N-MAP</div>
+                          </div>
+                        </button>
+                        <input id="Nmap" class="xml" type="file" value="upload" (change)="newXML($event, 'Nmap')"
+                          accept="text/xml" />
+                      </div>
+
+                      <!-- CARD NESSUS -->
+                      <div class="col-6 p-1 d-flex justify-content-center align-items-center">
+                        <button class="square button-23 toolButton position-relative w-100" role="button"
+                          (click)="simulateClick('Nessus')" [disabled]="this.flag_nessus"
+                          [ngClass]="{'disabledButton': this.flag_nessus}">
+                          <div class="d-flex flex-column align-items-center">
+                            <img *ngIf="!this.flag_nessus" src="./assets/img/nessus_only_logo.png" height="64"
+                              alt="Home" style="opacity: 100%;" />
+                            <img *ngIf="this.flag_nessus" src="./assets/img/nessus_only_logo.png" height="64" alt="Home"
+                              style="opacity: 30%;" />
+                            <div class="caption text-center mt-2">NESSUS</div>
+                          </div>
+                        </button>
+                        <input id="Nessus" class="xml" type="file" value="upload" (change)="newXML($event, 'Nessus')"
+                          accept="text/xml" />
+                      </div>
+
+                      <!-- CARD OPEN_VAS -->
+                      <div class="col-6 p-1 d-flex justify-content-center align-items-center">
+                        <button class="square button-23 toolButton position-relative w-100" role="button"
+                          (click)="simulateClick('OpenVAS')" [disabled]="this.flag_openvas"
+                          [ngClass]="{'disabledButton': this.flag_openvas}">
+                          <div class="d-flex flex-column align-items-center">
+                            <img *ngIf="!this.flag_openvas" src="./assets/img/openvas_only_logo.png" height="64"
+                              alt="Home" style="opacity: 100%;" />
+                            <img *ngIf="this.flag_openvas" src="./assets/img/openvas_only_logo.png" height="64"
+                              alt="Home" style="opacity: 30%;" />
+                            <div class="caption text-center mt-2">OPENVAS</div>
+                          </div>
+                        </button>
+                        <input id="OpenVAS" class="xml" type="file" value="upload" (change)="newXML($event, 'OpenVAS')"
+                          accept="text/xml" />
+                      </div>
+
+                      <!-- CARD OWASZAP -->
+                      <div class="col-6 p-1 d-flex justify-content-center align-items-center">
+                        <button class="square button-23 toolButton position-relative w-100" role="button"
+                          (click)="simulateClick('OWASP ZAP')" [disabled]="this.flag_owaspzap"
+                          [ngClass]="{'disabledButton': this.flag_owaspzap}">
+                          <div class="d-flex flex-column align-items-center">
+                            <img *ngIf="!this.flag_owaspzap" src="./assets/img/owaspzap_only_logo.png" height="64"
+                              alt="Home" style="opacity: 100%;" />
+                            <img *ngIf="this.flag_owaspzap" src="./assets/img/owaspzap_only_logo.png" height="64"
+                              alt="Home" style="opacity: 30%;" />
+                            <div class="caption text-center mt-2">OWASPZAP</div>
+                          </div>
+                        </button>
+                        <input id="OWASP ZAP" class="xml" type="file" value="upload"
+                          (change)="newXML($event, 'OWASP ZAP')" accept="text/xml" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <p class="infoUpload" *ngIf="this.files.size==0">Nessun file caricato.</p>
+                  <table class="table table-striped mt-3" *ngIf="this.files.size>0">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Tool</th>
+                        <th scope="col">File</th>
+                        <th scope="col">Size</th>
+                        <th scope="col" *ngIf="!this.flag_vuln_button_clicked"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let file of xmls; index as i">
+                        <th scope="row">{{ i + 1 }}</th>
+                        <td>
+                          {{ file.tool }}
+                        </td>
+                        <td>
+                          {{ file.name.length > 15 ? (file.name | slice:0:15) + '...' : file.name }}
+                        </td>
+                        <td>
+                          {{ (file.size/1000).toFixed(2) + "Kb" }}
+                        </td>
+                        <td *ngIf="!this.flag_vuln_button_clicked"><i (click)="removeFile(file.name, file.tool)"
+                            class="fa fa-remove fa-2xl fs-3" color="white" style="cursor: pointer;"></i><a
+                            class="social_icon"></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <button class="button-48" *ngIf="this.files.size>0 && !this.flag_vuln_button_clicked" role="button"
+                    type="submit" (click)="sendXMLs2Server(formReference)"><span class="text">search for
+                      vulnerabilities</span></button>
+                </form>
+              </div>
+
+              <div>
+                <!-- PROGRESS BAR -->
+                <mat-progress-bar *ngIf="this.files.size>0" class="progress-bar" [color]="color" [mode]="mode"
+                  [value]="value" [bufferValue]="bufferValue">
+                </mat-progress-bar>
+                <p class="infoUpload" *ngIf="this.status==0 && this.files.size>0">Merging dei files caricati in corso...
+                </p>
+                <p class="infoUpload" *ngIf="this.status==1">Recupero delle informazioni dall'archivio CVE in corso...
+                </p>
+                <p class="infoUpload" *ngIf="this.status==2">Classificazione delle vulnerabilità in corso...</p>
+                <p class="infoUpload" *ngIf="this.status==3">Report completato.</p>
+              </div>
+
+              <!-- REPORT MVMR -->
+              <button class="button-23 m-4" *ngIf="this.flag_show_report" role="button" type="submit"
+                (click)="newSession()"><span class="text">NEW SCAN <i class="fa fa-exchange fa-2xl"></i></span></button>
+              <script src="html2pdf.bundle.min.js"></script>
+              <button class="button-23 m-4" role="button" (click)="captureScreen()" *ngIf="this.flag_show_report">EXPORT
+                REPORT AS PDF <i class="fa fa-download fa-2xl"></i></button>
+              <!-- PROGRESS BAR PER L'ESPORTAZIONE DEL PDF -->
+              <mat-progress-bar *ngIf="isExportingPdf" class="progress-bar" [color]="pdfColor" [mode]="pdfMode"
+                [value]="pdfValue" [bufferValue]="pdfBufferValue">
+              </mat-progress-bar>
+              <p class="infoUpload" *ngIf="isExportingPdf && pdfStatus == 0">Inizio esportazione PDF...</p>
+              <p class="infoUpload" *ngIf="isExportingPdf && pdfStatus == 1">Esportazione PDF in corso...</p>
+              <p class="infoUpload" *ngIf="isExportingPdf && pdfStatus == 2">Esportazione PDF completata.</p>
+              <!-- <div id="progress-container" style="display: none;">
+                <span id="progress-text-pre-export-pdf" class="my-3">Sto esportando...</span>
+                <progress id="progress-bar-export-pdf" value="0" max="100"></progress>
+                <span id="progress-text-export-pdf">0%</span>
+              </div> -->
+              <div id="report-wrapper" *ngIf="this.flag_show_report">
+                <div id="export-report">
+
+                  <h2 class="fs-4">Report finale MVMR: {{this.final_summary.date}}</h2>
+                  <!--ATTENZIONE ERA COMMENTATO L'ORIGINALE!!!-->
+
+                  <div class="host-wrapper" *ngFor="let host of hosts">
+                    <h3 class="host">Host: {{host}}</h3>
+                    <ul>
+                      <span *ngFor="let service of this.mainService.ports">
+                        <li *ngIf="this.final_summary.vulnerabilities[host][service]" class="mb-3"><span
+                            class="header">{{service}}</span>
+                          <ul>
+
+                            <!-- CRITICAL -->
+                            <li *ngIf="this.final_summary.vulnerabilities[host][service]['critical'] != undefined"
+                              class="mt-2 mb-2"><span class="critical">Severity CVSS3: Critical</span>
+                              <ul>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['Cross Site Scripting (XSS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Scripting (XSS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['Cross Site Scripting (XSS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['Denial of Service (DoS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Denial of Service (DoS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['Denial of Service (DoS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['Directory Traversal'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Directory Traversal</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['Directory Traversal']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['Execute arbitrary code on vulnerable system'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Execute arbitrary code on vulnerable
+                                    system</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['Execute arbitrary code on vulnerable system']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['Gain Privileges'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Gain Privileges</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['Gain Privileges']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['HTTP Response Splitting'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">HTTP Response Splitting</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['HTTP Response Splitting']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['Memory Corruption'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Memory Corruption</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['Memory Corruption']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['Information Disclosure'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Information Disclosure</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['Information Disclosure']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['Overflow vulnerability (includes stack and heap based overflows and other overflows)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Overflow vulnerability (includes stack and heap
+                                    based overflows and other overflows)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['Overflow vulnerability (includes stack and heap based overflows and other overflows)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['Cross Site Request Forgery (CSRF)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Request Forgery (CSRF)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['Cross Site Request Forgery (CSRF)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['File Inclusion'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">File Inclusion</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['File Inclusion']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['critical']['SQL Injection'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">SQL Injection</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['critical']['SQL Injection']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                              </ul>
+                            </li>
+
+
+                            <!-- HIGH-->
+                            <li *ngIf="this.final_summary.vulnerabilities[host][service]['high'] != undefined"
+                              class="mt-2 mb-2"><span class="high">Severity CVSS3: High</span>
+                              <ul>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['Cross Site Scripting (XSS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Scripting (XSS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['Cross Site Scripting (XSS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['Denial of Service (DoS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Denial of Service (DoS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['Denial of Service (DoS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['Directory Traversal'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Directory Traversal</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['Directory Traversal']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['Execute arbitrary code on vulnerable system'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Execute arbitrary code on vulnerable
+                                    system</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['Execute arbitrary code on vulnerable system']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['Gain Privileges'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Gain Privileges</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['Gain Privileges']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['HTTP Response Splitting'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">HTTP Response Splitting</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['HTTP Response Splitting']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['Memory Corruption'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Memory Corruption</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['Memory Corruption']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['Information Disclosure'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Information Disclosure</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['Information Disclosure']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['Overflow vulnerability (includes stack and heap based overflows and other overflows)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Overflow vulnerability (includes stack and heap
+                                    based overflows and other overflows)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['Overflow vulnerability (includes stack and heap based overflows and other overflows)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['Cross Site Request Forgery (CSRF)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Request Forgery (CSRF)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['Cross Site Request Forgery (CSRF)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['File Inclusion'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">File Inclusion</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['File Inclusion']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['high']['SQL Injection'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">SQL Injection</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['high']['SQL Injection']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                              </ul>
+                            </li>
+
+
+                            <!-- MEDIUM -->
+                            <li *ngIf="this.final_summary.vulnerabilities[host][service]['medium'] != undefined"
+                              class="mt-2 mb-2"><span class="medium">Severity CVSS3: Medium</span>
+                              <ul>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['Cross Site Scripting (XSS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Scripting (XSS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['Cross Site Scripting (XSS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['Denial of Service (DoS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Denial of Service (DoS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['Denial of Service (DoS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['Directory Traversal'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Directory Traversal</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['Directory Traversal']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['Execute arbitrary code on vulnerable system'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Execute arbitrary code on vulnerable
+                                    system</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['Execute arbitrary code on vulnerable system']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['Gain Privileges'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Gain Privileges</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['Gain Privileges']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['HTTP Response Splitting'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">HTTP Response Splitting</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['HTTP Response Splitting']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['Memory Corruption'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Memory Corruption</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['Memory Corruption']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['Information Disclosure'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Information Disclosure</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['Information Disclosure']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['Overflow vulnerability (includes stack and heap based overflows and other overflows)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Overflow vulnerability (includes stack and heap
+                                    based overflows and other overflows)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['Overflow vulnerability (includes stack and heap based overflows and other overflows)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['Cross Site Request Forgery (CSRF)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Request Forgery (CSRF)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['Cross Site Request Forgery (CSRF)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['File Inclusion'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">File Inclusion</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['File Inclusion']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['medium']['SQL Injection'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">SQL Injection</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['medium']['SQL Injection']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                              </ul>
+                            </li>
+
+
+                            <!-- LOW -->
+                            <li *ngIf="this.final_summary.vulnerabilities[host][service]['low'] != undefined"
+                              class="mt-2 mb-2"><span class="low">Severity CVSS3: Low</span>
+                              <ul>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['Cross Site Scripting (XSS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Scripting (XSS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['Cross Site Scripting (XSS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['Denial of Service (DoS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Denial of Service (DoS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['Denial of Service (DoS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['Directory Traversal'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Directory Traversal</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['Directory Traversal']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['Execute arbitrary code on vulnerable system'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Execute arbitrary code on vulnerable
+                                    system</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['Execute arbitrary code on vulnerable system']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['Gain Privileges'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Gain Privileges</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['Gain Privileges']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['HTTP Response Splitting'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">HTTP Response Splitting</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['HTTP Response Splitting']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['Memory Corruption'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Memory Corruption</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['Memory Corruption']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['Information Disclosure'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Information Disclosure</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['Information Disclosure']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['Overflow vulnerability (includes stack and heap based overflows and other overflows)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Overflow vulnerability (includes stack and heap
+                                    based overflows and other overflows)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['Overflow vulnerability (includes stack and heap based overflows and other overflows)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['Cross Site Request Forgery (CSRF)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Request Forgery (CSRF)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['Cross Site Request Forgery (CSRF)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['File Inclusion'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">File Inclusion</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['File Inclusion']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['low']['SQL Injection'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">SQL Injection</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['low']['SQL Injection']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                              </ul>
+                            </li>
+
+
+                            <!-- UNKNOWN -->
+                            <li *ngIf="this.final_summary.vulnerabilities[host][service]['unknown'] != undefined"
+                              class="mt-2 mb-2"><span class="unknown">Severity CVSS3: Unknown</span>
+                              <ul>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['Cross Site Scripting (XSS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Scripting (XSS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['Cross Site Scripting (XSS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['Denial of Service (DoS)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Denial of Service (DoS)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['Denial of Service (DoS)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['Directory Traversal'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Directory Traversal</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['Directory Traversal']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['Execute arbitrary code on vulnerable system'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Execute arbitrary code on vulnerable
+                                    system</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['Execute arbitrary code on vulnerable system']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['Gain Privileges'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Gain Privileges</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['Gain Privileges']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['HTTP Response Splitting'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">HTTP Response Splitting</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['HTTP Response Splitting']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['Memory Corruption'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Memory Corruption</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['Memory Corruption']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['Information Disclosure'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Information Disclosure</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['Information Disclosure']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['Overflow vulnerability (includes stack and heap based overflows and other overflows)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Overflow vulnerability (includes stack and heap
+                                    based overflows and other overflows)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['Overflow vulnerability (includes stack and heap based overflows and other overflows)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['Cross Site Request Forgery (CSRF)'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">Cross Site Request Forgery (CSRF)</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['Cross Site Request Forgery (CSRF)']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['File Inclusion'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">File Inclusion</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['File Inclusion']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                                <li
+                                  *ngIf="this.final_summary.vulnerabilities[host][service]['unknown']['SQL Injection'] != undefined"
+                                  class="mt-2 mb-2"><span class="header">SQL Injection</span>
+                                  <ol>
+                                    <li
+                                      *ngFor="let vuln of this.final_summary.vulnerabilities[host][service]['unknown']['SQL Injection']"
+                                      class="mt-1 mb-1">
+                                      <mat-divider></mat-divider>
+                                      <p class="vulnInfo"><span class="header">Host:</span> {{vuln.host}}</p>
+                                      <p class="vulnInfo"><span class="header">Port:</span> {{vuln.service}}</p>
+                                      <p class="vulnInfo"><span class="header">Severity (CVSS 3.0):</span> {{vuln.cvss}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Description:</span> {{vuln.description}}
+                                      </p>
+                                      <p class="vulnInfo"><span class="header">Risk:</span> {{vuln.risk}}</p>
+                                      <p class="vulnInfo"><span class="header">Solution:</span> {{vuln.solution}}</p>
+                                      <p class="vulnInfo" *ngIf="vuln.refs != []"><span class="header">Other
+                                          info:</span>
+                                        {{vuln.refs}}</p>
+                                      <mat-divider></mat-divider>
+                                    </li>
+                                  </ol>
+                                </li>
+                              </ul>
+                            </li>
+
+                          </ul>
+                        </li>
+                      </span>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-lg-1 d-none d-md-block">
+            <!-- 3 of 3 / TERZA COLONNA TEXT AREA -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

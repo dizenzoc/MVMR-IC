@@ -1,0 +1,34 @@
+.endNavbarItems{
+    margin: 0em 4em 0em 0em;
+}
+
+.startNavbarItems{
+    /* ho messo 1em anziche 0 per iphone */
+    margin: 1.5em 0.5em 0.3em 0.8em;   
+}
+
+.nav-link{
+    color: rgba(245, 245, 245, 0.707);
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar{
+    background-color: #000000;
+    border: none;
+}
+
+ion-header{
+    background-color: #000000 !important;
+    width: 100%;
+}
+
+/* Mi serve per togliere il bordo bianco e l'ombra che ha di base ion toolbar 
+bisogna forzare con background a nero */
+ion-toolbar {
+    --box-shadow: none; /* Rimuove l'ombra */
+    border: none; /* Rimuove il bordo */
+    --background: #000000;
+}

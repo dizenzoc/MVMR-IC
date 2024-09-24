@@ -1,0 +1,7 @@
+{
+  "name": "MVMR_ionic_client",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

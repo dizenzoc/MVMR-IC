@@ -1,0 +1,312 @@
+/*Importo il font Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/*Div container per l'homepage*/
+.containerHomepage{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    /*background-color: var(--ion-background-color);*/
+}
+
+/*Div per la gestione del logo + logo stesso*/
+#divLogo{
+    text-align: center;
+    width: 100%;
+    padding: 5em 0em 1em 0em;
+    overflow: hidden;
+    background: transparent;
+    /*border: solid red 2px;*/
+}
+
+#logo{
+    height: 120px;
+    width: auto;
+    text-align: center;
+    background: transparent;
+}
+
+/*Div principale con il contenuto della homepage*/
+.input-card{
+    border: none;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+/*"Carica i files XML generati in fase di Enumerating Target e/o Vulnerability Mapping." e "Nessun file caricato."*/
+.infoUpload{
+  margin: 1em 0em 1em 0em;
+  color:rgba(96, 96, 96, 0.8);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+/*Pulsante per il caricamento dei file XML*/
+.xmlUploadButton{
+    background-color: black;
+    color: white;
+    padding: 1em 1em 1em 1em;
+    font-size: 3em;
+}
+
+/*Campo form dove vengono caricati i file XML*/
+.xml{
+    display: none;
+}
+
+/*Item della lista dei file XML caricati*/
+.xmlListItem{
+  padding: 0em 0em 0em 1em;
+}
+
+.coco{
+    /*border: solid grey 2px;*/
+    text-align: center;
+}
+
+/*pulsante NMAP, OPENVAS, OWASP ZAP e NESSUS*/
+.toolButton{
+  margin: 0em 2em 0em 2em;
+}
+
+
+/* CSS BUTTON DEI TOOL*/
+.button-23 {
+  background-color: black;
+  border-radius: 12px;
+  margin: 0em 1em 0em 1em;
+  border: 1px solid #222222;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+  border-radius: 12px;
+}
+
+.button-23:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  border-radius: 12px;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  border-radius: 12px;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+
+/*CSS BUTTON SUBMIT FORM (ANALIZZA LE VULNERABILITA')*/
+
+.button-48 {
+  appearance: none;
+  background-color: black;
+  border-width: 0.2px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #212121;
+  border-radius: 12px;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  border-radius: 12px;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.button-48:after {
+  background-color: #212121;
+  border-radius: 12px;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+}
+
+
+
+/*TITOLO REPORT*/
+h2{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color: black;
+  padding: 2em 2em 0em 2em;
+}
+
+/*Div contenente i risultati del report*/
+#report-wrapper{
+ width: 100%;
+ border: solid darkgray 1px;
+ background-color: #ffffff;
+ border-radius: 4px;
+}
+
+#report-wrapper{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: white;
+  border-radius: 18px;
+  color: white;
+  /*box-shadow: 20px 20px rgba(0,0,0,.15);*/
+  transition: all .4s ease;
+}
+
+/*DIV HANDLER PER CIASCUN HOST*/
+.host-wrapper{
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-weight: 500;
+  padding: 2em;
+  letter-spacing: 1px;
+}
+
+/*HOST TITLE*/
+.host{
+  text-align: left;
+  font-size: 1.3em;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 1px;
+}  
+
+/*paragrafo per ciascun list item nel report MVMR*/
+.vulnInfo{
+  margin: 0px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  color: black;
+}
+
+/*Intestazione informazioni*/
+.header{
+  font-weight: 600;
+}
+
+/*label 'Critical' vulnerabilità*/
+.critical{
+  font-weight: 600;
+  color: rgb(174, 0, 0);
+}
+
+/*label 'High' vulnerabilità*/
+.high{
+  font-weight: 600;
+  color: rgb(255, 106, 0);
+}
+
+/*label 'Medium' vulnerabilità*/
+.medium{
+  font-weight: 600;
+  color: rgb(255, 174, 0);
+}
+
+/*label 'Low' vulnerabilità*/
+.low{
+  font-weight: 600;
+  color: rgb(48, 181, 4);
+}
+
+/*label 'Info' vulnerabilità*/
+.info{
+  font-weight: 600;
+  color: rgb(0, 140, 255);
+}
+
+/*label 'Unknown' vulnerabilità*/
+.unknown{
+  font-weight: 600;
+  color: rgb(143, 26, 137);
+}
+
+/*Progress-bar*/
+.progress-bar{
+  margin: 2em 0em 2em 0em;
+}
+
+/*Didascalia delle card*/
+.caption {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.80em;
+  color: #000; /* Colore del testo della didascalia */
+}
+
+/*Riquadro bottoni*/
+.square {
+  height: 150px; /* Altezza del quadrato */
+  width: 100%; /* Larghezza del quadrato, occupa tutta la larghezza della colonna */
+  max-width: 150px; /* Larghezza massima del quadrato */
+  background-color: #f0f0f0; /* Colore di sfondo opzionale */
+  border-radius: 8px; /* Border radius per angoli arrotondati */
+  border: none;
+  box-shadow: 1px 1px 18px 1px rgba(0,0,0,0.59);
+}
